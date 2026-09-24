@@ -120,3 +120,17 @@
 [2026-09-24 14:21:28] REFIT horizon 1m | student_t_shared | K=6 START
 [2026-09-24 14:21:28] REFIT horizon 1m | student_t_shared | K=6 DONE
 [2026-09-24 14:21:28] REFIT horizon 1m | student_t_state | K=7 START
+[2026-09-24 16:40:14] REFIT horizon 1m | student_t_state | K=7 DONE
+[2026-09-24 16:40:16] REFIT horizon 2m | student_t | K=1 START
+[2026-09-24 16:40:16] REFIT horizon 2m | student_t | K=1 DONE
+[2026-09-24 16:40:16] REFIT horizon 2m | gaussian | K=1 START
+[2026-09-24 16:40:16] REFIT horizon 2m | gaussian | K=1 DONE
+[2026-09-24 16:40:16] REFIT horizon 2m | gmm | K=6 START
+[2026-09-24 16:40:18] REFIT horizon 2m | gmm | K=6 DONE
+[2026-09-24 16:40:18] REFIT horizon 2m | gaussian_hmm | K=7 START
+[2026-09-24 17:47:27] REFIT horizon 2m | gaussian_hmm | K=7 DONE
+[2026-09-24 17:47:27] REFIT horizon 2m | student_t_shared | K=6 START
+[2026-09-24 18:49:41] REFIT horizon 2m | student_t_shared | K=6 DONE
+[2026-09-24 18:49:41] REFIT horizon 2m | student_t_state | K=6 START
+[2026-09-24 19:53:05] REFIT horizon 2m | student_t_state | K=6 DONE
+[2026-09-24 19:53:05] FOLD 4/2 DONE

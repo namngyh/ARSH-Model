@@ -829,3 +829,76 @@ Resume fold 3/2
 [2026-09-24 15:36:42] START refit | h=1m | student_t_state | K=7 | seed=145
 [2026-09-24 16:08:29] DONE  refit | h=1m | student_t_state | K=7 | seed=145 | 1907.8s | converged=True
 [2026-09-24 16:08:29] START refit | h=1m | student_t_state | K=7 | seed=146
+[2026-09-24 16:39:47] DONE  refit | h=1m | student_t_state | K=7 | seed=146 | 1877.5s | converged=True
+[2026-09-24 16:40:14] REFIT horizon 1m | student_t_state | K=7 DONE
+[2026-09-24 16:40:16] REFIT horizon 2m | student_t | K=1 START
+[2026-09-24 16:40:16] REFIT horizon 2m | student_t | K=1 DONE
+[2026-09-24 16:40:16] REFIT horizon 2m | gaussian | K=1 START
+[2026-09-24 16:40:16] REFIT horizon 2m | gaussian | K=1 DONE
+[2026-09-24 16:40:16] REFIT horizon 2m | gmm | K=6 START
+[2026-09-24 16:40:18] REFIT horizon 2m | gmm | K=6 DONE
+[2026-09-24 16:40:18] REFIT horizon 2m | gaussian_hmm | K=7 START
+[2026-09-24 16:40:18] START refit | h=2m | gaussian_hmm | K=7 | seed=142
+[2026-09-24 16:53:14] DONE  refit | h=2m | gaussian_hmm | K=7 | seed=142 | 775.9s | converged=True
+[2026-09-24 16:53:14] START refit | h=2m | gaussian_hmm | K=7 | seed=143
+[2026-09-24 17:06:09] DONE  refit | h=2m | gaussian_hmm | K=7 | seed=143 | 775.4s | converged=True
+[2026-09-24 17:06:09] START refit | h=2m | gaussian_hmm | K=7 | seed=144
+[2026-09-24 17:19:52] DONE  refit | h=2m | gaussian_hmm | K=7 | seed=144 | 823.0s | converged=True
+[2026-09-24 17:19:52] START refit | h=2m | gaussian_hmm | K=7 | seed=145
+[2026-09-24 17:34:08] DONE  refit | h=2m | gaussian_hmm | K=7 | seed=145 | 855.8s | converged=True
+[2026-09-24 17:34:08] START refit | h=2m | gaussian_hmm | K=7 | seed=146
+[2026-09-24 17:47:15] DONE  refit | h=2m | gaussian_hmm | K=7 | seed=146 | 786.8s | converged=True
+[2026-09-24 17:47:27] REFIT horizon 2m | gaussian_hmm | K=7 DONE
+[2026-09-24 17:47:27] REFIT horizon 2m | student_t_shared | K=6 START
+[2026-09-24 17:47:27] START refit | h=2m | student_t_shared | K=6 | seed=142
+[2026-09-24 17:58:37] DONE  refit | h=2m | student_t_shared | K=6 | seed=142 | 670.1s | converged=True
+[2026-09-24 17:58:37] START refit | h=2m | student_t_shared | K=6 | seed=143
+[2026-09-24 18:11:18] DONE  refit | h=2m | student_t_shared | K=6 | seed=143 | 760.9s | converged=True
+[2026-09-24 18:11:18] START refit | h=2m | student_t_shared | K=6 | seed=144
+[2026-09-24 18:24:02] DONE  refit | h=2m | student_t_shared | K=6 | seed=144 | 764.0s | converged=True
+[2026-09-24 18:24:02] START refit | h=2m | student_t_shared | K=6 | seed=145
+[2026-09-24 18:36:42] DONE  refit | h=2m | student_t_shared | K=6 | seed=145 | 759.9s | converged=True
+[2026-09-24 18:36:42] START refit | h=2m | student_t_shared | K=6 | seed=146
+[2026-09-24 18:49:27] DONE  refit | h=2m | student_t_shared | K=6 | seed=146 | 765.2s | converged=True
+[2026-09-24 18:49:41] REFIT horizon 2m | student_t_shared | K=6 DONE
+[2026-09-24 18:49:41] REFIT horizon 2m | student_t_state | K=6 START
+[2026-09-24 18:49:41] START refit | h=2m | student_t_state | K=6 | seed=142
+[2026-09-24 19:00:34] DONE  refit | h=2m | student_t_state | K=6 | seed=142 | 652.7s | converged=True
+[2026-09-24 19:00:34] START refit | h=2m | student_t_state | K=6 | seed=143
+[2026-09-24 19:13:25] DONE  refit | h=2m | student_t_state | K=6 | seed=143 | 771.7s | converged=True
+[2026-09-24 19:13:25] START refit | h=2m | student_t_state | K=6 | seed=144
+[2026-09-24 19:26:25] DONE  refit | h=2m | student_t_state | K=6 | seed=144 | 779.7s | converged=True
+[2026-09-24 19:26:25] START refit | h=2m | student_t_state | K=6 | seed=145
+[2026-09-24 19:39:45] DONE  refit | h=2m | student_t_state | K=6 | seed=145 | 800.3s | converged=True
+[2026-09-24 19:39:45] START refit | h=2m | student_t_state | K=6 | seed=146
+[2026-09-24 19:52:51] DONE  refit | h=2m | student_t_state | K=6 | seed=146 | 786.0s | converged=True
+[2026-09-24 19:53:05] REFIT horizon 2m | student_t_state | K=6 DONE
+[2026-09-24 19:53:05] FOLD 4/2 DONE
+{
+  "best_gaussian_horizon": 1,
+  "runner_up_horizon": 2,
+  "winner_vs_runner_mean": 0.03092510741419688,
+  "winner_vs_runner_ci20": [
+    0.02363090138989996,
+    0.03985597576366126
+  ],
+  "bootstrap_horizon_advantage_conclusive": true,
+  "winner_practical_convergence_rate": 1.0,
+  "winner_k_upper_boundary_rate": 1.0,
+  "preferred_research_horizon": 1,
+  "lock_configuration_for_v1": false,
+  "decision_vi": "\u01afu ti\u00ean khung 1 ph\u00fat, nh\u01b0ng ch\u01b0a kh\u00f3a c\u1ea5u h\u00ecnh cho v1 v\u00ec c\u1ed5ng K/h\u1ed9i t\u1ee5 ch\u01b0a \u0111\u1ea1t.",
+  "best_mean_hmm_family": "student_t_state",
+  "preferred_hmm_family": "student_t_state",
+  "family_gain_vs_gaussian_ci20": [
+    0.0043883838970955645,
+    0.01881767906875842
+  ],
+  "heavy_tail_replacement_conclusive": true,
+  "family_fold_counts": {
+    "student_t_state": 2,
+    "student_t_shared": 2,
+    "gaussian_hmm": 2
+  }
+}
+Report: C:\Users\Admin\Downloads\ARSH_v0.5_CUDA_worker\runs_v05_revised\policy_daily\policy_daily__f02_03\report.html
