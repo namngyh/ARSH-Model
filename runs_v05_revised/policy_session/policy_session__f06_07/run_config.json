@@ -1,0 +1,59 @@
+{
+  "name": "Adaptive Regime-Switching — Hieu",
+  "version": "0.5",
+  "horizons_min": [
+    1,
+    2
+  ],
+  "sessions": [
+    [
+      "AM",
+      "09:00",
+      "11:30"
+    ],
+    [
+      "PM",
+      "13:00",
+      "14:30"
+    ]
+  ],
+  "non_overlapping": true,
+  "interpolation": false,
+  "return_variant": "raw",
+  "policy": "session_sequence",
+  "backend": "cuda",
+  "device": "cuda:0",
+  "exclude_zero": false,
+  "outlier_policy": "keep",
+  "exclude_rollover_adjacent": false,
+  "allow_one_internal_missing": false,
+  "selected_fold_ids": [
+    6,
+    7
+  ],
+  "k_values": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "occupancy_gate": 0.01,
+  "train_years": 3,
+  "validation_months": 6,
+  "test_months": 6,
+  "step_months": 6,
+  "expanding_window": false,
+  "iterations": 300,
+  "restarts": 5,
+  "top_horizons": 3,
+  "selection_iterations": 100,
+  "selection_restarts": 3,
+  "online_parameter_learning": false,
+  "python": "3.12.10",
+  "numpy": "2.5.2",
+  "pandas": "2.3.3",
+  "scipy": "1.18.1",
+  "sklearn": "1.9.0"
+}

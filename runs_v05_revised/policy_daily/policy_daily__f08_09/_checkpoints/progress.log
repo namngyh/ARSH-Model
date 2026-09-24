@@ -1,0 +1,97 @@
+[2026-09-17 02:23:48] SCREEN horizon 1m START
+[2026-09-17 04:45:03] SCREEN horizon 1m DONE | Gaussian-HMM K=7 | gain=0.145513
+[2026-09-17 04:45:03] SCREEN horizon 2m START
+[2026-09-17 05:51:36] SCREEN horizon 2m DONE | Gaussian-HMM K=7 | gain=0.122410
+[2026-09-17 05:51:36] CONFIRM horizon 1m | student_t_shared START
+[2026-09-17 08:38:51] CONFIRM horizon 1m | student_t_shared DONE | K=7
+[2026-09-17 08:38:51] CONFIRM horizon 1m | student_t_state START
+[2026-09-17 11:37:50] CONFIRM horizon 1m | student_t_state DONE | K=7
+[2026-09-17 11:37:50] CONFIRM horizon 2m | student_t_shared START
+[2026-09-17 12:57:50] CONFIRM horizon 2m | student_t_shared DONE | K=7
+[2026-09-17 12:57:50] CONFIRM horizon 2m | student_t_state START
+[2026-09-17 14:23:04] CONFIRM horizon 2m | student_t_state DONE | K=7
+[2026-09-17 14:23:09] REFIT horizon 1m | student_t | K=1 START
+[2026-09-17 14:23:09] REFIT horizon 1m | student_t | K=1 DONE
+[2026-09-17 14:23:09] REFIT horizon 1m | gaussian | K=1 START
+[2026-09-17 14:23:09] REFIT horizon 1m | gaussian | K=1 DONE
+[2026-09-17 14:23:09] REFIT horizon 1m | gmm | K=7 START
+[2026-09-17 14:23:14] REFIT horizon 1m | gmm | K=7 DONE
+[2026-09-17 14:23:14] REFIT horizon 1m | gaussian_hmm | K=7 START
+[2026-09-17 17:00:48] REFIT horizon 1m | gaussian_hmm | K=7 DONE
+[2026-09-17 17:00:48] REFIT horizon 1m | student_t_shared | K=7 START
+[2026-09-17 19:35:28] REFIT horizon 1m | student_t_shared | K=7 DONE
+[2026-09-17 19:35:28] REFIT horizon 1m | student_t_state | K=7 START
+[2026-09-18 02:27:03] SCREEN horizon 1m START
+[2026-09-18 02:27:03] SCREEN horizon 1m DONE | Gaussian-HMM K=7 | gain=0.145513
+[2026-09-18 02:27:03] SCREEN horizon 2m START
+[2026-09-18 02:27:04] SCREEN horizon 2m DONE | Gaussian-HMM K=7 | gain=0.122410
+[2026-09-18 02:27:04] CONFIRM horizon 1m | student_t_shared START
+[2026-09-18 02:27:04] CONFIRM horizon 1m | student_t_shared DONE | K=7
+[2026-09-18 02:27:04] CONFIRM horizon 1m | student_t_state START
+[2026-09-18 02:27:04] CONFIRM horizon 1m | student_t_state DONE | K=7
+[2026-09-18 02:27:04] CONFIRM horizon 2m | student_t_shared START
+[2026-09-18 02:27:04] CONFIRM horizon 2m | student_t_shared DONE | K=7
+[2026-09-18 02:27:04] CONFIRM horizon 2m | student_t_state START
+[2026-09-18 02:27:04] CONFIRM horizon 2m | student_t_state DONE | K=7
+[2026-09-18 02:27:08] REFIT horizon 1m | student_t | K=1 START
+[2026-09-18 02:27:08] REFIT horizon 1m | student_t | K=1 DONE
+[2026-09-18 02:27:08] REFIT horizon 1m | gaussian | K=1 START
+[2026-09-18 02:27:08] REFIT horizon 1m | gaussian | K=1 DONE
+[2026-09-18 02:27:08] REFIT horizon 1m | gmm | K=7 START
+[2026-09-18 02:27:08] REFIT horizon 1m | gmm | K=7 DONE
+[2026-09-18 02:27:08] REFIT horizon 1m | gaussian_hmm | K=7 START
+[2026-09-18 02:27:08] REFIT horizon 1m | gaussian_hmm | K=7 DONE
+[2026-09-18 02:27:08] REFIT horizon 1m | student_t_shared | K=7 START
+[2026-09-18 02:27:08] REFIT horizon 1m | student_t_shared | K=7 DONE
+[2026-09-18 02:27:08] REFIT horizon 1m | student_t_state | K=7 START
+[2026-09-18 02:55:43] REFIT horizon 1m | student_t_state | K=7 DONE
+[2026-09-18 02:55:45] REFIT horizon 2m | student_t | K=1 START
+[2026-09-18 02:55:45] REFIT horizon 2m | student_t | K=1 DONE
+[2026-09-18 02:55:45] REFIT horizon 2m | gaussian | K=1 START
+[2026-09-18 02:55:45] REFIT horizon 2m | gaussian | K=1 DONE
+[2026-09-18 02:55:45] REFIT horizon 2m | gmm | K=5 START
+[2026-09-18 02:55:46] REFIT horizon 2m | gmm | K=5 DONE
+[2026-09-18 02:55:46] REFIT horizon 2m | gaussian_hmm | K=7 START
+[2026-09-18 04:09:29] REFIT horizon 2m | gaussian_hmm | K=7 DONE
+[2026-09-18 04:09:29] REFIT horizon 2m | student_t_shared | K=7 START
+[2026-09-18 05:24:08] REFIT horizon 2m | student_t_shared | K=7 DONE
+[2026-09-18 05:24:08] REFIT horizon 2m | student_t_state | K=7 START
+[2026-09-18 06:39:03] REFIT horizon 2m | student_t_state | K=7 DONE
+[2026-09-18 06:39:03] FOLD 9/2 DONE
+[2026-09-18 06:39:03] SCREEN horizon 1m START
+[2026-09-18 08:17:04] SCREEN horizon 1m DONE | Gaussian-HMM K=7 | gain=0.125439
+[2026-09-18 08:17:04] SCREEN horizon 2m START
+[2026-09-18 09:01:26] SCREEN horizon 2m DONE | Gaussian-HMM K=6 | gain=0.121056
+[2026-09-18 09:01:26] CONFIRM horizon 1m | student_t_shared START
+[2026-09-18 10:59:16] CONFIRM horizon 1m | student_t_shared DONE | K=7
+[2026-09-18 10:59:16] CONFIRM horizon 1m | student_t_state START
+[2026-09-18 12:56:40] CONFIRM horizon 1m | student_t_state DONE | K=7
+[2026-09-18 12:56:40] CONFIRM horizon 2m | student_t_shared START
+[2026-09-18 13:49:16] CONFIRM horizon 2m | student_t_shared DONE | K=7
+[2026-09-18 13:49:16] CONFIRM horizon 2m | student_t_state START
+[2026-09-18 14:44:19] CONFIRM horizon 2m | student_t_state DONE | K=7
+[2026-09-18 14:44:23] REFIT horizon 1m | student_t | K=1 START
+[2026-09-18 14:44:23] REFIT horizon 1m | student_t | K=1 DONE
+[2026-09-18 14:44:23] REFIT horizon 1m | gaussian | K=1 START
+[2026-09-18 14:44:23] REFIT horizon 1m | gaussian | K=1 DONE
+[2026-09-18 14:44:23] REFIT horizon 1m | gmm | K=7 START
+[2026-09-18 14:44:29] REFIT horizon 1m | gmm | K=7 DONE
+[2026-09-18 14:44:29] REFIT horizon 1m | gaussian_hmm | K=7 START
+[2026-09-18 16:24:51] REFIT horizon 1m | gaussian_hmm | K=7 DONE
+[2026-09-18 16:24:51] REFIT horizon 1m | student_t_shared | K=7 START
+[2026-09-18 18:04:08] REFIT horizon 1m | student_t_shared | K=7 DONE
+[2026-09-18 18:04:08] REFIT horizon 1m | student_t_state | K=7 START
+[2026-09-18 19:30:47] REFIT horizon 1m | student_t_state | K=7 DONE
+[2026-09-18 19:30:48] REFIT horizon 2m | student_t | K=1 START
+[2026-09-18 19:30:48] REFIT horizon 2m | student_t | K=1 DONE
+[2026-09-18 19:30:48] REFIT horizon 2m | gaussian | K=1 START
+[2026-09-18 19:30:48] REFIT horizon 2m | gaussian | K=1 DONE
+[2026-09-18 19:30:48] REFIT horizon 2m | gmm | K=7 START
+[2026-09-18 19:30:50] REFIT horizon 2m | gmm | K=7 DONE
+[2026-09-18 19:30:50] REFIT horizon 2m | gaussian_hmm | K=6 START
+[2026-09-18 20:17:24] REFIT horizon 2m | gaussian_hmm | K=6 DONE
+[2026-09-18 20:17:24] REFIT horizon 2m | student_t_shared | K=7 START
+[2026-09-18 21:05:50] REFIT horizon 2m | student_t_shared | K=7 DONE
+[2026-09-18 21:05:50] REFIT horizon 2m | student_t_state | K=7 START
+[2026-09-18 21:54:36] REFIT horizon 2m | student_t_state | K=7 DONE
+[2026-09-18 21:54:36] FOLD 10/2 DONE

@@ -1,0 +1,831 @@
+Running immutable CUDA job policy_daily__f02_03
+[2026-09-17 02:23:09] LOAD source data START
+[2026-09-17 02:23:10] LOAD source data DONE | rows=525,635
+[2026-09-17 02:23:10] AUDIT timestamp/rollover START
+[2026-09-17 02:23:10] AUDIT timestamp/rollover DONE
+[2026-09-17 02:23:10] BUILD returns START | horizons=[1, 2]
+[2026-09-17 02:23:23] BUILD returns DONE | 1m=518,222, 2m=258,485
+[2026-09-17 02:23:23] FOLD 3/2 START
+[2026-09-17 02:23:23] SCREEN horizon 1m START
+[2026-09-17 02:23:27] START screen_selection | h=1m | gmm | K=2
+[2026-09-17 02:23:28] DONE  screen_selection | h=1m | gmm | K=2 | 1.0s
+[2026-09-17 02:23:28] START screen_selection | h=1m | gmm | K=3
+[2026-09-17 02:23:30] DONE  screen_selection | h=1m | gmm | K=3 | 2.0s
+[2026-09-17 02:23:30] START screen_selection | h=1m | gmm | K=4
+[2026-09-17 02:23:33] DONE  screen_selection | h=1m | gmm | K=4 | 2.3s
+[2026-09-17 02:23:33] START screen_selection | h=1m | gmm | K=5
+[2026-09-17 02:23:35] DONE  screen_selection | h=1m | gmm | K=5 | 2.5s
+[2026-09-17 02:23:35] START screen_selection | h=1m | gmm | K=6
+[2026-09-17 02:23:38] DONE  screen_selection | h=1m | gmm | K=6 | 2.7s
+[2026-09-17 02:23:38] START screen_selection | h=1m | gmm | K=7
+[2026-09-17 02:23:41] DONE  screen_selection | h=1m | gmm | K=7 | 3.0s
+[2026-09-17 02:23:41] START screen_selection | h=1m | gaussian_hmm | K=2 | seed=42
+[2026-09-17 02:28:04] DONE  screen_selection | h=1m | gaussian_hmm | K=2 | seed=42 | 263.3s | converged=True
+[2026-09-17 02:28:04] START screen_selection | h=1m | gaussian_hmm | K=2 | seed=43
+[2026-09-17 02:32:52] DONE  screen_selection | h=1m | gaussian_hmm | K=2 | seed=43 | 288.1s | converged=True
+[2026-09-17 02:32:52] START screen_selection | h=1m | gaussian_hmm | K=2 | seed=44
+[2026-09-17 02:37:50] DONE  screen_selection | h=1m | gaussian_hmm | K=2 | seed=44 | 298.1s | converged=True
+[2026-09-17 02:38:18] START screen_selection | h=1m | gaussian_hmm | K=3 | seed=42
+[2026-09-17 02:46:24] DONE  screen_selection | h=1m | gaussian_hmm | K=3 | seed=42 | 485.2s | converged=True
+[2026-09-17 02:46:24] START screen_selection | h=1m | gaussian_hmm | K=3 | seed=43
+[2026-09-17 02:54:48] DONE  screen_selection | h=1m | gaussian_hmm | K=3 | seed=43 | 504.2s | converged=True
+[2026-09-17 02:54:48] START screen_selection | h=1m | gaussian_hmm | K=3 | seed=44
+[2026-09-17 03:02:34] DONE  screen_selection | h=1m | gaussian_hmm | K=3 | seed=44 | 465.7s | converged=True
+[2026-09-17 03:03:02] START screen_selection | h=1m | gaussian_hmm | K=4 | seed=42
+[2026-09-17 03:18:57] DONE  screen_selection | h=1m | gaussian_hmm | K=4 | seed=42 | 954.9s | converged=True
+[2026-09-17 03:18:57] START screen_selection | h=1m | gaussian_hmm | K=4 | seed=43
+[2026-09-17 03:34:15] DONE  screen_selection | h=1m | gaussian_hmm | K=4 | seed=43 | 917.9s | converged=True
+[2026-09-17 03:34:15] START screen_selection | h=1m | gaussian_hmm | K=4 | seed=44
+[2026-09-17 03:50:05] DONE  screen_selection | h=1m | gaussian_hmm | K=4 | seed=44 | 950.2s | converged=True
+[2026-09-17 03:50:37] START screen_selection | h=1m | gaussian_hmm | K=5 | seed=42
+[2026-09-17 04:06:13] DONE  screen_selection | h=1m | gaussian_hmm | K=5 | seed=42 | 936.5s | converged=True
+[2026-09-17 04:06:13] START screen_selection | h=1m | gaussian_hmm | K=5 | seed=43
+[2026-09-17 04:20:53] DONE  screen_selection | h=1m | gaussian_hmm | K=5 | seed=43 | 880.4s | converged=True
+[2026-09-17 04:20:53] START screen_selection | h=1m | gaussian_hmm | K=5 | seed=44
+[2026-09-17 04:36:05] DONE  screen_selection | h=1m | gaussian_hmm | K=5 | seed=44 | 911.4s | converged=True
+[2026-09-17 04:36:57] START screen_selection | h=1m | gaussian_hmm | K=6 | seed=42
+[2026-09-17 04:52:03] DONE  screen_selection | h=1m | gaussian_hmm | K=6 | seed=42 | 906.2s | converged=False
+[2026-09-17 04:52:03] START screen_selection | h=1m | gaussian_hmm | K=6 | seed=43
+[2026-09-17 05:07:36] DONE  screen_selection | h=1m | gaussian_hmm | K=6 | seed=43 | 932.8s | converged=False
+[2026-09-17 05:07:36] START screen_selection | h=1m | gaussian_hmm | K=6 | seed=44
+[2026-09-17 05:23:30] DONE  screen_selection | h=1m | gaussian_hmm | K=6 | seed=44 | 954.1s | converged=False
+[2026-09-17 05:23:58] START screen_selection | h=1m | gaussian_hmm | K=7 | seed=42
+[2026-09-17 05:39:39] DONE  screen_selection | h=1m | gaussian_hmm | K=7 | seed=42 | 941.0s | converged=True
+[2026-09-17 05:39:39] START screen_selection | h=1m | gaussian_hmm | K=7 | seed=43
+[2026-09-17 05:55:37] DONE  screen_selection | h=1m | gaussian_hmm | K=7 | seed=43 | 958.3s | converged=True
+[2026-09-17 05:55:37] START screen_selection | h=1m | gaussian_hmm | K=7 | seed=44
+[2026-09-17 06:11:03] DONE  screen_selection | h=1m | gaussian_hmm | K=7 | seed=44 | 925.9s | converged=True
+[2026-09-17 06:11:45] SCREEN horizon 1m DONE | Gaussian-HMM K=7 | gain=0.109198
+[2026-09-17 06:11:45] SCREEN horizon 2m START
+[2026-09-17 06:11:46] START screen_selection | h=2m | gmm | K=2
+[2026-09-17 06:11:48] DONE  screen_selection | h=2m | gmm | K=2 | 1.4s
+[2026-09-17 06:11:48] START screen_selection | h=2m | gmm | K=3
+[2026-09-17 06:11:48] DONE  screen_selection | h=2m | gmm | K=3 | 0.8s
+[2026-09-17 06:11:48] START screen_selection | h=2m | gmm | K=4
+[2026-09-17 06:11:54] DONE  screen_selection | h=2m | gmm | K=4 | 5.5s
+[2026-09-17 06:11:54] START screen_selection | h=2m | gmm | K=5
+[2026-09-17 06:11:55] DONE  screen_selection | h=2m | gmm | K=5 | 1.0s
+[2026-09-17 06:11:55] START screen_selection | h=2m | gmm | K=6
+[2026-09-17 06:11:57] DONE  screen_selection | h=2m | gmm | K=6 | 2.0s
+[2026-09-17 06:11:57] START screen_selection | h=2m | gmm | K=7
+[2026-09-17 06:11:59] DONE  screen_selection | h=2m | gmm | K=7 | 2.2s
+[2026-09-17 06:11:59] START screen_selection | h=2m | gaussian_hmm | K=2 | seed=42
+[2026-09-17 06:13:45] DONE  screen_selection | h=2m | gaussian_hmm | K=2 | seed=42 | 105.8s | converged=True
+[2026-09-17 06:13:45] START screen_selection | h=2m | gaussian_hmm | K=2 | seed=43
+[2026-09-17 06:15:34] DONE  screen_selection | h=2m | gaussian_hmm | K=2 | seed=43 | 109.0s | converged=True
+[2026-09-17 06:15:34] START screen_selection | h=2m | gaussian_hmm | K=2 | seed=44
+[2026-09-17 06:17:16] DONE  screen_selection | h=2m | gaussian_hmm | K=2 | seed=44 | 101.8s | converged=True
+[2026-09-17 06:17:29] START screen_selection | h=2m | gaussian_hmm | K=3 | seed=42
+[2026-09-17 06:20:36] DONE  screen_selection | h=2m | gaussian_hmm | K=3 | seed=42 | 187.0s | converged=True
+[2026-09-17 06:20:36] START screen_selection | h=2m | gaussian_hmm | K=3 | seed=43
+[2026-09-17 06:23:58] DONE  screen_selection | h=2m | gaussian_hmm | K=3 | seed=43 | 202.3s | converged=True
+[2026-09-17 06:23:58] START screen_selection | h=2m | gaussian_hmm | K=3 | seed=44
+[2026-09-17 06:26:58] DONE  screen_selection | h=2m | gaussian_hmm | K=3 | seed=44 | 180.3s | converged=True
+[2026-09-17 06:27:12] START screen_selection | h=2m | gaussian_hmm | K=4 | seed=42
+[2026-09-17 06:33:32] DONE  screen_selection | h=2m | gaussian_hmm | K=4 | seed=42 | 380.0s | converged=True
+[2026-09-17 06:33:32] START screen_selection | h=2m | gaussian_hmm | K=4 | seed=43
+[2026-09-17 06:39:44] DONE  screen_selection | h=2m | gaussian_hmm | K=4 | seed=43 | 372.1s | converged=True
+[2026-09-17 06:39:44] START screen_selection | h=2m | gaussian_hmm | K=4 | seed=44
+[2026-09-17 06:45:36] DONE  screen_selection | h=2m | gaussian_hmm | K=4 | seed=44 | 351.7s | converged=False
+[2026-09-17 06:46:07] START screen_selection | h=2m | gaussian_hmm | K=5 | seed=42
+[2026-09-17 06:52:16] DONE  screen_selection | h=2m | gaussian_hmm | K=5 | seed=42 | 368.9s | converged=True
+[2026-09-17 06:52:16] START screen_selection | h=2m | gaussian_hmm | K=5 | seed=43
+[2026-09-17 06:58:40] DONE  screen_selection | h=2m | gaussian_hmm | K=5 | seed=43 | 383.5s | converged=True
+[2026-09-17 06:58:40] START screen_selection | h=2m | gaussian_hmm | K=5 | seed=44
+[2026-09-17 07:05:04] DONE  screen_selection | h=2m | gaussian_hmm | K=5 | seed=44 | 384.2s | converged=True
+[2026-09-17 07:05:16] START screen_selection | h=2m | gaussian_hmm | K=6 | seed=42
+[2026-09-17 07:11:12] DONE  screen_selection | h=2m | gaussian_hmm | K=6 | seed=42 | 355.8s | converged=True
+[2026-09-17 07:11:12] START screen_selection | h=2m | gaussian_hmm | K=6 | seed=43
+[2026-09-17 07:17:10] DONE  screen_selection | h=2m | gaussian_hmm | K=6 | seed=43 | 358.1s | converged=True
+[2026-09-17 07:17:10] START screen_selection | h=2m | gaussian_hmm | K=6 | seed=44
+[2026-09-17 07:23:03] DONE  screen_selection | h=2m | gaussian_hmm | K=6 | seed=44 | 353.1s | converged=True
+[2026-09-17 07:23:27] START screen_selection | h=2m | gaussian_hmm | K=7 | seed=42
+[2026-09-17 07:29:46] DONE  screen_selection | h=2m | gaussian_hmm | K=7 | seed=42 | 379.1s | converged=True
+[2026-09-17 07:29:46] START screen_selection | h=2m | gaussian_hmm | K=7 | seed=43
+[2026-09-17 07:35:58] DONE  screen_selection | h=2m | gaussian_hmm | K=7 | seed=43 | 371.5s | converged=True
+[2026-09-17 07:35:58] START screen_selection | h=2m | gaussian_hmm | K=7 | seed=44
+[2026-09-17 07:41:59] DONE  screen_selection | h=2m | gaussian_hmm | K=7 | seed=44 | 361.6s | converged=True
+[2026-09-17 07:42:19] SCREEN horizon 2m DONE | Gaussian-HMM K=7 | gain=0.095997
+[2026-09-17 07:42:19] CONFIRM horizon 1m | student_t_shared START
+[2026-09-17 07:42:19] START confirm_selection | h=1m | student_t_shared | K=2 | seed=62
+[2026-09-17 07:57:04] DONE  confirm_selection | h=1m | student_t_shared | K=2 | seed=62 | 884.9s | converged=True
+[2026-09-17 07:57:04] START confirm_selection | h=1m | student_t_shared | K=2 | seed=63
+[2026-09-17 08:09:22] DONE  confirm_selection | h=1m | student_t_shared | K=2 | seed=63 | 737.9s | converged=True
+[2026-09-17 08:09:22] START confirm_selection | h=1m | student_t_shared | K=2 | seed=64
+[2026-09-17 08:22:51] DONE  confirm_selection | h=1m | student_t_shared | K=2 | seed=64 | 809.3s | converged=True
+[2026-09-17 08:23:31] START confirm_selection | h=1m | student_t_shared | K=3 | seed=62
+[2026-09-17 08:38:28] DONE  confirm_selection | h=1m | student_t_shared | K=3 | seed=62 | 897.3s | converged=True
+[2026-09-17 08:38:28] START confirm_selection | h=1m | student_t_shared | K=3 | seed=63
+[2026-09-17 08:53:39] DONE  confirm_selection | h=1m | student_t_shared | K=3 | seed=63 | 911.1s | converged=True
+[2026-09-17 08:53:39] START confirm_selection | h=1m | student_t_shared | K=3 | seed=64
+[2026-09-17 09:08:23] DONE  confirm_selection | h=1m | student_t_shared | K=3 | seed=64 | 883.4s | converged=True
+[2026-09-17 09:08:53] START confirm_selection | h=1m | student_t_shared | K=4 | seed=62
+[2026-09-17 09:24:15] DONE  confirm_selection | h=1m | student_t_shared | K=4 | seed=62 | 922.1s | converged=True
+[2026-09-17 09:24:15] START confirm_selection | h=1m | student_t_shared | K=4 | seed=63
+[2026-09-17 09:39:33] DONE  confirm_selection | h=1m | student_t_shared | K=4 | seed=63 | 918.1s | converged=True
+[2026-09-17 09:39:33] START confirm_selection | h=1m | student_t_shared | K=4 | seed=64
+[2026-09-17 09:54:53] DONE  confirm_selection | h=1m | student_t_shared | K=4 | seed=64 | 920.1s | converged=True
+[2026-09-17 09:55:20] START confirm_selection | h=1m | student_t_shared | K=5 | seed=62
+[2026-09-17 10:10:43] DONE  confirm_selection | h=1m | student_t_shared | K=5 | seed=62 | 922.4s | converged=True
+[2026-09-17 10:10:43] START confirm_selection | h=1m | student_t_shared | K=5 | seed=63
+[2026-09-17 10:26:01] DONE  confirm_selection | h=1m | student_t_shared | K=5 | seed=63 | 918.2s | converged=True
+[2026-09-17 10:26:01] START confirm_selection | h=1m | student_t_shared | K=5 | seed=64
+[2026-09-17 10:41:19] DONE  confirm_selection | h=1m | student_t_shared | K=5 | seed=64 | 918.3s | converged=True
+[2026-09-17 10:41:45] START confirm_selection | h=1m | student_t_shared | K=6 | seed=62
+[2026-09-17 10:57:08] DONE  confirm_selection | h=1m | student_t_shared | K=6 | seed=62 | 923.8s | converged=True
+[2026-09-17 10:57:08] START confirm_selection | h=1m | student_t_shared | K=6 | seed=63
+[2026-09-17 11:12:20] DONE  confirm_selection | h=1m | student_t_shared | K=6 | seed=63 | 911.1s | converged=True
+[2026-09-17 11:12:20] START confirm_selection | h=1m | student_t_shared | K=6 | seed=64
+[2026-09-17 11:27:28] DONE  confirm_selection | h=1m | student_t_shared | K=6 | seed=64 | 908.9s | converged=True
+[2026-09-17 11:27:56] START confirm_selection | h=1m | student_t_shared | K=7 | seed=62
+[2026-09-17 11:42:58] DONE  confirm_selection | h=1m | student_t_shared | K=7 | seed=62 | 902.5s | converged=False
+[2026-09-17 11:42:58] START confirm_selection | h=1m | student_t_shared | K=7 | seed=63
+[2026-09-17 11:58:20] DONE  confirm_selection | h=1m | student_t_shared | K=7 | seed=63 | 922.1s | converged=False
+[2026-09-17 11:58:20] START confirm_selection | h=1m | student_t_shared | K=7 | seed=64
+[2026-09-17 12:13:56] DONE  confirm_selection | h=1m | student_t_shared | K=7 | seed=64 | 935.5s | converged=False
+[2026-09-17 12:14:25] CONFIRM horizon 1m | student_t_shared DONE | K=7
+[2026-09-17 12:14:25] CONFIRM horizon 1m | student_t_state START
+[2026-09-17 12:14:25] START confirm_selection | h=1m | student_t_state | K=2 | seed=62
+[2026-09-17 12:29:56] DONE  confirm_selection | h=1m | student_t_state | K=2 | seed=62 | 931.3s | converged=True
+[2026-09-17 12:29:56] START confirm_selection | h=1m | student_t_state | K=2 | seed=63
+[2026-09-17 12:44:55] DONE  confirm_selection | h=1m | student_t_state | K=2 | seed=63 | 898.4s | converged=True
+[2026-09-17 12:44:55] START confirm_selection | h=1m | student_t_state | K=2 | seed=64
+[2026-09-17 13:00:17] DONE  confirm_selection | h=1m | student_t_state | K=2 | seed=64 | 922.1s | converged=True
+[2026-09-17 13:00:44] START confirm_selection | h=1m | student_t_state | K=3 | seed=62
+[2026-09-17 13:16:04] DONE  confirm_selection | h=1m | student_t_state | K=3 | seed=62 | 920.2s | converged=True
+[2026-09-17 13:16:04] START confirm_selection | h=1m | student_t_state | K=3 | seed=63
+[2026-09-17 13:31:17] DONE  confirm_selection | h=1m | student_t_state | K=3 | seed=63 | 913.0s | converged=True
+[2026-09-17 13:31:17] START confirm_selection | h=1m | student_t_state | K=3 | seed=64
+[2026-09-17 13:46:34] DONE  confirm_selection | h=1m | student_t_state | K=3 | seed=64 | 917.4s | converged=True
+[2026-09-17 13:46:59] START confirm_selection | h=1m | student_t_state | K=4 | seed=62
+[2026-09-17 14:02:53] DONE  confirm_selection | h=1m | student_t_state | K=4 | seed=62 | 953.3s | converged=True
+[2026-09-17 14:02:53] START confirm_selection | h=1m | student_t_state | K=4 | seed=63
+[2026-09-17 14:18:30] DONE  confirm_selection | h=1m | student_t_state | K=4 | seed=63 | 937.7s | converged=True
+[2026-09-17 14:18:30] START confirm_selection | h=1m | student_t_state | K=4 | seed=64
+[2026-09-17 14:34:07] DONE  confirm_selection | h=1m | student_t_state | K=4 | seed=64 | 936.8s | converged=True
+[2026-09-17 14:34:34] START confirm_selection | h=1m | student_t_state | K=5 | seed=62
+[2026-09-17 14:50:22] DONE  confirm_selection | h=1m | student_t_state | K=5 | seed=62 | 947.8s | converged=True
+[2026-09-17 14:50:22] START confirm_selection | h=1m | student_t_state | K=5 | seed=63
+[2026-09-17 15:06:36] DONE  confirm_selection | h=1m | student_t_state | K=5 | seed=63 | 974.2s | converged=True
+[2026-09-17 15:06:36] START confirm_selection | h=1m | student_t_state | K=5 | seed=64
+[2026-09-17 15:10:29] FAIL  confirm_selection | h=1m | student_t_state | K=5 | seed=64 | AcceleratorError: CUDA error: an illegal memory access was encountered
+Search for `cudaErrorIllegalAddress' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+
+[2026-09-17 15:10:56] START confirm_selection | h=1m | student_t_state | K=6 | seed=62
+[2026-09-17 15:10:58] FAIL  confirm_selection | h=1m | student_t_state | K=6 | seed=62 | AcceleratorError: CUDA error: an illegal memory access was encountered
+Search for `cudaErrorIllegalAddress' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+The CUDA driver logged these messages, which may provide useful details:
+Sticky error detected
+Returning 700 (CUDA_ERROR_ILLEGAL_ADDRESS) from cuStreamIsCapturing
+
+
+[2026-09-17 15:10:58] START confirm_selection | h=1m | student_t_state | K=6 | seed=63
+[2026-09-17 15:10:59] FAIL  confirm_selection | h=1m | student_t_state | K=6 | seed=63 | AcceleratorError: CUDA error: an illegal memory access was encountered
+Search for `cudaErrorIllegalAddress' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+The CUDA driver logged these messages, which may provide useful details:
+Sticky error detected
+Returning 700 (CUDA_ERROR_ILLEGAL_ADDRESS) from cuStreamIsCapturing
+
+
+[2026-09-17 15:10:59] START confirm_selection | h=1m | student_t_state | K=6 | seed=64
+[2026-09-17 15:11:00] FAIL  confirm_selection | h=1m | student_t_state | K=6 | seed=64 | AcceleratorError: CUDA error: an illegal memory access was encountered
+Search for `cudaErrorIllegalAddress' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+The CUDA driver logged these messages, which may provide useful details:
+Sticky error detected
+Returning 700 (CUDA_ERROR_ILLEGAL_ADDRESS) from cuStreamIsCapturing
+
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Downloads\ARSH_v0.5_CUDA_worker\arsh_v05.py", line 1168, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "C:\Users\Admin\Downloads\ARSH_v0.5_CUDA_worker\arsh_v05.py", line 1056, in main
+    try:result=worker(fold)
+               ^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\ARSH_v0.5_CUDA_worker\arsh_v05.py", line 642, in process_fold
+    k, table, diag = validate_student(
+                     ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\ARSH_v0.5_CUDA_worker\arsh_v05.py", line 506, in validate_student
+    model, diag = fit_hmm_restarts(xt, family, k, iterations, restarts,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\ARSH_v0.5_CUDA_worker\arsh_v05.py", line 407, in fit_hmm_restarts
+    if not fitted: raise ValueError(f"all fits failed: h={horizon}, {family}, K={k}")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: all fits failed: h=1, student_t_state, K=6
+Traceback (most recent call last):
+  File "C:\Users\Admin\Downloads\ARSH_v0.5_CUDA_worker\run_planned_job.py", line 41, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "C:\Users\Admin\Downloads\ARSH_v0.5_CUDA_worker\run_planned_job.py", line 38, in main
+    print(f"Running immutable {backend.upper()} job {args.job}",flush=True);subprocess.run(command,check=True)
+                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\Admin\\Downloads\\ARSH_v0.5_CUDA_worker\\.venv-cuda\\Scripts\\python.exe', 'C:\\Users\\Admin\\Downloads\\ARSH_v0.5_CUDA_worker\\arsh_v05.py', '--data', 'C:\\Users\\Admin\\Downloads\\ARSH_v0.5_CUDA_worker\\data\\ohlc_export.csv', '--output', 'runs_v05_revised/policy_daily/policy_daily__f02_03', '--backend', 'cuda', '--device', 'cuda:0', '--policy', 'daily_sequence', '--resume', '--horizons', '1', '2', '--k-values', '2', '3', '4', '5', '6', '7', '--folds', '2', '3', '--train-years', '3', '--return-variant', 'raw', '--outlier-policy', 'keep']' returned non-zero exit status 1.
+Running immutable CUDA job policy_daily__f02_03
+[2026-09-22 04:19:10] LOAD source data START
+[2026-09-22 04:19:11] LOAD source data DONE | rows=525,635
+[2026-09-22 04:19:11] AUDIT timestamp/rollover START
+[2026-09-22 04:19:11] AUDIT timestamp/rollover DONE
+[2026-09-22 04:19:11] BUILD returns START | horizons=[1, 2]
+[2026-09-22 04:19:26] BUILD returns DONE | 1m=518,222, 2m=258,485
+[2026-09-22 04:19:26] FOLD 3/2 START
+[2026-09-22 04:19:26] SCREEN horizon 1m START
+[2026-09-22 04:19:26] SCREEN horizon 1m DONE | Gaussian-HMM K=7 | gain=0.109198
+[2026-09-22 04:19:26] SCREEN horizon 2m START
+[2026-09-22 04:19:26] SCREEN horizon 2m DONE | Gaussian-HMM K=7 | gain=0.095997
+[2026-09-22 04:19:26] CONFIRM horizon 1m | student_t_shared START
+[2026-09-22 04:19:26] CONFIRM horizon 1m | student_t_shared DONE | K=7
+[2026-09-22 04:19:26] CONFIRM horizon 1m | student_t_state START
+[2026-09-22 04:19:26] CACHE confirm_selection | h=1m | student_t_state | K=2 | seed=62
+[2026-09-22 04:19:26] CACHE confirm_selection | h=1m | student_t_state | K=2 | seed=63
+[2026-09-22 04:19:26] CACHE confirm_selection | h=1m | student_t_state | K=2 | seed=64
+[2026-09-22 04:19:57] CACHE confirm_selection | h=1m | student_t_state | K=3 | seed=62
+[2026-09-22 04:19:57] CACHE confirm_selection | h=1m | student_t_state | K=3 | seed=63
+[2026-09-22 04:19:57] CACHE confirm_selection | h=1m | student_t_state | K=3 | seed=64
+[2026-09-22 04:20:30] CACHE confirm_selection | h=1m | student_t_state | K=4 | seed=62
+[2026-09-22 04:20:30] CACHE confirm_selection | h=1m | student_t_state | K=4 | seed=63
+[2026-09-22 04:20:30] CACHE confirm_selection | h=1m | student_t_state | K=4 | seed=64
+[2026-09-22 04:20:58] CACHE confirm_selection | h=1m | student_t_state | K=5 | seed=62
+[2026-09-22 04:20:58] CACHE confirm_selection | h=1m | student_t_state | K=5 | seed=63
+[2026-09-22 04:20:58] START confirm_selection | h=1m | student_t_state | K=5 | seed=64
+[2026-09-22 04:31:32] DONE  confirm_selection | h=1m | student_t_state | K=5 | seed=64 | 633.8s | converged=True
+[2026-09-22 04:32:05] START confirm_selection | h=1m | student_t_state | K=6 | seed=62
+[2026-09-22 04:42:43] DONE  confirm_selection | h=1m | student_t_state | K=6 | seed=62 | 637.5s | converged=True
+[2026-09-22 04:42:43] START confirm_selection | h=1m | student_t_state | K=6 | seed=63
+[2026-09-22 04:53:14] DONE  confirm_selection | h=1m | student_t_state | K=6 | seed=63 | 631.5s | converged=True
+[2026-09-22 04:53:14] START confirm_selection | h=1m | student_t_state | K=6 | seed=64
+[2026-09-22 05:04:04] DONE  confirm_selection | h=1m | student_t_state | K=6 | seed=64 | 650.2s | converged=True
+[2026-09-22 05:04:34] START confirm_selection | h=1m | student_t_state | K=7 | seed=62
+[2026-09-22 05:15:31] DONE  confirm_selection | h=1m | student_t_state | K=7 | seed=62 | 657.3s | converged=False
+[2026-09-22 05:15:31] START confirm_selection | h=1m | student_t_state | K=7 | seed=63
+[2026-09-22 05:26:28] DONE  confirm_selection | h=1m | student_t_state | K=7 | seed=63 | 656.5s | converged=False
+[2026-09-22 05:26:28] START confirm_selection | h=1m | student_t_state | K=7 | seed=64
+[2026-09-22 05:37:22] DONE  confirm_selection | h=1m | student_t_state | K=7 | seed=64 | 654.2s | converged=False
+[2026-09-22 05:37:50] CONFIRM horizon 1m | student_t_state DONE | K=7
+[2026-09-22 05:37:50] CONFIRM horizon 2m | student_t_shared START
+[2026-09-22 05:37:50] START confirm_selection | h=2m | student_t_shared | K=2 | seed=62
+[2026-09-22 05:41:46] DONE  confirm_selection | h=2m | student_t_shared | K=2 | seed=62 | 236.5s | converged=True
+[2026-09-22 05:41:46] START confirm_selection | h=2m | student_t_shared | K=2 | seed=63
+[2026-09-22 05:45:39] DONE  confirm_selection | h=2m | student_t_shared | K=2 | seed=63 | 232.4s | converged=True
+[2026-09-22 05:45:39] START confirm_selection | h=2m | student_t_shared | K=2 | seed=64
+[2026-09-22 05:49:21] DONE  confirm_selection | h=2m | student_t_shared | K=2 | seed=64 | 222.6s | converged=True
+[2026-09-22 05:49:35] START confirm_selection | h=2m | student_t_shared | K=3 | seed=62
+[2026-09-22 05:53:39] DONE  confirm_selection | h=2m | student_t_shared | K=3 | seed=62 | 243.9s | converged=True
+[2026-09-22 05:53:39] START confirm_selection | h=2m | student_t_shared | K=3 | seed=63
+[2026-09-22 05:57:46] DONE  confirm_selection | h=2m | student_t_shared | K=3 | seed=63 | 246.9s | converged=True
+[2026-09-22 05:57:46] START confirm_selection | h=2m | student_t_shared | K=3 | seed=64
+[2026-09-22 06:01:51] DONE  confirm_selection | h=2m | student_t_shared | K=3 | seed=64 | 245.7s | converged=True
+[2026-09-22 06:02:06] START confirm_selection | h=2m | student_t_shared | K=4 | seed=62
+[2026-09-22 06:06:19] DONE  confirm_selection | h=2m | student_t_shared | K=4 | seed=62 | 253.4s | converged=True
+[2026-09-22 06:06:19] START confirm_selection | h=2m | student_t_shared | K=4 | seed=63
+[2026-09-22 06:10:32] DONE  confirm_selection | h=2m | student_t_shared | K=4 | seed=63 | 253.0s | converged=True
+[2026-09-22 06:10:32] START confirm_selection | h=2m | student_t_shared | K=4 | seed=64
+[2026-09-22 06:14:55] DONE  confirm_selection | h=2m | student_t_shared | K=4 | seed=64 | 262.9s | converged=False
+[2026-09-22 06:15:10] START confirm_selection | h=2m | student_t_shared | K=5 | seed=62
+[2026-09-22 06:19:30] DONE  confirm_selection | h=2m | student_t_shared | K=5 | seed=62 | 259.6s | converged=False
+[2026-09-22 06:19:30] START confirm_selection | h=2m | student_t_shared | K=5 | seed=63
+[2026-09-22 06:23:53] DONE  confirm_selection | h=2m | student_t_shared | K=5 | seed=63 | 263.5s | converged=False
+[2026-09-22 06:23:53] START confirm_selection | h=2m | student_t_shared | K=5 | seed=64
+[2026-09-22 06:28:13] DONE  confirm_selection | h=2m | student_t_shared | K=5 | seed=64 | 259.7s | converged=False
+[2026-09-22 06:28:27] START confirm_selection | h=2m | student_t_shared | K=6 | seed=62
+[2026-09-22 06:32:40] DONE  confirm_selection | h=2m | student_t_shared | K=6 | seed=62 | 253.5s | converged=True
+[2026-09-22 06:32:40] START confirm_selection | h=2m | student_t_shared | K=6 | seed=63
+[2026-09-22 06:37:00] DONE  confirm_selection | h=2m | student_t_shared | K=6 | seed=63 | 259.8s | converged=True
+[2026-09-22 06:37:00] START confirm_selection | h=2m | student_t_shared | K=6 | seed=64
+[2026-09-22 06:41:27] DONE  confirm_selection | h=2m | student_t_shared | K=6 | seed=64 | 266.6s | converged=True
+[2026-09-22 06:41:42] START confirm_selection | h=2m | student_t_shared | K=7 | seed=62
+[2026-09-22 06:45:58] DONE  confirm_selection | h=2m | student_t_shared | K=7 | seed=62 | 256.3s | converged=True
+[2026-09-22 06:45:58] START confirm_selection | h=2m | student_t_shared | K=7 | seed=63
+[2026-09-22 06:50:12] DONE  confirm_selection | h=2m | student_t_shared | K=7 | seed=63 | 253.7s | converged=True
+[2026-09-22 06:50:12] START confirm_selection | h=2m | student_t_shared | K=7 | seed=64
+[2026-09-22 06:54:32] DONE  confirm_selection | h=2m | student_t_shared | K=7 | seed=64 | 260.1s | converged=True
+[2026-09-22 06:54:49] CONFIRM horizon 2m | student_t_shared DONE | K=7
+[2026-09-22 06:54:49] CONFIRM horizon 2m | student_t_state START
+[2026-09-22 06:54:49] START confirm_selection | h=2m | student_t_state | K=2 | seed=62
+[2026-09-22 06:59:06] DONE  confirm_selection | h=2m | student_t_state | K=2 | seed=62 | 256.6s | converged=True
+[2026-09-22 06:59:06] START confirm_selection | h=2m | student_t_state | K=2 | seed=63
+[2026-09-22 07:03:18] DONE  confirm_selection | h=2m | student_t_state | K=2 | seed=63 | 252.8s | converged=True
+[2026-09-22 07:03:18] START confirm_selection | h=2m | student_t_state | K=2 | seed=64
+[2026-09-22 07:07:40] DONE  confirm_selection | h=2m | student_t_state | K=2 | seed=64 | 262.0s | converged=True
+[2026-09-22 07:07:55] START confirm_selection | h=2m | student_t_state | K=3 | seed=62
+[2026-09-22 07:12:19] DONE  confirm_selection | h=2m | student_t_state | K=3 | seed=62 | 264.2s | converged=True
+[2026-09-22 07:12:19] START confirm_selection | h=2m | student_t_state | K=3 | seed=63
+[2026-09-22 07:16:36] DONE  confirm_selection | h=2m | student_t_state | K=3 | seed=63 | 256.5s | converged=True
+[2026-09-22 07:16:36] START confirm_selection | h=2m | student_t_state | K=3 | seed=64
+[2026-09-22 07:20:57] DONE  confirm_selection | h=2m | student_t_state | K=3 | seed=64 | 260.7s | converged=True
+[2026-09-22 07:21:11] START confirm_selection | h=2m | student_t_state | K=4 | seed=62
+[2026-09-22 07:25:24] DONE  confirm_selection | h=2m | student_t_state | K=4 | seed=62 | 253.7s | converged=True
+[2026-09-22 07:25:24] START confirm_selection | h=2m | student_t_state | K=4 | seed=63
+[2026-09-22 07:29:46] DONE  confirm_selection | h=2m | student_t_state | K=4 | seed=63 | 261.7s | converged=True
+[2026-09-22 07:29:46] START confirm_selection | h=2m | student_t_state | K=4 | seed=64
+[2026-09-22 07:34:02] DONE  confirm_selection | h=2m | student_t_state | K=4 | seed=64 | 255.7s | converged=False
+[2026-09-22 07:34:16] START confirm_selection | h=2m | student_t_state | K=5 | seed=62
+[2026-09-22 07:38:27] DONE  confirm_selection | h=2m | student_t_state | K=5 | seed=62 | 251.9s | converged=True
+[2026-09-22 07:38:27] START confirm_selection | h=2m | student_t_state | K=5 | seed=63
+[2026-09-22 07:42:46] DONE  confirm_selection | h=2m | student_t_state | K=5 | seed=63 | 258.4s | converged=True
+[2026-09-22 07:42:46] START confirm_selection | h=2m | student_t_state | K=5 | seed=64
+[2026-09-22 07:47:07] DONE  confirm_selection | h=2m | student_t_state | K=5 | seed=64 | 260.8s | converged=True
+[2026-09-22 07:47:22] START confirm_selection | h=2m | student_t_state | K=6 | seed=62
+[2026-09-22 07:51:40] DONE  confirm_selection | h=2m | student_t_state | K=6 | seed=62 | 258.3s | converged=True
+[2026-09-22 07:51:40] START confirm_selection | h=2m | student_t_state | K=6 | seed=63
+[2026-09-22 07:55:56] DONE  confirm_selection | h=2m | student_t_state | K=6 | seed=63 | 256.1s | converged=True
+[2026-09-22 07:55:56] START confirm_selection | h=2m | student_t_state | K=6 | seed=64
+[2026-09-22 08:00:13] DONE  confirm_selection | h=2m | student_t_state | K=6 | seed=64 | 256.4s | converged=True
+[2026-09-22 08:00:28] START confirm_selection | h=2m | student_t_state | K=7 | seed=62
+[2026-09-22 08:04:51] DONE  confirm_selection | h=2m | student_t_state | K=7 | seed=62 | 262.9s | converged=True
+[2026-09-22 08:04:51] START confirm_selection | h=2m | student_t_state | K=7 | seed=63
+[2026-09-22 08:09:09] DONE  confirm_selection | h=2m | student_t_state | K=7 | seed=63 | 258.0s | converged=True
+[2026-09-22 08:09:09] START confirm_selection | h=2m | student_t_state | K=7 | seed=64
+[2026-09-22 08:13:32] DONE  confirm_selection | h=2m | student_t_state | K=7 | seed=64 | 263.5s | converged=True
+[2026-09-22 08:13:49] CONFIRM horizon 2m | student_t_state DONE | K=7
+[2026-09-22 08:13:54] REFIT horizon 1m | student_t | K=1 START
+[2026-09-22 08:13:54] REFIT horizon 1m | student_t | K=1 DONE
+[2026-09-22 08:13:54] REFIT horizon 1m | gaussian | K=1 START
+[2026-09-22 08:13:54] REFIT horizon 1m | gaussian | K=1 DONE
+[2026-09-22 08:13:54] REFIT horizon 1m | gmm | K=4 START
+[2026-09-22 08:14:00] REFIT horizon 1m | gmm | K=4 DONE
+[2026-09-22 08:14:00] REFIT horizon 1m | gaussian_hmm | K=7 START
+[2026-09-22 08:14:00] START refit | h=1m | gaussian_hmm | K=7 | seed=142
+[2026-09-22 08:50:48] DONE  refit | h=1m | gaussian_hmm | K=7 | seed=142 | 2208.0s | converged=True
+[2026-09-22 08:50:48] START refit | h=1m | gaussian_hmm | K=7 | seed=143
+[2026-09-22 09:27:49] DONE  refit | h=1m | gaussian_hmm | K=7 | seed=143 | 2221.0s | converged=True
+[2026-09-22 09:27:49] START refit | h=1m | gaussian_hmm | K=7 | seed=144
+[2026-09-22 10:04:29] DONE  refit | h=1m | gaussian_hmm | K=7 | seed=144 | 2200.2s | converged=True
+[2026-09-22 10:04:29] START refit | h=1m | gaussian_hmm | K=7 | seed=145
+[2026-09-22 10:41:22] DONE  refit | h=1m | gaussian_hmm | K=7 | seed=145 | 2212.8s | converged=True
+[2026-09-22 10:41:22] START refit | h=1m | gaussian_hmm | K=7 | seed=146
+[2026-09-22 11:18:18] DONE  refit | h=1m | gaussian_hmm | K=7 | seed=146 | 2215.5s | converged=True
+[2026-09-22 11:18:51] REFIT horizon 1m | gaussian_hmm | K=7 DONE
+[2026-09-22 11:18:51] REFIT horizon 1m | student_t_shared | K=7 START
+[2026-09-22 11:18:51] START refit | h=1m | student_t_shared | K=7 | seed=142
+[2026-09-22 11:56:39] DONE  refit | h=1m | student_t_shared | K=7 | seed=142 | 2267.9s | converged=True
+[2026-09-22 11:56:39] START refit | h=1m | student_t_shared | K=7 | seed=143
+[2026-09-22 12:34:46] DONE  refit | h=1m | student_t_shared | K=7 | seed=143 | 2287.5s | converged=True
+[2026-09-22 12:34:46] START refit | h=1m | student_t_shared | K=7 | seed=144
+[2026-09-22 13:24:59] DONE  refit | h=1m | student_t_shared | K=7 | seed=144 | 3013.2s | converged=True
+[2026-09-22 13:24:59] START refit | h=1m | student_t_shared | K=7 | seed=145
+[2026-09-22 14:12:41] DONE  refit | h=1m | student_t_shared | K=7 | seed=145 | 2859.9s | converged=True
+[2026-09-22 14:12:41] START refit | h=1m | student_t_shared | K=7 | seed=146
+[2026-09-22 14:49:52] DONE  refit | h=1m | student_t_shared | K=7 | seed=146 | 2231.7s | converged=True
+[2026-09-22 14:50:28] REFIT horizon 1m | student_t_shared | K=7 DONE
+[2026-09-22 14:50:28] REFIT horizon 1m | student_t_state | K=7 START
+[2026-09-22 14:50:28] START refit | h=1m | student_t_state | K=7 | seed=142
+[2026-09-22 15:27:58] DONE  refit | h=1m | student_t_state | K=7 | seed=142 | 2250.0s | converged=True
+[2026-09-22 15:27:58] START refit | h=1m | student_t_state | K=7 | seed=143
+[2026-09-22 16:05:42] DONE  refit | h=1m | student_t_state | K=7 | seed=143 | 2264.3s | converged=True
+[2026-09-22 16:05:42] START refit | h=1m | student_t_state | K=7 | seed=144
+[2026-09-22 16:41:59] DONE  refit | h=1m | student_t_state | K=7 | seed=144 | 2176.4s | converged=True
+[2026-09-22 16:41:59] START refit | h=1m | student_t_state | K=7 | seed=145
+[2026-09-22 17:18:31] DONE  refit | h=1m | student_t_state | K=7 | seed=145 | 2192.2s | converged=True
+[2026-09-22 17:18:31] START refit | h=1m | student_t_state | K=7 | seed=146
+Running immutable CUDA job policy_daily__f02_03
+[2026-09-23 07:40:18] LOAD source data START
+[2026-09-23 07:40:19] LOAD source data DONE | rows=525,635
+[2026-09-23 07:40:19] AUDIT timestamp/rollover START
+[2026-09-23 07:40:19] AUDIT timestamp/rollover DONE
+[2026-09-23 07:40:19] BUILD returns START | horizons=[1, 2]
+[2026-09-23 07:40:30] BUILD returns DONE | 1m=518,222, 2m=258,485
+[2026-09-23 07:40:30] FOLD 3/2 START
+[2026-09-23 07:40:30] SCREEN horizon 1m START
+[2026-09-23 07:40:31] SCREEN horizon 1m DONE | Gaussian-HMM K=7 | gain=0.109198
+[2026-09-23 07:40:31] SCREEN horizon 2m START
+[2026-09-23 07:40:31] SCREEN horizon 2m DONE | Gaussian-HMM K=7 | gain=0.095997
+[2026-09-23 07:40:31] CONFIRM horizon 1m | student_t_shared START
+[2026-09-23 07:40:31] CONFIRM horizon 1m | student_t_shared DONE | K=7
+[2026-09-23 07:40:31] CONFIRM horizon 1m | student_t_state START
+[2026-09-23 07:40:31] CONFIRM horizon 1m | student_t_state DONE | K=7
+[2026-09-23 07:40:31] CONFIRM horizon 2m | student_t_shared START
+[2026-09-23 07:40:31] CONFIRM horizon 2m | student_t_shared DONE | K=7
+[2026-09-23 07:40:31] CONFIRM horizon 2m | student_t_state START
+[2026-09-23 07:40:31] CONFIRM horizon 2m | student_t_state DONE | K=7
+[2026-09-23 07:40:35] REFIT horizon 1m | student_t | K=1 START
+[2026-09-23 07:40:35] REFIT horizon 1m | student_t | K=1 DONE
+[2026-09-23 07:40:35] REFIT horizon 1m | gaussian | K=1 START
+[2026-09-23 07:40:35] REFIT horizon 1m | gaussian | K=1 DONE
+[2026-09-23 07:40:35] REFIT horizon 1m | gmm | K=4 START
+[2026-09-23 07:40:35] REFIT horizon 1m | gmm | K=4 DONE
+[2026-09-23 07:40:35] REFIT horizon 1m | gaussian_hmm | K=7 START
+[2026-09-23 07:40:36] REFIT horizon 1m | gaussian_hmm | K=7 DONE
+[2026-09-23 07:40:36] REFIT horizon 1m | student_t_shared | K=7 START
+[2026-09-23 07:40:36] REFIT horizon 1m | student_t_shared | K=7 DONE
+[2026-09-23 07:40:36] REFIT horizon 1m | student_t_state | K=7 START
+[2026-09-23 07:40:36] CACHE refit | h=1m | student_t_state | K=7 | seed=142
+[2026-09-23 07:40:36] CACHE refit | h=1m | student_t_state | K=7 | seed=143
+[2026-09-23 07:40:36] CACHE refit | h=1m | student_t_state | K=7 | seed=144
+[2026-09-23 07:40:36] CACHE refit | h=1m | student_t_state | K=7 | seed=145
+[2026-09-23 07:40:36] START refit | h=1m | student_t_state | K=7 | seed=146
+[2026-09-23 08:11:32] DONE  refit | h=1m | student_t_state | K=7 | seed=146 | 1856.8s | converged=True
+[2026-09-23 08:11:58] REFIT horizon 1m | student_t_state | K=7 DONE
+[2026-09-23 08:12:00] REFIT horizon 2m | student_t | K=1 START
+[2026-09-23 08:12:00] REFIT horizon 2m | student_t | K=1 DONE
+[2026-09-23 08:12:00] REFIT horizon 2m | gaussian | K=1 START
+[2026-09-23 08:12:00] REFIT horizon 2m | gaussian | K=1 DONE
+[2026-09-23 08:12:00] REFIT horizon 2m | gmm | K=4 START
+[2026-09-23 08:12:01] REFIT horizon 2m | gmm | K=4 DONE
+[2026-09-23 08:12:01] REFIT horizon 2m | gaussian_hmm | K=7 START
+[2026-09-23 08:12:01] START refit | h=2m | gaussian_hmm | K=7 | seed=142
+[2026-09-23 08:24:02] DONE  refit | h=2m | gaussian_hmm | K=7 | seed=142 | 721.2s | converged=True
+[2026-09-23 08:24:02] START refit | h=2m | gaussian_hmm | K=7 | seed=143
+[2026-09-23 08:36:01] DONE  refit | h=2m | gaussian_hmm | K=7 | seed=143 | 718.2s | converged=True
+[2026-09-23 08:36:01] START refit | h=2m | gaussian_hmm | K=7 | seed=144
+[2026-09-23 08:48:01] DONE  refit | h=2m | gaussian_hmm | K=7 | seed=144 | 720.3s | converged=True
+[2026-09-23 08:48:01] START refit | h=2m | gaussian_hmm | K=7 | seed=145
+[2026-09-23 09:00:08] DONE  refit | h=2m | gaussian_hmm | K=7 | seed=145 | 727.5s | converged=True
+[2026-09-23 09:00:08] START refit | h=2m | gaussian_hmm | K=7 | seed=146
+[2026-09-23 09:11:57] DONE  refit | h=2m | gaussian_hmm | K=7 | seed=146 | 708.0s | converged=True
+[2026-09-23 09:12:10] REFIT horizon 2m | gaussian_hmm | K=7 DONE
+[2026-09-23 09:12:10] REFIT horizon 2m | student_t_shared | K=7 START
+[2026-09-23 09:12:10] START refit | h=2m | student_t_shared | K=7 | seed=142
+[2026-09-23 09:24:01] DONE  refit | h=2m | student_t_shared | K=7 | seed=142 | 711.8s | converged=True
+[2026-09-23 09:24:01] START refit | h=2m | student_t_shared | K=7 | seed=143
+[2026-09-23 09:35:53] DONE  refit | h=2m | student_t_shared | K=7 | seed=143 | 711.9s | converged=True
+[2026-09-23 09:35:53] START refit | h=2m | student_t_shared | K=7 | seed=144
+[2026-09-23 09:47:54] DONE  refit | h=2m | student_t_shared | K=7 | seed=144 | 721.0s | converged=True
+[2026-09-23 09:47:54] START refit | h=2m | student_t_shared | K=7 | seed=145
+[2026-09-23 09:59:45] DONE  refit | h=2m | student_t_shared | K=7 | seed=145 | 710.5s | converged=True
+[2026-09-23 09:59:45] START refit | h=2m | student_t_shared | K=7 | seed=146
+[2026-09-23 10:11:41] DONE  refit | h=2m | student_t_shared | K=7 | seed=146 | 716.4s | converged=True
+[2026-09-23 10:11:54] REFIT horizon 2m | student_t_shared | K=7 DONE
+[2026-09-23 10:11:54] REFIT horizon 2m | student_t_state | K=7 START
+[2026-09-23 10:11:54] START refit | h=2m | student_t_state | K=7 | seed=142
+[2026-09-23 10:23:30] DONE  refit | h=2m | student_t_state | K=7 | seed=142 | 695.7s | converged=True
+[2026-09-23 10:23:30] START refit | h=2m | student_t_state | K=7 | seed=143
+[2026-09-23 10:35:10] DONE  refit | h=2m | student_t_state | K=7 | seed=143 | 699.9s | converged=True
+[2026-09-23 10:35:10] START refit | h=2m | student_t_state | K=7 | seed=144
+[2026-09-23 10:46:43] DONE  refit | h=2m | student_t_state | K=7 | seed=144 | 693.0s | converged=True
+[2026-09-23 10:46:43] START refit | h=2m | student_t_state | K=7 | seed=145
+[2026-09-23 10:58:16] DONE  refit | h=2m | student_t_state | K=7 | seed=145 | 693.2s | converged=True
+[2026-09-23 10:58:16] START refit | h=2m | student_t_state | K=7 | seed=146
+[2026-09-23 11:09:47] DONE  refit | h=2m | student_t_state | K=7 | seed=146 | 691.2s | converged=True
+[2026-09-23 11:10:01] REFIT horizon 2m | student_t_state | K=7 DONE
+[2026-09-23 11:10:01] FOLD 3/2 DONE
+[2026-09-23 11:10:01] FOLD 4/2 START
+[2026-09-23 11:10:01] SCREEN horizon 1m START
+[2026-09-23 11:10:05] START screen_selection | h=1m | gmm | K=2
+[2026-09-23 11:10:06] DONE  screen_selection | h=1m | gmm | K=2 | 1.2s
+[2026-09-23 11:10:06] START screen_selection | h=1m | gmm | K=3
+[2026-09-23 11:10:08] DONE  screen_selection | h=1m | gmm | K=3 | 1.8s
+[2026-09-23 11:10:08] START screen_selection | h=1m | gmm | K=4
+[2026-09-23 11:10:10] DONE  screen_selection | h=1m | gmm | K=4 | 2.3s
+[2026-09-23 11:10:10] START screen_selection | h=1m | gmm | K=5
+[2026-09-23 11:10:12] DONE  screen_selection | h=1m | gmm | K=5 | 2.0s
+[2026-09-23 11:10:12] START screen_selection | h=1m | gmm | K=6
+[2026-09-23 11:10:14] DONE  screen_selection | h=1m | gmm | K=6 | 2.1s
+[2026-09-23 11:10:14] START screen_selection | h=1m | gmm | K=7
+[2026-09-23 11:10:17] DONE  screen_selection | h=1m | gmm | K=7 | 2.7s
+[2026-09-23 11:10:17] START screen_selection | h=1m | gaussian_hmm | K=2 | seed=42
+[2026-09-23 11:13:07] DONE  screen_selection | h=1m | gaussian_hmm | K=2 | seed=42 | 170.2s | converged=True
+[2026-09-23 11:13:07] START screen_selection | h=1m | gaussian_hmm | K=2 | seed=43
+[2026-09-23 11:15:58] DONE  screen_selection | h=1m | gaussian_hmm | K=2 | seed=43 | 170.4s | converged=True
+[2026-09-23 11:15:58] START screen_selection | h=1m | gaussian_hmm | K=2 | seed=44
+[2026-09-23 11:18:48] DONE  screen_selection | h=1m | gaussian_hmm | K=2 | seed=44 | 170.3s | converged=True
+[2026-09-23 11:19:09] START screen_selection | h=1m | gaussian_hmm | K=3 | seed=42
+[2026-09-23 11:23:50] DONE  screen_selection | h=1m | gaussian_hmm | K=3 | seed=42 | 280.8s | converged=True
+[2026-09-23 11:23:50] START screen_selection | h=1m | gaussian_hmm | K=3 | seed=43
+[2026-09-23 11:28:34] DONE  screen_selection | h=1m | gaussian_hmm | K=3 | seed=43 | 283.5s | converged=True
+[2026-09-23 11:28:34] START screen_selection | h=1m | gaussian_hmm | K=3 | seed=44
+[2026-09-23 11:33:15] DONE  screen_selection | h=1m | gaussian_hmm | K=3 | seed=44 | 281.3s | converged=True
+[2026-09-23 11:33:36] START screen_selection | h=1m | gaussian_hmm | K=4 | seed=42
+[2026-09-23 11:43:20] DONE  screen_selection | h=1m | gaussian_hmm | K=4 | seed=42 | 584.3s | converged=False
+[2026-09-23 11:43:20] START screen_selection | h=1m | gaussian_hmm | K=4 | seed=43
+[2026-09-23 11:53:06] DONE  screen_selection | h=1m | gaussian_hmm | K=4 | seed=43 | 585.7s | converged=False
+[2026-09-23 11:53:06] START screen_selection | h=1m | gaussian_hmm | K=4 | seed=44
+[2026-09-23 12:02:51] DONE  screen_selection | h=1m | gaussian_hmm | K=4 | seed=44 | 584.6s | converged=False
+[2026-09-23 12:03:12] START screen_selection | h=1m | gaussian_hmm | K=5 | seed=42
+[2026-09-23 12:12:56] DONE  screen_selection | h=1m | gaussian_hmm | K=5 | seed=42 | 583.8s | converged=True
+[2026-09-23 12:12:56] START screen_selection | h=1m | gaussian_hmm | K=5 | seed=43
+[2026-09-23 12:22:42] DONE  screen_selection | h=1m | gaussian_hmm | K=5 | seed=43 | 586.2s | converged=True
+[2026-09-23 12:22:42] START screen_selection | h=1m | gaussian_hmm | K=5 | seed=44
+[2026-09-23 12:32:28] DONE  screen_selection | h=1m | gaussian_hmm | K=5 | seed=44 | 585.7s | converged=True
+[2026-09-23 12:32:49] START screen_selection | h=1m | gaussian_hmm | K=6 | seed=42
+[2026-09-23 12:42:33] DONE  screen_selection | h=1m | gaussian_hmm | K=6 | seed=42 | 583.6s | converged=False
+[2026-09-23 12:42:33] START screen_selection | h=1m | gaussian_hmm | K=6 | seed=43
+[2026-09-23 12:52:20] DONE  screen_selection | h=1m | gaussian_hmm | K=6 | seed=43 | 586.8s | converged=False
+[2026-09-23 12:52:20] START screen_selection | h=1m | gaussian_hmm | K=6 | seed=44
+[2026-09-23 13:02:04] DONE  screen_selection | h=1m | gaussian_hmm | K=6 | seed=44 | 584.5s | converged=False
+[2026-09-23 13:02:26] START screen_selection | h=1m | gaussian_hmm | K=7 | seed=42
+[2026-09-23 13:12:15] DONE  screen_selection | h=1m | gaussian_hmm | K=7 | seed=42 | 588.5s | converged=True
+[2026-09-23 13:12:15] START screen_selection | h=1m | gaussian_hmm | K=7 | seed=43
+[2026-09-23 13:22:05] DONE  screen_selection | h=1m | gaussian_hmm | K=7 | seed=43 | 590.0s | converged=True
+[2026-09-23 13:22:05] START screen_selection | h=1m | gaussian_hmm | K=7 | seed=44
+[2026-09-23 13:31:58] DONE  screen_selection | h=1m | gaussian_hmm | K=7 | seed=44 | 593.0s | converged=True
+[2026-09-23 13:32:19] SCREEN horizon 1m DONE | Gaussian-HMM K=7 | gain=0.243899
+[2026-09-23 13:32:19] SCREEN horizon 2m START
+[2026-09-23 13:32:20] START screen_selection | h=2m | gmm | K=2
+[2026-09-23 13:32:21] DONE  screen_selection | h=2m | gmm | K=2 | 0.5s
+[2026-09-23 13:32:21] START screen_selection | h=2m | gmm | K=3
+[2026-09-23 13:32:22] DONE  screen_selection | h=2m | gmm | K=3 | 0.8s
+[2026-09-23 13:32:22] START screen_selection | h=2m | gmm | K=4
+[2026-09-23 13:32:22] DONE  screen_selection | h=2m | gmm | K=4 | 0.8s
+[2026-09-23 13:32:22] START screen_selection | h=2m | gmm | K=5
+[2026-09-23 13:32:23] DONE  screen_selection | h=2m | gmm | K=5 | 0.9s
+[2026-09-23 13:32:23] START screen_selection | h=2m | gmm | K=6
+[2026-09-23 13:32:24] DONE  screen_selection | h=2m | gmm | K=6 | 1.2s
+[2026-09-23 13:32:24] START screen_selection | h=2m | gmm | K=7
+[2026-09-23 13:32:26] DONE  screen_selection | h=2m | gmm | K=7 | 1.2s
+[2026-09-23 13:32:26] START screen_selection | h=2m | gaussian_hmm | K=2 | seed=42
+[2026-09-23 13:33:35] DONE  screen_selection | h=2m | gaussian_hmm | K=2 | seed=42 | 69.0s | converged=True
+[2026-09-23 13:33:35] START screen_selection | h=2m | gaussian_hmm | K=2 | seed=43
+[2026-09-23 13:34:45] DONE  screen_selection | h=2m | gaussian_hmm | K=2 | seed=43 | 69.8s | converged=True
+[2026-09-23 13:34:45] START screen_selection | h=2m | gaussian_hmm | K=2 | seed=44
+[2026-09-23 13:36:00] DONE  screen_selection | h=2m | gaussian_hmm | K=2 | seed=44 | 75.2s | converged=True
+[2026-09-23 13:36:10] START screen_selection | h=2m | gaussian_hmm | K=3 | seed=42
+[2026-09-23 13:38:07] DONE  screen_selection | h=2m | gaussian_hmm | K=3 | seed=42 | 116.9s | converged=True
+[2026-09-23 13:38:07] START screen_selection | h=2m | gaussian_hmm | K=3 | seed=43
+[2026-09-23 13:40:03] DONE  screen_selection | h=2m | gaussian_hmm | K=3 | seed=43 | 115.8s | converged=True
+[2026-09-23 13:40:03] START screen_selection | h=2m | gaussian_hmm | K=3 | seed=44
+[2026-09-23 13:41:59] DONE  screen_selection | h=2m | gaussian_hmm | K=3 | seed=44 | 116.0s | converged=True
+[2026-09-23 13:42:10] START screen_selection | h=2m | gaussian_hmm | K=4 | seed=42
+[2026-09-23 13:45:59] DONE  screen_selection | h=2m | gaussian_hmm | K=4 | seed=42 | 229.6s | converged=False
+[2026-09-23 13:45:59] START screen_selection | h=2m | gaussian_hmm | K=4 | seed=43
+[2026-09-23 13:49:48] DONE  screen_selection | h=2m | gaussian_hmm | K=4 | seed=43 | 228.7s | converged=False
+[2026-09-23 13:49:48] START screen_selection | h=2m | gaussian_hmm | K=4 | seed=44
+[2026-09-23 13:53:41] DONE  screen_selection | h=2m | gaussian_hmm | K=4 | seed=44 | 232.6s | converged=False
+[2026-09-23 13:53:51] START screen_selection | h=2m | gaussian_hmm | K=5 | seed=42
+[2026-09-23 13:57:43] DONE  screen_selection | h=2m | gaussian_hmm | K=5 | seed=42 | 231.5s | converged=False
+[2026-09-23 13:57:43] START screen_selection | h=2m | gaussian_hmm | K=5 | seed=43
+[2026-09-23 14:01:37] DONE  screen_selection | h=2m | gaussian_hmm | K=5 | seed=43 | 234.2s | converged=False
+[2026-09-23 14:01:37] START screen_selection | h=2m | gaussian_hmm | K=5 | seed=44
+[2026-09-23 14:05:38] DONE  screen_selection | h=2m | gaussian_hmm | K=5 | seed=44 | 241.1s | converged=False
+[2026-09-23 14:05:49] START screen_selection | h=2m | gaussian_hmm | K=6 | seed=42
+[2026-09-23 14:09:42] DONE  screen_selection | h=2m | gaussian_hmm | K=6 | seed=42 | 233.0s | converged=True
+[2026-09-23 14:09:42] START screen_selection | h=2m | gaussian_hmm | K=6 | seed=43
+[2026-09-23 14:13:33] DONE  screen_selection | h=2m | gaussian_hmm | K=6 | seed=43 | 231.6s | converged=True
+[2026-09-23 14:13:33] START screen_selection | h=2m | gaussian_hmm | K=6 | seed=44
+[2026-09-23 14:17:24] DONE  screen_selection | h=2m | gaussian_hmm | K=6 | seed=44 | 230.5s | converged=True
+[2026-09-23 14:17:34] START screen_selection | h=2m | gaussian_hmm | K=7 | seed=42
+[2026-09-23 14:21:26] DONE  screen_selection | h=2m | gaussian_hmm | K=7 | seed=42 | 231.6s | converged=True
+[2026-09-23 14:21:26] START screen_selection | h=2m | gaussian_hmm | K=7 | seed=43
+[2026-09-23 14:25:18] DONE  screen_selection | h=2m | gaussian_hmm | K=7 | seed=43 | 232.2s | converged=True
+[2026-09-23 14:25:18] START screen_selection | h=2m | gaussian_hmm | K=7 | seed=44
+[2026-09-23 14:29:10] DONE  screen_selection | h=2m | gaussian_hmm | K=7 | seed=44 | 232.0s | converged=True
+[2026-09-23 14:29:21] SCREEN horizon 2m DONE | Gaussian-HMM K=7 | gain=0.215553
+[2026-09-23 14:29:21] CONFIRM horizon 1m | student_t_shared START
+[2026-09-23 14:29:21] START confirm_selection | h=1m | student_t_shared | K=2 | seed=62
+[2026-09-23 14:36:33] DONE  confirm_selection | h=1m | student_t_shared | K=2 | seed=62 | 431.9s | converged=True
+[2026-09-23 14:36:33] START confirm_selection | h=1m | student_t_shared | K=2 | seed=63
+[2026-09-23 14:43:12] DONE  confirm_selection | h=1m | student_t_shared | K=2 | seed=63 | 399.4s | converged=True
+[2026-09-23 14:43:12] START confirm_selection | h=1m | student_t_shared | K=2 | seed=64
+[2026-09-23 14:51:54] DONE  confirm_selection | h=1m | student_t_shared | K=2 | seed=64 | 522.0s | converged=True
+[2026-09-23 14:52:18] START confirm_selection | h=1m | student_t_shared | K=3 | seed=62
+[2026-09-23 15:02:02] DONE  confirm_selection | h=1m | student_t_shared | K=3 | seed=62 | 584.7s | converged=True
+[2026-09-23 15:02:02] START confirm_selection | h=1m | student_t_shared | K=3 | seed=63
+[2026-09-23 15:11:46] DONE  confirm_selection | h=1m | student_t_shared | K=3 | seed=63 | 583.6s | converged=True
+[2026-09-23 15:11:46] START confirm_selection | h=1m | student_t_shared | K=3 | seed=64
+[2026-09-23 15:21:40] DONE  confirm_selection | h=1m | student_t_shared | K=3 | seed=64 | 593.7s | converged=True
+[2026-09-23 15:22:04] START confirm_selection | h=1m | student_t_shared | K=4 | seed=62
+[2026-09-23 15:32:18] DONE  confirm_selection | h=1m | student_t_shared | K=4 | seed=62 | 614.5s | converged=True
+[2026-09-23 15:32:18] START confirm_selection | h=1m | student_t_shared | K=4 | seed=63
+[2026-09-23 15:42:45] DONE  confirm_selection | h=1m | student_t_shared | K=4 | seed=63 | 626.5s | converged=True
+[2026-09-23 15:42:45] START confirm_selection | h=1m | student_t_shared | K=4 | seed=64
+[2026-09-23 15:53:15] DONE  confirm_selection | h=1m | student_t_shared | K=4 | seed=64 | 629.8s | converged=True
+[2026-09-23 15:53:41] START confirm_selection | h=1m | student_t_shared | K=5 | seed=62
+[2026-09-23 16:04:14] DONE  confirm_selection | h=1m | student_t_shared | K=5 | seed=62 | 633.5s | converged=True
+[2026-09-23 16:04:14] START confirm_selection | h=1m | student_t_shared | K=5 | seed=63
+[2026-09-23 16:14:31] DONE  confirm_selection | h=1m | student_t_shared | K=5 | seed=63 | 616.6s | converged=True
+[2026-09-23 16:14:31] START confirm_selection | h=1m | student_t_shared | K=5 | seed=64
+[2026-09-23 16:24:54] DONE  confirm_selection | h=1m | student_t_shared | K=5 | seed=64 | 622.9s | converged=True
+[2026-09-23 16:25:20] START confirm_selection | h=1m | student_t_shared | K=6 | seed=62
+[2026-09-23 16:35:54] DONE  confirm_selection | h=1m | student_t_shared | K=6 | seed=62 | 634.3s | converged=True
+[2026-09-23 16:35:54] START confirm_selection | h=1m | student_t_shared | K=6 | seed=63
+[2026-09-23 16:46:21] DONE  confirm_selection | h=1m | student_t_shared | K=6 | seed=63 | 626.8s | converged=False
+[2026-09-23 16:46:21] START confirm_selection | h=1m | student_t_shared | K=6 | seed=64
+[2026-09-23 16:56:25] DONE  confirm_selection | h=1m | student_t_shared | K=6 | seed=64 | 604.4s | converged=True
+[2026-09-23 16:56:49] START confirm_selection | h=1m | student_t_shared | K=7 | seed=62
+[2026-09-23 17:07:05] DONE  confirm_selection | h=1m | student_t_shared | K=7 | seed=62 | 616.1s | converged=False
+[2026-09-23 17:07:05] START confirm_selection | h=1m | student_t_shared | K=7 | seed=63
+[2026-09-23 17:17:15] DONE  confirm_selection | h=1m | student_t_shared | K=7 | seed=63 | 609.7s | converged=False
+[2026-09-23 17:17:15] START confirm_selection | h=1m | student_t_shared | K=7 | seed=64
+[2026-09-23 17:27:26] DONE  confirm_selection | h=1m | student_t_shared | K=7 | seed=64 | 610.6s | converged=False
+[2026-09-23 17:27:50] CONFIRM horizon 1m | student_t_shared DONE | K=6
+[2026-09-23 17:27:50] CONFIRM horizon 1m | student_t_state START
+[2026-09-23 17:27:50] START confirm_selection | h=1m | student_t_state | K=2 | seed=62
+[2026-09-23 17:38:35] DONE  confirm_selection | h=1m | student_t_state | K=2 | seed=62 | 644.7s | converged=True
+[2026-09-23 17:38:35] START confirm_selection | h=1m | student_t_state | K=2 | seed=63
+[2026-09-23 17:44:14] DONE  confirm_selection | h=1m | student_t_state | K=2 | seed=63 | 339.1s | converged=True
+[2026-09-23 17:44:14] START confirm_selection | h=1m | student_t_state | K=2 | seed=64
+[2026-09-23 17:54:31] DONE  confirm_selection | h=1m | student_t_state | K=2 | seed=64 | 616.5s | converged=True
+[2026-09-23 17:54:55] START confirm_selection | h=1m | student_t_state | K=3 | seed=62
+[2026-09-23 18:08:19] DONE  confirm_selection | h=1m | student_t_state | K=3 | seed=62 | 804.4s | converged=True
+[2026-09-23 18:08:19] START confirm_selection | h=1m | student_t_state | K=3 | seed=63
+[2026-09-23 18:24:14] DONE  confirm_selection | h=1m | student_t_state | K=3 | seed=63 | 954.7s | converged=True
+[2026-09-23 18:24:14] START confirm_selection | h=1m | student_t_state | K=3 | seed=64
+[2026-09-23 18:39:17] DONE  confirm_selection | h=1m | student_t_state | K=3 | seed=64 | 903.4s | converged=True
+[2026-09-23 18:39:45] START confirm_selection | h=1m | student_t_state | K=4 | seed=62
+[2026-09-23 18:51:42] DONE  confirm_selection | h=1m | student_t_state | K=4 | seed=62 | 716.7s | converged=False
+[2026-09-23 18:51:42] START confirm_selection | h=1m | student_t_state | K=4 | seed=63
+[2026-09-23 19:03:49] DONE  confirm_selection | h=1m | student_t_state | K=4 | seed=63 | 726.7s | converged=False
+[2026-09-23 19:03:49] START confirm_selection | h=1m | student_t_state | K=4 | seed=64
+[2026-09-23 19:15:05] DONE  confirm_selection | h=1m | student_t_state | K=4 | seed=64 | 675.8s | converged=False
+[2026-09-23 19:15:29] START confirm_selection | h=1m | student_t_state | K=5 | seed=62
+[2026-09-23 19:25:58] DONE  confirm_selection | h=1m | student_t_state | K=5 | seed=62 | 629.3s | converged=True
+[2026-09-23 19:25:58] START confirm_selection | h=1m | student_t_state | K=5 | seed=63
+[2026-09-23 19:36:27] DONE  confirm_selection | h=1m | student_t_state | K=5 | seed=63 | 629.0s | converged=True
+[2026-09-23 19:36:27] START confirm_selection | h=1m | student_t_state | K=5 | seed=64
+[2026-09-23 19:46:55] DONE  confirm_selection | h=1m | student_t_state | K=5 | seed=64 | 627.8s | converged=True
+[2026-09-23 19:47:19] START confirm_selection | h=1m | student_t_state | K=6 | seed=62
+[2026-09-23 19:57:50] DONE  confirm_selection | h=1m | student_t_state | K=6 | seed=62 | 631.5s | converged=True
+[2026-09-23 19:57:50] START confirm_selection | h=1m | student_t_state | K=6 | seed=63
+[2026-09-23 20:08:23] DONE  confirm_selection | h=1m | student_t_state | K=6 | seed=63 | 632.2s | converged=True
+[2026-09-23 20:08:23] START confirm_selection | h=1m | student_t_state | K=6 | seed=64
+[2026-09-23 20:18:52] DONE  confirm_selection | h=1m | student_t_state | K=6 | seed=64 | 629.2s | converged=True
+[2026-09-23 20:19:16] START confirm_selection | h=1m | student_t_state | K=7 | seed=62
+[2026-09-23 20:29:49] DONE  confirm_selection | h=1m | student_t_state | K=7 | seed=62 | 633.2s | converged=False
+[2026-09-23 20:29:49] START confirm_selection | h=1m | student_t_state | K=7 | seed=63
+[2026-09-23 20:40:24] DONE  confirm_selection | h=1m | student_t_state | K=7 | seed=63 | 635.2s | converged=False
+[2026-09-23 20:40:24] START confirm_selection | h=1m | student_t_state | K=7 | seed=64
+[2026-09-23 20:51:20] DONE  confirm_selection | h=1m | student_t_state | K=7 | seed=64 | 655.6s | converged=False
+[2026-09-23 20:51:50] CONFIRM horizon 1m | student_t_state DONE | K=7
+[2026-09-23 20:51:50] CONFIRM horizon 2m | student_t_shared START
+[2026-09-23 20:51:50] START confirm_selection | h=2m | student_t_shared | K=2 | seed=62
+[2026-09-23 20:56:50] DONE  confirm_selection | h=2m | student_t_shared | K=2 | seed=62 | 300.1s | converged=True
+[2026-09-23 20:56:50] START confirm_selection | h=2m | student_t_shared | K=2 | seed=63
+[2026-09-23 21:02:05] DONE  confirm_selection | h=2m | student_t_shared | K=2 | seed=63 | 315.0s | converged=True
+[2026-09-23 21:02:05] START confirm_selection | h=2m | student_t_shared | K=2 | seed=64
+[2026-09-23 21:07:31] DONE  confirm_selection | h=2m | student_t_shared | K=2 | seed=64 | 326.6s | converged=True
+[2026-09-23 21:07:52] START confirm_selection | h=2m | student_t_shared | K=3 | seed=62
+[2026-09-23 21:14:21] DONE  confirm_selection | h=2m | student_t_shared | K=3 | seed=62 | 389.1s | converged=True
+[2026-09-23 21:14:21] START confirm_selection | h=2m | student_t_shared | K=3 | seed=63
+[2026-09-23 21:20:25] DONE  confirm_selection | h=2m | student_t_shared | K=3 | seed=63 | 364.2s | converged=True
+[2026-09-23 21:20:25] START confirm_selection | h=2m | student_t_shared | K=3 | seed=64
+Traceback (most recent call last):
+  File "C:\Users\Admin\Downloads\ARSH_v0.5_CUDA_worker\run_planned_job.py", line 41, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "C:\Users\Admin\Downloads\ARSH_v0.5_CUDA_worker\run_planned_job.py", line 38, in main
+    print(f"Running immutable {backend.upper()} job {args.job}",flush=True);subprocess.run(command,check=True)
+                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\Admin\\Downloads\\ARSH_v0.5_CUDA_worker\\.venv-cuda\\Scripts\\python.exe', 'C:\\Users\\Admin\\Downloads\\ARSH_v0.5_CUDA_worker\\arsh_v05.py', '--data', 'C:\\Users\\Admin\\Downloads\\ARSH_v0.5_CUDA_worker\\data\\ohlc_export.csv', '--output', 'runs_v05_revised/policy_daily/policy_daily__f02_03', '--backend', 'cuda', '--device', 'cuda:0', '--policy', 'daily_sequence', '--resume', '--horizons', '1', '2', '--k-values', '2', '3', '4', '5', '6', '7', '--folds', '2', '3', '--train-years', '3', '--return-variant', 'raw', '--outlier-policy', 'keep']' returned non-zero exit status 1.
+Running immutable CUDA job policy_daily__f02_03
+[2026-09-24 01:59:38] LOAD source data START
+[2026-09-24 01:59:38] LOAD source data DONE | rows=525,635
+[2026-09-24 01:59:38] AUDIT timestamp/rollover START
+[2026-09-24 01:59:39] AUDIT timestamp/rollover DONE
+[2026-09-24 01:59:39] BUILD returns START | horizons=[1, 2]
+[2026-09-24 01:59:50] BUILD returns DONE | 1m=518,222, 2m=258,485
+Resume fold 3/2
+[2026-09-24 01:59:50] FOLD 4/2 START
+[2026-09-24 01:59:50] SCREEN horizon 1m START
+[2026-09-24 01:59:50] SCREEN horizon 1m DONE | Gaussian-HMM K=7 | gain=0.243899
+[2026-09-24 01:59:50] SCREEN horizon 2m START
+[2026-09-24 01:59:50] SCREEN horizon 2m DONE | Gaussian-HMM K=7 | gain=0.215553
+[2026-09-24 01:59:50] CONFIRM horizon 1m | student_t_shared START
+[2026-09-24 01:59:50] CONFIRM horizon 1m | student_t_shared DONE | K=6
+[2026-09-24 01:59:50] CONFIRM horizon 1m | student_t_state START
+[2026-09-24 01:59:50] CONFIRM horizon 1m | student_t_state DONE | K=7
+[2026-09-24 01:59:50] CONFIRM horizon 2m | student_t_shared START
+[2026-09-24 01:59:51] CACHE confirm_selection | h=2m | student_t_shared | K=2 | seed=62
+[2026-09-24 01:59:51] CACHE confirm_selection | h=2m | student_t_shared | K=2 | seed=63
+[2026-09-24 01:59:51] CACHE confirm_selection | h=2m | student_t_shared | K=2 | seed=64
+[2026-09-24 02:00:03] CACHE confirm_selection | h=2m | student_t_shared | K=3 | seed=62
+[2026-09-24 02:00:03] CACHE confirm_selection | h=2m | student_t_shared | K=3 | seed=63
+[2026-09-24 02:00:03] START confirm_selection | h=2m | student_t_shared | K=3 | seed=64
+[2026-09-24 02:04:26] DONE  confirm_selection | h=2m | student_t_shared | K=3 | seed=64 | 263.4s | converged=True
+[2026-09-24 02:04:38] START confirm_selection | h=2m | student_t_shared | K=4 | seed=62
+[2026-09-24 02:08:52] DONE  confirm_selection | h=2m | student_t_shared | K=4 | seed=62 | 253.4s | converged=True
+[2026-09-24 02:08:52] START confirm_selection | h=2m | student_t_shared | K=4 | seed=63
+[2026-09-24 02:13:06] DONE  confirm_selection | h=2m | student_t_shared | K=4 | seed=63 | 254.2s | converged=True
+[2026-09-24 02:13:06] START confirm_selection | h=2m | student_t_shared | K=4 | seed=64
+[2026-09-24 02:17:19] DONE  confirm_selection | h=2m | student_t_shared | K=4 | seed=64 | 253.0s | converged=True
+[2026-09-24 02:17:32] START confirm_selection | h=2m | student_t_shared | K=5 | seed=62
+[2026-09-24 02:21:54] DONE  confirm_selection | h=2m | student_t_shared | K=5 | seed=62 | 262.4s | converged=False
+[2026-09-24 02:21:54] START confirm_selection | h=2m | student_t_shared | K=5 | seed=63
+[2026-09-24 02:26:16] DONE  confirm_selection | h=2m | student_t_shared | K=5 | seed=63 | 261.6s | converged=False
+[2026-09-24 02:26:16] START confirm_selection | h=2m | student_t_shared | K=5 | seed=64
+[2026-09-24 02:30:34] DONE  confirm_selection | h=2m | student_t_shared | K=5 | seed=64 | 258.6s | converged=False
+[2026-09-24 02:30:48] START confirm_selection | h=2m | student_t_shared | K=6 | seed=62
+[2026-09-24 02:34:55] DONE  confirm_selection | h=2m | student_t_shared | K=6 | seed=62 | 247.5s | converged=True
+[2026-09-24 02:34:55] START confirm_selection | h=2m | student_t_shared | K=6 | seed=63
+[2026-09-24 02:38:57] DONE  confirm_selection | h=2m | student_t_shared | K=6 | seed=63 | 242.0s | converged=True
+[2026-09-24 02:38:57] START confirm_selection | h=2m | student_t_shared | K=6 | seed=64
+[2026-09-24 02:43:07] DONE  confirm_selection | h=2m | student_t_shared | K=6 | seed=64 | 249.7s | converged=True
+[2026-09-24 02:43:19] START confirm_selection | h=2m | student_t_shared | K=7 | seed=62
+[2026-09-24 02:47:16] DONE  confirm_selection | h=2m | student_t_shared | K=7 | seed=62 | 237.9s | converged=True
+[2026-09-24 02:47:16] START confirm_selection | h=2m | student_t_shared | K=7 | seed=63
+[2026-09-24 02:51:18] DONE  confirm_selection | h=2m | student_t_shared | K=7 | seed=63 | 241.8s | converged=True
+[2026-09-24 02:51:18] START confirm_selection | h=2m | student_t_shared | K=7 | seed=64
+[2026-09-24 02:55:21] DONE  confirm_selection | h=2m | student_t_shared | K=7 | seed=64 | 243.2s | converged=True
+[2026-09-24 02:55:33] CONFIRM horizon 2m | student_t_shared DONE | K=6
+[2026-09-24 02:55:33] CONFIRM horizon 2m | student_t_state START
+[2026-09-24 02:55:33] START confirm_selection | h=2m | student_t_state | K=2 | seed=62
+[2026-09-24 02:59:36] DONE  confirm_selection | h=2m | student_t_state | K=2 | seed=62 | 242.8s | converged=True
+[2026-09-24 02:59:36] START confirm_selection | h=2m | student_t_state | K=2 | seed=63
+[2026-09-24 03:03:33] DONE  confirm_selection | h=2m | student_t_state | K=2 | seed=63 | 237.2s | converged=True
+[2026-09-24 03:03:33] START confirm_selection | h=2m | student_t_state | K=2 | seed=64
+[2026-09-24 03:07:34] DONE  confirm_selection | h=2m | student_t_state | K=2 | seed=64 | 240.7s | converged=True
+[2026-09-24 03:07:46] START confirm_selection | h=2m | student_t_state | K=3 | seed=62
+[2026-09-24 03:11:46] DONE  confirm_selection | h=2m | student_t_state | K=3 | seed=62 | 240.0s | converged=True
+[2026-09-24 03:11:46] START confirm_selection | h=2m | student_t_state | K=3 | seed=63
+[2026-09-24 03:15:48] DONE  confirm_selection | h=2m | student_t_state | K=3 | seed=63 | 242.6s | converged=True
+[2026-09-24 03:15:48] START confirm_selection | h=2m | student_t_state | K=3 | seed=64
+[2026-09-24 03:19:46] DONE  confirm_selection | h=2m | student_t_state | K=3 | seed=64 | 238.1s | converged=True
+[2026-09-24 03:19:58] START confirm_selection | h=2m | student_t_state | K=4 | seed=62
+[2026-09-24 03:23:55] DONE  confirm_selection | h=2m | student_t_state | K=4 | seed=62 | 236.8s | converged=False
+[2026-09-24 03:23:55] START confirm_selection | h=2m | student_t_state | K=4 | seed=63
+[2026-09-24 03:27:57] DONE  confirm_selection | h=2m | student_t_state | K=4 | seed=63 | 241.8s | converged=False
+[2026-09-24 03:27:57] START confirm_selection | h=2m | student_t_state | K=4 | seed=64
+[2026-09-24 03:31:57] DONE  confirm_selection | h=2m | student_t_state | K=4 | seed=64 | 240.7s | converged=False
+[2026-09-24 03:32:09] START confirm_selection | h=2m | student_t_state | K=5 | seed=62
+[2026-09-24 03:36:08] DONE  confirm_selection | h=2m | student_t_state | K=5 | seed=62 | 239.1s | converged=True
+[2026-09-24 03:36:08] START confirm_selection | h=2m | student_t_state | K=5 | seed=63
+[2026-09-24 03:40:09] DONE  confirm_selection | h=2m | student_t_state | K=5 | seed=63 | 240.3s | converged=True
+[2026-09-24 03:40:09] START confirm_selection | h=2m | student_t_state | K=5 | seed=64
+[2026-09-24 03:44:10] DONE  confirm_selection | h=2m | student_t_state | K=5 | seed=64 | 241.5s | converged=True
+[2026-09-24 03:44:22] START confirm_selection | h=2m | student_t_state | K=6 | seed=62
+[2026-09-24 03:48:23] DONE  confirm_selection | h=2m | student_t_state | K=6 | seed=62 | 240.8s | converged=True
+[2026-09-24 03:48:23] START confirm_selection | h=2m | student_t_state | K=6 | seed=63
+[2026-09-24 03:52:23] DONE  confirm_selection | h=2m | student_t_state | K=6 | seed=63 | 240.3s | converged=True
+[2026-09-24 03:52:23] START confirm_selection | h=2m | student_t_state | K=6 | seed=64
+[2026-09-24 03:56:21] DONE  confirm_selection | h=2m | student_t_state | K=6 | seed=64 | 237.8s | converged=True
+[2026-09-24 03:56:33] START confirm_selection | h=2m | student_t_state | K=7 | seed=62
+[2026-09-24 04:00:33] DONE  confirm_selection | h=2m | student_t_state | K=7 | seed=62 | 240.7s | converged=True
+[2026-09-24 04:00:33] START confirm_selection | h=2m | student_t_state | K=7 | seed=63
+[2026-09-24 04:04:32] DONE  confirm_selection | h=2m | student_t_state | K=7 | seed=63 | 238.5s | converged=True
+[2026-09-24 04:04:32] START confirm_selection | h=2m | student_t_state | K=7 | seed=64
+[2026-09-24 04:08:33] DONE  confirm_selection | h=2m | student_t_state | K=7 | seed=64 | 241.2s | converged=True
+[2026-09-24 04:08:45] CONFIRM horizon 2m | student_t_state DONE | K=6
+[2026-09-24 04:08:49] REFIT horizon 1m | student_t | K=1 START
+[2026-09-24 04:08:49] REFIT horizon 1m | student_t | K=1 DONE
+[2026-09-24 04:08:49] REFIT horizon 1m | gaussian | K=1 START
+[2026-09-24 04:08:49] REFIT horizon 1m | gaussian | K=1 DONE
+[2026-09-24 04:08:49] REFIT horizon 1m | gmm | K=4 START
+[2026-09-24 04:08:54] REFIT horizon 1m | gmm | K=4 DONE
+[2026-09-24 04:08:54] REFIT horizon 1m | gaussian_hmm | K=7 START
+[2026-09-24 04:08:54] START refit | h=1m | gaussian_hmm | K=7 | seed=142
+[2026-09-24 04:39:02] DONE  refit | h=1m | gaussian_hmm | K=7 | seed=142 | 1808.6s | converged=True
+[2026-09-24 04:39:02] START refit | h=1m | gaussian_hmm | K=7 | seed=143
+[2026-09-24 05:09:09] DONE  refit | h=1m | gaussian_hmm | K=7 | seed=143 | 1807.0s | converged=True
+[2026-09-24 05:09:09] START refit | h=1m | gaussian_hmm | K=7 | seed=144
+[2026-09-24 05:39:21] DONE  refit | h=1m | gaussian_hmm | K=7 | seed=144 | 1811.3s | converged=True
+[2026-09-24 05:39:21] START refit | h=1m | gaussian_hmm | K=7 | seed=145
+[2026-09-24 06:09:22] DONE  refit | h=1m | gaussian_hmm | K=7 | seed=145 | 1801.1s | converged=True
+[2026-09-24 06:09:22] START refit | h=1m | gaussian_hmm | K=7 | seed=146
+[2026-09-24 06:39:38] DONE  refit | h=1m | gaussian_hmm | K=7 | seed=146 | 1816.4s | converged=True
+[2026-09-24 06:40:05] REFIT horizon 1m | gaussian_hmm | K=7 DONE
+[2026-09-24 06:40:05] REFIT horizon 1m | student_t_shared | K=6 START
+[2026-09-24 06:40:05] START refit | h=1m | student_t_shared | K=6 | seed=142
+[2026-09-24 07:03:03] DONE  refit | h=1m | student_t_shared | K=6 | seed=142 | 1378.0s | converged=True
+[2026-09-24 07:03:03] START refit | h=1m | student_t_shared | K=6 | seed=143
+[2026-09-24 07:26:17] DONE  refit | h=1m | student_t_shared | K=6 | seed=143 | 1393.9s | converged=True
+[2026-09-24 07:26:17] START refit | h=1m | student_t_shared | K=6 | seed=144
+[2026-09-24 07:49:22] DONE  refit | h=1m | student_t_shared | K=6 | seed=144 | 1384.5s | converged=True
+[2026-09-24 07:49:22] START refit | h=1m | student_t_shared | K=6 | seed=145
+[2026-09-24 08:19:23] DONE  refit | h=1m | student_t_shared | K=6 | seed=145 | 1801.5s | converged=True
+[2026-09-24 08:19:23] START refit | h=1m | student_t_shared | K=6 | seed=146
+[2026-09-24 08:42:43] DONE  refit | h=1m | student_t_shared | K=6 | seed=146 | 1399.7s | converged=True
+[2026-09-24 08:43:10] REFIT horizon 1m | student_t_shared | K=6 DONE
+[2026-09-24 08:43:10] REFIT horizon 1m | student_t_state | K=7 START
+[2026-09-24 08:43:10] START refit | h=1m | student_t_state | K=7 | seed=142
+[2026-09-24 09:13:36] DONE  refit | h=1m | student_t_state | K=7 | seed=142 | 1826.3s | converged=True
+[2026-09-24 09:13:36] START refit | h=1m | student_t_state | K=7 | seed=143
+Running immutable CUDA job policy_daily__f02_03
+[2026-09-24 14:21:10] LOAD source data START
+[2026-09-24 14:21:11] LOAD source data DONE | rows=525,635
+[2026-09-24 14:21:11] AUDIT timestamp/rollover START
+[2026-09-24 14:21:12] AUDIT timestamp/rollover DONE
+[2026-09-24 14:21:12] BUILD returns START | horizons=[1, 2]
+[2026-09-24 14:21:23] BUILD returns DONE | 1m=518,222, 2m=258,485
+Resume fold 3/2
+[2026-09-24 14:21:23] FOLD 4/2 START
+[2026-09-24 14:21:23] SCREEN horizon 1m START
+[2026-09-24 14:21:23] SCREEN horizon 1m DONE | Gaussian-HMM K=7 | gain=0.243899
+[2026-09-24 14:21:23] SCREEN horizon 2m START
+[2026-09-24 14:21:23] SCREEN horizon 2m DONE | Gaussian-HMM K=7 | gain=0.215553
+[2026-09-24 14:21:23] CONFIRM horizon 1m | student_t_shared START
+[2026-09-24 14:21:23] CONFIRM horizon 1m | student_t_shared DONE | K=6
+[2026-09-24 14:21:23] CONFIRM horizon 1m | student_t_state START
+[2026-09-24 14:21:23] CONFIRM horizon 1m | student_t_state DONE | K=7
+[2026-09-24 14:21:23] CONFIRM horizon 2m | student_t_shared START
+[2026-09-24 14:21:23] CONFIRM horizon 2m | student_t_shared DONE | K=6
+[2026-09-24 14:21:23] CONFIRM horizon 2m | student_t_state START
+[2026-09-24 14:21:23] CONFIRM horizon 2m | student_t_state DONE | K=6
+[2026-09-24 14:21:28] REFIT horizon 1m | student_t | K=1 START
+[2026-09-24 14:21:28] REFIT horizon 1m | student_t | K=1 DONE
+[2026-09-24 14:21:28] REFIT horizon 1m | gaussian | K=1 START
+[2026-09-24 14:21:28] REFIT horizon 1m | gaussian | K=1 DONE
+[2026-09-24 14:21:28] REFIT horizon 1m | gmm | K=4 START
+[2026-09-24 14:21:28] REFIT horizon 1m | gmm | K=4 DONE
+[2026-09-24 14:21:28] REFIT horizon 1m | gaussian_hmm | K=7 START
+[2026-09-24 14:21:28] REFIT horizon 1m | gaussian_hmm | K=7 DONE
+[2026-09-24 14:21:28] REFIT horizon 1m | student_t_shared | K=6 START
+[2026-09-24 14:21:28] REFIT horizon 1m | student_t_shared | K=6 DONE
+[2026-09-24 14:21:28] REFIT horizon 1m | student_t_state | K=7 START
+[2026-09-24 14:21:28] CACHE refit | h=1m | student_t_state | K=7 | seed=142
+[2026-09-24 14:21:28] START refit | h=1m | student_t_state | K=7 | seed=143
+[2026-09-24 15:05:29] DONE  refit | h=1m | student_t_state | K=7 | seed=143 | 2641.0s | converged=True
+[2026-09-24 15:05:29] START refit | h=1m | student_t_state | K=7 | seed=144
+[2026-09-24 15:36:42] DONE  refit | h=1m | student_t_state | K=7 | seed=144 | 1872.8s | converged=True
+[2026-09-24 15:36:42] START refit | h=1m | student_t_state | K=7 | seed=145
+[2026-09-24 16:08:29] DONE  refit | h=1m | student_t_state | K=7 | seed=145 | 1907.8s | converged=True
+[2026-09-24 16:08:29] START refit | h=1m | student_t_state | K=7 | seed=146

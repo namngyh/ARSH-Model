@@ -1,0 +1,478 @@
+{
+  "schema": 1,
+  "data_sha256": "bf84b23d6fa48b9fd90c477ef6788cc0aca19e86a0480d91600fa77363e71096",
+  "code_sha256": "b5e19665d071b0e8097f35db56ee54008ed193b4c0e8dc80219be64d00c60efc",
+  "runs_root": "runs_v05_revised",
+  "experiments": [
+    {
+      "id": "policy_continuous",
+      "horizons": [
+        1,
+        2
+      ],
+      "k_values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "policy": "continuous_carry",
+      "backend": "cpu",
+      "expected_folds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "shards": [
+        "policy_continuous__f00_01",
+        "policy_continuous__f02_03",
+        "policy_continuous__f04_05",
+        "policy_continuous__f06_07",
+        "policy_continuous__f08_09"
+      ]
+    },
+    {
+      "id": "policy_daily",
+      "horizons": [
+        1,
+        2
+      ],
+      "k_values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "policy": "daily_sequence",
+      "backend": "cuda",
+      "expected_folds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "shards": [
+        "policy_daily__f00_01",
+        "policy_daily__f02_03",
+        "policy_daily__f04_05",
+        "policy_daily__f06_07",
+        "policy_daily__f08_09"
+      ]
+    },
+    {
+      "id": "policy_session",
+      "horizons": [
+        1,
+        2
+      ],
+      "k_values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "policy": "session_sequence",
+      "backend": "cuda",
+      "expected_folds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "shards": [
+        "policy_session__f00_01",
+        "policy_session__f02_03",
+        "policy_session__f04_05",
+        "policy_session__f06_07",
+        "policy_session__f08_09"
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "job_id": "policy_continuous__f00_01",
+      "experiment_id": "policy_continuous",
+      "output": "runs_v05_revised/policy_continuous/policy_continuous__f00_01",
+      "folds": [
+        0,
+        1
+      ],
+      "execution_target": "cpu",
+      "horizons": [
+        1,
+        2
+      ],
+      "k_values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "policy": "continuous_carry",
+      "backend": "cpu"
+    },
+    {
+      "job_id": "policy_continuous__f02_03",
+      "experiment_id": "policy_continuous",
+      "output": "runs_v05_revised/policy_continuous/policy_continuous__f02_03",
+      "folds": [
+        2,
+        3
+      ],
+      "execution_target": "cpu",
+      "horizons": [
+        1,
+        2
+      ],
+      "k_values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "policy": "continuous_carry",
+      "backend": "cpu"
+    },
+    {
+      "job_id": "policy_continuous__f04_05",
+      "experiment_id": "policy_continuous",
+      "output": "runs_v05_revised/policy_continuous/policy_continuous__f04_05",
+      "folds": [
+        4,
+        5
+      ],
+      "execution_target": "cpu",
+      "horizons": [
+        1,
+        2
+      ],
+      "k_values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "policy": "continuous_carry",
+      "backend": "cpu"
+    },
+    {
+      "job_id": "policy_continuous__f06_07",
+      "experiment_id": "policy_continuous",
+      "output": "runs_v05_revised/policy_continuous/policy_continuous__f06_07",
+      "folds": [
+        6,
+        7
+      ],
+      "execution_target": "cpu",
+      "horizons": [
+        1,
+        2
+      ],
+      "k_values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "policy": "continuous_carry",
+      "backend": "cpu"
+    },
+    {
+      "job_id": "policy_continuous__f08_09",
+      "experiment_id": "policy_continuous",
+      "output": "runs_v05_revised/policy_continuous/policy_continuous__f08_09",
+      "folds": [
+        8,
+        9
+      ],
+      "execution_target": "cpu",
+      "horizons": [
+        1,
+        2
+      ],
+      "k_values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "policy": "continuous_carry",
+      "backend": "cpu"
+    },
+    {
+      "job_id": "policy_daily__f00_01",
+      "experiment_id": "policy_daily",
+      "output": "runs_v05_revised/policy_daily/policy_daily__f00_01",
+      "folds": [
+        0,
+        1
+      ],
+      "execution_target": "cuda",
+      "horizons": [
+        1,
+        2
+      ],
+      "k_values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "policy": "daily_sequence",
+      "backend": "cuda"
+    },
+    {
+      "job_id": "policy_daily__f02_03",
+      "experiment_id": "policy_daily",
+      "output": "runs_v05_revised/policy_daily/policy_daily__f02_03",
+      "folds": [
+        2,
+        3
+      ],
+      "execution_target": "cuda",
+      "horizons": [
+        1,
+        2
+      ],
+      "k_values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "policy": "daily_sequence",
+      "backend": "cuda"
+    },
+    {
+      "job_id": "policy_daily__f04_05",
+      "experiment_id": "policy_daily",
+      "output": "runs_v05_revised/policy_daily/policy_daily__f04_05",
+      "folds": [
+        4,
+        5
+      ],
+      "execution_target": "cuda",
+      "horizons": [
+        1,
+        2
+      ],
+      "k_values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "policy": "daily_sequence",
+      "backend": "cuda"
+    },
+    {
+      "job_id": "policy_daily__f06_07",
+      "experiment_id": "policy_daily",
+      "output": "runs_v05_revised/policy_daily/policy_daily__f06_07",
+      "folds": [
+        6,
+        7
+      ],
+      "execution_target": "cuda",
+      "horizons": [
+        1,
+        2
+      ],
+      "k_values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "policy": "daily_sequence",
+      "backend": "cuda"
+    },
+    {
+      "job_id": "policy_daily__f08_09",
+      "experiment_id": "policy_daily",
+      "output": "runs_v05_revised/policy_daily/policy_daily__f08_09",
+      "folds": [
+        8,
+        9
+      ],
+      "execution_target": "cuda",
+      "horizons": [
+        1,
+        2
+      ],
+      "k_values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "policy": "daily_sequence",
+      "backend": "cuda"
+    },
+    {
+      "job_id": "policy_session__f00_01",
+      "experiment_id": "policy_session",
+      "output": "runs_v05_revised/policy_session/policy_session__f00_01",
+      "folds": [
+        0,
+        1
+      ],
+      "execution_target": "cuda",
+      "horizons": [
+        1,
+        2
+      ],
+      "k_values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "policy": "session_sequence",
+      "backend": "cuda"
+    },
+    {
+      "job_id": "policy_session__f02_03",
+      "experiment_id": "policy_session",
+      "output": "runs_v05_revised/policy_session/policy_session__f02_03",
+      "folds": [
+        2,
+        3
+      ],
+      "execution_target": "cuda",
+      "horizons": [
+        1,
+        2
+      ],
+      "k_values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "policy": "session_sequence",
+      "backend": "cuda"
+    },
+    {
+      "job_id": "policy_session__f04_05",
+      "experiment_id": "policy_session",
+      "output": "runs_v05_revised/policy_session/policy_session__f04_05",
+      "folds": [
+        4,
+        5
+      ],
+      "execution_target": "cuda",
+      "horizons": [
+        1,
+        2
+      ],
+      "k_values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "policy": "session_sequence",
+      "backend": "cuda"
+    },
+    {
+      "job_id": "policy_session__f06_07",
+      "experiment_id": "policy_session",
+      "output": "runs_v05_revised/policy_session/policy_session__f06_07",
+      "folds": [
+        6,
+        7
+      ],
+      "execution_target": "cuda",
+      "horizons": [
+        1,
+        2
+      ],
+      "k_values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "policy": "session_sequence",
+      "backend": "cuda"
+    },
+    {
+      "job_id": "policy_session__f08_09",
+      "experiment_id": "policy_session",
+      "output": "runs_v05_revised/policy_session/policy_session__f08_09",
+      "folds": [
+        8,
+        9
+      ],
+      "execution_target": "cuda",
+      "horizons": [
+        1,
+        2
+      ],
+      "k_values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "policy": "session_sequence",
+      "backend": "cuda"
+    }
+  ]
+}

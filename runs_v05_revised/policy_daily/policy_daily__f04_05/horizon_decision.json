@@ -1,0 +1,27 @@
+{
+  "best_gaussian_horizon": 1,
+  "runner_up_horizon": 2,
+  "winner_vs_runner_mean": 0.02291544903961747,
+  "winner_vs_runner_ci20": [
+    0.019200855952057245,
+    0.026615645091112045
+  ],
+  "bootstrap_horizon_advantage_conclusive": true,
+  "winner_practical_convergence_rate": 1.0,
+  "winner_k_upper_boundary_rate": 1.0,
+  "preferred_research_horizon": 1,
+  "lock_configuration_for_v1": false,
+  "decision_vi": "Ưu tiên khung 1 phút, nhưng chưa khóa cấu hình cho v1 vì cổng K/hội tụ chưa đạt.",
+  "best_mean_hmm_family": "student_t_state",
+  "preferred_hmm_family": "gaussian_hmm",
+  "family_gain_vs_gaussian_ci20": [
+    -0.00036631550938899895,
+    0.002983631121279348
+  ],
+  "heavy_tail_replacement_conclusive": false,
+  "family_fold_counts": {
+    "student_t_state": 2,
+    "student_t_shared": 2,
+    "gaussian_hmm": 2
+  }
+}

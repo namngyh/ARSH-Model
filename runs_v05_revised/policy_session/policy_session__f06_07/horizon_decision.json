@@ -1,0 +1,27 @@
+{
+  "best_gaussian_horizon": 1,
+  "runner_up_horizon": 2,
+  "winner_vs_runner_mean": 0.02869447834777733,
+  "winner_vs_runner_ci20": [
+    0.024830979575163864,
+    0.03298102797974436
+  ],
+  "bootstrap_horizon_advantage_conclusive": true,
+  "winner_practical_convergence_rate": 1.0,
+  "winner_k_upper_boundary_rate": 0.5,
+  "preferred_research_horizon": 1,
+  "lock_configuration_for_v1": true,
+  "decision_vi": "Khung 1 phút đủ điều kiện làm cấu hình kế tiếp.",
+  "best_mean_hmm_family": "student_t_state",
+  "preferred_hmm_family": "student_t_state",
+  "family_gain_vs_gaussian_ci20": [
+    0.002331335347603707,
+    0.007475154879248469
+  ],
+  "heavy_tail_replacement_conclusive": true,
+  "family_fold_counts": {
+    "student_t_state": 2,
+    "gaussian_hmm": 2,
+    "student_t_shared": 2
+  }
+}

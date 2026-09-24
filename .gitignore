@@ -1,0 +1,5 @@
+# Môi trường Python cục bộ của máy CUDA worker (PyTorch ~3 GB, tái tạo bằng setup_cuda.ps1)
+.venv-cuda/
+__pycache__/
+*.pyc
+.mplconfig/

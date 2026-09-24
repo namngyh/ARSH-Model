@@ -1,0 +1,316 @@
+[2026-09-18 12:40:49] START screen_selection | h=1m | gmm | K=2
+[2026-09-18 12:40:53] DONE  screen_selection | h=1m | gmm | K=2 | 4.3s
+[2026-09-18 12:40:53] START screen_selection | h=1m | gmm | K=3
+[2026-09-18 12:40:54] DONE  screen_selection | h=1m | gmm | K=3 | 1.3s
+[2026-09-18 12:40:54] START screen_selection | h=1m | gmm | K=4
+[2026-09-18 12:40:56] DONE  screen_selection | h=1m | gmm | K=4 | 2.2s
+[2026-09-18 12:40:56] START screen_selection | h=1m | gmm | K=5
+[2026-09-18 12:40:59] DONE  screen_selection | h=1m | gmm | K=5 | 2.1s
+[2026-09-18 12:40:59] START screen_selection | h=1m | gmm | K=6
+[2026-09-18 12:41:02] DONE  screen_selection | h=1m | gmm | K=6 | 3.0s
+[2026-09-18 12:41:02] START screen_selection | h=1m | gmm | K=7
+[2026-09-18 12:41:05] DONE  screen_selection | h=1m | gmm | K=7 | 3.2s
+[2026-09-18 12:41:05] START screen_selection | h=1m | gaussian_hmm | K=2 | seed=42
+[2026-09-18 12:44:16] DONE  screen_selection | h=1m | gaussian_hmm | K=2 | seed=42 | 191.5s | converged=True
+[2026-09-18 12:44:16] START screen_selection | h=1m | gaussian_hmm | K=2 | seed=43
+[2026-09-18 12:48:13] DONE  screen_selection | h=1m | gaussian_hmm | K=2 | seed=43 | 236.3s | converged=True
+[2026-09-18 12:48:13] START screen_selection | h=1m | gaussian_hmm | K=2 | seed=44
+[2026-09-18 12:51:48] DONE  screen_selection | h=1m | gaussian_hmm | K=2 | seed=44 | 215.2s | converged=True
+[2026-09-18 12:52:16] START screen_selection | h=1m | gaussian_hmm | K=3 | seed=42
+[2026-09-18 12:58:18] DONE  screen_selection | h=1m | gaussian_hmm | K=3 | seed=42 | 362.0s | converged=True
+[2026-09-18 12:58:18] START screen_selection | h=1m | gaussian_hmm | K=3 | seed=43
+[2026-09-18 13:04:55] DONE  screen_selection | h=1m | gaussian_hmm | K=3 | seed=43 | 397.0s | converged=True
+[2026-09-18 13:04:55] START screen_selection | h=1m | gaussian_hmm | K=3 | seed=44
+[2026-09-18 13:11:35] DONE  screen_selection | h=1m | gaussian_hmm | K=3 | seed=44 | 399.6s | converged=True
+[2026-09-18 13:12:00] START screen_selection | h=1m | gaussian_hmm | K=4 | seed=42
+[2026-09-18 13:23:23] DONE  screen_selection | h=1m | gaussian_hmm | K=4 | seed=42 | 683.1s | converged=False
+[2026-09-18 13:23:23] START screen_selection | h=1m | gaussian_hmm | K=4 | seed=43
+[2026-09-18 13:34:40] DONE  screen_selection | h=1m | gaussian_hmm | K=4 | seed=43 | 676.7s | converged=False
+[2026-09-18 13:34:40] START screen_selection | h=1m | gaussian_hmm | K=4 | seed=44
+[2026-09-18 13:45:48] DONE  screen_selection | h=1m | gaussian_hmm | K=4 | seed=44 | 668.4s | converged=False
+[2026-09-18 13:46:17] START screen_selection | h=1m | gaussian_hmm | K=5 | seed=42
+[2026-09-18 13:57:13] DONE  screen_selection | h=1m | gaussian_hmm | K=5 | seed=42 | 656.8s | converged=True
+[2026-09-18 13:57:13] START screen_selection | h=1m | gaussian_hmm | K=5 | seed=43
+[2026-09-18 14:08:16] DONE  screen_selection | h=1m | gaussian_hmm | K=5 | seed=43 | 662.8s | converged=True
+[2026-09-18 14:08:16] START screen_selection | h=1m | gaussian_hmm | K=5 | seed=44
+[2026-09-18 14:19:28] DONE  screen_selection | h=1m | gaussian_hmm | K=5 | seed=44 | 672.2s | converged=True
+[2026-09-18 14:19:56] START screen_selection | h=1m | gaussian_hmm | K=6 | seed=42
+[2026-09-18 14:31:21] DONE  screen_selection | h=1m | gaussian_hmm | K=6 | seed=42 | 684.8s | converged=True
+[2026-09-18 14:31:21] START screen_selection | h=1m | gaussian_hmm | K=6 | seed=43
+[2026-09-18 14:43:22] DONE  screen_selection | h=1m | gaussian_hmm | K=6 | seed=43 | 720.5s | converged=True
+[2026-09-18 14:43:22] START screen_selection | h=1m | gaussian_hmm | K=6 | seed=44
+[2026-09-18 14:54:56] DONE  screen_selection | h=1m | gaussian_hmm | K=6 | seed=44 | 694.3s | converged=True
+[2026-09-18 14:55:20] START screen_selection | h=1m | gaussian_hmm | K=7 | seed=42
+[2026-09-18 15:05:43] DONE  screen_selection | h=1m | gaussian_hmm | K=7 | seed=42 | 623.0s | converged=True
+[2026-09-18 15:05:43] START screen_selection | h=1m | gaussian_hmm | K=7 | seed=43
+[2026-09-18 15:17:23] DONE  screen_selection | h=1m | gaussian_hmm | K=7 | seed=43 | 700.0s | converged=True
+[2026-09-18 15:17:23] START screen_selection | h=1m | gaussian_hmm | K=7 | seed=44
+[2026-09-18 15:28:07] DONE  screen_selection | h=1m | gaussian_hmm | K=7 | seed=44 | 644.6s | converged=True
+[2026-09-18 15:28:33] START screen_selection | h=2m | gmm | K=2
+[2026-09-18 15:28:33] DONE  screen_selection | h=2m | gmm | K=2 | 0.5s
+[2026-09-18 15:28:33] START screen_selection | h=2m | gmm | K=3
+[2026-09-18 15:28:34] DONE  screen_selection | h=2m | gmm | K=3 | 0.5s
+[2026-09-18 15:28:34] START screen_selection | h=2m | gmm | K=4
+[2026-09-18 15:28:35] DONE  screen_selection | h=2m | gmm | K=4 | 1.0s
+[2026-09-18 15:28:35] START screen_selection | h=2m | gmm | K=5
+[2026-09-18 15:28:36] DONE  screen_selection | h=2m | gmm | K=5 | 1.0s
+[2026-09-18 15:28:36] START screen_selection | h=2m | gmm | K=6
+[2026-09-18 15:28:37] DONE  screen_selection | h=2m | gmm | K=6 | 1.0s
+[2026-09-18 15:28:37] START screen_selection | h=2m | gmm | K=7
+[2026-09-18 15:28:38] DONE  screen_selection | h=2m | gmm | K=7 | 1.1s
+[2026-09-18 15:28:38] START screen_selection | h=2m | gaussian_hmm | K=2 | seed=42
+[2026-09-18 15:30:38] DONE  screen_selection | h=2m | gaussian_hmm | K=2 | seed=42 | 119.9s | converged=True
+[2026-09-18 15:30:38] START screen_selection | h=2m | gaussian_hmm | K=2 | seed=43
+[2026-09-18 15:32:38] DONE  screen_selection | h=2m | gaussian_hmm | K=2 | seed=43 | 120.5s | converged=True
+[2026-09-18 15:32:38] START screen_selection | h=2m | gaussian_hmm | K=2 | seed=44
+[2026-09-18 15:34:39] DONE  screen_selection | h=2m | gaussian_hmm | K=2 | seed=44 | 121.0s | converged=True
+[2026-09-18 15:34:51] START screen_selection | h=2m | gaussian_hmm | K=3 | seed=42
+[2026-09-18 15:38:44] DONE  screen_selection | h=2m | gaussian_hmm | K=3 | seed=42 | 233.3s | converged=True
+[2026-09-18 15:38:44] START screen_selection | h=2m | gaussian_hmm | K=3 | seed=43
+[2026-09-18 15:42:23] DONE  screen_selection | h=2m | gaussian_hmm | K=3 | seed=43 | 218.8s | converged=True
+[2026-09-18 15:42:23] START screen_selection | h=2m | gaussian_hmm | K=3 | seed=44
+[2026-09-18 15:45:46] DONE  screen_selection | h=2m | gaussian_hmm | K=3 | seed=44 | 202.8s | converged=True
+[2026-09-18 15:46:00] START screen_selection | h=2m | gaussian_hmm | K=4 | seed=42
+[2026-09-18 15:51:34] DONE  screen_selection | h=2m | gaussian_hmm | K=4 | seed=42 | 333.9s | converged=False
+[2026-09-18 15:51:34] START screen_selection | h=2m | gaussian_hmm | K=4 | seed=43
+[2026-09-18 15:57:08] DONE  screen_selection | h=2m | gaussian_hmm | K=4 | seed=43 | 334.5s | converged=False
+[2026-09-18 15:57:08] START screen_selection | h=2m | gaussian_hmm | K=4 | seed=44
+[2026-09-18 16:02:34] DONE  screen_selection | h=2m | gaussian_hmm | K=4 | seed=44 | 325.0s | converged=False
+[2026-09-18 16:02:45] START screen_selection | h=2m | gaussian_hmm | K=5 | seed=42
+[2026-09-18 16:08:24] DONE  screen_selection | h=2m | gaussian_hmm | K=5 | seed=42 | 338.5s | converged=False
+[2026-09-18 16:08:24] START screen_selection | h=2m | gaussian_hmm | K=5 | seed=43
+[2026-09-18 16:13:30] DONE  screen_selection | h=2m | gaussian_hmm | K=5 | seed=43 | 306.4s | converged=False
+[2026-09-18 16:13:30] START screen_selection | h=2m | gaussian_hmm | K=5 | seed=44
+[2026-09-18 16:18:51] DONE  screen_selection | h=2m | gaussian_hmm | K=5 | seed=44 | 320.6s | converged=False
+[2026-09-18 16:19:03] START screen_selection | h=2m | gaussian_hmm | K=6 | seed=42
+[2026-09-18 16:24:10] DONE  screen_selection | h=2m | gaussian_hmm | K=6 | seed=42 | 306.6s | converged=False
+[2026-09-18 16:24:10] START screen_selection | h=2m | gaussian_hmm | K=6 | seed=43
+[2026-09-18 16:28:50] DONE  screen_selection | h=2m | gaussian_hmm | K=6 | seed=43 | 279.5s | converged=False
+[2026-09-18 16:28:50] START screen_selection | h=2m | gaussian_hmm | K=6 | seed=44
+[2026-09-18 16:33:42] DONE  screen_selection | h=2m | gaussian_hmm | K=6 | seed=44 | 292.5s | converged=False
+[2026-09-18 16:34:00] START screen_selection | h=2m | gaussian_hmm | K=7 | seed=42
+[2026-09-18 16:39:21] DONE  screen_selection | h=2m | gaussian_hmm | K=7 | seed=42 | 321.3s | converged=True
+[2026-09-18 16:39:21] START screen_selection | h=2m | gaussian_hmm | K=7 | seed=43
+[2026-09-18 16:44:57] DONE  screen_selection | h=2m | gaussian_hmm | K=7 | seed=43 | 336.3s | converged=True
+[2026-09-18 16:44:57] START screen_selection | h=2m | gaussian_hmm | K=7 | seed=44
+[2026-09-18 16:50:06] DONE  screen_selection | h=2m | gaussian_hmm | K=7 | seed=44 | 309.0s | converged=True
+[2026-09-18 16:50:18] START confirm_selection | h=1m | student_t_shared | K=2 | seed=62
+[2026-09-18 16:59:59] DONE  confirm_selection | h=1m | student_t_shared | K=2 | seed=62 | 580.7s | converged=True
+[2026-09-18 16:59:59] START confirm_selection | h=1m | student_t_shared | K=2 | seed=63
+[2026-09-18 17:10:04] DONE  confirm_selection | h=1m | student_t_shared | K=2 | seed=63 | 605.1s | converged=True
+[2026-09-18 17:10:04] START confirm_selection | h=1m | student_t_shared | K=2 | seed=64
+[2026-09-18 17:18:07] DONE  confirm_selection | h=1m | student_t_shared | K=2 | seed=64 | 483.4s | converged=True
+[2026-09-18 17:18:34] START confirm_selection | h=1m | student_t_shared | K=3 | seed=62
+[2026-09-18 17:30:29] DONE  confirm_selection | h=1m | student_t_shared | K=3 | seed=62 | 715.3s | converged=True
+[2026-09-18 17:30:29] START confirm_selection | h=1m | student_t_shared | K=3 | seed=63
+[2026-09-18 17:42:22] DONE  confirm_selection | h=1m | student_t_shared | K=3 | seed=63 | 713.3s | converged=True
+[2026-09-18 17:42:22] START confirm_selection | h=1m | student_t_shared | K=3 | seed=64
+[2026-09-18 17:53:58] DONE  confirm_selection | h=1m | student_t_shared | K=3 | seed=64 | 696.4s | converged=True
+[2026-09-18 17:54:24] START confirm_selection | h=1m | student_t_shared | K=4 | seed=62
+[2026-09-18 18:05:36] DONE  confirm_selection | h=1m | student_t_shared | K=4 | seed=62 | 671.8s | converged=True
+[2026-09-18 18:05:36] START confirm_selection | h=1m | student_t_shared | K=4 | seed=63
+[2026-09-18 18:16:13] DONE  confirm_selection | h=1m | student_t_shared | K=4 | seed=63 | 636.9s | converged=True
+[2026-09-18 18:16:13] START confirm_selection | h=1m | student_t_shared | K=4 | seed=64
+[2026-09-18 18:27:28] DONE  confirm_selection | h=1m | student_t_shared | K=4 | seed=64 | 675.3s | converged=True
+[2026-09-18 18:28:00] START confirm_selection | h=1m | student_t_shared | K=5 | seed=62
+[2026-09-18 18:39:06] DONE  confirm_selection | h=1m | student_t_shared | K=5 | seed=62 | 666.1s | converged=True
+[2026-09-18 18:39:06] START confirm_selection | h=1m | student_t_shared | K=5 | seed=63
+[2026-09-18 18:50:01] DONE  confirm_selection | h=1m | student_t_shared | K=5 | seed=63 | 655.0s | converged=True
+[2026-09-18 18:50:01] START confirm_selection | h=1m | student_t_shared | K=5 | seed=64
+[2026-09-18 19:00:40] DONE  confirm_selection | h=1m | student_t_shared | K=5 | seed=64 | 638.8s | converged=True
+[2026-09-18 19:01:09] START confirm_selection | h=1m | student_t_shared | K=6 | seed=62
+[2026-09-18 19:12:37] DONE  confirm_selection | h=1m | student_t_shared | K=6 | seed=62 | 687.8s | converged=True
+[2026-09-18 19:12:37] START confirm_selection | h=1m | student_t_shared | K=6 | seed=63
+[2026-09-18 19:23:29] DONE  confirm_selection | h=1m | student_t_shared | K=6 | seed=63 | 652.1s | converged=True
+[2026-09-18 19:23:29] START confirm_selection | h=1m | student_t_shared | K=6 | seed=64
+[2026-09-18 19:33:43] DONE  confirm_selection | h=1m | student_t_shared | K=6 | seed=64 | 614.3s | converged=True
+[2026-09-18 19:34:30] START confirm_selection | h=1m | student_t_shared | K=7 | seed=62
+[2026-09-18 19:44:56] DONE  confirm_selection | h=1m | student_t_shared | K=7 | seed=62 | 626.8s | converged=False
+[2026-09-18 19:44:56] START confirm_selection | h=1m | student_t_shared | K=7 | seed=63
+[2026-09-18 19:56:09] DONE  confirm_selection | h=1m | student_t_shared | K=7 | seed=63 | 672.6s | converged=True
+[2026-09-18 19:56:09] START confirm_selection | h=1m | student_t_shared | K=7 | seed=64
+[2026-09-18 20:07:25] DONE  confirm_selection | h=1m | student_t_shared | K=7 | seed=64 | 675.8s | converged=False
+[2026-09-18 20:08:03] START confirm_selection | h=1m | student_t_state | K=2 | seed=62
+[2026-09-18 20:17:18] DONE  confirm_selection | h=1m | student_t_state | K=2 | seed=62 | 555.4s | converged=True
+[2026-09-18 20:17:18] START confirm_selection | h=1m | student_t_state | K=2 | seed=63
+[2026-09-18 20:26:07] DONE  confirm_selection | h=1m | student_t_state | K=2 | seed=63 | 529.2s | converged=True
+[2026-09-18 20:26:07] START confirm_selection | h=1m | student_t_state | K=2 | seed=64
+[2026-09-18 20:36:47] DONE  confirm_selection | h=1m | student_t_state | K=2 | seed=64 | 640.0s | converged=True
+[2026-09-18 20:37:16] START confirm_selection | h=1m | student_t_state | K=3 | seed=62
+[2026-09-18 20:47:42] DONE  confirm_selection | h=1m | student_t_state | K=3 | seed=62 | 625.4s | converged=True
+[2026-09-18 20:47:42] START confirm_selection | h=1m | student_t_state | K=3 | seed=63
+[2026-09-18 20:58:45] DONE  confirm_selection | h=1m | student_t_state | K=3 | seed=63 | 663.4s | converged=True
+[2026-09-18 20:58:45] START confirm_selection | h=1m | student_t_state | K=3 | seed=64
+[2026-09-18 21:10:24] DONE  confirm_selection | h=1m | student_t_state | K=3 | seed=64 | 698.6s | converged=True
+[2026-09-18 21:10:58] START confirm_selection | h=1m | student_t_state | K=4 | seed=62
+[2026-09-18 21:22:23] DONE  confirm_selection | h=1m | student_t_state | K=4 | seed=62 | 685.2s | converged=True
+[2026-09-18 21:22:23] START confirm_selection | h=1m | student_t_state | K=4 | seed=63
+[2026-09-18 21:33:21] DONE  confirm_selection | h=1m | student_t_state | K=4 | seed=63 | 658.6s | converged=True
+[2026-09-18 21:33:21] START confirm_selection | h=1m | student_t_state | K=4 | seed=64
+[2026-09-18 21:44:11] DONE  confirm_selection | h=1m | student_t_state | K=4 | seed=64 | 649.1s | converged=True
+[2026-09-18 21:44:46] START confirm_selection | h=1m | student_t_state | K=5 | seed=62
+[2026-09-18 21:56:18] DONE  confirm_selection | h=1m | student_t_state | K=5 | seed=62 | 692.2s | converged=True
+[2026-09-18 21:56:18] START confirm_selection | h=1m | student_t_state | K=5 | seed=63
+[2026-09-18 22:07:17] DONE  confirm_selection | h=1m | student_t_state | K=5 | seed=63 | 659.6s | converged=True
+[2026-09-18 22:07:17] START confirm_selection | h=1m | student_t_state | K=5 | seed=64
+[2026-09-19 03:14:45] CACHE confirm_selection | h=1m | student_t_state | K=2 | seed=62
+[2026-09-19 03:14:45] CACHE confirm_selection | h=1m | student_t_state | K=2 | seed=63
+[2026-09-19 03:14:45] CACHE confirm_selection | h=1m | student_t_state | K=2 | seed=64
+[2026-09-19 03:15:16] CACHE confirm_selection | h=1m | student_t_state | K=3 | seed=62
+[2026-09-19 03:15:16] CACHE confirm_selection | h=1m | student_t_state | K=3 | seed=63
+[2026-09-19 03:15:16] CACHE confirm_selection | h=1m | student_t_state | K=3 | seed=64
+[2026-09-19 03:15:47] CACHE confirm_selection | h=1m | student_t_state | K=4 | seed=62
+[2026-09-19 03:15:47] CACHE confirm_selection | h=1m | student_t_state | K=4 | seed=63
+[2026-09-19 03:15:47] CACHE confirm_selection | h=1m | student_t_state | K=4 | seed=64
+[2026-09-19 03:16:20] CACHE confirm_selection | h=1m | student_t_state | K=5 | seed=62
+[2026-09-19 03:16:20] CACHE confirm_selection | h=1m | student_t_state | K=5 | seed=63
+[2026-09-19 03:16:20] START confirm_selection | h=1m | student_t_state | K=5 | seed=64
+[2026-09-19 03:28:38] DONE  confirm_selection | h=1m | student_t_state | K=5 | seed=64 | 738.1s | converged=True
+[2026-09-19 03:29:07] START confirm_selection | h=1m | student_t_state | K=6 | seed=62
+[2026-09-19 03:42:01] DONE  confirm_selection | h=1m | student_t_state | K=6 | seed=62 | 773.6s | converged=True
+[2026-09-19 03:42:01] START confirm_selection | h=1m | student_t_state | K=6 | seed=63
+[2026-09-19 03:52:07] DONE  confirm_selection | h=1m | student_t_state | K=6 | seed=63 | 605.6s | converged=True
+[2026-09-19 03:52:07] START confirm_selection | h=1m | student_t_state | K=6 | seed=64
+[2026-09-19 04:01:27] DONE  confirm_selection | h=1m | student_t_state | K=6 | seed=64 | 560.6s | converged=True
+[2026-09-19 04:02:00] START confirm_selection | h=1m | student_t_state | K=7 | seed=62
+[2026-09-19 04:11:30] DONE  confirm_selection | h=1m | student_t_state | K=7 | seed=62 | 570.4s | converged=False
+[2026-09-19 04:11:30] START confirm_selection | h=1m | student_t_state | K=7 | seed=63
+[2026-09-19 04:21:03] DONE  confirm_selection | h=1m | student_t_state | K=7 | seed=63 | 572.5s | converged=False
+[2026-09-19 04:21:03] START confirm_selection | h=1m | student_t_state | K=7 | seed=64
+[2026-09-19 04:30:49] DONE  confirm_selection | h=1m | student_t_state | K=7 | seed=64 | 586.0s | converged=True
+[2026-09-19 04:31:22] START confirm_selection | h=2m | student_t_shared | K=2 | seed=62
+[2026-09-19 04:35:09] DONE  confirm_selection | h=2m | student_t_shared | K=2 | seed=62 | 227.5s | converged=True
+[2026-09-19 04:35:09] START confirm_selection | h=2m | student_t_shared | K=2 | seed=63
+[2026-09-19 04:38:20] DONE  confirm_selection | h=2m | student_t_shared | K=2 | seed=63 | 190.5s | converged=True
+[2026-09-19 04:38:20] START confirm_selection | h=2m | student_t_shared | K=2 | seed=64
+[2026-09-19 04:41:49] DONE  confirm_selection | h=2m | student_t_shared | K=2 | seed=64 | 209.1s | converged=True
+[2026-09-19 04:42:06] START confirm_selection | h=2m | student_t_shared | K=3 | seed=62
+[2026-09-19 04:46:32] DONE  confirm_selection | h=2m | student_t_shared | K=3 | seed=62 | 265.7s | converged=True
+[2026-09-19 04:46:32] START confirm_selection | h=2m | student_t_shared | K=3 | seed=63
+[2026-09-19 04:50:57] DONE  confirm_selection | h=2m | student_t_shared | K=3 | seed=63 | 265.6s | converged=True
+[2026-09-19 04:50:57] START confirm_selection | h=2m | student_t_shared | K=3 | seed=64
+[2026-09-19 04:55:34] DONE  confirm_selection | h=2m | student_t_shared | K=3 | seed=64 | 277.0s | converged=True
+[2026-09-19 04:55:49] START confirm_selection | h=2m | student_t_shared | K=4 | seed=62
+[2026-09-19 05:00:14] DONE  confirm_selection | h=2m | student_t_shared | K=4 | seed=62 | 265.0s | converged=False
+[2026-09-19 05:00:14] START confirm_selection | h=2m | student_t_shared | K=4 | seed=63
+[2026-09-19 05:04:34] DONE  confirm_selection | h=2m | student_t_shared | K=4 | seed=63 | 259.6s | converged=False
+[2026-09-19 05:04:34] START confirm_selection | h=2m | student_t_shared | K=4 | seed=64
+[2026-09-19 05:08:50] DONE  confirm_selection | h=2m | student_t_shared | K=4 | seed=64 | 256.3s | converged=False
+[2026-09-19 05:09:05] START confirm_selection | h=2m | student_t_shared | K=5 | seed=62
+[2026-09-19 05:13:34] DONE  confirm_selection | h=2m | student_t_shared | K=5 | seed=62 | 268.4s | converged=False
+[2026-09-19 05:13:34] START confirm_selection | h=2m | student_t_shared | K=5 | seed=63
+[2026-09-19 05:18:03] DONE  confirm_selection | h=2m | student_t_shared | K=5 | seed=63 | 269.8s | converged=False
+[2026-09-19 05:18:03] START confirm_selection | h=2m | student_t_shared | K=5 | seed=64
+[2026-09-19 05:22:33] DONE  confirm_selection | h=2m | student_t_shared | K=5 | seed=64 | 269.4s | converged=True
+[2026-09-19 05:22:50] START confirm_selection | h=2m | student_t_shared | K=6 | seed=62
+[2026-09-19 05:27:20] DONE  confirm_selection | h=2m | student_t_shared | K=6 | seed=62 | 270.6s | converged=True
+[2026-09-19 05:27:20] START confirm_selection | h=2m | student_t_shared | K=6 | seed=63
+[2026-09-19 05:31:51] DONE  confirm_selection | h=2m | student_t_shared | K=6 | seed=63 | 270.9s | converged=False
+[2026-09-19 05:31:51] START confirm_selection | h=2m | student_t_shared | K=6 | seed=64
+[2026-09-19 05:36:21] DONE  confirm_selection | h=2m | student_t_shared | K=6 | seed=64 | 269.5s | converged=True
+[2026-09-19 05:36:37] START confirm_selection | h=2m | student_t_shared | K=7 | seed=62
+[2026-09-19 05:41:14] DONE  confirm_selection | h=2m | student_t_shared | K=7 | seed=62 | 276.2s | converged=False
+[2026-09-19 05:41:14] START confirm_selection | h=2m | student_t_shared | K=7 | seed=63
+[2026-09-19 05:45:30] DONE  confirm_selection | h=2m | student_t_shared | K=7 | seed=63 | 256.9s | converged=False
+[2026-09-19 05:45:30] START confirm_selection | h=2m | student_t_shared | K=7 | seed=64
+[2026-09-19 05:50:03] DONE  confirm_selection | h=2m | student_t_shared | K=7 | seed=64 | 272.9s | converged=False
+[2026-09-19 05:50:19] START confirm_selection | h=2m | student_t_state | K=2 | seed=62
+[2026-09-19 05:54:38] DONE  confirm_selection | h=2m | student_t_state | K=2 | seed=62 | 258.2s | converged=True
+[2026-09-19 05:54:38] START confirm_selection | h=2m | student_t_state | K=2 | seed=63
+[2026-09-19 05:58:42] DONE  confirm_selection | h=2m | student_t_state | K=2 | seed=63 | 244.3s | converged=True
+[2026-09-19 05:58:42] START confirm_selection | h=2m | student_t_state | K=2 | seed=64
+[2026-09-19 06:03:02] DONE  confirm_selection | h=2m | student_t_state | K=2 | seed=64 | 259.7s | converged=True
+[2026-09-19 06:03:17] START confirm_selection | h=2m | student_t_state | K=3 | seed=62
+[2026-09-19 06:07:53] DONE  confirm_selection | h=2m | student_t_state | K=3 | seed=62 | 276.0s | converged=True
+[2026-09-19 06:07:53] START confirm_selection | h=2m | student_t_state | K=3 | seed=63
+[2026-09-19 06:12:27] DONE  confirm_selection | h=2m | student_t_state | K=3 | seed=63 | 273.2s | converged=True
+[2026-09-19 06:12:27] START confirm_selection | h=2m | student_t_state | K=3 | seed=64
+[2026-09-19 06:16:54] DONE  confirm_selection | h=2m | student_t_state | K=3 | seed=64 | 267.3s | converged=True
+[2026-09-19 06:17:12] START confirm_selection | h=2m | student_t_state | K=4 | seed=62
+[2026-09-19 06:21:39] DONE  confirm_selection | h=2m | student_t_state | K=4 | seed=62 | 267.9s | converged=True
+[2026-09-19 06:21:39] START confirm_selection | h=2m | student_t_state | K=4 | seed=63
+[2026-09-19 06:26:09] DONE  confirm_selection | h=2m | student_t_state | K=4 | seed=63 | 269.1s | converged=True
+[2026-09-19 06:26:09] START confirm_selection | h=2m | student_t_state | K=4 | seed=64
+[2026-09-19 06:30:35] DONE  confirm_selection | h=2m | student_t_state | K=4 | seed=64 | 266.7s | converged=True
+[2026-09-19 06:30:52] START confirm_selection | h=2m | student_t_state | K=5 | seed=62
+[2026-09-19 06:35:21] DONE  confirm_selection | h=2m | student_t_state | K=5 | seed=62 | 268.9s | converged=True
+[2026-09-19 06:35:21] START confirm_selection | h=2m | student_t_state | K=5 | seed=63
+[2026-09-19 06:39:55] DONE  confirm_selection | h=2m | student_t_state | K=5 | seed=63 | 274.4s | converged=True
+[2026-09-19 06:39:55] START confirm_selection | h=2m | student_t_state | K=5 | seed=64
+[2026-09-19 06:44:23] DONE  confirm_selection | h=2m | student_t_state | K=5 | seed=64 | 267.8s | converged=True
+[2026-09-19 06:44:40] START confirm_selection | h=2m | student_t_state | K=6 | seed=62
+[2026-09-19 06:49:17] DONE  confirm_selection | h=2m | student_t_state | K=6 | seed=62 | 277.2s | converged=True
+[2026-09-19 06:49:17] START confirm_selection | h=2m | student_t_state | K=6 | seed=63
+[2026-09-19 06:53:41] DONE  confirm_selection | h=2m | student_t_state | K=6 | seed=63 | 263.2s | converged=True
+[2026-09-19 06:53:41] START confirm_selection | h=2m | student_t_state | K=6 | seed=64
+[2026-09-19 06:58:16] DONE  confirm_selection | h=2m | student_t_state | K=6 | seed=64 | 275.8s | converged=True
+[2026-09-19 06:58:32] START confirm_selection | h=2m | student_t_state | K=7 | seed=62
+[2026-09-19 07:03:00] DONE  confirm_selection | h=2m | student_t_state | K=7 | seed=62 | 267.9s | converged=True
+[2026-09-19 07:03:00] START confirm_selection | h=2m | student_t_state | K=7 | seed=63
+[2026-09-19 07:07:39] DONE  confirm_selection | h=2m | student_t_state | K=7 | seed=63 | 278.8s | converged=True
+[2026-09-19 07:07:39] START confirm_selection | h=2m | student_t_state | K=7 | seed=64
+[2026-09-19 07:12:13] DONE  confirm_selection | h=2m | student_t_state | K=7 | seed=64 | 273.9s | converged=True
+[2026-09-19 07:12:41] START refit | h=1m | gaussian_hmm | K=4 | seed=142
+[2026-09-19 07:34:06] DONE  refit | h=1m | gaussian_hmm | K=4 | seed=142 | 1284.7s | converged=True
+[2026-09-19 07:34:06] START refit | h=1m | gaussian_hmm | K=4 | seed=143
+[2026-09-19 07:55:28] DONE  refit | h=1m | gaussian_hmm | K=4 | seed=143 | 1282.2s | converged=True
+[2026-09-19 07:55:28] START refit | h=1m | gaussian_hmm | K=4 | seed=144
+[2026-09-19 08:16:40] DONE  refit | h=1m | gaussian_hmm | K=4 | seed=144 | 1272.7s | converged=True
+[2026-09-19 08:16:40] START refit | h=1m | gaussian_hmm | K=4 | seed=145
+[2026-09-19 08:38:02] DONE  refit | h=1m | gaussian_hmm | K=4 | seed=145 | 1282.0s | converged=True
+[2026-09-19 08:38:02] START refit | h=1m | gaussian_hmm | K=4 | seed=146
+[2026-09-19 08:59:34] DONE  refit | h=1m | gaussian_hmm | K=4 | seed=146 | 1291.9s | converged=True
+[2026-09-19 09:00:07] START refit | h=1m | student_t_shared | K=7 | seed=142
+[2026-09-19 09:29:45] DONE  refit | h=1m | student_t_shared | K=7 | seed=142 | 1778.2s | converged=True
+[2026-09-19 09:29:45] START refit | h=1m | student_t_shared | K=7 | seed=143
+[2026-09-19 09:59:23] DONE  refit | h=1m | student_t_shared | K=7 | seed=143 | 1778.1s | converged=True
+[2026-09-19 09:59:23] START refit | h=1m | student_t_shared | K=7 | seed=144
+[2026-09-19 10:29:01] DONE  refit | h=1m | student_t_shared | K=7 | seed=144 | 1777.6s | converged=True
+[2026-09-19 10:29:01] START refit | h=1m | student_t_shared | K=7 | seed=145
+[2026-09-19 10:58:58] DONE  refit | h=1m | student_t_shared | K=7 | seed=145 | 1797.2s | converged=True
+[2026-09-19 10:58:58] START refit | h=1m | student_t_shared | K=7 | seed=146
+[2026-09-19 11:28:33] DONE  refit | h=1m | student_t_shared | K=7 | seed=146 | 1774.3s | converged=True
+[2026-09-19 11:29:11] START refit | h=1m | student_t_state | K=7 | seed=142
+[2026-09-19 11:58:57] DONE  refit | h=1m | student_t_state | K=7 | seed=142 | 1785.9s | converged=True
+[2026-09-19 11:58:57] START refit | h=1m | student_t_state | K=7 | seed=143
+[2026-09-19 12:29:12] DONE  refit | h=1m | student_t_state | K=7 | seed=143 | 1815.0s | converged=True
+[2026-09-19 12:29:12] START refit | h=1m | student_t_state | K=7 | seed=144
+[2026-09-19 12:59:12] DONE  refit | h=1m | student_t_state | K=7 | seed=144 | 1800.0s | converged=True
+[2026-09-19 12:59:12] START refit | h=1m | student_t_state | K=7 | seed=145
+[2026-09-19 13:29:07] DONE  refit | h=1m | student_t_state | K=7 | seed=145 | 1795.7s | converged=True
+[2026-09-19 13:29:07] START refit | h=1m | student_t_state | K=7 | seed=146
+[2026-09-19 13:59:13] DONE  refit | h=1m | student_t_state | K=7 | seed=146 | 1806.1s | converged=True
+[2026-09-19 13:59:58] START refit | h=2m | gaussian_hmm | K=4 | seed=142
+[2026-09-19 14:11:24] DONE  refit | h=2m | gaussian_hmm | K=4 | seed=142 | 685.8s | converged=True
+[2026-09-19 14:11:24] START refit | h=2m | gaussian_hmm | K=4 | seed=143
+[2026-09-19 14:23:13] DONE  refit | h=2m | gaussian_hmm | K=4 | seed=143 | 709.0s | converged=True
+[2026-09-19 14:23:13] START refit | h=2m | gaussian_hmm | K=4 | seed=144
+[2026-09-19 14:34:52] DONE  refit | h=2m | gaussian_hmm | K=4 | seed=144 | 698.8s | converged=True
+[2026-09-19 14:34:52] START refit | h=2m | gaussian_hmm | K=4 | seed=145
+[2026-09-19 14:45:21] DONE  refit | h=2m | gaussian_hmm | K=4 | seed=145 | 629.4s | converged=True
+[2026-09-19 14:45:21] START refit | h=2m | gaussian_hmm | K=4 | seed=146
+[2026-09-19 14:56:32] DONE  refit | h=2m | gaussian_hmm | K=4 | seed=146 | 670.4s | converged=True
+[2026-09-19 14:56:48] START refit | h=2m | student_t_shared | K=6 | seed=142
+[2026-09-19 15:09:07] DONE  refit | h=2m | student_t_shared | K=6 | seed=142 | 739.4s | converged=True
+[2026-09-19 15:09:07] START refit | h=2m | student_t_shared | K=6 | seed=143
+[2026-09-19 15:22:54] DONE  refit | h=2m | student_t_shared | K=6 | seed=143 | 826.9s | converged=True
+[2026-09-19 15:22:54] START refit | h=2m | student_t_shared | K=6 | seed=144
+[2026-09-19 15:33:56] DONE  refit | h=2m | student_t_shared | K=6 | seed=144 | 662.4s | converged=True
+[2026-09-19 15:33:56] START refit | h=2m | student_t_shared | K=6 | seed=145
+[2026-09-19 19:09:17] CACHE refit | h=2m | student_t_shared | K=6 | seed=142
+[2026-09-19 19:09:17] CACHE refit | h=2m | student_t_shared | K=6 | seed=143
+[2026-09-19 19:09:17] CACHE refit | h=2m | student_t_shared | K=6 | seed=144
+[2026-09-19 19:09:17] START refit | h=2m | student_t_shared | K=6 | seed=145
+[2026-09-19 19:24:33] DONE  refit | h=2m | student_t_shared | K=6 | seed=145 | 915.8s | converged=True
+[2026-09-19 19:24:33] START refit | h=2m | student_t_shared | K=6 | seed=146
+[2026-09-19 19:38:39] DONE  refit | h=2m | student_t_shared | K=6 | seed=146 | 845.7s | converged=True
+[2026-09-19 19:38:54] START refit | h=2m | student_t_state | K=7 | seed=142
+[2026-09-19 19:53:40] DONE  refit | h=2m | student_t_state | K=7 | seed=142 | 885.7s | converged=True
+[2026-09-19 19:53:40] START refit | h=2m | student_t_state | K=7 | seed=143
+[2026-09-19 20:08:03] DONE  refit | h=2m | student_t_state | K=7 | seed=143 | 863.5s | converged=False
+[2026-09-19 20:08:03] START refit | h=2m | student_t_state | K=7 | seed=144
+[2026-09-19 20:22:07] DONE  refit | h=2m | student_t_state | K=7 | seed=144 | 844.2s | converged=True
+[2026-09-19 20:22:07] START refit | h=2m | student_t_state | K=7 | seed=145
+[2026-09-19 20:36:33] DONE  refit | h=2m | student_t_state | K=7 | seed=145 | 865.2s | converged=True
+[2026-09-19 20:36:33] START refit | h=2m | student_t_state | K=7 | seed=146
+[2026-09-19 20:51:01] DONE  refit | h=2m | student_t_state | K=7 | seed=146 | 868.2s | converged=False

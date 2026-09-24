@@ -1,0 +1,9 @@
+{
+  "source": "C:\\Users\\Admin\\Downloads\\ARSH_v0.5_CUDA_worker\\data\\ohlc_export.csv",
+  "source_sha256": "bf84b23d6fa48b9fd90c477ef6788cc0aca19e86a0480d91600fa77363e71096",
+  "rows": 525635,
+  "first": "2017-11-06 08:59:00",
+  "last": "2026-07-17 14:45:00",
+  "days": 2171,
+  "missing_cells": 0
+}

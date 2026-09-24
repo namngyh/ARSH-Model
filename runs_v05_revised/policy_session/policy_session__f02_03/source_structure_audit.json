@@ -1,0 +1,16 @@
+{
+  "single_continuous_symbol_only": true,
+  "contract_identifier_available": false,
+  "duplicate_timestamps": 0,
+  "modal_rows_per_day_before_2025_05_05": 243,
+  "modal_rows_per_day_from_2025_05_05": 241,
+  "modal_pattern_before_2025_05_05": "111",
+  "modal_pattern_from_2025_05_05": "001",
+  "pattern_definition": "has_1130,has_1430,has_1445",
+  "expiry_transition_count": 102,
+  "expiry_abs_gap_median": 0.006359524226243874,
+  "ordinary_abs_gap_median": 0.0021377095005529253,
+  "expiry_abs_gap_p95": 0.01655512515132193,
+  "ordinary_abs_gap_p95": 0.010594588388404725,
+  "inference": "Timestamp structure changes at 2025-05-05; expiry-adjacent gaps are larger. Provider convention cannot be proven without contract-level/tick data."
+}
