@@ -1,0 +1,19 @@
+{
+  "plan": "V06_TRAINING_PLAN.md",
+  "locked_on": "2026-09-25",
+  "k": 7,
+  "horizon_min": 1,
+  "policy": "daily_sequence",
+  "data_before": "2026-08-01",
+  "selection_train_start": "2023-02-01",
+  "selection_validation_start": "2026-02-01",
+  "final_train_start": "2023-08-01",
+  "families_simplest_first": ["gaussian_hmm", "student_t_shared", "student_t_state"],
+  "selection_seeds": [62, 63, 64],
+  "selection_iterations": 100,
+  "tie_margin": 0.002,
+  "min_soft_share": 0.01,
+  "final_seeds": [142, 143, 144, 145, 146],
+  "final_iterations": 300,
+  "model_version": "ARSH-v0.6-k7-h1-daily-cut20260801"
+}

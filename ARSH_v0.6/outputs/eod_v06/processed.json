@@ -1,0 +1,187 @@
+{
+  "2026-08-03": {
+    "report": "report_2026-08-03_3cab38432234_9071bb38709a.json",
+    "source_sha256": "946421c0c520f98d88e63dbcb72d9a129adadc12dcd465a11ca6210f99b1273a",
+    "source_version": 1
+  },
+  "2026-08-04": {
+    "report": "report_2026-08-04_bc7ae3de3f7f_9071bb38709a.json",
+    "source_sha256": "3762395ebe5769cf91132f53f6fc2b4806d2b55840d1f8288d7aee094d2e8677",
+    "source_version": 1
+  },
+  "2026-08-05": {
+    "report": "report_2026-08-05_01431265179f_9071bb38709a.json",
+    "source_sha256": "7abfa85df84b8f2c7017186666a44b71b456684bfb92a3d51c887347f66a98d0",
+    "source_version": 1
+  },
+  "2026-08-06": {
+    "report": "report_2026-08-06_6659c458c8d0_9071bb38709a.json",
+    "source_sha256": "5b013098ede543682a7260b65904570d94d482873a14a7b68e33271c730c38a9",
+    "source_version": 1
+  },
+  "2026-08-07": {
+    "report": "report_2026-08-07_cc3c73090553_9071bb38709a.json",
+    "source_sha256": "c2c4d67f40d86e0a010bb0fd646a0ba85f0be15e87b87ef69a53d923906d2c1a",
+    "source_version": 1
+  },
+  "2026-08-10": {
+    "report": "report_2026-08-10_2ddc15aa012a_9071bb38709a.json",
+    "source_sha256": "d76c13161036ff3a36de03174f360c7311c8cee9dabaf59cd357c52f3bd16524",
+    "source_version": 1
+  },
+  "2026-08-11": {
+    "report": "report_2026-08-11_22b068f16199_9071bb38709a.json",
+    "source_sha256": "75c2d9156e1c8d2c7bc6f3d971af8e14e477310c1586cdd7af1bd6244694bf77",
+    "source_version": 1
+  },
+  "2026-08-12": {
+    "report": "report_2026-08-12_3e1ce082035e_9071bb38709a.json",
+    "source_sha256": "f6bbc9f6418cde194e09d1e688a03953e70438a7bd0e3a2d50320dccf9b3b850",
+    "source_version": 1
+  },
+  "2026-08-13": {
+    "report": "report_2026-08-13_42087fc789c5_9071bb38709a.json",
+    "source_sha256": "913b08e5131817b1eace3b3fa5d0d1102337417f0c957f81aacd593595f1ef32",
+    "source_version": 1
+  },
+  "2026-08-14": {
+    "report": "report_2026-08-14_6aa88380f1ec_9071bb38709a.json",
+    "source_sha256": "5ce58847fc0316e8fe605f8e43c3108371f42eb9625e406d7fa018ea6e136e14",
+    "source_version": 1
+  },
+  "2026-08-17": {
+    "report": "report_2026-08-17_b6939e95da51_9071bb38709a.json",
+    "source_sha256": "16299d5993ef410a48bf693626552a333914abc72c5b80de1967e80b2174a953",
+    "source_version": 1
+  },
+  "2026-08-18": {
+    "report": "report_2026-08-18_9a70a0bfa153_9071bb38709a.json",
+    "source_sha256": "d61b0f719baa1c5fa7d85fffbc5af5e9be2d9e9d6b20058f8f18e2a19182cbf2",
+    "source_version": 1
+  },
+  "2026-08-19": {
+    "report": "report_2026-08-19_7e42c808d432_9071bb38709a.json",
+    "source_sha256": "30ff043c811931736c1652a03f2af58d32e673163dca2d3c83d3ab8a3e8b54be",
+    "source_version": 1
+  },
+  "2026-08-20": {
+    "report": "report_2026-08-20_ad951f454e7c_9071bb38709a.json",
+    "source_sha256": "fa3b4838aec37fb4d087dbd5722a51f5254c10af3ba6d2de7015b4d9b37207d4",
+    "source_version": 1
+  },
+  "2026-08-21": {
+    "report": "report_2026-08-21_7eb56c4b52f1_9071bb38709a.json",
+    "source_sha256": "1c3dd32af7afd70e645853c08ffdddbaeeb23160fc50e650acd524e50bbee71d",
+    "source_version": 1
+  },
+  "2026-08-24": {
+    "report": "report_2026-08-24_790d2c81e96d_9071bb38709a.json",
+    "source_sha256": "3dca74865bb3de97468c474753cc40bda0f03c24724322ce8cc22fb746cf129c",
+    "source_version": 1
+  },
+  "2026-08-25": {
+    "report": "report_2026-08-25_4f1a903b447e_9071bb38709a.json",
+    "source_sha256": "41884e3c3c1b8ff6ce3398a62ce830dbf33765a6c6d702f081750823f568a1f4",
+    "source_version": 1
+  },
+  "2026-08-26": {
+    "report": "report_2026-08-26_eafb2e026f74_9071bb38709a.json",
+    "source_sha256": "fd62917f1c535946a2a342e26bfb54511c03dc59d9e535617237e70268255803",
+    "source_version": 1
+  },
+  "2026-08-27": {
+    "report": "report_2026-08-27_7b969715bb75_9071bb38709a.json",
+    "source_sha256": "453556ffc266f74f0ed1c0d5d1fb12f267550a0a98701700acd37a7752379fad",
+    "source_version": 1
+  },
+  "2026-08-28": {
+    "report": "report_2026-08-28_1ccae0776d1f_9071bb38709a.json",
+    "source_sha256": "cd8a66c6db43b1cda61fdacf37202582a60b560a605843946d12dccd86f60e8f",
+    "source_version": 1
+  },
+  "2026-09-03": {
+    "report": "report_2026-09-03_38ff14a8ba11_9071bb38709a.json",
+    "source_sha256": "832979def6e6daf697ad279279eb5c0ae17e2f37e4954e4349937cb89f44e24d",
+    "source_version": 1
+  },
+  "2026-09-04": {
+    "report": "report_2026-09-04_136fa3be159e_9071bb38709a.json",
+    "source_sha256": "39c74faf8a2658839ad5e3b2337ecda8625295be26bfbc9629bf2fa06ff0edbe",
+    "source_version": 1
+  },
+  "2026-09-07": {
+    "report": "report_2026-09-07_a9825629a511_9071bb38709a.json",
+    "source_sha256": "dee1dc3fda1e80ff3fc375043dc2e66d0b588595cfdd2330d53493940e8a5b88",
+    "source_version": 1
+  },
+  "2026-09-08": {
+    "report": "report_2026-09-08_6fa017c93a33_9071bb38709a.json",
+    "source_sha256": "e647216b714d48ab20056a140ecff1aff4e0297b7b57711b698602347e67440c",
+    "source_version": 1
+  },
+  "2026-09-09": {
+    "report": "report_2026-09-09_b86f12607355_9071bb38709a.json",
+    "source_sha256": "ca604d4e6c08197bf027192194ea7aa8795bc4b69ffaefb3a1e469067364ba6a",
+    "source_version": 1
+  },
+  "2026-09-10": {
+    "report": "report_2026-09-10_4f03dba730b6_9071bb38709a.json",
+    "source_sha256": "b8d8a794117c20b7ef62445ca87ea12b9943fb0f64a5648e28ae1237ccda57ce",
+    "source_version": 1
+  },
+  "2026-09-11": {
+    "report": "report_2026-09-11_998fb103d400_9071bb38709a.json",
+    "source_sha256": "ace146104a985db022d5d1361ce8a65394795e4f3af50773577ef30e16c15cd6",
+    "source_version": 1
+  },
+  "2026-09-14": {
+    "report": "report_2026-09-14_4822059243c2_9071bb38709a.json",
+    "source_sha256": "8fb2d67c1f23f5b4390fdf01d86c9f3c2914021d6a260f72dc83eb7e706504d4",
+    "source_version": 1
+  },
+  "2026-09-15": {
+    "report": "report_2026-09-15_bbfe68fb0961_9071bb38709a.json",
+    "source_sha256": "9b3d1aa7a96574c4cc633ca4ee729a5bb702c069328cc95da31fc1bcadf33789",
+    "source_version": 1
+  },
+  "2026-09-16": {
+    "report": "report_2026-09-16_3eb7b958ae14_9071bb38709a.json",
+    "source_sha256": "f3b3dea46a9ab5a9dcc59cab453aad5535e6d7a5eabd270dcecbd2668e93a06d",
+    "source_version": 1
+  },
+  "2026-09-17": {
+    "report": "report_2026-09-17_ad934dfddd89_9071bb38709a.json",
+    "source_sha256": "a9035407f497a6285fc92f16ea0ff66b98e427afe3443201830ff83a817ea6b3",
+    "source_version": 1
+  },
+  "2026-09-18": {
+    "report": "report_2026-09-18_ca25612515d0_9071bb38709a.json",
+    "source_sha256": "1594123fb2e175525ed919710909801c2341d583ecfd7bce4bd40b2f93774919",
+    "source_version": 1
+  },
+  "2026-09-21": {
+    "report": "report_2026-09-21_f0119e246257_9071bb38709a.json",
+    "source_sha256": "1e330c1512cc6c7c7b0e75ed2bd86e004c24dcddab4238fb368eace4ba9f779d",
+    "source_version": 1
+  },
+  "2026-09-22": {
+    "report": "report_2026-09-22_6d7d52b51da2_9071bb38709a.json",
+    "source_sha256": "8eecc129d8c10224bfea2f73001e53ed79e62dd15a589e67ca169efa90ec1b1f",
+    "source_version": 1
+  },
+  "2026-09-23": {
+    "report": "report_2026-09-23_2595358f8443_9071bb38709a.json",
+    "source_sha256": "d0a9a7bc3a309d241d726d3c24922ad3df2f78c6e58301cfb475d3b4b921ab02",
+    "source_version": 1
+  },
+  "2026-09-24": {
+    "report": "report_2026-09-24_87c635ded9ce_9071bb38709a.json",
+    "source_sha256": "5e04dae08e39e536d673b20554a36a6a958d257f0ca9d2e2f44a31ecd1e5340b",
+    "source_version": 1
+  },
+  "2026-09-25": {
+    "report": "report_2026-09-25_2c6483b9694b_9071bb38709a.json",
+    "source_sha256": "d2f3d470fe8567e129acdd21021455ec95848f675b11cc0693bf9a5d8cda42d6",
+    "source_version": 1
+  }
+}

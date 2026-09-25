@@ -1,0 +1,40 @@
+{
+  "status": "replay; source_day_complete",
+  "date": "2026-09-25",
+  "symbol": "VN30F1M",
+  "source_csv": "C:\\Users\\Admin\\Downloads\\ARSH v0.6\\data\\days\\VN30F1M_2026-09-25_v1.csv",
+  "source_sha256": "d2f3d470fe8567e129acdd21021455ec95848f675b11cc0693bf9a5d8cda42d6",
+  "source_day_sha256": "2c6483b9694b6adf8c2b0783f1958c37f0c8527918be148fc012b2f80b48bc68",
+  "source_timestamp_convention": "bar start, Asia/Ho_Chi_Minh; verified equal to v0.5 CSV on 2026-01-02..2026-09-04",
+  "source_day_version": 1,
+  "source_available_at": "2026-09-25T14:46:33.293897",
+  "data_warnings": [
+    "missing_continuous_minutes:13:35,13:37"
+  ],
+  "model_artifact": "C:\\Users\\Admin\\Downloads\\ARSH v0.6\\models\\v06_k7_cut20260801\\runtime_research_candidate.joblib",
+  "model_sha256": "9071bb38709abb3ba91012b1d4a7e18d3285e0e1de7bf2c37e8a186091cf46e1",
+  "model_version": "ARSH-v0.6-k7-h1-daily-cut20260801",
+  "model_fit_cutoff_exclusive": "2026-08-01",
+  "policy": "daily_sequence",
+  "horizon_min": 1,
+  "family": "student_t_shared",
+  "k": 7,
+  "observations": 234,
+  "rejected_windows": 6,
+  "first_observation": "2026-09-25 09:01:00",
+  "last_observation": "2026-09-25 14:29:00",
+  "final_posterior": [
+    0.23273724267056853,
+    0.022865487727918243,
+    0.040555803805980034,
+    0.30322408646285104,
+    0.005801158222783151,
+    0.3947900856855009,
+    2.6135424398155494e-05
+  ],
+  "final_internal_state": 5,
+  "final_state_id": "v06::S1",
+  "final_confidence": 0.3947900856855009,
+  "detail_csv": "C:\\Users\\Admin\\Downloads\\ARSH v0.6\\outputs\\eod_v06\\states_2026-09-25_2c6483b9694b_9071bb38709a.csv",
+  "note": "Descriptive state output only; no orders or parameter learning."
+}

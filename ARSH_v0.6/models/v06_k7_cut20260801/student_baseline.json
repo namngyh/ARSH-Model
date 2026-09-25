@@ -1,0 +1,8 @@
+{
+  "note": "iid Student-t fitted on the final window, in scaler space; holdout baseline (plan 5.1)",
+  "parameters": {
+    "df": 2.6329028579184306,
+    "loc": 0.0007725780506716469,
+    "scale": 0.5557714585571157
+  }
+}

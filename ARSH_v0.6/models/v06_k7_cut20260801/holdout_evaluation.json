@@ -1,0 +1,63 @@
+{
+  "plan": "V06_TRAINING_PLAN.md section 5",
+  "model_version": "ARSH-v0.6-k7-h1-daily-cut20260801",
+  "model_sha256": "9071bb38709abb3ba91012b1d4a7e18d3285e0e1de7bf2c37e8a186091cf46e1",
+  "locked_at": "2026-09-26T02:02:44",
+  "holdout_first_day": "2026-08-03",
+  "holdout_last_day": "2026-09-25",
+  "holdout_days": 37,
+  "observations": 8796,
+  "rejected_windows": 84,
+  "days_with_warnings": {
+    "2026-08-18": [
+      "missing_continuous_minutes:09:01,09:04,09:06"
+    ],
+    "2026-09-25": [
+      "missing_continuous_minutes:13:35,13:37"
+    ]
+  },
+  "criterion_1_gain_vs_student": 0.03241025914595852,
+  "criterion_1_pass": true,
+  "criterion_2_min_soft_share": 0.011973889763699189,
+  "criterion_2_pass": true,
+  "result": "PASS",
+  "descriptive": {
+    "gain_vs_student_by_month": {
+      "2026-08": 0.029616092795732605,
+      "2026-09": 0.03569661907395611
+    },
+    "student_baseline_mean_log_density": 6.116190802032194,
+    "new_model": {
+      "mean_log_density": 6.1486010611781525,
+      "soft_share_by_state": {
+        "v06::S0": 0.092575040778185,
+        "v06::S3": 0.07605268331299966,
+        "v06::S4": 0.07549281792262919,
+        "v06::S2": 0.23235100436765282,
+        "v06::S5": 0.27886686079649575,
+        "v06::S1": 0.2326877030583393,
+        "v06::S6": 0.011973889763699189
+      },
+      "min_soft_share": 0.011973889763699189,
+      "mean_confidence": 0.6150922725821688,
+      "mean_run_observations": 2.265258820499614,
+      "one_observation_run_share": 0.588977594643317
+    },
+    "v05_artifact_same_observations": {
+      "mean_log_density": 6.139291447751005,
+      "soft_share_by_state": {
+        "h1__student_t_state::R002": 0.26852253241367746,
+        "h1__student_t_state::R001": 0.10375907830098115,
+        "h1__student_t_state::R003": 0.29116906562345063,
+        "h1__student_t_state::R004": 0.15470303255238965,
+        "h1__student_t_state::R007": 0.006984921663461184,
+        "h1__student_t_state::R005": 0.16763043004264508,
+        "h1__student_t_state::R006": 0.007230939403392978
+      },
+      "min_soft_share": 0.006984921663461184,
+      "mean_confidence": 0.59329271784939,
+      "mean_run_observations": 1.7730296311227576,
+      "one_observation_run_share": 0.5748840959483975
+    }
+  }
+}

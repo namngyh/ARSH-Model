@@ -1,0 +1,71 @@
+{
+  "source": "v0.5 revised policy shards; historical research benchmark",
+  "data_sha256": "bf84b23d6fa48b9fd90c477ef6788cc0aca19e86a0480d91600fa77363e71096",
+  "code_sha256": "b5e19665d071b0e8097f35db56ee54008ed193b4c0e8dc80219be64d00c60efc",
+  "coverage": {
+    "policy_daily": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "policy_session": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "policy_summary": {
+    "daily_sequence": {
+      "folds": 10,
+      "mean_validation_gain_1m_2m": 0.15629457864582424,
+      "champion_horizons": {
+        "1": 10
+      },
+      "champion_families": {
+        "student_t_shared": 4,
+        "gaussian_hmm": 3,
+        "student_t_state": 3
+      },
+      "champion_k": {
+        "7": 8,
+        "6": 2
+      }
+    },
+    "session_sequence": {
+      "folds": 10,
+      "mean_validation_gain_1m_2m": 0.15202309750098295,
+      "champion_horizons": {
+        "1": 10
+      },
+      "champion_families": {
+        "student_t_shared": 4,
+        "gaussian_hmm": 3,
+        "student_t_state": 3
+      },
+      "champion_k": {
+        "7": 8,
+        "6": 2
+      }
+    }
+  },
+  "daily_minus_session_mean_validation_gain": 0.0042714811448413045,
+  "daily_better_pairs": 20,
+  "paired_fold_horizon_count": 20,
+  "continuous_carry_status": "missing completed fold results",
+  "selection_status": "K=7 fixed for v0.6 by project decision; policy, horizon, HMM family and model parameters remain under evaluation",
+  "state_profile_note": "Test profiles are descriptive hard-label summaries; state IDs are not aligned across shards."
+}

@@ -1,0 +1,4 @@
+﻿family,validation_log_density,validation_gain_vs_student,validation_min_soft_share,eligible,converged,best_minus_family,within_tie_margin,chosen
+gaussian_hmm,6.162192807004602,0.08794956490874117,0.034339765085872054,True,False,0.006193137282655137,False,False
+student_t_shared,6.168385944287257,0.09414270219139631,0.05229581215981034,True,False,0.0,True,True
+student_t_state,6.167969572298811,0.09372633020295051,0.045891734484327866,True,False,0.00041637198844579615,True,False

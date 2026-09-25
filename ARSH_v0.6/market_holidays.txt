@@ -1,0 +1,19 @@
+# Ngày nghỉ của thị trường phái sinh VN rơi vào ngày thường (YYYY-MM-DD, mỗi dòng một ngày).
+# Không bắt buộc: v06_daily.py tự nhận ra ngày không có dữ liệu mã Việt Nam nào, nhưng khi đó
+# nó phải chờ đến giờ hạn (18:00) và ghi "chưa xác định". Ngày có trong danh sách này được
+# báo "không có phiên" ngay lúc 15:15. Thêm ngày khi sở giao dịch công bố lịch nghỉ.
+# Các ngày 2026 dưới đây lấy từ dữ liệu: ngày thường không có nến VN30F1M.
+2026-01-01
+2026-01-02
+2026-02-16
+2026-02-17
+2026-02-18
+2026-02-19
+2026-02-20
+2026-04-27
+2026-04-30
+2026-05-01
+2026-08-31
+2026-09-01
+2026-09-02
+2027-01-01

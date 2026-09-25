@@ -1,0 +1,1097 @@
+{
+  "2025-11-06": {
+    "report": "report_2025-11-06_9e5d79b00315_acb4645040d1.json",
+    "source_sha256": "4dd70c8b042b35469f784dd718b6e113cf3a27f0f2514c2ed99dbf019887caf6",
+    "source_version": 1
+  },
+  "2025-11-07": {
+    "report": "report_2025-11-07_d14c6784d5b5_acb4645040d1.json",
+    "source_sha256": "398867e2d2064bef14ea420eb0df619381969cca492398523adc15e82ade7aac",
+    "source_version": 1
+  },
+  "2025-11-10": {
+    "report": "report_2025-11-10_e2cb70477771_acb4645040d1.json",
+    "source_sha256": "39f9289d250c64f11e7b85b97357d28baaf09c8290a50990925f8acacf866ee0",
+    "source_version": 1
+  },
+  "2025-11-11": {
+    "report": "report_2025-11-11_84acff558d91_acb4645040d1.json",
+    "source_sha256": "3f85c8dec8de72c61ea2f5b19fe3d6930922c17824a0ed4b0f01d829657d85e2",
+    "source_version": 1
+  },
+  "2025-11-12": {
+    "report": "report_2025-11-12_d06c4d746ed1_acb4645040d1.json",
+    "source_sha256": "33076869c3edef0be9c02a5d014272cd517d99cfce0f3a2acb9b336ca706c27b",
+    "source_version": 1
+  },
+  "2025-11-13": {
+    "report": "report_2025-11-13_571d31c8b14e_acb4645040d1.json",
+    "source_sha256": "fdf4028672113304df4e847e51015f8b97d1105b838bd8d7853fd56ac68ef256",
+    "source_version": 1
+  },
+  "2025-11-14": {
+    "report": "report_2025-11-14_9ef2a9cf05d2_acb4645040d1.json",
+    "source_sha256": "685a5b4a12a5c7f39a2806d753c7782f59207ee578ecb4c2344e1c237449c84d",
+    "source_version": 1
+  },
+  "2025-11-17": {
+    "report": "report_2025-11-17_51f2600ac397_acb4645040d1.json",
+    "source_sha256": "37e10aa6e082acae9839ea2d6c56f3bf169ba71df13287312cadaa4ba14d7c44",
+    "source_version": 1
+  },
+  "2025-11-18": {
+    "report": "report_2025-11-18_07db8e9a654c_acb4645040d1.json",
+    "source_sha256": "c5dae1ab000967c8206eb4569d8243bab225f76125614e36997b2073bfa14208",
+    "source_version": 1
+  },
+  "2025-11-19": {
+    "report": "report_2025-11-19_7d0f61ada5dc_acb4645040d1.json",
+    "source_sha256": "aadb5f8fd4ab0767e046f7bcf1566532fb0a5e84211ac26eca6d20fdb85e8140",
+    "source_version": 1
+  },
+  "2025-11-20": {
+    "report": "report_2025-11-20_23f99a64fa75_acb4645040d1.json",
+    "source_sha256": "dbea996da13163e747af527b3b6a393954d8d1b3a7d1c6a8f7cb875ec57ab48f",
+    "source_version": 1
+  },
+  "2025-11-21": {
+    "report": "report_2025-11-21_a778aff70d24_acb4645040d1.json",
+    "source_sha256": "b10d4f7ae30613cd257eeea1f22bd72334f5278114a3604d4deba965e25c914a",
+    "source_version": 1
+  },
+  "2025-11-24": {
+    "report": "report_2025-11-24_6d3fbd7928be_acb4645040d1.json",
+    "source_sha256": "62713a7770be6e509852f74527f6df06aae76560a4a7832e151b133dbbb7a93e",
+    "source_version": 1
+  },
+  "2025-11-25": {
+    "report": "report_2025-11-25_63d06c2fc6f8_acb4645040d1.json",
+    "source_sha256": "ad960ad19088792cf972a5e239f926fd95d9f1339991efbfd4c354906b6087f4",
+    "source_version": 1
+  },
+  "2025-11-26": {
+    "report": "report_2025-11-26_15c8e438390e_acb4645040d1.json",
+    "source_sha256": "26ceef20a61ab05c10b4ee81118c995dcf90de7fc2680786403b4e3463ec14bb",
+    "source_version": 1
+  },
+  "2025-11-27": {
+    "report": "report_2025-11-27_a415d648087d_acb4645040d1.json",
+    "source_sha256": "905bd80aec8300737140aebe527a8ad55cb26bfde591e29bdcc69e9eecbde1cc",
+    "source_version": 1
+  },
+  "2025-11-28": {
+    "report": "report_2025-11-28_027a7203adb4_acb4645040d1.json",
+    "source_sha256": "bec9d1687c2a32b97b5fdc3784859d7fdc9b98d91a2f3875436fe22d588d5eb2",
+    "source_version": 1
+  },
+  "2025-12-01": {
+    "report": "report_2025-12-01_ad161e43e7bb_acb4645040d1.json",
+    "source_sha256": "23aeda583ca27b116bb1aefcdb419669eccedaaf7eb740b87f008cfdc6087314",
+    "source_version": 1
+  },
+  "2025-12-02": {
+    "report": "report_2025-12-02_6883466cd01e_acb4645040d1.json",
+    "source_sha256": "9ccfbc4812331519b45e2c9664f3c798d97d875858620aa1fee1aa38541214f1",
+    "source_version": 1
+  },
+  "2025-12-03": {
+    "report": "report_2025-12-03_3fd2eb8aa4e7_acb4645040d1.json",
+    "source_sha256": "ba4bb77c7b93728c1d302025b7010bf03a816685dc1f426f2b5b1478e46014f3",
+    "source_version": 1
+  },
+  "2025-12-04": {
+    "report": "report_2025-12-04_6738dc766912_acb4645040d1.json",
+    "source_sha256": "29c2e45ceee62af0b0ba8b8e0cff0b194721fe07c2e427b26cf8d3c756c0b9bf",
+    "source_version": 1
+  },
+  "2025-12-05": {
+    "report": "report_2025-12-05_28296acc6953_acb4645040d1.json",
+    "source_sha256": "26a20a6c159c08ce7924c433ceaba2337887f4301f58df2404f872237bad0680",
+    "source_version": 1
+  },
+  "2025-12-08": {
+    "report": "report_2025-12-08_4b31bff850ad_acb4645040d1.json",
+    "source_sha256": "55fa9e20291f61a98e2b7a91015a272123868b05ef56c1def5ac09463c6a0052",
+    "source_version": 1
+  },
+  "2025-12-09": {
+    "report": "report_2025-12-09_0c4258f91d3d_acb4645040d1.json",
+    "source_sha256": "4147f3b16850ebcfd7e65908065bd97c74050b70b2e06b224712f93782a50450",
+    "source_version": 1
+  },
+  "2025-12-10": {
+    "report": "report_2025-12-10_9c940445bf0e_acb4645040d1.json",
+    "source_sha256": "381b66b9e44918bf4ca1261979558495498e59afb363eb3791fb549f80bc236f",
+    "source_version": 1
+  },
+  "2025-12-11": {
+    "report": "report_2025-12-11_f8872ee7de3e_acb4645040d1.json",
+    "source_sha256": "604c399e5bf74cc67be5586f795f580ef37da454c8e79e788430a81f1c8852b5",
+    "source_version": 1
+  },
+  "2025-12-12": {
+    "report": "report_2025-12-12_a502e9fb3776_acb4645040d1.json",
+    "source_sha256": "91bcd107d6948ee7f7d47ffd0651782b1c9c7dbae1dd9dfa312e5e760575aa8d",
+    "source_version": 1
+  },
+  "2025-12-15": {
+    "report": "report_2025-12-15_adf1ce965192_acb4645040d1.json",
+    "source_sha256": "2ce96e58d129bbb355008f5ac8aee92a34e7c9180bebd4a07ccf6c24f65364ac",
+    "source_version": 1
+  },
+  "2025-12-16": {
+    "report": "report_2025-12-16_404b6c946342_acb4645040d1.json",
+    "source_sha256": "567d33b833fd210093d55025e8a7b975a2fa148144e415451dd7255cc3218fe2",
+    "source_version": 1
+  },
+  "2025-12-17": {
+    "report": "report_2025-12-17_f52986a776f2_acb4645040d1.json",
+    "source_sha256": "7ba97344a844dd8246db76369b96a578a09f6d85c54e5c676f7b63d09338697f",
+    "source_version": 1
+  },
+  "2025-12-18": {
+    "report": "report_2025-12-18_e2c942a43076_acb4645040d1.json",
+    "source_sha256": "6f418a0c2907b1d20a2829164dc5d63349b553fc6de913c3771ada9cdb2ad49d",
+    "source_version": 1
+  },
+  "2025-12-19": {
+    "report": "report_2025-12-19_211f942b8a82_acb4645040d1.json",
+    "source_sha256": "729230e096ed9a286614ee5504383050ce09d154db90955aa7f0e1147a4dae85",
+    "source_version": 1
+  },
+  "2025-12-22": {
+    "report": "report_2025-12-22_221f5f8b51c2_acb4645040d1.json",
+    "source_sha256": "6909af45c5c5adfe53f4b21c0e7248f244e30a9ab4c698e5a9f802346872e455",
+    "source_version": 1
+  },
+  "2025-12-23": {
+    "report": "report_2025-12-23_2d9e22fb5675_acb4645040d1.json",
+    "source_sha256": "a00b06def874767bdb0c1cccd4856e125dc1454ce28a1e5ca9aee73edd2dcdad",
+    "source_version": 1
+  },
+  "2025-12-24": {
+    "report": "report_2025-12-24_cc74f6f72d05_acb4645040d1.json",
+    "source_sha256": "7764b944d59a0744d77acc48184b6b3796df4c5d36e2ea40cce6fa35b3172904",
+    "source_version": 1
+  },
+  "2025-12-25": {
+    "report": "report_2025-12-25_1388375c9fe5_acb4645040d1.json",
+    "source_sha256": "6a6caa8cf996af88ea25fe4b457175af1723439eb88e2d89033593efd7e953a5",
+    "source_version": 1
+  },
+  "2025-12-26": {
+    "report": "report_2025-12-26_78ce3610bd93_acb4645040d1.json",
+    "source_sha256": "ea49b533c9a39dfc03a39103b05650eb8f3c609223b6052ac21915fbd26def50",
+    "source_version": 1
+  },
+  "2025-12-29": {
+    "report": "report_2025-12-29_81f7b4236e84_acb4645040d1.json",
+    "source_sha256": "8a366a6d48265862ce0258af0a18c143b215490799f4032f62b588011d93782e",
+    "source_version": 1
+  },
+  "2025-12-30": {
+    "report": "report_2025-12-30_549209b75b2d_acb4645040d1.json",
+    "source_sha256": "b68a4169c878960aa13cfcb39c15f01d222b1048d947e7f741eb3125e1795452",
+    "source_version": 1
+  },
+  "2025-12-31": {
+    "report": "report_2025-12-31_4adb8e64752a_acb4645040d1.json",
+    "source_sha256": "249f6732c2e0e4332ad25843b14c8ef0fb584a1d4a882bc20e096a1a9cdb0e59",
+    "source_version": 1
+  },
+  "2026-01-05": {
+    "report": "report_2026-01-05_cdd6dfa3ecd6_acb4645040d1.json",
+    "source_sha256": "3b7979c7f63dae2dc6af67bc9747ae336aa6c1b5b45ae20f75ae6520bca0fe55",
+    "source_version": 1
+  },
+  "2026-01-06": {
+    "report": "report_2026-01-06_6d0e0c8736f6_acb4645040d1.json",
+    "source_sha256": "311246a05991f0dcae23e3a2c817eb9f5bef7122d7bec92821fe1ef81d46f3e6",
+    "source_version": 1
+  },
+  "2026-01-07": {
+    "report": "report_2026-01-07_dc0264f7b02c_acb4645040d1.json",
+    "source_sha256": "398891a47baa69f38274ce5b54e5b5a08f33ba0734363754e1ce32fb81d22998",
+    "source_version": 1
+  },
+  "2026-01-08": {
+    "report": "report_2026-01-08_5c2b026a9782_acb4645040d1.json",
+    "source_sha256": "8487752b27ab76241da56e9738b1f7af46779a1135a18d9fe35183b61df1404e",
+    "source_version": 1
+  },
+  "2026-01-09": {
+    "report": "report_2026-01-09_b3c313f053d6_acb4645040d1.json",
+    "source_sha256": "ac92a1a5cff9fdd27a572b3f80e09cf86f1f6f929ce85a996b254f6df0ce77cc",
+    "source_version": 1
+  },
+  "2026-01-12": {
+    "report": "report_2026-01-12_610c0a3078be_acb4645040d1.json",
+    "source_sha256": "fc291960a6309a20888d4b42e0e31389a987a423c75c8c5f6e9afeaf9a1a4115",
+    "source_version": 1
+  },
+  "2026-01-13": {
+    "report": "report_2026-01-13_de1f0f47f9f3_acb4645040d1.json",
+    "source_sha256": "a7da3f4d7caad8049ec5cf70cc3f6d21452e6585b248c1fc91605389d3469283",
+    "source_version": 1
+  },
+  "2026-01-14": {
+    "report": "report_2026-01-14_2517a5190a66_acb4645040d1.json",
+    "source_sha256": "a235c4d57e2999586c3cc1c816ab3ea1045755f8d494df7c7e875ee2b4da9721",
+    "source_version": 1
+  },
+  "2026-01-15": {
+    "report": "report_2026-01-15_cc3576aa1b6a_acb4645040d1.json",
+    "source_sha256": "791547cea81cf725efced8a34b48963dc8cc46deac9aaf250cdc026c0e43927e",
+    "source_version": 1
+  },
+  "2026-01-16": {
+    "report": "report_2026-01-16_3d48df79c1bf_acb4645040d1.json",
+    "source_sha256": "7abf15a226a42b9717bd9d60e6a9a6d6159db75095c2bb41a0a8ca2ce1e80c3b",
+    "source_version": 1
+  },
+  "2026-01-19": {
+    "report": "report_2026-01-19_f2b5e3c7a9a7_acb4645040d1.json",
+    "source_sha256": "a917b475ef08b9847fa55a406ee9a3a5531b7387d7734d305c877867b68575f3",
+    "source_version": 1
+  },
+  "2026-01-20": {
+    "report": "report_2026-01-20_e9ecaef6f42a_acb4645040d1.json",
+    "source_sha256": "0e5ca17de04831c3ebc19166261d00f69930611c412e3701acf9924ecca198d2",
+    "source_version": 1
+  },
+  "2026-01-21": {
+    "report": "report_2026-01-21_5052b444ec90_acb4645040d1.json",
+    "source_sha256": "c15ddaccb45bcb8e6153b9444cb9420faf1e9976ac12d24441f629ed76407f42",
+    "source_version": 1
+  },
+  "2026-01-22": {
+    "report": "report_2026-01-22_9a99f0ee258e_acb4645040d1.json",
+    "source_sha256": "a4a0cfcd34483d92efd521dafb7f3f68ff974d9bb848a769e4718c1988436ffe",
+    "source_version": 1
+  },
+  "2026-01-23": {
+    "report": "report_2026-01-23_b21a0d6e65cd_acb4645040d1.json",
+    "source_sha256": "487f23ba34b0656963ee1f894461100598bf10047f5dc5c2fb9c0878ad603271",
+    "source_version": 1
+  },
+  "2026-01-26": {
+    "report": "report_2026-01-26_537513cb3bf7_acb4645040d1.json",
+    "source_sha256": "c711ec391b31307ff81b62cc0681347009ad4db7221deb2427320e2948fde9e8",
+    "source_version": 1
+  },
+  "2026-01-27": {
+    "report": "report_2026-01-27_ae201233a7e3_acb4645040d1.json",
+    "source_sha256": "e93eaf3996d0634d11da7011f7bf2f5931edf64b4d9354afe6d74358774a907d",
+    "source_version": 1
+  },
+  "2026-01-28": {
+    "report": "report_2026-01-28_cc9cc4109892_acb4645040d1.json",
+    "source_sha256": "d022cc77b525c9dcd1fe9b00705a7d3c837be3abb02ce247d66a56e8843ffdda",
+    "source_version": 1
+  },
+  "2026-01-29": {
+    "report": "report_2026-01-29_e6ca6b7409d5_acb4645040d1.json",
+    "source_sha256": "814d1d2a022c1e33418611cac9f3f04560487d34019561472f1296b9bd81251f",
+    "source_version": 1
+  },
+  "2026-01-30": {
+    "report": "report_2026-01-30_3b650752c3d2_acb4645040d1.json",
+    "source_sha256": "135b64e585f961b7d6cd1ae315c97f9c8364d4532b6f56ebd74df9eeb01c1975",
+    "source_version": 1
+  },
+  "2026-02-02": {
+    "report": "report_2026-02-02_a8313fc9db85_acb4645040d1.json",
+    "source_sha256": "6824c1b32108678239ce33ddc59788ef9f1f8a0dbca1c15fc3f628bb87dfce77",
+    "source_version": 1
+  },
+  "2026-02-03": {
+    "report": "report_2026-02-03_ede729bf18bf_acb4645040d1.json",
+    "source_sha256": "33f7cd817da1e4c6ddc561e758ab549a9cba848c30ff195aff0e9e7b8a7d2087",
+    "source_version": 1
+  },
+  "2026-02-04": {
+    "report": "report_2026-02-04_ec204f6a78c1_acb4645040d1.json",
+    "source_sha256": "11970a3ab6b5e592e91f993f2206c3c4484be049c6c35e67d6cf2f5f23d23331",
+    "source_version": 1
+  },
+  "2026-02-05": {
+    "report": "report_2026-02-05_bf43eb3baffd_acb4645040d1.json",
+    "source_sha256": "74e05f66b3b07ea9ca9de5061101e6aabba0041d646f73c39c2485b11d2625ac",
+    "source_version": 1
+  },
+  "2026-02-06": {
+    "report": "report_2026-02-06_3a6765b24ce4_acb4645040d1.json",
+    "source_sha256": "873686efedd3d08151ceef890ff156bccb7a85cf4d37fd396380be969d3ddf57",
+    "source_version": 1
+  },
+  "2026-02-09": {
+    "report": "report_2026-02-09_19dfc5f5c59a_acb4645040d1.json",
+    "source_sha256": "9d0b44849390edc5696195ac24384231e00d610191318476d2d4fb5df178dbdb",
+    "source_version": 1
+  },
+  "2026-02-10": {
+    "report": "report_2026-02-10_77064c06d245_acb4645040d1.json",
+    "source_sha256": "355c3012a947bf3ab526bade10e7deff8bc08098289f92bac54048c21431fc74",
+    "source_version": 1
+  },
+  "2026-02-11": {
+    "report": "report_2026-02-11_349c4a473e13_acb4645040d1.json",
+    "source_sha256": "25a39838ccae82ee049c5e51edd7bda4900479f1209d76f2bd06660512cadb7e",
+    "source_version": 1
+  },
+  "2026-02-12": {
+    "report": "report_2026-02-12_881e6c7dd75a_acb4645040d1.json",
+    "source_sha256": "792e035ca118eb16bacd959ad5b8ab134a28ccadecf8ccb47e37b6d8c7bed413",
+    "source_version": 1
+  },
+  "2026-02-13": {
+    "report": "report_2026-02-13_67ccd48201ef_acb4645040d1.json",
+    "source_sha256": "6ec026a8357d4a2f37edf90816ac32ea4b0d463ac32a3c7b3fb880d995eb47b7",
+    "source_version": 1
+  },
+  "2026-02-23": {
+    "report": "report_2026-02-23_7f49cc274146_acb4645040d1.json",
+    "source_sha256": "66de9298536bade0cd1a25bc439825e3c3c06c2da0cb91d582d0d4bec595601d",
+    "source_version": 1
+  },
+  "2026-02-24": {
+    "report": "report_2026-02-24_cb3363173286_acb4645040d1.json",
+    "source_sha256": "0edfd28512c7d5c36889a505d4a806ab87ff13e670d521f95616d55ce65777dc",
+    "source_version": 1
+  },
+  "2026-02-25": {
+    "report": "report_2026-02-25_4eb13a878a0e_acb4645040d1.json",
+    "source_sha256": "a09a502a5e248981d3e7453c3efa8dfd3efae1403a4166778e5b47f37e81377f",
+    "source_version": 1
+  },
+  "2026-02-26": {
+    "report": "report_2026-02-26_17406d68ea0b_acb4645040d1.json",
+    "source_sha256": "9e7149fe21625d436795f5f30ae8a4f4951d3bd359d39fcbfafc171d9caa87dc",
+    "source_version": 1
+  },
+  "2026-02-27": {
+    "report": "report_2026-02-27_e9ded9596e0a_acb4645040d1.json",
+    "source_sha256": "0c0e40de9cc809e4ba7cd38ea7918a72212ab6d3ee99bd81c7836f3096b04d50",
+    "source_version": 1
+  },
+  "2026-03-02": {
+    "report": "report_2026-03-02_3a5f6b3407b0_acb4645040d1.json",
+    "source_sha256": "4fe9c966773c299ee82d4e8217b800cd61554d979c82cc68ae546b493946fe5a",
+    "source_version": 1
+  },
+  "2026-03-03": {
+    "report": "report_2026-03-03_a7de27a6db4f_acb4645040d1.json",
+    "source_sha256": "55176706ab7e0444d12f823f2d21cbb4f1fbbb5be52a1746fcd303f815afa165",
+    "source_version": 1
+  },
+  "2026-03-04": {
+    "report": "report_2026-03-04_3b0c42cb0903_acb4645040d1.json",
+    "source_sha256": "3268e717c75c295fd0bc1dccb45a27ec4caef1d33d643c2429eb9a7e546a4880",
+    "source_version": 1
+  },
+  "2026-03-05": {
+    "report": "report_2026-03-05_85076904028c_acb4645040d1.json",
+    "source_sha256": "57fd5614cc9ffe55890c07322fe23f536afc0a1dbffad122c4628a169a2a0cf8",
+    "source_version": 1
+  },
+  "2026-03-06": {
+    "report": "report_2026-03-06_34dae150b4fb_acb4645040d1.json",
+    "source_sha256": "861179e7ab5ddf2150445077b91d0814c26125e1cf036b6e8b578e2f749867d9",
+    "source_version": 1
+  },
+  "2026-03-09": {
+    "report": "report_2026-03-09_997ead303838_acb4645040d1.json",
+    "source_sha256": "799a738bc8d46ff1d7f0afed6c1ddc6c456b87d20c61e97fe93e32fb66ead37d",
+    "source_version": 1
+  },
+  "2026-03-10": {
+    "report": "report_2026-03-10_36b3fb7a6066_acb4645040d1.json",
+    "source_sha256": "21ae4ed18ae894f6ef990d0a4c9cd3a8ac0f7d059004fc4c798ad3a784266451",
+    "source_version": 1
+  },
+  "2026-03-11": {
+    "report": "report_2026-03-11_9e0af80ca475_acb4645040d1.json",
+    "source_sha256": "ea9931be791cafb329916f4b32c398fc4a8e963879b494003814511cc30dadfc",
+    "source_version": 1
+  },
+  "2026-03-12": {
+    "report": "report_2026-03-12_3f99adb90904_acb4645040d1.json",
+    "source_sha256": "70c4dd7a90046fa25d729292dbce8fe77643f1408ce4eb8544616f6402358e9f",
+    "source_version": 1
+  },
+  "2026-03-13": {
+    "report": "report_2026-03-13_8b8f1709d1ae_acb4645040d1.json",
+    "source_sha256": "443c0881842dda6d71bcd27f062e083d2f32ff79e8a0d603d4bd96b598eccf51",
+    "source_version": 1
+  },
+  "2026-03-16": {
+    "report": "report_2026-03-16_c57665678e2a_acb4645040d1.json",
+    "source_sha256": "a2cb61ea4a431efa5f23968ab07c09cb76e49b31de3841faea85eecd83c3af26",
+    "source_version": 1
+  },
+  "2026-03-17": {
+    "report": "report_2026-03-17_a5611bdc3541_acb4645040d1.json",
+    "source_sha256": "95e604abcdce1a2f93bef5a889f3bb76c0056b36159433d45f169ff5caf86d08",
+    "source_version": 1
+  },
+  "2026-03-18": {
+    "report": "report_2026-03-18_ee0a6761844c_acb4645040d1.json",
+    "source_sha256": "a9a9c848d033901af414d468b11fd3231961c3c2df71cb3bc679982fc7f36c2c",
+    "source_version": 1
+  },
+  "2026-03-19": {
+    "report": "report_2026-03-19_0788f84061f8_acb4645040d1.json",
+    "source_sha256": "722649b87f36df437761a5c3c4623355c29f3fc38799d4cd123c158cc2e39314",
+    "source_version": 1
+  },
+  "2026-03-20": {
+    "report": "report_2026-03-20_d97ef48aeffb_acb4645040d1.json",
+    "source_sha256": "6181e74495e8be89a4eeff46fe62b0a133b4b4218c25af3e98a7819d836a401f",
+    "source_version": 1
+  },
+  "2026-03-23": {
+    "report": "report_2026-03-23_ce798520ba35_acb4645040d1.json",
+    "source_sha256": "0dbed3466239a0aac401d905f59806a4259d9d19861a92ba1ab147d01c37239d",
+    "source_version": 1
+  },
+  "2026-03-24": {
+    "report": "report_2026-03-24_d80d382ae7e5_acb4645040d1.json",
+    "source_sha256": "d41a6722a481227a28be4d800f4fef25c2f8ea2cc17c331d07ae97078267d451",
+    "source_version": 1
+  },
+  "2026-03-25": {
+    "report": "report_2026-03-25_f3538e298428_acb4645040d1.json",
+    "source_sha256": "6dfb4a250e94b7d79eaf6140713bbb884dfbe83aaf4ab7e986cf5cda8a4ce605",
+    "source_version": 1
+  },
+  "2026-03-26": {
+    "report": "report_2026-03-26_6ca1bb1bccda_acb4645040d1.json",
+    "source_sha256": "318c151d7091371832fc069463cc2e7dda607eb71d5daea0112b69a0d3bd4d8f",
+    "source_version": 1
+  },
+  "2026-03-27": {
+    "report": "report_2026-03-27_263220a0b072_acb4645040d1.json",
+    "source_sha256": "4a601a1ec28b7635cb81306a15ee7734e93437f6b63f25b5b27552f4856315a0",
+    "source_version": 1
+  },
+  "2026-03-30": {
+    "report": "report_2026-03-30_2bfd5e611f61_acb4645040d1.json",
+    "source_sha256": "3927f0d1091f3507d2f13d53c5b4e7df2f8ba8796f3991d7e628686223002de5",
+    "source_version": 1
+  },
+  "2026-03-31": {
+    "report": "report_2026-03-31_05f48d19b584_acb4645040d1.json",
+    "source_sha256": "6687db18f1f469f1ae57b71ae8545ca2439764ddf72db0273382a463a4cddf7b",
+    "source_version": 1
+  },
+  "2026-04-01": {
+    "report": "report_2026-04-01_620bdfba034d_acb4645040d1.json",
+    "source_sha256": "7a8daa4cc1d57a23514eebe33b648feb68d78eec7796f9ffb186cc06232c5e57",
+    "source_version": 1
+  },
+  "2026-04-02": {
+    "report": "report_2026-04-02_5f8c7989bc12_acb4645040d1.json",
+    "source_sha256": "e29b43726ee695e7422f420da7b47155cb3922b5c99b00f9086cec04b672d988",
+    "source_version": 1
+  },
+  "2026-04-03": {
+    "report": "report_2026-04-03_e7c73b368a3c_acb4645040d1.json",
+    "source_sha256": "0b0f6aacfbbbc475ced430675a62d55925a6a5ee5cc98bc2284f2fc6b7e39368",
+    "source_version": 1
+  },
+  "2026-04-06": {
+    "report": "report_2026-04-06_85be52b3616e_acb4645040d1.json",
+    "source_sha256": "d646a37baf63d0c09f658a932107aeda4fcf945e3c8d0668b7375227d6ea83b4",
+    "source_version": 1
+  },
+  "2026-04-07": {
+    "report": "report_2026-04-07_b1fc8bfb18b4_acb4645040d1.json",
+    "source_sha256": "6ab746a00b07fd224512850eb2e70d8d8d382193da9b7f767b48d909d41d637d",
+    "source_version": 1
+  },
+  "2026-04-08": {
+    "report": "report_2026-04-08_2a2ea7014b68_acb4645040d1.json",
+    "source_sha256": "df8d17019ed164283594e76c96adab83a81523882dbc96d7435a2360445ba431",
+    "source_version": 1
+  },
+  "2026-04-09": {
+    "report": "report_2026-04-09_b5961090e9ba_acb4645040d1.json",
+    "source_sha256": "6f2bc5d2627c133e76ebcbc39c9c76b08fb0d7922088f3e82d262d9d4b112382",
+    "source_version": 1
+  },
+  "2026-04-10": {
+    "report": "report_2026-04-10_bc84428c7640_acb4645040d1.json",
+    "source_sha256": "0367192fa84499354113d4b80f8a562a7154a67b713f743f76b72b088bbea0db",
+    "source_version": 1
+  },
+  "2026-04-13": {
+    "report": "report_2026-04-13_21c1bd28f291_acb4645040d1.json",
+    "source_sha256": "d973d0fd1ac508a0c82f65f0d84837226fe4078e0ff89309b981ec12b028fc27",
+    "source_version": 1
+  },
+  "2026-04-14": {
+    "report": "report_2026-04-14_a82d3a504adc_acb4645040d1.json",
+    "source_sha256": "df884f9002370f17f15a5089ce3e76e930494f15829213944cc44165dbe64389",
+    "source_version": 1
+  },
+  "2026-04-15": {
+    "report": "report_2026-04-15_3bcb3e9926f2_acb4645040d1.json",
+    "source_sha256": "76fee877e45831b241ed40b292fd3a9c7eaa2916d99f08c4239d3328d8132b23",
+    "source_version": 1
+  },
+  "2026-04-16": {
+    "report": "report_2026-04-16_9e2061dbbba9_acb4645040d1.json",
+    "source_sha256": "3fdfb1541f09c1ad2c4db475ff4603bcc92eaa8e17eceb3a0e52973122851bc2",
+    "source_version": 1
+  },
+  "2026-04-17": {
+    "report": "report_2026-04-17_c0cc9dc3003a_acb4645040d1.json",
+    "source_sha256": "8e1caadf5bd313c679ef0ee54edb4685df760e3a29fb30e7e6ad475b9871e4fc",
+    "source_version": 1
+  },
+  "2026-04-20": {
+    "report": "report_2026-04-20_521bf3d3f966_acb4645040d1.json",
+    "source_sha256": "36e0832dcbe0971f9ae2dc0f62e970e0155a306f3922e4898381296d4cbaeee6",
+    "source_version": 1
+  },
+  "2026-04-21": {
+    "report": "report_2026-04-21_4fbb95746d32_acb4645040d1.json",
+    "source_sha256": "7de0199596037d4db25cf0f932b3c35821b76f1ecae368bf1a6a56ba6c313174",
+    "source_version": 1
+  },
+  "2026-04-22": {
+    "report": "report_2026-04-22_782a830917b7_acb4645040d1.json",
+    "source_sha256": "6dff20ddc19d363a1e228e368c2b3832b9526344d8387b29bc54e306dda3fe3e",
+    "source_version": 1
+  },
+  "2026-04-23": {
+    "report": "report_2026-04-23_a65cb9e8df64_acb4645040d1.json",
+    "source_sha256": "950edb92bce581fb7de047085946dfd109704da33675103079a923844f2f2a9c",
+    "source_version": 1
+  },
+  "2026-04-24": {
+    "report": "report_2026-04-24_0f90558113e5_acb4645040d1.json",
+    "source_sha256": "46af573fabd821ac45439f46edee260e4eea37ec1d797aab4af7ee50399a1a79",
+    "source_version": 1
+  },
+  "2026-04-28": {
+    "report": "report_2026-04-28_758783c92556_acb4645040d1.json",
+    "source_sha256": "8f871bbaf8b195d02e4028f209ec87e039e406430ff7f1618f2e13e3bc96eed6",
+    "source_version": 1
+  },
+  "2026-04-29": {
+    "report": "report_2026-04-29_3776e15e7d68_acb4645040d1.json",
+    "source_sha256": "f6b835e45c06d3fb3772c0eeb687b654370b74efb7e11407c48c3f5c19926d9c",
+    "source_version": 1
+  },
+  "2026-05-04": {
+    "report": "report_2026-05-04_9ca93919f07d_acb4645040d1.json",
+    "source_sha256": "7e9419e0e9369f897ebfd42d717a884b278e03ff469ccb7d27536236e6bb8a6f",
+    "source_version": 1
+  },
+  "2026-05-05": {
+    "report": "report_2026-05-05_888c203613fa_acb4645040d1.json",
+    "source_sha256": "f0fd08af958c28d52649bca8b8b34398fedcfddc20e63a1c457f89d179b63641",
+    "source_version": 1
+  },
+  "2026-05-06": {
+    "report": "report_2026-05-06_83f3508da935_acb4645040d1.json",
+    "source_sha256": "903e13ea5c93f5abacd32c1c4f3c2b3c85845f676a115d8644fa599f13573e19",
+    "source_version": 1
+  },
+  "2026-05-07": {
+    "report": "report_2026-05-07_b3656bf0c69a_acb4645040d1.json",
+    "source_sha256": "89b7e90512dae914475a3c61a6ef98e3de1664c17974fcdc8ade9f7279d06413",
+    "source_version": 1
+  },
+  "2026-05-08": {
+    "report": "report_2026-05-08_7d9931ddd6f5_acb4645040d1.json",
+    "source_sha256": "109105e995e4b61efe4bb95faaeffa0aaeec4aac0181c98f5fb04ec4c9fb3d3d",
+    "source_version": 1
+  },
+  "2026-05-11": {
+    "report": "report_2026-05-11_249e91c05722_acb4645040d1.json",
+    "source_sha256": "6e6fecf0f072badb31094be836fda24ee59b0c61265774a70f69a63a26c1414f",
+    "source_version": 1
+  },
+  "2026-05-12": {
+    "report": "report_2026-05-12_bbf4bf127c6f_acb4645040d1.json",
+    "source_sha256": "70c8be1364415f5fd99d81484473883a25704270e7d8c4ef93f208f068b6a63a",
+    "source_version": 1
+  },
+  "2026-05-13": {
+    "report": "report_2026-05-13_fd713ef71533_acb4645040d1.json",
+    "source_sha256": "2486dfa873d5a7c9b704de83cf2e8dd78b36326ee9854b7d671d8a33effcc664",
+    "source_version": 1
+  },
+  "2026-05-14": {
+    "report": "report_2026-05-14_d1a8e18c6c0b_acb4645040d1.json",
+    "source_sha256": "a7ccd9bbb619a6bc28c42cc97a31a6705062e9eef93ed9d172e0badc9cb53a33",
+    "source_version": 1
+  },
+  "2026-05-15": {
+    "report": "report_2026-05-15_5f96e7c283eb_acb4645040d1.json",
+    "source_sha256": "2544390969e17bde2fa3c31af6756b878dea845600fe1c589cd8eb32478dde23",
+    "source_version": 1
+  },
+  "2026-05-18": {
+    "report": "report_2026-05-18_89293aaae22d_acb4645040d1.json",
+    "source_sha256": "80a56f78a08569c6a6a2d02be45f13f538ecf99a9634ee692032d1a11f42d368",
+    "source_version": 1
+  },
+  "2026-05-19": {
+    "report": "report_2026-05-19_603b11edca03_acb4645040d1.json",
+    "source_sha256": "5ec74874be13c75b1e2fa92c4c8d818caa0c6142ee54a020ce4ad7d4154f8ec3",
+    "source_version": 1
+  },
+  "2026-05-20": {
+    "report": "report_2026-05-20_20c1c711477a_acb4645040d1.json",
+    "source_sha256": "44e11966dc5aeb1db0297ab2c2184c16e9e24c5479ebb2935601509cf12425ef",
+    "source_version": 1
+  },
+  "2026-05-21": {
+    "report": "report_2026-05-21_f5fd7af5055f_acb4645040d1.json",
+    "source_sha256": "19246c25a9d62514ed1f5a00686d8a7dfc488eae4631abff94114178835b83eb",
+    "source_version": 1
+  },
+  "2026-05-22": {
+    "report": "report_2026-05-22_4765eb8e3063_acb4645040d1.json",
+    "source_sha256": "8ef1a192ae32bbb25349029e5ddca896f8fb2a12766a4acb88b4b1f4231f76f2",
+    "source_version": 1
+  },
+  "2026-05-25": {
+    "report": "report_2026-05-25_3a52d031daf6_acb4645040d1.json",
+    "source_sha256": "17316472032288b4d9b0431ab625bd9bd1f31ad616e7035e36de4acdaa375e45",
+    "source_version": 1
+  },
+  "2026-05-26": {
+    "report": "report_2026-05-26_3d01cdc85f49_acb4645040d1.json",
+    "source_sha256": "18c0fb5f3e3a6607010b83f3835a0a948cf14bb8811d6a4572e2219edaee916f",
+    "source_version": 1
+  },
+  "2026-05-27": {
+    "report": "report_2026-05-27_9340199020d7_acb4645040d1.json",
+    "source_sha256": "f9dda7351892d516ca081f6595cc1ccd09e2d83ae39a1e189c995d90683590e4",
+    "source_version": 1
+  },
+  "2026-05-28": {
+    "report": "report_2026-05-28_4f7b4e76e1cf_acb4645040d1.json",
+    "source_sha256": "20f19646ba9cf47ed97a0297c35643b43dae4fcafd6de93b4523fbdec5096a3c",
+    "source_version": 1
+  },
+  "2026-05-29": {
+    "report": "report_2026-05-29_c3808329e5c7_acb4645040d1.json",
+    "source_sha256": "1723551b5a2beba7a9e63bbb134237b2a8ceef5037a707fc3d34c4dc7399c151",
+    "source_version": 1
+  },
+  "2026-06-01": {
+    "report": "report_2026-06-01_8243a6714cb8_acb4645040d1.json",
+    "source_sha256": "91c0d020d7f722e4642d5eaa2234bdb289cb6b0ebc9554bcf82250641446afdc",
+    "source_version": 1
+  },
+  "2026-06-02": {
+    "report": "report_2026-06-02_707afd418815_acb4645040d1.json",
+    "source_sha256": "cf79e10e9dcbd61a09a1b316840c9ef4ad320aba9058968ebd1353bdea41d1f9",
+    "source_version": 1
+  },
+  "2026-06-03": {
+    "report": "report_2026-06-03_835e17b7b7b0_acb4645040d1.json",
+    "source_sha256": "a78ebe1053349c751676d8dca0cc72ffa081ff8fa7511bc2c57bc7099eaef8db",
+    "source_version": 1
+  },
+  "2026-06-04": {
+    "report": "report_2026-06-04_9a660653e26f_acb4645040d1.json",
+    "source_sha256": "e484e860fb5b310c718a10e5ff4b6035890afa001a462ba52ef667309c926bb0",
+    "source_version": 1
+  },
+  "2026-06-05": {
+    "report": "report_2026-06-05_a08e38226085_acb4645040d1.json",
+    "source_sha256": "0f59ba980a362476a18793c7522d4b6caf116911d6bde7b608217ef6cdea3946",
+    "source_version": 1
+  },
+  "2026-06-08": {
+    "report": "report_2026-06-08_816ea07a4e1f_acb4645040d1.json",
+    "source_sha256": "e431c0bfe17dad511985e2361675fc705a431be350e1a4213380958dad609af8",
+    "source_version": 1
+  },
+  "2026-06-09": {
+    "report": "report_2026-06-09_d14852be72e4_acb4645040d1.json",
+    "source_sha256": "2055aaccf08075b098dcd016f2d0b40630e51d78aab12f18f2099da6da7596ec",
+    "source_version": 1
+  },
+  "2026-06-10": {
+    "report": "report_2026-06-10_e5ce37dd82ad_acb4645040d1.json",
+    "source_sha256": "11b898ece8a88bc3ab5d913cfb61f9e79c382131305aaeb47998b463d02c72f2",
+    "source_version": 1
+  },
+  "2026-06-11": {
+    "report": "report_2026-06-11_622fcf90bec2_acb4645040d1.json",
+    "source_sha256": "5e932239b20ce0ec07be5956445ffb822bd83ab12aeae5f77623f355a381aca4",
+    "source_version": 1
+  },
+  "2026-06-12": {
+    "report": "report_2026-06-12_cdd698b7a0c0_acb4645040d1.json",
+    "source_sha256": "703ec13aae3eac15d09327b5810bb96abd6f56e99ea5efda8ffc35452b18a893",
+    "source_version": 1
+  },
+  "2026-06-15": {
+    "report": "report_2026-06-15_15b89905fb0f_acb4645040d1.json",
+    "source_sha256": "606bc4cf42faf25e3f212d930570dac2e07c79d79567d79c35235a5dee3cd455",
+    "source_version": 1
+  },
+  "2026-06-16": {
+    "report": "report_2026-06-16_e732a8d56121_acb4645040d1.json",
+    "source_sha256": "71aba404295c2d62e24f3a3fd88f4e8f946454afeada84744eccf63ac19eccad",
+    "source_version": 1
+  },
+  "2026-06-17": {
+    "report": "report_2026-06-17_9818ccf32c66_acb4645040d1.json",
+    "source_sha256": "cb399545048f520181716060b80084076d63ee3c21958c60ba445a1e0d785389",
+    "source_version": 1
+  },
+  "2026-06-18": {
+    "report": "report_2026-06-18_50b62867e23c_acb4645040d1.json",
+    "source_sha256": "da12c14c98971bbe7069565979454cbab51b8ad03683c936e163f60d263c0056",
+    "source_version": 1
+  },
+  "2026-06-19": {
+    "report": "report_2026-06-19_cde414d12480_acb4645040d1.json",
+    "source_sha256": "f7872363199b12969629b225ec1c9a4a4f261119adf6a4c912d0cee49d9a6a2d",
+    "source_version": 1
+  },
+  "2026-06-22": {
+    "report": "report_2026-06-22_7ec02b89945d_acb4645040d1.json",
+    "source_sha256": "d81e0a8037b1bf9c891acceeb6418c85e3ccff4588e09db86b3c2dbd9ba51bb1",
+    "source_version": 1
+  },
+  "2026-06-23": {
+    "report": "report_2026-06-23_c724a2f1231c_acb4645040d1.json",
+    "source_sha256": "71e4a9f9da26cf24edeefe9260b67da4290b5c66c7eabd71f9ded28b6b1e2021",
+    "source_version": 1
+  },
+  "2026-06-24": {
+    "report": "report_2026-06-24_44add18047cc_acb4645040d1.json",
+    "source_sha256": "a0ce1d45b5e473d1bda52be1cfe812affb60e503060c14d0a923b500c81d5e04",
+    "source_version": 1
+  },
+  "2026-06-25": {
+    "report": "report_2026-06-25_4d2278dc2aae_acb4645040d1.json",
+    "source_sha256": "c6a901d03e71b319e57374ce3f5aa27b97ff89f783edd27a70026d6f4e68643a",
+    "source_version": 1
+  },
+  "2026-06-26": {
+    "report": "report_2026-06-26_7aa4708443bf_acb4645040d1.json",
+    "source_sha256": "842071697ffdc7ecf6649df07230c7d177be276c5ad5e05a520880b0f393f14b",
+    "source_version": 1
+  },
+  "2026-06-29": {
+    "report": "report_2026-06-29_c44025b88514_acb4645040d1.json",
+    "source_sha256": "496423756e8a60ae323ec3dad551f87798c4467b0d63f15072209e71eaade1d5",
+    "source_version": 1
+  },
+  "2026-06-30": {
+    "report": "report_2026-06-30_6a0e4d503e9c_acb4645040d1.json",
+    "source_sha256": "9aafa3569303a8808500f0a41bc60fc0b83b59fa4be4f130fd28a0a6a0936012",
+    "source_version": 1
+  },
+  "2026-07-01": {
+    "report": "report_2026-07-01_05ea4df584d0_acb4645040d1.json",
+    "source_sha256": "39f21a93fb64b8141edbc61834e9b11d7e9f21f99490ee581e20cb9742499511",
+    "source_version": 1
+  },
+  "2026-07-02": {
+    "report": "report_2026-07-02_1b64a82dbf90_acb4645040d1.json",
+    "source_sha256": "2f0b6a2b858dfc81fcd88b6e39d1f676a99b2f56101d3ef726391b6f8332383d",
+    "source_version": 1
+  },
+  "2026-07-03": {
+    "report": "report_2026-07-03_234812673cc6_acb4645040d1.json",
+    "source_sha256": "286e8148f9d8cdf564383fd1bdd385efeb4885d34ec47172113b5a1ccd2e4113",
+    "source_version": 1
+  },
+  "2026-07-06": {
+    "report": "report_2026-07-06_acad4f02dc52_acb4645040d1.json",
+    "source_sha256": "61011c863a81ccb5d61dead25b32f1b42a5a34ebe97ee828ee57107667cf520b",
+    "source_version": 1
+  },
+  "2026-07-07": {
+    "report": "report_2026-07-07_05f643ece819_acb4645040d1.json",
+    "source_sha256": "e51f48348bfc58e3da18415bbbf34e7e05b68ce80309e1d83e6aad6e570278f4",
+    "source_version": 1
+  },
+  "2026-07-08": {
+    "report": "report_2026-07-08_cce850447c8c_acb4645040d1.json",
+    "source_sha256": "74647a79b656db4d2449c64d0cf854fc29c117803fec2742728c167ff7dfe267",
+    "source_version": 1
+  },
+  "2026-07-09": {
+    "report": "report_2026-07-09_802300208188_acb4645040d1.json",
+    "source_sha256": "d1d6c7b36e1fc940917cb42cd8613469817d5dc9d20d0c6fe3446a15ac9b26ed",
+    "source_version": 1
+  },
+  "2026-07-10": {
+    "report": "report_2026-07-10_a821be467121_acb4645040d1.json",
+    "source_sha256": "18663e81d3a26437223dd8508265c7c2774dadfd8a0060ec138669b38419a5b4",
+    "source_version": 1
+  },
+  "2026-07-13": {
+    "report": "report_2026-07-13_1c757134843a_acb4645040d1.json",
+    "source_sha256": "4dcb715ce8164734e642a853d1059db2d786479fbb70c8a5259c58786c65592e",
+    "source_version": 1
+  },
+  "2026-07-14": {
+    "report": "report_2026-07-14_969d1082bfee_acb4645040d1.json",
+    "source_sha256": "c0913fa39dbe02e1d96486cd7d3abc69dda8e8256e5fe8e86e7876883f4ffef7",
+    "source_version": 1
+  },
+  "2026-07-15": {
+    "report": "report_2026-07-15_53534c97f5f3_acb4645040d1.json",
+    "source_sha256": "28bfce8c05ed8bce928fb949ba873681a31de229e2e18bf704b7f4074f1f5c7f",
+    "source_version": 1
+  },
+  "2026-07-16": {
+    "report": "report_2026-07-16_4e3ae0b20170_acb4645040d1.json",
+    "source_sha256": "01680bb81431ca8af1cf4257e6f14dfcbc467f9952bc1956d971acab5160e7d2",
+    "source_version": 1
+  },
+  "2026-07-17": {
+    "report": "report_2026-07-17_df59604d028b_acb4645040d1.json",
+    "source_sha256": "d4c6c161c8670042141608c0413a9484467c092159b76a8d8d32ebc8e9872ba1",
+    "source_version": 1
+  },
+  "2026-07-20": {
+    "report": "report_2026-07-20_dbc51fb2485f_acb4645040d1.json",
+    "source_sha256": "420a0415fd2f60a3779b006558b3a1c6e7929674658d8ababf2fc85032227fda",
+    "source_version": 1
+  },
+  "2026-07-21": {
+    "report": "report_2026-07-21_5c2e3ccdd3db_acb4645040d1.json",
+    "source_sha256": "a34f251a42101c3dc953dd7fc758d059c557bedd1b92c10a5aea25531622f518",
+    "source_version": 1
+  },
+  "2026-07-22": {
+    "report": "report_2026-07-22_3f83054e97a6_acb4645040d1.json",
+    "source_sha256": "c2885b6aeee8cd618f14affd4ecc80267ab2082d9c725f6529fec18d06234bdd",
+    "source_version": 1
+  },
+  "2026-07-23": {
+    "report": "report_2026-07-23_f685b33382be_acb4645040d1.json",
+    "source_sha256": "2e0d28e8e56f4c3dd07be0944fd8285ae311e273b7a194309bb014902ae19922",
+    "source_version": 1
+  },
+  "2026-07-24": {
+    "report": "report_2026-07-24_a6fabad81ae2_acb4645040d1.json",
+    "source_sha256": "90571559b2c0a65be015159469715d0afefd71c6fe7b3e5a465ccd8668ba5f77",
+    "source_version": 1
+  },
+  "2026-07-27": {
+    "report": "report_2026-07-27_6e5181adf4fe_acb4645040d1.json",
+    "source_sha256": "84cc26b74afad68b48fb1dd5ff82f4473986e2b850a4dd62f8d25e637fc024a0",
+    "source_version": 1
+  },
+  "2026-07-28": {
+    "report": "report_2026-07-28_be7f2d0ca4af_acb4645040d1.json",
+    "source_sha256": "5b3ab664890007489ebbb120714266197dafd04ea3191df6a82b1c2e54e12e91",
+    "source_version": 1
+  },
+  "2026-07-29": {
+    "report": "report_2026-07-29_fe25629e9d79_acb4645040d1.json",
+    "source_sha256": "8b9d40570d6b309e94cf1149dfa8c8ee92deaf285e79ef8dc7c782ae50cba218",
+    "source_version": 1
+  },
+  "2026-07-30": {
+    "report": "report_2026-07-30_07ecc3fa80ca_acb4645040d1.json",
+    "source_sha256": "60089737dd37a6a10dfa435d2b912c458101a6128ac4747266b22d5be4b6348b",
+    "source_version": 1
+  },
+  "2026-07-31": {
+    "report": "report_2026-07-31_d96d13cb7eb7_acb4645040d1.json",
+    "source_sha256": "6fa9664a928f9d0d267e63b092ae030fdb647691ec28fa2c2a2917e29b9307e4",
+    "source_version": 1
+  },
+  "2026-08-03": {
+    "report": "report_2026-08-03_3cab38432234_acb4645040d1.json",
+    "source_sha256": "946421c0c520f98d88e63dbcb72d9a129adadc12dcd465a11ca6210f99b1273a",
+    "source_version": 1
+  },
+  "2026-08-04": {
+    "report": "report_2026-08-04_bc7ae3de3f7f_acb4645040d1.json",
+    "source_sha256": "3762395ebe5769cf91132f53f6fc2b4806d2b55840d1f8288d7aee094d2e8677",
+    "source_version": 1
+  },
+  "2026-08-05": {
+    "report": "report_2026-08-05_01431265179f_acb4645040d1.json",
+    "source_sha256": "7abfa85df84b8f2c7017186666a44b71b456684bfb92a3d51c887347f66a98d0",
+    "source_version": 1
+  },
+  "2026-08-06": {
+    "report": "report_2026-08-06_6659c458c8d0_acb4645040d1.json",
+    "source_sha256": "5b013098ede543682a7260b65904570d94d482873a14a7b68e33271c730c38a9",
+    "source_version": 1
+  },
+  "2026-08-07": {
+    "report": "report_2026-08-07_cc3c73090553_acb4645040d1.json",
+    "source_sha256": "c2c4d67f40d86e0a010bb0fd646a0ba85f0be15e87b87ef69a53d923906d2c1a",
+    "source_version": 1
+  },
+  "2026-08-10": {
+    "report": "report_2026-08-10_2ddc15aa012a_acb4645040d1.json",
+    "source_sha256": "d76c13161036ff3a36de03174f360c7311c8cee9dabaf59cd357c52f3bd16524",
+    "source_version": 1
+  },
+  "2026-08-11": {
+    "report": "report_2026-08-11_22b068f16199_acb4645040d1.json",
+    "source_sha256": "75c2d9156e1c8d2c7bc6f3d971af8e14e477310c1586cdd7af1bd6244694bf77",
+    "source_version": 1
+  },
+  "2026-08-12": {
+    "report": "report_2026-08-12_3e1ce082035e_acb4645040d1.json",
+    "source_sha256": "f6bbc9f6418cde194e09d1e688a03953e70438a7bd0e3a2d50320dccf9b3b850",
+    "source_version": 1
+  },
+  "2026-08-13": {
+    "report": "report_2026-08-13_42087fc789c5_acb4645040d1.json",
+    "source_sha256": "913b08e5131817b1eace3b3fa5d0d1102337417f0c957f81aacd593595f1ef32",
+    "source_version": 1
+  },
+  "2026-08-14": {
+    "report": "report_2026-08-14_6aa88380f1ec_acb4645040d1.json",
+    "source_sha256": "5ce58847fc0316e8fe605f8e43c3108371f42eb9625e406d7fa018ea6e136e14",
+    "source_version": 1
+  },
+  "2026-08-17": {
+    "report": "report_2026-08-17_b6939e95da51_acb4645040d1.json",
+    "source_sha256": "16299d5993ef410a48bf693626552a333914abc72c5b80de1967e80b2174a953",
+    "source_version": 1
+  },
+  "2026-08-18": {
+    "report": "report_2026-08-18_9a70a0bfa153_acb4645040d1.json",
+    "source_sha256": "d61b0f719baa1c5fa7d85fffbc5af5e9be2d9e9d6b20058f8f18e2a19182cbf2",
+    "source_version": 1
+  },
+  "2026-08-19": {
+    "report": "report_2026-08-19_7e42c808d432_acb4645040d1.json",
+    "source_sha256": "30ff043c811931736c1652a03f2af58d32e673163dca2d3c83d3ab8a3e8b54be",
+    "source_version": 1
+  },
+  "2026-08-20": {
+    "report": "report_2026-08-20_ad951f454e7c_acb4645040d1.json",
+    "source_sha256": "fa3b4838aec37fb4d087dbd5722a51f5254c10af3ba6d2de7015b4d9b37207d4",
+    "source_version": 1
+  },
+  "2026-08-21": {
+    "report": "report_2026-08-21_7eb56c4b52f1_acb4645040d1.json",
+    "source_sha256": "1c3dd32af7afd70e645853c08ffdddbaeeb23160fc50e650acd524e50bbee71d",
+    "source_version": 1
+  },
+  "2026-08-24": {
+    "report": "report_2026-08-24_790d2c81e96d_acb4645040d1.json",
+    "source_sha256": "3dca74865bb3de97468c474753cc40bda0f03c24724322ce8cc22fb746cf129c",
+    "source_version": 1
+  },
+  "2026-08-25": {
+    "report": "report_2026-08-25_4f1a903b447e_acb4645040d1.json",
+    "source_sha256": "41884e3c3c1b8ff6ce3398a62ce830dbf33765a6c6d702f081750823f568a1f4",
+    "source_version": 1
+  },
+  "2026-08-26": {
+    "report": "report_2026-08-26_eafb2e026f74_acb4645040d1.json",
+    "source_sha256": "fd62917f1c535946a2a342e26bfb54511c03dc59d9e535617237e70268255803",
+    "source_version": 1
+  },
+  "2026-08-27": {
+    "report": "report_2026-08-27_7b969715bb75_acb4645040d1.json",
+    "source_sha256": "453556ffc266f74f0ed1c0d5d1fb12f267550a0a98701700acd37a7752379fad",
+    "source_version": 1
+  },
+  "2026-08-28": {
+    "report": "report_2026-08-28_1ccae0776d1f_acb4645040d1.json",
+    "source_sha256": "cd8a66c6db43b1cda61fdacf37202582a60b560a605843946d12dccd86f60e8f",
+    "source_version": 1
+  },
+  "2026-09-03": {
+    "report": "report_2026-09-03_38ff14a8ba11_acb4645040d1.json",
+    "source_sha256": "832979def6e6daf697ad279279eb5c0ae17e2f37e4954e4349937cb89f44e24d",
+    "source_version": 1
+  },
+  "2026-09-04": {
+    "report": "report_2026-09-04_136fa3be159e_acb4645040d1.json",
+    "source_sha256": "39c74faf8a2658839ad5e3b2337ecda8625295be26bfbc9629bf2fa06ff0edbe",
+    "source_version": 1
+  },
+  "2026-09-07": {
+    "report": "report_2026-09-07_a9825629a511_acb4645040d1.json",
+    "source_sha256": "dee1dc3fda1e80ff3fc375043dc2e66d0b588595cfdd2330d53493940e8a5b88",
+    "source_version": 1
+  },
+  "2026-09-08": {
+    "report": "report_2026-09-08_6fa017c93a33_acb4645040d1.json",
+    "source_sha256": "e647216b714d48ab20056a140ecff1aff4e0297b7b57711b698602347e67440c",
+    "source_version": 1
+  },
+  "2026-09-09": {
+    "report": "report_2026-09-09_b86f12607355_acb4645040d1.json",
+    "source_sha256": "ca604d4e6c08197bf027192194ea7aa8795bc4b69ffaefb3a1e469067364ba6a",
+    "source_version": 1
+  },
+  "2026-09-10": {
+    "report": "report_2026-09-10_4f03dba730b6_acb4645040d1.json",
+    "source_sha256": "b8d8a794117c20b7ef62445ca87ea12b9943fb0f64a5648e28ae1237ccda57ce",
+    "source_version": 1
+  },
+  "2026-09-11": {
+    "report": "report_2026-09-11_998fb103d400_acb4645040d1.json",
+    "source_sha256": "ace146104a985db022d5d1361ce8a65394795e4f3af50773577ef30e16c15cd6",
+    "source_version": 1
+  },
+  "2026-09-14": {
+    "report": "report_2026-09-14_4822059243c2_acb4645040d1.json",
+    "source_sha256": "8fb2d67c1f23f5b4390fdf01d86c9f3c2914021d6a260f72dc83eb7e706504d4",
+    "source_version": 1
+  },
+  "2026-09-15": {
+    "report": "report_2026-09-15_bbfe68fb0961_acb4645040d1.json",
+    "source_sha256": "9b3d1aa7a96574c4cc633ca4ee729a5bb702c069328cc95da31fc1bcadf33789",
+    "source_version": 1
+  },
+  "2026-09-16": {
+    "report": "report_2026-09-16_3eb7b958ae14_acb4645040d1.json",
+    "source_sha256": "f3b3dea46a9ab5a9dcc59cab453aad5535e6d7a5eabd270dcecbd2668e93a06d",
+    "source_version": 1
+  },
+  "2026-09-17": {
+    "report": "report_2026-09-17_ad934dfddd89_acb4645040d1.json",
+    "source_sha256": "a9035407f497a6285fc92f16ea0ff66b98e427afe3443201830ff83a817ea6b3",
+    "source_version": 1
+  },
+  "2026-09-18": {
+    "report": "report_2026-09-18_ca25612515d0_acb4645040d1.json",
+    "source_sha256": "1594123fb2e175525ed919710909801c2341d583ecfd7bce4bd40b2f93774919",
+    "source_version": 1
+  },
+  "2026-09-21": {
+    "report": "report_2026-09-21_f0119e246257_acb4645040d1.json",
+    "source_sha256": "1e330c1512cc6c7c7b0e75ed2bd86e004c24dcddab4238fb368eace4ba9f779d",
+    "source_version": 1
+  },
+  "2026-09-22": {
+    "report": "report_2026-09-22_6d7d52b51da2_acb4645040d1.json",
+    "source_sha256": "8eecc129d8c10224bfea2f73001e53ed79e62dd15a589e67ca169efa90ec1b1f",
+    "source_version": 1
+  },
+  "2026-09-23": {
+    "report": "report_2026-09-23_2595358f8443_acb4645040d1.json",
+    "source_sha256": "d0a9a7bc3a309d241d726d3c24922ad3df2f78c6e58301cfb475d3b4b921ab02",
+    "source_version": 1
+  },
+  "2026-09-24": {
+    "report": "report_2026-09-24_87c635ded9ce_acb4645040d1.json",
+    "source_sha256": "5e04dae08e39e536d673b20554a36a6a958d257f0ca9d2e2f44a31ecd1e5340b",
+    "source_version": 1
+  },
+  "2026-09-25": {
+    "report": "report_2026-09-25_2c6483b9694b_acb4645040d1.json",
+    "source_sha256": "d2f3d470fe8567e129acdd21021455ec95848f675b11cc0693bf9a5d8cda42d6",
+    "source_version": 1
+  }
+}

@@ -1,0 +1,1 @@
+v06_evaluate.py sha256 948593539c449977497b1d8d4cfdebb56b54bc10b0f472b9d55d2a293d1528b6 ghi luc 2026-09-25 19:51:10, truoc khi model v0.6 duoc khoa
