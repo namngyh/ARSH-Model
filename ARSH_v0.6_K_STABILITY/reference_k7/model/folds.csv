@@ -1,0 +1,2 @@
+﻿fold,train_start,train_end_exclusive,validation_end_exclusive,test_end_exclusive,champion_horizon,champion_family,champion_k
+0,2023-08-01,2026-08-01,2026-08-01,,1,student_t_shared,7

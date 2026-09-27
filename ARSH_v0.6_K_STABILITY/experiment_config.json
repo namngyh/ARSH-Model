@@ -1,0 +1,29 @@
+{
+  "experiment": "ARSH-v06-k-stability-20260926",
+  "k_values": [5, 6, 7, 8],
+  "family": "student_t_shared",
+  "policy": "daily_sequence",
+  "horizon_min": 1,
+  "selection_train_start": "2023-02-01",
+  "selection_validation_start": "2026-02-01",
+  "data_before": "2026-08-01",
+  "required_last_training_day": "2026-07-31",
+  "final_train_start": "2023-08-01",
+  "selection_seeds": [62, 63, 64, 65, 66, 67, 68, 69, 70, 71],
+  "final_seeds": [142, 143, 144, 145, 146, 147, 148, 149, 150, 151],
+  "max_updates": 1500,
+  "min_updates": 50,
+  "absolute_ll_tolerance": 0.01,
+  "ll_tolerance_per_observation": 0.0000001,
+  "consecutive_small_improvements": 5,
+  "negative_ll_tolerance": 0.000001,
+  "checkpoint_every": 25,
+  "min_soft_share": 0.01,
+  "validation_tie_margin": 0.002,
+  "new_holdout_start": "2026-09-28",
+  "label_rules": [
+    {"name": "raw", "min_probability": 0.0, "min_margin": 0.0, "confirm_observations": 1},
+    {"name": "confirm_2", "min_probability": 0.60, "min_margin": 0.10, "confirm_observations": 2},
+    {"name": "confirm_3", "min_probability": 0.70, "min_margin": 0.15, "confirm_observations": 3}
+  ]
+}

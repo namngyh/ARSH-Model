@@ -1,0 +1,12 @@
+{
+  "runtime_research_candidate.joblib": "9071bb38709abb3ba91012b1d4a7e18d3285e0e1de7bf2c37e8a186091cf46e1",
+  "training_data_2023-02-01_2026-07-31.csv": "d411a82cb27d453e0a5e0571589f0d0c7a8e1b6229678f14dc0bbc5fb0dd4374",
+  "V06_TRAINING_PLAN.md": "41b0593845a8e38c79d4cda816bf9c5dd685553c5f59f219b0b58ae399754a01",
+  "v06_training_config.json": "6d19745b260be46cdc6d20ba3ee583d86cc419187ef568b4425c7ef99d791d4a",
+  "v06_train.py": "e497465bccea1aa9209f1c132020e3ae2ba926bf69f9bae618255fd673e45024",
+  "arsh_v05.py": "b5e19665d071b0e8097f35db56ee54008ed193b4c0e8dc80219be64d00c60efc",
+  "student_t_hmm.py": "af6b03639853dfb68b3fbe92693d38dcef3ec10327a6cd88c0b350fb94190b8c",
+  "runtime.py": "b616f0b47ba2af6b5ecc498ea3b5426b3027d854e788312f70d57211ef44f20b",
+  "locked_at": "2026-09-26T02:02:44",
+  "last_training_day": "2026-07-31"
+}

@@ -1,0 +1,44 @@
+{
+  "verified_at": "2026-09-26T22:03:39.071275+07:00",
+  "cpu_tests": {
+    "count": 9,
+    "passed": 9,
+    "log": "outputs/verification/tests.txt",
+    "scope": "Behavioral and synthetic integration tests; NOT actual market-data training"
+  },
+  "reference_replay": {
+    "max_posterior_difference": 9.209299989265674e-13,
+    "observations": 8796,
+    "status": "VERIFIED_DESCRIPTIVE_REPLAY",
+    "no_model_selection": true
+  },
+  "powershell_syntax": "passed",
+  "incomplete_training_data_guard": {
+    "passed": true,
+    "exit_code": 2,
+    "local_source_last_day": "2026-07-17",
+    "required_last_day": "2026-07-31"
+  },
+  "cuda_fitter_execution": "NOT_RUN_NO_CUDA_ON_PREPARATION_MACHINE",
+  "new_full_market_training": "NOT_RUN",
+  "new_models_available": [],
+  "source_machine_gpu": "Intel HD Graphics 620",
+  "PG_DSN_available": false,
+  "software_versions": {
+    "numpy": "2.5.2",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.0",
+    "hmmlearn": "0.3.3",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.7.0"
+  },
+  "code_sha256": {
+    "label_confirmation.py": "80e0b9f3f61fda306f520be2ba3bc75b7db66a3de38e49ce3682ff1d6fa72d3c",
+    "run_experiment.py": "6a72712c8d404e7605fdb1cdd76c73f9fd5be77b52c126304163080dcf6a6d2c",
+    "stability_fit.py": "347f2f9b1cc4fc1cef2e0104f4d49953f334213905def5fb903be6098cbcc6a0",
+    "test_experiment.py": "324120675e728d8d606c42641e0da49f5d80ad14f94f8249c11b493202feb92e",
+    "verify_package.py": "5e82d6d151fcc8ed7a7b993b2c7465091a05fc1aed60dc3ad37fc0ba64a7f1f0"
+  },
+  "windows_bat_plan_launcher": "passed"
+}

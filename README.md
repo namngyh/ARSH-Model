@@ -1,4 +1,14 @@
-# ARSH v0.5
+# ARSH v0.6+
+
+Gói cập nhật **K Stability**, bàn giao ngày 26/09/2026, nằm trong [ARSH_v0.6_K_STABILITY](ARSH_v0.6_K_STABILITY/). Gói thử K=5,6,7,8 với nhiều seed, đối chứng model K=7 gốc và xác nhận nhãn `raw`, `confirm_2`, `confirm_3`.
+
+- [Tải Release v0.6](https://github.com/namngyh/ARSH-Model/releases/tag/v0.6), gồm ZIP nguyên bản và checksum SHA-256.
+- [ZIP trong repo](releases/v0.6/ARSH_v0.6_K_STABILITY_HANDOFF_2026-09-26.zip).
+- [Ngữ cảnh bàn giao](ARSH_v0.6_K_STABILITY/NGU_CANH_BAN_GIAO.md) và [hướng dẫn chạy](ARSH_v0.6_K_STABILITY/README.md).
+
+Toàn bộ 38 file trong manifest đã được đối chiếu SHA-256 khi nhập gói vào Git. `LOCAL_VERIFICATION.json` ghi nhận 9/9 kiểm thử CPU và replay đối chứng đã đạt ở máy chuẩn bị; full training mới và kiểm tra CUDA chưa chạy. Đọc hướng dẫn trong gói trước khi chạy thí nghiệm.
+
+## Tài liệu ARSH v0.5
 
 **Adaptive Regime-Switching — Hieu**
 
