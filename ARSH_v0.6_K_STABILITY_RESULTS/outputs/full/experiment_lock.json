@@ -1,0 +1,118 @@
+{
+  "identity": {
+    "config": {
+      "experiment": "ARSH-v06-k-stability-20260926",
+      "k_values": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "family": "student_t_shared",
+      "policy": "daily_sequence",
+      "horizon_min": 1,
+      "selection_train_start": "2023-02-01",
+      "selection_validation_start": "2026-02-01",
+      "data_before": "2026-08-01",
+      "required_last_training_day": "2026-07-31",
+      "final_train_start": "2023-08-01",
+      "selection_seeds": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "final_seeds": [
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151
+      ],
+      "max_updates": 1500,
+      "min_updates": 50,
+      "absolute_ll_tolerance": 0.01,
+      "ll_tolerance_per_observation": 1e-07,
+      "consecutive_small_improvements": 5,
+      "negative_ll_tolerance": 1e-06,
+      "checkpoint_every": 25,
+      "min_soft_share": 0.01,
+      "validation_tie_margin": 0.002,
+      "new_holdout_start": "2026-09-28",
+      "label_rules": [
+        {
+          "name": "raw",
+          "min_probability": 0.0,
+          "min_margin": 0.0,
+          "confirm_observations": 1
+        },
+        {
+          "name": "confirm_2",
+          "min_probability": 0.6,
+          "min_margin": 0.1,
+          "confirm_observations": 2
+        },
+        {
+          "name": "confirm_3",
+          "min_probability": 0.7,
+          "min_margin": 0.15,
+          "confirm_observations": 3
+        }
+      ]
+    },
+    "code_hashes": {
+      "run_experiment.py": "6a72712c8d404e7605fdb1cdd76c73f9fd5be77b52c126304163080dcf6a6d2c",
+      "stability_fit.py": "347f2f9b1cc4fc1cef2e0104f4d49953f334213905def5fb903be6098cbcc6a0",
+      "label_confirmation.py": "80e0b9f3f61fda306f520be2ba3bc75b7db66a3de38e49ce3682ff1d6fa72d3c",
+      "reference\\arsh_v05.py": "b5e19665d071b0e8097f35db56ee54008ed193b4c0e8dc80219be64d00c60efc",
+      "reference\\cuda_hmm.py": "19a735a0f4d7338d5a45f738e06837c4e581dc9827803557a1ddb4867b69967f",
+      "reference\\runtime.py": "b616f0b47ba2af6b5ecc498ea3b5426b3027d854e788312f70d57211ef44f20b",
+      "reference\\student_t_hmm.py": "af6b03639853dfb68b3fbe92693d38dcef3ec10327a6cd88c0b350fb94190b8c",
+      "reference\\v06_fetch_db.py": "85685194bb451fd0b5acbeb8ececc6634080d8bdab98fd49a45afc82edb0c22f"
+    },
+    "source_data_sha256": "d411a82cb27d453e0a5e0571589f0d0c7a8e1b6229678f14dc0bbc5fb0dd4374",
+    "reference_model_sha256": "9071bb38709abb3ba91012b1d4a7e18d3285e0e1de7bf2c37e8a186091cf46e1",
+    "backend": "cuda",
+    "device": "cuda:0"
+  },
+  "created_at": "2026-09-27T16:30:22.236252+07:00",
+  "software_versions": {
+    "numpy": "2.5.2",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.0",
+    "joblib": "1.6.0",
+    "hmmlearn": "0.3.3"
+  },
+  "data_audit": {
+    "source": "C:\\Users\\Admin\\Downloads\\ARSH_v0.6_K_STABILITY\\outputs\\full\\source\\training_complete_days.csv",
+    "source_sha256": "d411a82cb27d453e0a5e0571589f0d0c7a8e1b6229678f14dc0bbc5fb0dd4374",
+    "rows": 210579,
+    "first": "2023-02-01 09:00:00",
+    "last": "2026-07-31 14:45:00",
+    "days": 870,
+    "missing_cells": 0,
+    "data_sha256": "d411a82cb27d453e0a5e0571589f0d0c7a8e1b6229678f14dc0bbc5fb0dd4374",
+    "matches_original_training_export_bytes": true,
+    "completeness": "ATC checked; CSV mode assumes bars were finalized at export. DB mode additionally enforces is_final.",
+    "incomplete_days_skipped": [],
+    "first_day": "2023-02-01",
+    "last_day": "2026-07-31",
+    "train_observations": 178884,
+    "validation_observations": 29036,
+    "final_observations": 177695,
+    "rejected_windows": 880
+  },
+  "seen_period_usage": "August/September replay is descriptive only. No selection uses it."
+}

@@ -8,6 +8,8 @@ Gói cập nhật **K Stability**, bàn giao ngày 26/09/2026, nằm trong [ARSH
 
 Toàn bộ 38 file trong manifest đã được đối chiếu SHA-256 khi nhập gói vào Git. `LOCAL_VERIFICATION.json` ghi nhận 9/9 kiểm thử CPU và replay đối chứng đã đạt ở máy chuẩn bị; full training mới và kiểm tra CUDA chưa chạy. Đọc hướng dẫn trong gói trước khi chạy thí nghiệm.
 
+**Kết quả chạy thật (29/09/2026):** [báo cáo](ARSH_v0.6_K_STABILITY_RESULTS/BAO_CAO_KET_QUA_K_STABILITY.md) và số liệu trong [ARSH_v0.6_K_STABILITY_RESULTS](ARSH_v0.6_K_STABILITY_RESULTS/). Gate CPU/CUDA đạt trên RTX 4060; 80/80 fit hội tụ chặt; validation chọn K=7 (hòa K=8, ưu tiên K nhỏ hơn); quy tắc `confirm_2`/`confirm_3` chưa phù hợp triển khai. Model báo cáo cuối ngày không đổi. Không đưa lên: dữ liệu nguồn, checkpoint và `confirmed_states.csv` theo từng quan sát (~300 MB).
+
 ## Tài liệu ARSH v0.5
 
 **Adaptive Regime-Switching — Hieu**

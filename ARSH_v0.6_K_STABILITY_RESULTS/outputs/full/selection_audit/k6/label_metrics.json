@@ -1,0 +1,122 @@
+{
+  "period": "PRE_AUGUST_VALIDATION",
+  "label_rules": [
+    {
+      "name": "raw",
+      "min_probability": 0.0,
+      "min_margin": 0.0,
+      "confirm_observations": 1
+    },
+    {
+      "name": "confirm_2",
+      "min_probability": 0.6,
+      "min_margin": 0.1,
+      "confirm_observations": 2
+    },
+    {
+      "name": "confirm_3",
+      "min_probability": 0.7,
+      "min_margin": 0.15,
+      "confirm_observations": 3
+    }
+  ],
+  "results": [
+    {
+      "rule": "raw",
+      "period": "PRE_AUGUST_VALIDATION",
+      "observations": 29036,
+      "model_version": "ARSH-v06-k-stability-20260926-selection-k6",
+      "metrics": {
+        "raw": {
+          "switches": 10175,
+          "run_count": 10297,
+          "mean_run": 2.8198504418762744,
+          "median_run": 1.0,
+          "one_observation_run_share": 0.5487035058754978
+        },
+        "display": {
+          "switches": 10175,
+          "run_count": 10297,
+          "mean_run": 2.8198504418762744,
+          "median_run": 1.0,
+          "one_observation_run_share": 0.5487035058754978
+        },
+        "display_definition": "Run metrics track confirmation memory. Unsupported labels are emitted as UNCERTAIN, so these durations are not evidence of actual regime duration.",
+        "confirmed_label_coverage": 1.0,
+        "disagreement_with_raw_share": 0.0,
+        "uncertain_share": 0.0,
+        "held_label_probability_below_10pct_share": 0.0,
+        "mean_display_probability": 0.652242599244276,
+        "mean_wait_after_first_qualifying_observation": 0.0,
+        "delay_definition": "Wait after the first consecutive qualifying observation; not delay against a true market regime.",
+        "mean_wait_wall_minutes_after_first_qualifying_observation": 0.0,
+        "max_wait_wall_minutes_after_first_qualifying_observation": 0.0
+      }
+    },
+    {
+      "rule": "confirm_2",
+      "period": "PRE_AUGUST_VALIDATION",
+      "observations": 29036,
+      "model_version": "ARSH-v06-k-stability-20260926-selection-k6",
+      "metrics": {
+        "raw": {
+          "switches": 10175,
+          "run_count": 10297,
+          "mean_run": 2.8198504418762744,
+          "median_run": 1.0,
+          "one_observation_run_share": 0.5487035058754978
+        },
+        "display": {
+          "switches": 759,
+          "run_count": 881,
+          "mean_run": 32.95800227014756,
+          "median_run": 20.0,
+          "one_observation_run_share": 0.0022701475595913734
+        },
+        "display_definition": "Run metrics track confirmation memory. Unsupported labels are emitted as UNCERTAIN, so these durations are not evidence of actual regime duration.",
+        "confirmed_label_coverage": 0.45750103320016533,
+        "disagreement_with_raw_share": 0.37949442071910733,
+        "uncertain_share": 0.5424989667998347,
+        "held_label_probability_below_10pct_share": 0.08458465353354457,
+        "mean_display_probability": 0.5279055734782184,
+        "mean_wait_after_first_qualifying_observation": 1.0,
+        "delay_definition": "Wait after the first consecutive qualifying observation; not delay against a true market regime.",
+        "mean_wait_wall_minutes_after_first_qualifying_observation": 1.359683794466403,
+        "max_wait_wall_minutes_after_first_qualifying_observation": 92.0
+      }
+    },
+    {
+      "rule": "confirm_3",
+      "period": "PRE_AUGUST_VALIDATION",
+      "observations": 29036,
+      "model_version": "ARSH-v06-k-stability-20260926-selection-k6",
+      "metrics": {
+        "raw": {
+          "switches": 10175,
+          "run_count": 10297,
+          "mean_run": 2.8198504418762744,
+          "median_run": 1.0,
+          "one_observation_run_share": 0.5487035058754978
+        },
+        "display": {
+          "switches": 169,
+          "run_count": 291,
+          "mean_run": 99.78006872852234,
+          "median_run": 74.0,
+          "one_observation_run_share": 0.01718213058419244
+        },
+        "display_definition": "Run metrics track confirmation memory. Unsupported labels are emitted as UNCERTAIN, so these durations are not evidence of actual regime duration.",
+        "confirmed_label_coverage": 0.32222069155531063,
+        "disagreement_with_raw_share": 0.4949373191899711,
+        "uncertain_share": 0.6777793084446894,
+        "held_label_probability_below_10pct_share": 0.22062267529962803,
+        "mean_display_probability": 0.4512872014579057,
+        "mean_wait_after_first_qualifying_observation": 2.0,
+        "delay_definition": "Wait after the first consecutive qualifying observation; not delay against a true market regime.",
+        "mean_wait_wall_minutes_after_first_qualifying_observation": 3.076923076923077,
+        "max_wait_wall_minutes_after_first_qualifying_observation": 93.0
+      }
+    }
+  ],
+  "note": "Display confirmation changes labels only, never posteriors or predictive density. No true-regime accuracy is measured."
+}

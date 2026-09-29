@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "code_hashes": {
+      "run_experiment.py": "6a72712c8d404e7605fdb1cdd76c73f9fd5be77b52c126304163080dcf6a6d2c",
+      "stability_fit.py": "347f2f9b1cc4fc1cef2e0104f4d49953f334213905def5fb903be6098cbcc6a0",
+      "label_confirmation.py": "80e0b9f3f61fda306f520be2ba3bc75b7db66a3de38e49ce3682ff1d6fa72d3c",
+      "reference\\arsh_v05.py": "b5e19665d071b0e8097f35db56ee54008ed193b4c0e8dc80219be64d00c60efc",
+      "reference\\cuda_hmm.py": "19a735a0f4d7338d5a45f738e06837c4e581dc9827803557a1ddb4867b69967f",
+      "reference\\runtime.py": "b616f0b47ba2af6b5ecc498ea3b5426b3027d854e788312f70d57211ef44f20b",
+      "reference\\student_t_hmm.py": "af6b03639853dfb68b3fbe92693d38dcef3ec10327a6cd88c0b350fb94190b8c",
+      "reference\\v06_fetch_db.py": "85685194bb451fd0b5acbeb8ececc6634080d8bdab98fd49a45afc82edb0c22f"
+    },
+    "device": "cuda:0",
+    "torch_version": "2.14.0+cu130",
+    "cuda_version": "13.0",
+    "gpu": "NVIDIA GeForce RTX 4060"
+  },
+  "passed": true,
+  "results": [
+    {
+      "k": 5,
+      "max_posterior_difference": 6.8833827526759706e-15,
+      "train_ll_difference": 0.0,
+      "passed": true
+    },
+    {
+      "k": 8,
+      "max_posterior_difference": 2.1094237467877974e-14,
+      "train_ll_difference": 1.1368683772161603e-13,
+      "passed": true
+    }
+  ]
+}

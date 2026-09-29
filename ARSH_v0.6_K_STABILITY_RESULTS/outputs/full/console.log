@@ -1,0 +1,2539 @@
+C:\Users\Admin\Downloads\ARSH_v0.6_K_STABILITY\run_experiment.py:210: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`).Please use a specific unit instead.
+  end = (pd.Timestamp(cfg['data_before'])-pd.Timedelta(days=1)).date()
+selection: K=5, seed=62
+    checkpoint K=5 seed=62: updates=25, ll=-199413.455478
+    checkpoint K=5 seed=62: updates=50, ll=-196963.717215
+    checkpoint K=5 seed=62: updates=75, ll=-196781.037083
+    checkpoint K=5 seed=62: updates=100, ll=-195678.493666
+    checkpoint K=5 seed=62: updates=125, ll=-195448.790167
+selection: K=5, seed=62
+    checkpoint K=5 seed=62: updates=150, ll=-195437.096428
+    checkpoint K=5 seed=62: updates=175, ll=-195434.689298
+    checkpoint K=5 seed=62: updates=200, ll=-195433.761942
+    checkpoint K=5 seed=62: updates=225, ll=-195433.143969
+    checkpoint K=5 seed=62: updates=250, ll=-195432.640626
+    checkpoint K=5 seed=62: updates=275, ll=-195432.210820
+    checkpoint K=5 seed=62: updates=300, ll=-195431.841315
+    checkpoint K=5 seed=62: updates=325, ll=-195431.524743
+    checkpoint K=5 seed=62: updates=350, ll=-195431.255137
+  strict_converged, updates=353, elapsed=662.6s
+selection: K=5, seed=63
+    checkpoint K=5 seed=63: updates=25, ll=-199487.892465
+    checkpoint K=5 seed=63: updates=50, ll=-196995.640107
+    checkpoint K=5 seed=63: updates=75, ll=-196944.137463
+    checkpoint K=5 seed=63: updates=100, ll=-196876.839910
+    checkpoint K=5 seed=63: updates=125, ll=-196445.052998
+    checkpoint K=5 seed=63: updates=150, ll=-195479.076141
+    checkpoint K=5 seed=63: updates=175, ll=-195440.299322
+    checkpoint K=5 seed=63: updates=200, ll=-195435.386589
+    checkpoint K=5 seed=63: updates=225, ll=-195433.979950
+    checkpoint K=5 seed=63: updates=250, ll=-195433.205422
+    checkpoint K=5 seed=63: updates=275, ll=-195432.621527
+    checkpoint K=5 seed=63: updates=300, ll=-195432.144311
+    checkpoint K=5 seed=63: updates=325, ll=-195431.748654
+    checkpoint K=5 seed=63: updates=350, ll=-195431.420722
+    checkpoint K=5 seed=63: updates=375, ll=-195431.149678
+  strict_converged, updates=377, elapsed=694.7s
+selection: K=5, seed=64
+    checkpoint K=5 seed=64: updates=25, ll=-199464.517110
+    checkpoint K=5 seed=64: updates=50, ll=-196995.224409
+    checkpoint K=5 seed=64: updates=75, ll=-196949.477648
+    checkpoint K=5 seed=64: updates=100, ll=-196908.024240
+    checkpoint K=5 seed=64: updates=125, ll=-196688.723726
+    checkpoint K=5 seed=64: updates=150, ll=-195566.153229
+    checkpoint K=5 seed=64: updates=175, ll=-195444.559154
+    checkpoint K=5 seed=64: updates=200, ll=-195436.360013
+    checkpoint K=5 seed=64: updates=225, ll=-195434.413113
+    checkpoint K=5 seed=64: updates=250, ll=-195433.501597
+    checkpoint K=5 seed=64: updates=275, ll=-195432.849844
+    checkpoint K=5 seed=64: updates=300, ll=-195432.323374
+    checkpoint K=5 seed=64: updates=325, ll=-195431.888426
+    checkpoint K=5 seed=64: updates=350, ll=-195431.529012
+    checkpoint K=5 seed=64: updates=375, ll=-195431.233045
+  strict_converged, updates=388, elapsed=718.3s
+selection: K=5, seed=65
+    checkpoint K=5 seed=65: updates=25, ll=-199485.659443
+    checkpoint K=5 seed=65: updates=50, ll=-196993.569930
+    checkpoint K=5 seed=65: updates=75, ll=-196932.525966
+    checkpoint K=5 seed=65: updates=100, ll=-196812.653776
+    checkpoint K=5 seed=65: updates=125, ll=-195867.672349
+    checkpoint K=5 seed=65: updates=150, ll=-195452.304611
+    checkpoint K=5 seed=65: updates=175, ll=-195437.556357
+    checkpoint K=5 seed=65: updates=200, ll=-195434.660317
+    checkpoint K=5 seed=65: updates=225, ll=-195433.614408
+    checkpoint K=5 seed=65: updates=250, ll=-195432.949484
+    checkpoint K=5 seed=65: updates=275, ll=-195432.426261
+    checkpoint K=5 seed=65: updates=300, ll=-195431.993346
+    checkpoint K=5 seed=65: updates=325, ll=-195431.632195
+    checkpoint K=5 seed=65: updates=350, ll=-195431.331262
+  strict_converged, updates=366, elapsed=683.5s
+selection: K=5, seed=66
+    checkpoint K=5 seed=66: updates=25, ll=-199456.129386
+    checkpoint K=5 seed=66: updates=50, ll=-196995.190742
+    checkpoint K=5 seed=66: updates=75, ll=-196951.983750
+    checkpoint K=5 seed=66: updates=100, ll=-196923.693238
+    checkpoint K=5 seed=66: updates=125, ll=-196786.474032
+    checkpoint K=5 seed=66: updates=150, ll=-195728.429316
+    checkpoint K=5 seed=66: updates=175, ll=-195450.024351
+    checkpoint K=5 seed=66: updates=200, ll=-195437.436324
+    checkpoint K=5 seed=66: updates=225, ll=-195434.806002
+    checkpoint K=5 seed=66: updates=250, ll=-195433.750542
+    checkpoint K=5 seed=66: updates=275, ll=-195433.040099
+    checkpoint K=5 seed=66: updates=300, ll=-195432.473635
+    checkpoint K=5 seed=66: updates=325, ll=-195432.006817
+    checkpoint K=5 seed=66: updates=350, ll=-195431.621664
+    checkpoint K=5 seed=66: updates=375, ll=-195431.305232
+  strict_converged, updates=396, elapsed=755.4s
+selection: K=5, seed=67
+    checkpoint K=5 seed=67: updates=25, ll=-199483.057561
+    checkpoint K=5 seed=67: updates=50, ll=-196993.810531
+    checkpoint K=5 seed=67: updates=75, ll=-196934.868364
+    checkpoint K=5 seed=67: updates=100, ll=-196825.866372
+    checkpoint K=5 seed=67: updates=125, ll=-195973.207597
+    checkpoint K=5 seed=67: updates=150, ll=-195454.262234
+    checkpoint K=5 seed=67: updates=175, ll=-195437.895046
+    checkpoint K=5 seed=67: updates=200, ll=-195434.759706
+    checkpoint K=5 seed=67: updates=225, ll=-195433.668089
+    checkpoint K=5 seed=67: updates=250, ll=-195432.987691
+    checkpoint K=5 seed=67: updates=275, ll=-195432.455367
+    checkpoint K=5 seed=67: updates=300, ll=-195432.015728
+    checkpoint K=5 seed=67: updates=325, ll=-195431.649349
+    checkpoint K=5 seed=67: updates=350, ll=-195431.344333
+  strict_converged, updates=368, elapsed=768.5s
+selection: K=5, seed=68
+    checkpoint K=5 seed=68: updates=25, ll=-199492.847803
+    checkpoint K=5 seed=68: updates=50, ll=-196943.346606
+    checkpoint K=5 seed=68: updates=75, ll=-196621.530478
+    checkpoint K=5 seed=68: updates=100, ll=-195542.194606
+    checkpoint K=5 seed=68: updates=125, ll=-195442.640239
+    checkpoint K=5 seed=68: updates=150, ll=-195436.081870
+    checkpoint K=5 seed=68: updates=175, ll=-195434.482574
+    checkpoint K=5 seed=68: updates=200, ll=-195433.713323
+    checkpoint K=5 seed=68: updates=225, ll=-195433.143364
+    checkpoint K=5 seed=68: updates=250, ll=-195432.661625
+    checkpoint K=5 seed=68: updates=275, ll=-195432.243026
+    checkpoint K=5 seed=68: updates=300, ll=-195431.878893
+    checkpoint K=5 seed=68: updates=325, ll=-195431.564024
+    checkpoint K=5 seed=68: updates=350, ll=-195431.293850
+  strict_converged, updates=354, elapsed=779.8s
+selection: K=5, seed=69
+    checkpoint K=5 seed=69: updates=25, ll=-199435.801496
+    checkpoint K=5 seed=69: updates=50, ll=-196990.890264
+    checkpoint K=5 seed=69: updates=75, ll=-196933.319601
+    checkpoint K=5 seed=69: updates=100, ll=-196819.774032
+    checkpoint K=5 seed=69: updates=125, ll=-195925.779234
+    checkpoint K=5 seed=69: updates=150, ll=-195453.414683
+    checkpoint K=5 seed=69: updates=175, ll=-195437.817932
+    checkpoint K=5 seed=69: updates=200, ll=-195434.784384
+    checkpoint K=5 seed=69: updates=225, ll=-195433.703137
+selection: K=5, seed=62
+  strict_converged, updates=353, elapsed=662.6s
+selection: K=5, seed=63
+  strict_converged, updates=377, elapsed=694.7s
+selection: K=5, seed=64
+  strict_converged, updates=388, elapsed=718.3s
+selection: K=5, seed=65
+  strict_converged, updates=366, elapsed=683.5s
+selection: K=5, seed=66
+  strict_converged, updates=396, elapsed=755.4s
+selection: K=5, seed=67
+  strict_converged, updates=368, elapsed=768.5s
+selection: K=5, seed=68
+  strict_converged, updates=354, elapsed=779.8s
+selection: K=5, seed=69
+    checkpoint K=5 seed=69: updates=250, ll=-195433.019621
+    checkpoint K=5 seed=69: updates=275, ll=-195432.482098
+    checkpoint K=5 seed=69: updates=300, ll=-195432.037138
+    checkpoint K=5 seed=69: updates=325, ll=-195431.665768
+    checkpoint K=5 seed=69: updates=350, ll=-195431.356242
+  strict_converged, updates=370, elapsed=764.1s
+selection: K=5, seed=70
+    checkpoint K=5 seed=70: updates=25, ll=-199481.680386
+    checkpoint K=5 seed=70: updates=50, ll=-196995.744672
+    checkpoint K=5 seed=70: updates=75, ll=-196946.797618
+    checkpoint K=5 seed=70: updates=100, ll=-196891.987312
+    checkpoint K=5 seed=70: updates=125, ll=-196571.693100
+    checkpoint K=5 seed=70: updates=150, ll=-195537.799994
+    checkpoint K=5 seed=70: updates=175, ll=-195441.820769
+    checkpoint K=5 seed=70: updates=200, ll=-195435.750077
+    checkpoint K=5 seed=70: updates=225, ll=-195434.149195
+    checkpoint K=5 seed=70: updates=250, ll=-195433.322627
+    checkpoint K=5 seed=70: updates=275, ll=-195432.711922
+    checkpoint K=5 seed=70: updates=300, ll=-195432.215151
+    checkpoint K=5 seed=70: updates=325, ll=-195431.803986
+    checkpoint K=5 seed=70: updates=350, ll=-195431.463703
+    checkpoint K=5 seed=70: updates=375, ll=-195431.182921
+  strict_converged, updates=381, elapsed=658.5s
+selection: K=5, seed=71
+    checkpoint K=5 seed=71: updates=25, ll=-199432.782827
+    checkpoint K=5 seed=71: updates=50, ll=-196994.015334
+    checkpoint K=5 seed=71: updates=75, ll=-196952.349443
+    checkpoint K=5 seed=71: updates=100, ll=-196927.378287
+    checkpoint K=5 seed=71: updates=125, ll=-196808.072844
+    checkpoint K=5 seed=71: updates=150, ll=-195857.814004
+    checkpoint K=5 seed=71: updates=175, ll=-195452.387803
+    checkpoint K=5 seed=71: updates=200, ll=-195437.885158
+    checkpoint K=5 seed=71: updates=225, ll=-195434.964766
+    checkpoint K=5 seed=71: updates=250, ll=-195433.851111
+    checkpoint K=5 seed=71: updates=275, ll=-195433.117940
+    checkpoint K=5 seed=71: updates=300, ll=-195432.535893
+    checkpoint K=5 seed=71: updates=325, ll=-195432.056337
+    checkpoint K=5 seed=71: updates=350, ll=-195431.660623
+    checkpoint K=5 seed=71: updates=375, ll=-195431.335600
+  strict_converged, updates=399, elapsed=693.8s
+selection: K=6, seed=62
+    checkpoint K=6 seed=62: updates=25, ll=-199503.942207
+    checkpoint K=6 seed=62: updates=50, ll=-196864.015987
+    checkpoint K=6 seed=62: updates=75, ll=-196752.632619
+    checkpoint K=6 seed=62: updates=100, ll=-196666.818596
+    checkpoint K=6 seed=62: updates=125, ll=-195867.461184
+    checkpoint K=6 seed=62: updates=150, ll=-195355.110225
+    checkpoint K=6 seed=62: updates=175, ll=-195317.675710
+    checkpoint K=6 seed=62: updates=200, ll=-195313.349449
+    checkpoint K=6 seed=62: updates=225, ll=-195312.008581
+    checkpoint K=6 seed=62: updates=250, ll=-195311.183435
+    checkpoint K=6 seed=62: updates=275, ll=-195310.453588
+    checkpoint K=6 seed=62: updates=300, ll=-195309.772827
+    checkpoint K=6 seed=62: updates=325, ll=-195309.166210
+    checkpoint K=6 seed=62: updates=350, ll=-195308.655779
+    checkpoint K=6 seed=62: updates=375, ll=-195308.242871
+    checkpoint K=6 seed=62: updates=400, ll=-195307.913071
+  strict_converged, updates=424, elapsed=740.4s
+selection: K=6, seed=63
+    checkpoint K=6 seed=63: updates=25, ll=-199470.749605
+    checkpoint K=6 seed=63: updates=50, ll=-196840.825736
+    checkpoint K=6 seed=63: updates=75, ll=-196564.717130
+    checkpoint K=6 seed=63: updates=100, ll=-195453.818759
+    checkpoint K=6 seed=63: updates=125, ll=-195336.498258
+    checkpoint K=6 seed=63: updates=150, ll=-195327.450221
+    checkpoint K=6 seed=63: updates=175, ll=-195325.393908
+    checkpoint K=6 seed=63: updates=200, ll=-195324.542529
+    checkpoint K=6 seed=63: updates=225, ll=-195323.920119
+    checkpoint K=6 seed=63: updates=250, ll=-195323.339778
+    checkpoint K=6 seed=63: updates=275, ll=-195322.761449
+    checkpoint K=6 seed=63: updates=300, ll=-195322.176910
+    checkpoint K=6 seed=63: updates=325, ll=-195321.586161
+    checkpoint K=6 seed=63: updates=350, ll=-195320.991789
+    checkpoint K=6 seed=63: updates=375, ll=-195320.397299
+    checkpoint K=6 seed=63: updates=400, ll=-195319.806449
+    checkpoint K=6 seed=63: updates=425, ll=-195319.222889
+    checkpoint K=6 seed=63: updates=450, ll=-195318.649925
+    checkpoint K=6 seed=63: updates=475, ll=-195318.090334
+    checkpoint K=6 seed=63: updates=500, ll=-195317.546198
+    checkpoint K=6 seed=63: updates=525, ll=-195317.018751
+    checkpoint K=6 seed=63: updates=550, ll=-195316.508315
+    checkpoint K=6 seed=63: updates=575, ll=-195316.014677
+    checkpoint K=6 seed=63: updates=600, ll=-195315.538218
+    checkpoint K=6 seed=63: updates=625, ll=-195315.080714
+    checkpoint K=6 seed=63: updates=650, ll=-195314.643912
+    checkpoint K=6 seed=63: updates=675, ll=-195314.227741
+    checkpoint K=6 seed=63: updates=700, ll=-195313.830693
+    checkpoint K=6 seed=63: updates=725, ll=-195313.450948
+    checkpoint K=6 seed=63: updates=750, ll=-195313.086859
+    checkpoint K=6 seed=63: updates=775, ll=-195312.737010
+    checkpoint K=6 seed=63: updates=800, ll=-195312.400157
+    checkpoint K=6 seed=63: updates=825, ll=-195312.075206
+    checkpoint K=6 seed=63: updates=850, ll=-195311.761185
+    checkpoint K=6 seed=63: updates=875, ll=-195311.457244
+    checkpoint K=6 seed=63: updates=900, ll=-195311.162645
+    checkpoint K=6 seed=63: updates=925, ll=-195310.876754
+    checkpoint K=6 seed=63: updates=950, ll=-195310.599029
+    checkpoint K=6 seed=63: updates=975, ll=-195310.329004
+    checkpoint K=6 seed=63: updates=1000, ll=-195310.066287
+    checkpoint K=6 seed=63: updates=1025, ll=-195309.810536
+  strict_converged, updates=1038, elapsed=1799.0s
+selection: K=6, seed=64
+    checkpoint K=6 seed=64: updates=25, ll=-199401.262974
+    checkpoint K=6 seed=64: updates=50, ll=-196839.940239
+    checkpoint K=6 seed=64: updates=75, ll=-196659.695643
+    checkpoint K=6 seed=64: updates=100, ll=-195669.766895
+    checkpoint K=6 seed=64: updates=125, ll=-195342.874648
+    checkpoint K=6 seed=64: updates=150, ll=-195328.271452
+    checkpoint K=6 seed=64: updates=175, ll=-195325.290704
+    checkpoint K=6 seed=64: updates=200, ll=-195324.255865
+    checkpoint K=6 seed=64: updates=225, ll=-195323.579446
+    checkpoint K=6 seed=64: updates=250, ll=-195322.972626
+    checkpoint K=6 seed=64: updates=275, ll=-195322.376015
+    checkpoint K=6 seed=64: updates=300, ll=-195321.777323
+    checkpoint K=6 seed=64: updates=325, ll=-195321.175644
+    checkpoint K=6 seed=64: updates=350, ll=-195320.573355
+    checkpoint K=6 seed=64: updates=375, ll=-195319.973867
+    checkpoint K=6 seed=64: updates=400, ll=-195319.380778
+    checkpoint K=6 seed=64: updates=425, ll=-195318.797440
+    checkpoint K=6 seed=64: updates=450, ll=-195318.226679
+    checkpoint K=6 seed=64: updates=475, ll=-195317.670611
+    checkpoint K=6 seed=64: updates=500, ll=-195317.130630
+    checkpoint K=6 seed=64: updates=525, ll=-195316.607738
+    checkpoint K=6 seed=64: updates=550, ll=-195316.103206
+    checkpoint K=6 seed=64: updates=575, ll=-195315.618803
+    checkpoint K=6 seed=64: updates=600, ll=-195315.155893
+    checkpoint K=6 seed=64: updates=625, ll=-195314.714540
+    checkpoint K=6 seed=64: updates=650, ll=-195314.293714
+    checkpoint K=6 seed=64: updates=675, ll=-195313.891940
+    checkpoint K=6 seed=64: updates=700, ll=-195313.507692
+    checkpoint K=6 seed=64: updates=725, ll=-195313.139516
+    checkpoint K=6 seed=64: updates=750, ll=-195312.786054
+    checkpoint K=6 seed=64: updates=775, ll=-195312.446050
+    checkpoint K=6 seed=64: updates=800, ll=-195312.118360
+    checkpoint K=6 seed=64: updates=825, ll=-195311.801957
+    checkpoint K=6 seed=64: updates=850, ll=-195311.495934
+    checkpoint K=6 seed=64: updates=875, ll=-195311.199503
+    checkpoint K=6 seed=64: updates=900, ll=-195310.911983
+    checkpoint K=6 seed=64: updates=925, ll=-195310.632795
+    checkpoint K=6 seed=64: updates=950, ll=-195310.361444
+    checkpoint K=6 seed=64: updates=975, ll=-195310.097511
+    checkpoint K=6 seed=64: updates=1000, ll=-195309.840635
+  strict_converged, updates=1017, elapsed=1756.8s
+selection: K=6, seed=65
+    checkpoint K=6 seed=65: updates=25, ll=-199440.277558
+    checkpoint K=6 seed=65: updates=50, ll=-196854.092907
+    checkpoint K=6 seed=65: updates=75, ll=-196726.142324
+    checkpoint K=6 seed=65: updates=100, ll=-196357.116979
+    checkpoint K=6 seed=65: updates=125, ll=-195380.822145
+    checkpoint K=6 seed=65: updates=150, ll=-195331.184133
+    checkpoint K=6 seed=65: updates=175, ll=-195325.519733
+    checkpoint K=6 seed=65: updates=200, ll=-195324.006537
+    checkpoint K=6 seed=65: updates=225, ll=-195323.214578
+    checkpoint K=6 seed=65: updates=250, ll=-195322.561376
+    checkpoint K=6 seed=65: updates=275, ll=-195321.935222
+    checkpoint K=6 seed=65: updates=300, ll=-195321.313764
+    checkpoint K=6 seed=65: updates=325, ll=-195320.694107
+    checkpoint K=6 seed=65: updates=350, ll=-195320.078218
+    checkpoint K=6 seed=65: updates=375, ll=-195319.469319
+    checkpoint K=6 seed=65: updates=400, ll=-195318.870726
+    checkpoint K=6 seed=65: updates=425, ll=-195318.285349
+    checkpoint K=6 seed=65: updates=450, ll=-195317.715474
+    checkpoint K=6 seed=65: updates=475, ll=-195317.162796
+    checkpoint K=6 seed=65: updates=500, ll=-195316.628771
+    checkpoint K=6 seed=65: updates=525, ll=-195316.115005
+    checkpoint K=6 seed=65: updates=550, ll=-195315.623076
+    checkpoint K=6 seed=65: updates=575, ll=-195315.153783
+    checkpoint K=6 seed=65: updates=600, ll=-195314.706790
+    checkpoint K=6 seed=65: updates=625, ll=-195314.280959
+    checkpoint K=6 seed=65: updates=650, ll=-195313.874812
+    checkpoint K=6 seed=65: updates=675, ll=-195313.486806
+    checkpoint K=6 seed=65: updates=700, ll=-195313.115429
+    checkpoint K=6 seed=65: updates=725, ll=-195312.759247
+    checkpoint K=6 seed=65: updates=750, ll=-195312.416925
+    checkpoint K=6 seed=65: updates=775, ll=-195312.087246
+    checkpoint K=6 seed=65: updates=800, ll=-195311.769119
+    checkpoint K=6 seed=65: updates=825, ll=-195311.461585
+    checkpoint K=6 seed=65: updates=850, ll=-195311.163813
+    checkpoint K=6 seed=65: updates=875, ll=-195310.875090
+    checkpoint K=6 seed=65: updates=900, ll=-195310.594809
+    checkpoint K=6 seed=65: updates=925, ll=-195310.322457
+    checkpoint K=6 seed=65: updates=950, ll=-195310.057597
+    checkpoint K=6 seed=65: updates=975, ll=-195309.799859
+  strict_converged, updates=995, elapsed=1711.2s
+selection: K=6, seed=66
+    checkpoint K=6 seed=66: updates=25, ll=-199512.853917
+    checkpoint K=6 seed=66: updates=50, ll=-196867.514361
+    checkpoint K=6 seed=66: updates=75, ll=-196763.241662
+    checkpoint K=6 seed=66: updates=100, ll=-196745.660895
+    checkpoint K=6 seed=66: updates=125, ll=-196649.091944
+    checkpoint K=6 seed=66: updates=150, ll=-195717.467708
+    checkpoint K=6 seed=66: updates=175, ll=-195364.651227
+    checkpoint K=6 seed=66: updates=200, ll=-195317.338665
+    checkpoint K=6 seed=66: updates=225, ll=-195313.366711
+    checkpoint K=6 seed=66: updates=250, ll=-195312.192470
+    checkpoint K=6 seed=66: updates=275, ll=-195311.484651
+    checkpoint K=6 seed=66: updates=300, ll=-195310.826733
+    checkpoint K=6 seed=66: updates=325, ll=-195310.159291
+    checkpoint K=6 seed=66: updates=350, ll=-195309.510330
+    checkpoint K=6 seed=66: updates=375, ll=-195308.924216
+    checkpoint K=6 seed=66: updates=400, ll=-195308.429180
+    checkpoint K=6 seed=66: updates=425, ll=-195308.028670
+    checkpoint K=6 seed=66: updates=450, ll=-195307.709065
+  strict_converged, updates=470, elapsed=807.1s
+selection: K=6, seed=67
+    checkpoint K=6 seed=67: updates=25, ll=-199502.613096
+    checkpoint K=6 seed=67: updates=50, ll=-196863.834401
+    checkpoint K=6 seed=67: updates=75, ll=-196753.190355
+    checkpoint K=6 seed=67: updates=100, ll=-196671.522842
+    checkpoint K=6 seed=67: updates=125, ll=-195916.048314
+    checkpoint K=6 seed=67: updates=150, ll=-195366.992914
+    checkpoint K=6 seed=67: updates=175, ll=-195317.897803
+    checkpoint K=6 seed=67: updates=200, ll=-195313.406020
+    checkpoint K=6 seed=67: updates=225, ll=-195312.040424
+    checkpoint K=6 seed=67: updates=250, ll=-195311.213739
+    checkpoint K=6 seed=67: updates=275, ll=-195310.484392
+    checkpoint K=6 seed=67: updates=300, ll=-195309.801802
+    checkpoint K=6 seed=67: updates=325, ll=-195309.190926
+    checkpoint K=6 seed=67: updates=350, ll=-195308.675181
+    checkpoint K=6 seed=67: updates=375, ll=-195308.257260
+    checkpoint K=6 seed=67: updates=400, ll=-195307.923448
+    checkpoint K=6 seed=67: updates=425, ll=-195307.653938
+  strict_converged, updates=426, elapsed=730.4s
+selection: K=6, seed=68
+    checkpoint K=6 seed=68: updates=25, ll=-199455.289545
+    checkpoint K=6 seed=68: updates=50, ll=-196858.626420
+    checkpoint K=6 seed=68: updates=75, ll=-196740.287765
+    checkpoint K=6 seed=68: updates=100, ll=-196494.763626
+    checkpoint K=6 seed=68: updates=125, ll=-195439.964098
+    checkpoint K=6 seed=68: updates=150, ll=-195333.266063
+    checkpoint K=6 seed=68: updates=175, ll=-195325.800717
+    checkpoint K=6 seed=68: updates=200, ll=-195323.981480
+    checkpoint K=6 seed=68: updates=225, ll=-195323.123904
+    checkpoint K=6 seed=68: updates=250, ll=-195322.449187
+    checkpoint K=6 seed=68: updates=275, ll=-195321.811424
+    checkpoint K=6 seed=68: updates=300, ll=-195321.181647
+    checkpoint K=6 seed=68: updates=325, ll=-195320.555553
+    checkpoint K=6 seed=68: updates=350, ll=-195319.934759
+    checkpoint K=6 seed=68: updates=375, ll=-195319.322338
+    checkpoint K=6 seed=68: updates=400, ll=-195318.721477
+    checkpoint K=6 seed=68: updates=425, ll=-195318.134944
+    checkpoint K=6 seed=68: updates=450, ll=-195317.564900
+    checkpoint K=6 seed=68: updates=475, ll=-195317.013011
+    checkpoint K=6 seed=68: updates=500, ll=-195316.480827
+    checkpoint K=6 seed=68: updates=525, ll=-195315.969991
+    checkpoint K=6 seed=68: updates=550, ll=-195315.481826
+    checkpoint K=6 seed=68: updates=575, ll=-195315.016690
+    checkpoint K=6 seed=68: updates=600, ll=-195314.573907
+    checkpoint K=6 seed=68: updates=625, ll=-195314.152173
+    checkpoint K=6 seed=68: updates=650, ll=-195313.749949
+    checkpoint K=6 seed=68: updates=675, ll=-195313.365662
+    checkpoint K=6 seed=68: updates=700, ll=-195312.997786
+    checkpoint K=6 seed=68: updates=725, ll=-195312.644878
+    checkpoint K=6 seed=68: updates=750, ll=-195312.305603
+    checkpoint K=6 seed=68: updates=775, ll=-195311.978751
+    checkpoint K=6 seed=68: updates=800, ll=-195311.663249
+    checkpoint K=6 seed=68: updates=825, ll=-195311.358155
+    checkpoint K=6 seed=68: updates=850, ll=-195311.062660
+    checkpoint K=6 seed=68: updates=875, ll=-195310.776072
+    checkpoint K=6 seed=68: updates=900, ll=-195310.497803
+    checkpoint K=6 seed=68: updates=925, ll=-195310.227358
+    checkpoint K=6 seed=68: updates=950, ll=-195309.964315
+    checkpoint K=6 seed=68: updates=975, ll=-195309.708317
+  strict_converged, updates=989, elapsed=1696.5s
+selection: K=6, seed=69
+    checkpoint K=6 seed=69: updates=25, ll=-199514.301526
+    checkpoint K=6 seed=69: updates=50, ll=-196865.041993
+    checkpoint K=6 seed=69: updates=75, ll=-196742.682375
+    checkpoint K=6 seed=69: updates=100, ll=-196586.506932
+    checkpoint K=6 seed=69: updates=125, ll=-195465.732291
+    checkpoint K=6 seed=69: updates=150, ll=-195328.563523
+    checkpoint K=6 seed=69: updates=175, ll=-195315.568699
+    checkpoint K=6 seed=69: updates=200, ll=-195312.700458
+    checkpoint K=6 seed=69: updates=225, ll=-195311.576942
+    checkpoint K=6 seed=69: updates=250, ll=-195310.769893
+    checkpoint K=6 seed=69: updates=275, ll=-195310.048903
+    checkpoint K=6 seed=69: updates=300, ll=-195309.403760
+    checkpoint K=6 seed=69: updates=325, ll=-195308.854460
+    checkpoint K=6 seed=69: updates=350, ll=-195308.406781
+    checkpoint K=6 seed=69: updates=375, ll=-195308.049233
+    checkpoint K=6 seed=69: updates=400, ll=-195307.762166
+  strict_converged, updates=408, elapsed=701.8s
+selection: K=6, seed=70
+    checkpoint K=6 seed=70: updates=25, ll=-199510.727528
+    checkpoint K=6 seed=70: updates=50, ll=-196864.648155
+    checkpoint K=6 seed=70: updates=75, ll=-196746.186162
+    checkpoint K=6 seed=70: updates=100, ll=-196615.360256
+    checkpoint K=6 seed=70: updates=125, ll=-195525.574037
+    checkpoint K=6 seed=70: updates=150, ll=-195331.354860
+    checkpoint K=6 seed=70: updates=175, ll=-195316.087635
+    checkpoint K=6 seed=70: updates=200, ll=-195312.876090
+    checkpoint K=6 seed=70: updates=225, ll=-195311.701296
+    checkpoint K=6 seed=70: updates=250, ll=-195310.888413
+    checkpoint K=6 seed=70: updates=275, ll=-195310.161849
+    checkpoint K=6 seed=70: updates=300, ll=-195309.503827
+    checkpoint K=6 seed=70: updates=325, ll=-195308.936869
+    checkpoint K=6 seed=70: updates=350, ll=-195308.471320
+    checkpoint K=6 seed=70: updates=375, ll=-195308.098727
+    checkpoint K=6 seed=70: updates=400, ll=-195307.800376
+  strict_converged, updates=413, elapsed=710.7s
+selection: K=6, seed=71
+    checkpoint K=6 seed=71: updates=25, ll=-199514.289038
+    checkpoint K=6 seed=71: updates=50, ll=-196864.959492
+    checkpoint K=6 seed=71: updates=75, ll=-196741.977211
+    checkpoint K=6 seed=71: updates=100, ll=-196580.639368
+    checkpoint K=6 seed=71: updates=125, ll=-195459.413587
+    checkpoint K=6 seed=71: updates=150, ll=-195328.121854
+    checkpoint K=6 seed=71: updates=175, ll=-195315.482253
+    checkpoint K=6 seed=71: updates=200, ll=-195312.670000
+    checkpoint K=6 seed=71: updates=225, ll=-195311.554457
+    checkpoint K=6 seed=71: updates=250, ll=-195310.748121
+    checkpoint K=6 seed=71: updates=275, ll=-195310.028104
+    checkpoint K=6 seed=71: updates=300, ll=-195309.385363
+    checkpoint K=6 seed=71: updates=325, ll=-195308.839328
+    checkpoint K=6 seed=71: updates=350, ll=-195308.394915
+    checkpoint K=6 seed=71: updates=375, ll=-195308.040089
+    checkpoint K=6 seed=71: updates=400, ll=-195307.755047
+  strict_converged, updates=408, elapsed=701.3s
+selection: K=7, seed=62
+    checkpoint K=7 seed=62: updates=25, ll=-199414.177796
+    checkpoint K=7 seed=62: updates=50, ll=-196788.409702
+    checkpoint K=7 seed=62: updates=75, ll=-195605.311104
+    checkpoint K=7 seed=62: updates=100, ll=-195187.837099
+    checkpoint K=7 seed=62: updates=125, ll=-194947.439476
+    checkpoint K=7 seed=62: updates=150, ll=-194896.893813
+    checkpoint K=7 seed=62: updates=175, ll=-194859.653684
+    checkpoint K=7 seed=62: updates=200, ll=-194830.910850
+    checkpoint K=7 seed=62: updates=225, ll=-194809.022994
+    checkpoint K=7 seed=62: updates=250, ll=-194792.508569
+    checkpoint K=7 seed=62: updates=275, ll=-194780.287609
+    checkpoint K=7 seed=62: updates=300, ll=-194771.384949
+    checkpoint K=7 seed=62: updates=325, ll=-194764.823715
+    checkpoint K=7 seed=62: updates=350, ll=-194759.743438
+    checkpoint K=7 seed=62: updates=375, ll=-194755.488932
+    checkpoint K=7 seed=62: updates=400, ll=-194751.636099
+    checkpoint K=7 seed=62: updates=425, ll=-194747.985883
+    checkpoint K=7 seed=62: updates=450, ll=-194744.520866
+    checkpoint K=7 seed=62: updates=475, ll=-194741.316294
+    checkpoint K=7 seed=62: updates=500, ll=-194738.441841
+    checkpoint K=7 seed=62: updates=525, ll=-194735.906550
+    checkpoint K=7 seed=62: updates=550, ll=-194733.659426
+    checkpoint K=7 seed=62: updates=575, ll=-194731.620547
+    checkpoint K=7 seed=62: updates=600, ll=-194729.715537
+    checkpoint K=7 seed=62: updates=625, ll=-194727.898248
+    checkpoint K=7 seed=62: updates=650, ll=-194726.155045
+    checkpoint K=7 seed=62: updates=675, ll=-194724.493161
+    checkpoint K=7 seed=62: updates=700, ll=-194722.924672
+    checkpoint K=7 seed=62: updates=725, ll=-194721.457054
+    checkpoint K=7 seed=62: updates=750, ll=-194720.092043
+    checkpoint K=7 seed=62: updates=775, ll=-194718.828187
+    checkpoint K=7 seed=62: updates=800, ll=-194717.663011
+    checkpoint K=7 seed=62: updates=825, ll=-194716.593629
+    checkpoint K=7 seed=62: updates=850, ll=-194715.616399
+    checkpoint K=7 seed=62: updates=875, ll=-194714.726491
+    checkpoint K=7 seed=62: updates=900, ll=-194713.917796
+    checkpoint K=7 seed=62: updates=925, ll=-194713.183103
+    checkpoint K=7 seed=62: updates=950, ll=-194712.514272
+    checkpoint K=7 seed=62: updates=975, ll=-194711.902124
+    checkpoint K=7 seed=62: updates=1000, ll=-194711.336059
+    checkpoint K=7 seed=62: updates=1025, ll=-194710.803653
+    checkpoint K=7 seed=62: updates=1050, ll=-194710.290855
+    checkpoint K=7 seed=62: updates=1075, ll=-194709.783681
+    checkpoint K=7 seed=62: updates=1100, ll=-194709.272035
+    checkpoint K=7 seed=62: updates=1125, ll=-194708.754399
+    checkpoint K=7 seed=62: updates=1150, ll=-194708.239420
+    checkpoint K=7 seed=62: updates=1175, ll=-194707.741351
+    checkpoint K=7 seed=62: updates=1200, ll=-194707.272416
+    checkpoint K=7 seed=62: updates=1225, ll=-194706.838333
+    checkpoint K=7 seed=62: updates=1250, ll=-194706.438789
+    checkpoint K=7 seed=62: updates=1275, ll=-194706.070171
+    checkpoint K=7 seed=62: updates=1300, ll=-194705.727906
+    checkpoint K=7 seed=62: updates=1325, ll=-194705.407679
+    checkpoint K=7 seed=62: updates=1350, ll=-194705.105857
+    checkpoint K=7 seed=62: updates=1375, ll=-194704.819510
+    checkpoint K=7 seed=62: updates=1400, ll=-194704.546308
+    checkpoint K=7 seed=62: updates=1425, ll=-194704.284397
+  strict_converged, updates=1447, elapsed=2512.4s
+selection: K=7, seed=63
+    checkpoint K=7 seed=63: updates=25, ll=-199541.586418
+    checkpoint K=7 seed=63: updates=50, ll=-197369.578268
+    checkpoint K=7 seed=63: updates=75, ll=-195561.439997
+    checkpoint K=7 seed=63: updates=100, ll=-195069.898777
+    checkpoint K=7 seed=63: updates=125, ll=-194924.953723
+    checkpoint K=7 seed=63: updates=150, ll=-194872.453579
+    checkpoint K=7 seed=63: updates=175, ll=-194833.142874
+    checkpoint K=7 seed=63: updates=200, ll=-194804.662706
+    checkpoint K=7 seed=63: updates=225, ll=-194785.128941
+    checkpoint K=7 seed=63: updates=250, ll=-194772.080543
+    checkpoint K=7 seed=63: updates=275, ll=-194763.198791
+    checkpoint K=7 seed=63: updates=300, ll=-194756.758751
+    checkpoint K=7 seed=63: updates=325, ll=-194751.668831
+    checkpoint K=7 seed=63: updates=350, ll=-194747.342671
+    checkpoint K=7 seed=63: updates=375, ll=-194743.530896
+    checkpoint K=7 seed=63: updates=400, ll=-194740.155331
+    checkpoint K=7 seed=63: updates=425, ll=-194737.182199
+    checkpoint K=7 seed=63: updates=450, ll=-194734.560226
+    checkpoint K=7 seed=63: updates=475, ll=-194732.215529
+    checkpoint K=7 seed=63: updates=500, ll=-194730.073480
+    checkpoint K=7 seed=63: updates=525, ll=-194728.080404
+    checkpoint K=7 seed=63: updates=550, ll=-194726.210666
+    checkpoint K=7 seed=63: updates=575, ll=-194724.458812
+    checkpoint K=7 seed=63: updates=600, ll=-194722.826580
+    checkpoint K=7 seed=63: updates=625, ll=-194721.314452
+    checkpoint K=7 seed=63: updates=650, ll=-194719.919755
+    checkpoint K=7 seed=63: updates=675, ll=-194718.637993
+    checkpoint K=7 seed=63: updates=700, ll=-194717.464198
+    checkpoint K=7 seed=63: updates=725, ll=-194716.393294
+    checkpoint K=7 seed=63: updates=750, ll=-194715.419837
+    checkpoint K=7 seed=63: updates=775, ll=-194714.537728
+    checkpoint K=7 seed=63: updates=800, ll=-194713.740120
+    checkpoint K=7 seed=63: updates=825, ll=-194713.019436
+    checkpoint K=7 seed=63: updates=850, ll=-194712.367313
+    checkpoint K=7 seed=63: updates=875, ll=-194711.774375
+    checkpoint K=7 seed=63: updates=900, ll=-194711.229865
+    checkpoint K=7 seed=63: updates=925, ll=-194710.721261
+    checkpoint K=7 seed=63: updates=950, ll=-194710.234226
+    checkpoint K=7 seed=63: updates=975, ll=-194709.753618
+    checkpoint K=7 seed=63: updates=1000, ll=-194709.266565
+    checkpoint K=7 seed=63: updates=1025, ll=-194708.767509
+    checkpoint K=7 seed=63: updates=1050, ll=-194708.262017
+    checkpoint K=7 seed=63: updates=1075, ll=-194707.764575
+    checkpoint K=7 seed=63: updates=1100, ll=-194707.290637
+    checkpoint K=7 seed=63: updates=1125, ll=-194706.849652
+    checkpoint K=7 seed=63: updates=1150, ll=-194706.443712
+    checkpoint K=7 seed=63: updates=1175, ll=-194706.070136
+    checkpoint K=7 seed=63: updates=1200, ll=-194705.724413
+    checkpoint K=7 seed=63: updates=1225, ll=-194705.401975
+    checkpoint K=7 seed=63: updates=1250, ll=-194705.098883
+    checkpoint K=7 seed=63: updates=1275, ll=-194704.811955
+    checkpoint K=7 seed=63: updates=1300, ll=-194704.538674
+    checkpoint K=7 seed=63: updates=1325, ll=-194704.277056
+  strict_converged, updates=1345, elapsed=2326.0s
+selection: K=7, seed=64
+    checkpoint K=7 seed=64: updates=25, ll=-199400.581722
+    checkpoint K=7 seed=64: updates=50, ll=-196675.938427
+    checkpoint K=7 seed=64: updates=75, ll=-195622.002311
+    checkpoint K=7 seed=64: updates=100, ll=-195228.644909
+    checkpoint K=7 seed=64: updates=125, ll=-194952.483717
+    checkpoint K=7 seed=64: updates=150, ll=-194900.908104
+    checkpoint K=7 seed=64: updates=175, ll=-194864.119879
+    checkpoint K=7 seed=64: updates=200, ll=-194835.794433
+    checkpoint K=7 seed=64: updates=225, ll=-194813.899779
+    checkpoint K=7 seed=64: updates=250, ll=-194796.873719
+    checkpoint K=7 seed=64: updates=275, ll=-194783.891772
+    checkpoint K=7 seed=64: updates=300, ll=-194774.261384
+    checkpoint K=7 seed=64: updates=325, ll=-194767.151555
+    checkpoint K=7 seed=64: updates=350, ll=-194761.727636
+    checkpoint K=7 seed=64: updates=375, ll=-194757.297588
+    checkpoint K=7 seed=64: updates=400, ll=-194753.371567
+    checkpoint K=7 seed=64: updates=425, ll=-194749.676443
+    checkpoint K=7 seed=64: updates=450, ll=-194746.137954
+    checkpoint K=7 seed=64: updates=475, ll=-194742.813883
+    checkpoint K=7 seed=64: updates=500, ll=-194739.793647
+    checkpoint K=7 seed=64: updates=525, ll=-194737.119654
+    checkpoint K=7 seed=64: updates=550, ll=-194734.765639
+    checkpoint K=7 seed=64: updates=575, ll=-194732.658894
+    checkpoint K=7 seed=64: updates=600, ll=-194730.716267
+    checkpoint K=7 seed=64: updates=625, ll=-194728.874103
+    checkpoint K=7 seed=64: updates=650, ll=-194727.102496
+    checkpoint K=7 seed=64: updates=675, ll=-194725.401001
+    checkpoint K=7 seed=64: updates=700, ll=-194723.782707
+    checkpoint K=7 seed=64: updates=725, ll=-194722.259754
+    checkpoint K=7 seed=64: updates=750, ll=-194720.837797
+    checkpoint K=7 seed=64: updates=775, ll=-194719.517313
+    checkpoint K=7 seed=64: updates=800, ll=-194718.296498
+    checkpoint K=7 seed=64: updates=825, ll=-194717.172839
+    checkpoint K=7 seed=64: updates=850, ll=-194716.143211
+    checkpoint K=7 seed=64: updates=875, ll=-194715.203380
+    checkpoint K=7 seed=64: updates=900, ll=-194714.347685
+    checkpoint K=7 seed=64: updates=925, ll=-194713.569074
+    checkpoint K=7 seed=64: updates=950, ll=-194712.859331
+    checkpoint K=7 seed=64: updates=975, ll=-194712.209151
+    checkpoint K=7 seed=64: updates=1000, ll=-194711.607928
+    checkpoint K=7 seed=64: updates=1025, ll=-194711.043454
+    checkpoint K=7 seed=64: updates=1050, ll=-194710.502131
+    checkpoint K=7 seed=64: updates=1075, ll=-194709.970625
+    checkpoint K=7 seed=64: updates=1100, ll=-194709.439460
+    checkpoint K=7 seed=64: updates=1125, ll=-194708.907224
+    checkpoint K=7 seed=64: updates=1150, ll=-194708.381748
+    checkpoint K=7 seed=64: updates=1175, ll=-194707.875771
+    checkpoint K=7 seed=64: updates=1200, ll=-194707.400096
+    checkpoint K=7 seed=64: updates=1225, ll=-194706.959633
+    checkpoint K=7 seed=64: updates=1250, ll=-194706.553836
+    checkpoint K=7 seed=64: updates=1275, ll=-194706.179141
+    checkpoint K=7 seed=64: updates=1300, ll=-194705.831075
+    checkpoint K=7 seed=64: updates=1325, ll=-194705.505400
+    checkpoint K=7 seed=64: updates=1350, ll=-194705.198510
+    checkpoint K=7 seed=64: updates=1375, ll=-194704.907472
+    checkpoint K=7 seed=64: updates=1400, ll=-194704.629934
+    checkpoint K=7 seed=64: updates=1425, ll=-194704.364008
+    checkpoint K=7 seed=64: updates=1450, ll=-194704.108175
+  strict_converged, updates=1457, elapsed=2506.5s
+selection: K=7, seed=65
+    checkpoint K=7 seed=65: updates=25, ll=-199516.955221
+    checkpoint K=7 seed=65: updates=50, ll=-197097.244475
+    checkpoint K=7 seed=65: updates=75, ll=-195110.368153
+    checkpoint K=7 seed=65: updates=100, ll=-194758.778485
+    checkpoint K=7 seed=65: updates=125, ll=-194736.158891
+    checkpoint K=7 seed=65: updates=150, ll=-194724.332831
+    checkpoint K=7 seed=65: updates=175, ll=-194718.905549
+    checkpoint K=7 seed=65: updates=200, ll=-194715.419710
+    checkpoint K=7 seed=65: updates=225, ll=-194713.031426
+    checkpoint K=7 seed=65: updates=250, ll=-194711.294163
+    checkpoint K=7 seed=65: updates=275, ll=-194709.961817
+    checkpoint K=7 seed=65: updates=300, ll=-194708.894671
+    checkpoint K=7 seed=65: updates=325, ll=-194708.010410
+    checkpoint K=7 seed=65: updates=350, ll=-194707.258354
+    checkpoint K=7 seed=65: updates=375, ll=-194706.605750
+    checkpoint K=7 seed=65: updates=400, ll=-194706.030347
+    checkpoint K=7 seed=65: updates=425, ll=-194705.516314
+    checkpoint K=7 seed=65: updates=450, ll=-194705.051960
+    checkpoint K=7 seed=65: updates=475, ll=-194704.628429
+    checkpoint K=7 seed=65: updates=500, ll=-194704.238918
+    checkpoint K=7 seed=65: updates=525, ll=-194703.878162
+    checkpoint K=7 seed=65: updates=550, ll=-194703.542081
+    checkpoint K=7 seed=65: updates=575, ll=-194703.227507
+    checkpoint K=7 seed=65: updates=600, ll=-194702.931978
+    checkpoint K=7 seed=65: updates=625, ll=-194702.653579
+    checkpoint K=7 seed=65: updates=650, ll=-194702.390816
+  strict_converged, updates=663, elapsed=1139.5s
+selection: K=7, seed=66
+    checkpoint K=7 seed=66: updates=25, ll=-199406.957659
+    checkpoint K=7 seed=66: updates=50, ll=-196691.466655
+    checkpoint K=7 seed=66: updates=75, ll=-195630.539489
+    checkpoint K=7 seed=66: updates=100, ll=-195224.183683
+    checkpoint K=7 seed=66: updates=125, ll=-194943.503332
+    checkpoint K=7 seed=66: updates=150, ll=-194891.498979
+    checkpoint K=7 seed=66: updates=175, ll=-194854.162789
+    checkpoint K=7 seed=66: updates=200, ll=-194825.627438
+    checkpoint K=7 seed=66: updates=225, ll=-194804.184323
+    checkpoint K=7 seed=66: updates=250, ll=-194788.359009
+    checkpoint K=7 seed=66: updates=275, ll=-194776.895229
+    checkpoint K=7 seed=66: updates=300, ll=-194768.614729
+    checkpoint K=7 seed=66: updates=325, ll=-194762.445820
+    checkpoint K=7 seed=66: updates=350, ll=-194757.536056
+    checkpoint K=7 seed=66: updates=375, ll=-194753.300712
+    checkpoint K=7 seed=66: updates=400, ll=-194749.417136
+    checkpoint K=7 seed=66: updates=425, ll=-194745.781254
+    checkpoint K=7 seed=66: updates=450, ll=-194742.421808
+    checkpoint K=7 seed=66: updates=475, ll=-194739.396774
+    checkpoint K=7 seed=66: updates=500, ll=-194736.722227
+    checkpoint K=7 seed=66: updates=525, ll=-194734.357171
+    checkpoint K=7 seed=66: updates=550, ll=-194732.226750
+    checkpoint K=7 seed=66: updates=575, ll=-194730.255415
+    checkpoint K=7 seed=66: updates=600, ll=-194728.391348
+    checkpoint K=7 seed=66: updates=625, ll=-194726.613623
+    checkpoint K=7 seed=66: updates=650, ll=-194724.923241
+    checkpoint K=7 seed=66: updates=675, ll=-194723.328318
+    checkpoint K=7 seed=66: updates=700, ll=-194721.834313
+    checkpoint K=7 seed=66: updates=725, ll=-194720.442068
+    checkpoint K=7 seed=66: updates=750, ll=-194719.149844
+    checkpoint K=7 seed=66: updates=775, ll=-194717.955321
+    checkpoint K=7 seed=66: updates=800, ll=-194716.856146
+    checkpoint K=7 seed=66: updates=825, ll=-194715.849467
+    checkpoint K=7 seed=66: updates=850, ll=-194714.931296
+    checkpoint K=7 seed=66: updates=875, ll=-194714.096184
+    checkpoint K=7 seed=66: updates=900, ll=-194713.337207
+    checkpoint K=7 seed=66: updates=925, ll=-194712.646009
+    checkpoint K=7 seed=66: updates=950, ll=-194712.012684
+    checkpoint K=7 seed=66: updates=975, ll=-194711.425556
+    checkpoint K=7 seed=66: updates=1000, ll=-194710.871182
+    checkpoint K=7 seed=66: updates=1025, ll=-194710.335251
+    checkpoint K=7 seed=66: updates=1050, ll=-194709.805136
+    checkpoint K=7 seed=66: updates=1075, ll=-194709.273992
+    checkpoint K=7 seed=66: updates=1100, ll=-194708.744094
+    checkpoint K=7 seed=66: updates=1125, ll=-194708.225768
+    checkpoint K=7 seed=66: updates=1150, ll=-194707.731487
+    checkpoint K=7 seed=66: updates=1175, ll=-194707.269784
+    checkpoint K=7 seed=66: updates=1200, ll=-194706.843199
+    checkpoint K=7 seed=66: updates=1225, ll=-194706.449800
+    checkpoint K=7 seed=66: updates=1250, ll=-194706.085601
+    checkpoint K=7 seed=66: updates=1275, ll=-194705.746252
+    checkpoint K=7 seed=66: updates=1300, ll=-194705.427828
+    checkpoint K=7 seed=66: updates=1325, ll=-194705.127050
+    checkpoint K=7 seed=66: updates=1350, ll=-194704.841262
+    checkpoint K=7 seed=66: updates=1375, ll=-194704.568326
+    checkpoint K=7 seed=66: updates=1400, ll=-194704.306520
+  strict_converged, updates=1422, elapsed=2444.5s
+selection: K=7, seed=67
+    checkpoint K=7 seed=67: updates=25, ll=-199484.873440
+    checkpoint K=7 seed=67: updates=50, ll=-197144.102641
+    checkpoint K=7 seed=67: updates=75, ll=-195575.220282
+    checkpoint K=7 seed=67: updates=100, ll=-195121.478992
+    checkpoint K=7 seed=67: updates=125, ll=-194942.002184
+    checkpoint K=7 seed=67: updates=150, ll=-194890.122221
+    checkpoint K=7 seed=67: updates=175, ll=-194850.619509
+    checkpoint K=7 seed=67: updates=200, ll=-194820.487983
+    checkpoint K=7 seed=67: updates=225, ll=-194798.549172
+    checkpoint K=7 seed=67: updates=250, ll=-194783.139509
+    checkpoint K=7 seed=67: updates=275, ll=-194772.449012
+    checkpoint K=7 seed=67: updates=300, ll=-194764.894833
+    checkpoint K=7 seed=67: updates=325, ll=-194759.252291
+    checkpoint K=7 seed=67: updates=350, ll=-194754.668749
+    checkpoint K=7 seed=67: updates=375, ll=-194750.627659
+    checkpoint K=7 seed=67: updates=400, ll=-194746.892108
+    checkpoint K=7 seed=67: updates=425, ll=-194743.421000
+    checkpoint K=7 seed=67: updates=450, ll=-194740.259436
+    checkpoint K=7 seed=67: updates=475, ll=-194737.442767
+    checkpoint K=7 seed=67: updates=500, ll=-194734.953271
+    checkpoint K=7 seed=67: updates=525, ll=-194732.727965
+    checkpoint K=7 seed=67: updates=550, ll=-194730.689820
+    checkpoint K=7 seed=67: updates=575, ll=-194728.777470
+    checkpoint K=7 seed=67: updates=600, ll=-194726.959772
+    checkpoint K=7 seed=67: updates=625, ll=-194725.232063
+    checkpoint K=7 seed=67: updates=650, ll=-194723.601879
+    checkpoint K=7 seed=67: updates=675, ll=-194722.076444
+    checkpoint K=7 seed=67: updates=700, ll=-194720.658075
+    checkpoint K=7 seed=67: updates=725, ll=-194719.345287
+    checkpoint K=7 seed=67: updates=750, ll=-194718.135074
+    checkpoint K=7 seed=67: updates=775, ll=-194717.024063
+    checkpoint K=7 seed=67: updates=800, ll=-194716.008502
+    checkpoint K=7 seed=67: updates=825, ll=-194715.083855
+    checkpoint K=7 seed=67: updates=850, ll=-194714.244588
+    checkpoint K=7 seed=67: updates=875, ll=-194713.484246
+    checkpoint K=7 seed=67: updates=900, ll=-194712.795599
+    checkpoint K=7 seed=67: updates=925, ll=-194712.170648
+    checkpoint K=7 seed=67: updates=950, ll=-194711.600366
+    checkpoint K=7 seed=67: updates=975, ll=-194711.074259
+    checkpoint K=7 seed=67: updates=1000, ll=-194710.579926
+    checkpoint K=7 seed=67: updates=1025, ll=-194710.103063
+    checkpoint K=7 seed=67: updates=1050, ll=-194709.628731
+    checkpoint K=7 seed=67: updates=1075, ll=-194709.144892
+    checkpoint K=7 seed=67: updates=1100, ll=-194708.647747
+    checkpoint K=7 seed=67: updates=1125, ll=-194708.145010
+    checkpoint K=7 seed=67: updates=1150, ll=-194707.652470
+    checkpoint K=7 seed=67: updates=1175, ll=-194707.185410
+    checkpoint K=7 seed=67: updates=1200, ll=-194706.752221
+    checkpoint K=7 seed=67: updates=1225, ll=-194706.353988
+    checkpoint K=7 seed=67: updates=1250, ll=-194705.987459
+    checkpoint K=7 seed=67: updates=1275, ll=-194705.647937
+    checkpoint K=7 seed=67: updates=1300, ll=-194705.330870
+    checkpoint K=7 seed=67: updates=1325, ll=-194705.032412
+    checkpoint K=7 seed=67: updates=1350, ll=-194704.749488
+    checkpoint K=7 seed=67: updates=1375, ll=-194704.479678
+    checkpoint K=7 seed=67: updates=1400, ll=-194704.221081
+  strict_converged, updates=1413, elapsed=2438.4s
+selection: K=7, seed=68
+    checkpoint K=7 seed=68: updates=25, ll=-199486.886233
+    checkpoint K=7 seed=68: updates=50, ll=-197160.901556
+    checkpoint K=7 seed=68: updates=75, ll=-195570.823795
+    checkpoint K=7 seed=68: updates=100, ll=-195112.093791
+    checkpoint K=7 seed=68: updates=125, ll=-194939.857369
+    checkpoint K=7 seed=68: updates=150, ll=-194887.979950
+    checkpoint K=7 seed=68: updates=175, ll=-194848.465317
+    checkpoint K=7 seed=68: updates=200, ll=-194818.475762
+    checkpoint K=7 seed=68: updates=225, ll=-194796.798089
+    checkpoint K=7 seed=68: updates=250, ll=-194781.695294
+    checkpoint K=7 seed=68: updates=275, ll=-194771.277963
+    checkpoint K=7 seed=68: updates=300, ll=-194763.918195
+    checkpoint K=7 seed=68: updates=325, ll=-194758.387162
+    checkpoint K=7 seed=68: updates=350, ll=-194753.853864
+    checkpoint K=7 seed=68: updates=375, ll=-194749.834850
+    checkpoint K=7 seed=68: updates=400, ll=-194746.124399
+    checkpoint K=7 seed=68: updates=425, ll=-194742.697838
+    checkpoint K=7 seed=68: updates=450, ll=-194739.597679
+    checkpoint K=7 seed=68: updates=475, ll=-194736.845475
+    checkpoint K=7 seed=68: updates=500, ll=-194734.410129
+    checkpoint K=7 seed=68: updates=525, ll=-194732.222564
+    checkpoint K=7 seed=68: updates=550, ll=-194730.207729
+    checkpoint K=7 seed=68: updates=575, ll=-194728.311233
+    checkpoint K=7 seed=68: updates=600, ll=-194726.509173
+    checkpoint K=7 seed=68: updates=625, ll=-194724.800773
+    checkpoint K=7 seed=68: updates=650, ll=-194723.193696
+    checkpoint K=7 seed=68: updates=675, ll=-194721.693522
+    checkpoint K=7 seed=68: updates=700, ll=-194720.301053
+    checkpoint K=7 seed=68: updates=725, ll=-194719.014032
+    checkpoint K=7 seed=68: updates=750, ll=-194717.829178
+    checkpoint K=7 seed=68: updates=775, ll=-194716.742953
+    checkpoint K=7 seed=68: updates=800, ll=-194715.751366
+    checkpoint K=7 seed=68: updates=825, ll=-194714.849589
+    checkpoint K=7 seed=68: updates=850, ll=-194714.031818
+    checkpoint K=7 seed=68: updates=875, ll=-194713.291377
+    checkpoint K=7 seed=68: updates=900, ll=-194712.620842
+    checkpoint K=7 seed=68: updates=925, ll=-194712.011955
+    checkpoint K=7 seed=68: updates=950, ll=-194711.455325
+    checkpoint K=7 seed=68: updates=975, ll=-194710.939969
+    checkpoint K=7 seed=68: updates=1000, ll=-194710.452946
+    checkpoint K=7 seed=68: updates=1025, ll=-194709.979568
+    checkpoint K=7 seed=68: updates=1050, ll=-194709.505137
+    checkpoint K=7 seed=68: updates=1075, ll=-194709.019062
+    checkpoint K=7 seed=68: updates=1100, ll=-194708.520206
+    checkpoint K=7 seed=68: updates=1125, ll=-194708.018866
+    checkpoint K=7 seed=68: updates=1150, ll=-194707.531624
+    checkpoint K=7 seed=68: updates=1175, ll=-194707.072545
+    checkpoint K=7 seed=68: updates=1200, ll=-194706.648153
+    checkpoint K=7 seed=68: updates=1225, ll=-194706.258194
+    checkpoint K=7 seed=68: updates=1250, ll=-194705.898855
+    checkpoint K=7 seed=68: updates=1275, ll=-194705.565374
+    checkpoint K=7 seed=68: updates=1300, ll=-194705.253341
+    checkpoint K=7 seed=68: updates=1325, ll=-194704.959102
+    checkpoint K=7 seed=68: updates=1350, ll=-194704.679751
+    checkpoint K=7 seed=68: updates=1375, ll=-194704.413008
+    checkpoint K=7 seed=68: updates=1400, ll=-194704.157077
+  strict_converged, updates=1407, elapsed=2781.9s
+selection: K=7, seed=69
+    checkpoint K=7 seed=69: updates=25, ll=-199533.427012
+    checkpoint K=7 seed=69: updates=50, ll=-197285.714530
+    checkpoint K=7 seed=69: updates=75, ll=-195589.410864
+    checkpoint K=7 seed=69: updates=100, ll=-195105.773419
+    checkpoint K=7 seed=69: updates=125, ll=-194927.580051
+    checkpoint K=7 seed=69: updates=150, ll=-194875.154720
+    checkpoint K=7 seed=69: updates=175, ll=-194836.030646
+    checkpoint K=7 seed=69: updates=200, ll=-194807.395109
+    checkpoint K=7 seed=69: updates=225, ll=-194787.510741
+    checkpoint K=7 seed=69: updates=250, ll=-194774.100662
+    checkpoint K=7 seed=69: updates=275, ll=-194764.942891
+    checkpoint K=7 seed=69: updates=300, ll=-194758.328615
+    checkpoint K=7 seed=69: updates=325, ll=-194753.135620
+    checkpoint K=7 seed=69: updates=350, ll=-194748.732519
+    checkpoint K=7 seed=69: updates=375, ll=-194744.836503
+    checkpoint K=7 seed=69: updates=400, ll=-194741.360793
+    checkpoint K=7 seed=69: updates=425, ll=-194738.283089
+    checkpoint K=7 seed=69: updates=450, ll=-194735.568796
+    checkpoint K=7 seed=69: updates=475, ll=-194733.153918
+    checkpoint K=7 seed=69: updates=500, ll=-194730.963223
+    checkpoint K=7 seed=69: updates=525, ll=-194728.934949
+    checkpoint K=7 seed=69: updates=550, ll=-194727.033914
+    checkpoint K=7 seed=69: updates=575, ll=-194725.248445
+    checkpoint K=7 seed=69: updates=600, ll=-194723.578324
+    checkpoint K=7 seed=69: updates=625, ll=-194722.024463
+    checkpoint K=7 seed=69: updates=650, ll=-194720.585113
+    checkpoint K=7 seed=69: updates=675, ll=-194719.256535
+    checkpoint K=7 seed=69: updates=700, ll=-194718.034511
+    checkpoint K=7 seed=69: updates=725, ll=-194716.914937
+    checkpoint K=7 seed=69: updates=750, ll=-194715.893539
+    checkpoint K=7 seed=69: updates=775, ll=-194714.965381
+    checkpoint K=7 seed=69: updates=800, ll=-194714.124563
+    checkpoint K=7 seed=69: updates=825, ll=-194713.364146
+    checkpoint K=7 seed=69: updates=850, ll=-194712.676131
+    checkpoint K=7 seed=69: updates=875, ll=-194712.051317
+    checkpoint K=7 seed=69: updates=900, ll=-194711.479041
+    checkpoint K=7 seed=69: updates=925, ll=-194710.946883
+    checkpoint K=7 seed=69: updates=950, ll=-194710.440654
+    checkpoint K=7 seed=69: updates=975, ll=-194709.945309
+    checkpoint K=7 seed=69: updates=1000, ll=-194709.447713
+    checkpoint K=7 seed=69: updates=1025, ll=-194708.941293
+    checkpoint K=7 seed=69: updates=1050, ll=-194708.429884
+    checkpoint K=7 seed=69: updates=1075, ll=-194707.926318
+    checkpoint K=7 seed=69: updates=1100, ll=-194707.445334
+    checkpoint K=7 seed=69: updates=1125, ll=-194706.996612
+    checkpoint K=7 seed=69: updates=1150, ll=-194706.582838
+    checkpoint K=7 seed=69: updates=1175, ll=-194706.201806
+    checkpoint K=7 seed=69: updates=1200, ll=-194705.849245
+    checkpoint K=7 seed=69: updates=1225, ll=-194705.520647
+    checkpoint K=7 seed=69: updates=1250, ll=-194705.212047
+    checkpoint K=7 seed=69: updates=1275, ll=-194704.920198
+    checkpoint K=7 seed=69: updates=1300, ll=-194704.642512
+    checkpoint K=7 seed=69: updates=1325, ll=-194704.376935
+    checkpoint K=7 seed=69: updates=1350, ll=-194704.121832
+  strict_converged, updates=1355, elapsed=2724.5s
+selection: K=7, seed=70
+    checkpoint K=7 seed=70: updates=25, ll=-199406.122759
+    checkpoint K=7 seed=70: updates=50, ll=-196704.898022
+    checkpoint K=7 seed=70: updates=75, ll=-195620.779220
+    checkpoint K=7 seed=70: updates=100, ll=-195220.777660
+    checkpoint K=7 seed=70: updates=125, ll=-194950.014086
+    checkpoint K=7 seed=70: updates=150, ll=-194898.651245
+    checkpoint K=7 seed=70: updates=175, ll=-194861.703865
+    checkpoint K=7 seed=70: updates=200, ll=-194833.238335
+    checkpoint K=7 seed=70: updates=225, ll=-194811.376989
+    checkpoint K=7 seed=70: updates=250, ll=-194794.616996
+    checkpoint K=7 seed=70: updates=275, ll=-194782.025787
+    checkpoint K=7 seed=70: updates=300, ll=-194772.769955
+    checkpoint K=7 seed=70: updates=325, ll=-194765.939451
+    checkpoint K=7 seed=70: updates=350, ll=-194760.683292
+    checkpoint K=7 seed=70: updates=375, ll=-194756.328388
+    checkpoint K=7 seed=70: updates=400, ll=-194752.421661
+    checkpoint K=7 seed=70: updates=425, ll=-194748.733372
+    checkpoint K=7 seed=70: updates=450, ll=-194745.223874
+    checkpoint K=7 seed=70: updates=475, ll=-194741.962089
+    checkpoint K=7 seed=70: updates=500, ll=-194739.025035
+    checkpoint K=7 seed=70: updates=525, ll=-194736.433420
+    checkpoint K=7 seed=70: updates=550, ll=-194734.144270
+    checkpoint K=7 seed=70: updates=575, ll=-194732.079080
+    checkpoint K=7 seed=70: updates=600, ll=-194730.159057
+    checkpoint K=7 seed=70: updates=625, ll=-194728.330769
+    checkpoint K=7 seed=70: updates=650, ll=-194726.574370
+    checkpoint K=7 seed=70: updates=675, ll=-194724.894518
+    checkpoint K=7 seed=70: updates=700, ll=-194723.303951
+    checkpoint K=7 seed=70: updates=725, ll=-194721.811942
+    checkpoint K=7 seed=70: updates=750, ll=-194720.421611
+    checkpoint K=7 seed=70: updates=775, ll=-194719.132174
+    checkpoint K=7 seed=70: updates=800, ll=-194717.941455
+    checkpoint K=7 seed=70: updates=825, ll=-194716.846828
+    checkpoint K=7 seed=70: updates=850, ll=-194715.844977
+    checkpoint K=7 seed=70: updates=875, ll=-194714.931384
+    checkpoint K=7 seed=70: updates=900, ll=-194714.100103
+    checkpoint K=7 seed=70: updates=925, ll=-194713.343875
+    checkpoint K=7 seed=70: updates=950, ll=-194712.654304
+    checkpoint K=7 seed=70: updates=975, ll=-194712.021819
+    checkpoint K=7 seed=70: updates=1000, ll=-194711.435376
+    checkpoint K=7 seed=70: updates=1025, ll=-194710.882225
+    checkpoint K=7 seed=70: updates=1050, ll=-194710.348434
+    checkpoint K=7 seed=70: updates=1075, ll=-194709.821059
+    checkpoint K=7 seed=70: updates=1100, ll=-194709.292170
+    checkpoint K=7 seed=70: updates=1125, ll=-194708.762739
+    checkpoint K=7 seed=70: updates=1150, ll=-194708.242517
+    checkpoint K=7 seed=70: updates=1175, ll=-194707.744534
+    checkpoint K=7 seed=70: updates=1200, ll=-194707.278458
+    checkpoint K=7 seed=70: updates=1225, ll=-194706.847760
+    checkpoint K=7 seed=70: updates=1250, ll=-194706.450943
+    checkpoint K=7 seed=70: updates=1275, ll=-194706.084073
+    checkpoint K=7 seed=70: updates=1300, ll=-194705.742676
+    checkpoint K=7 seed=70: updates=1325, ll=-194705.422660
+    checkpoint K=7 seed=70: updates=1350, ll=-194705.120601
+    checkpoint K=7 seed=70: updates=1375, ll=-194704.833727
+    checkpoint K=7 seed=70: updates=1400, ll=-194704.559822
+    checkpoint K=7 seed=70: updates=1425, ll=-194704.297104
+    checkpoint K=7 seed=70: updates=1450, ll=-194704.044139
+  strict_converged, updates=1450, elapsed=2923.4s
+selection: K=7, seed=71
+    checkpoint K=7 seed=71: updates=25, ll=-199544.221577
+    checkpoint K=7 seed=71: updates=50, ll=-197377.165664
+    checkpoint K=7 seed=71: updates=75, ll=-195563.114271
+    checkpoint K=7 seed=71: updates=100, ll=-195070.845039
+    checkpoint K=7 seed=71: updates=125, ll=-194924.839722
+    checkpoint K=7 seed=71: updates=150, ll=-194872.133003
+    checkpoint K=7 seed=71: updates=175, ll=-194832.730977
+    checkpoint K=7 seed=71: updates=200, ll=-194804.250389
+    checkpoint K=7 seed=71: updates=225, ll=-194784.759332
+    checkpoint K=7 seed=71: updates=250, ll=-194771.758506
+    checkpoint K=7 seed=71: updates=275, ll=-194762.911207
+    checkpoint K=7 seed=71: updates=300, ll=-194756.490179
+    checkpoint K=7 seed=71: updates=325, ll=-194751.409998
+    checkpoint K=7 seed=71: updates=350, ll=-194747.092423
+    checkpoint K=7 seed=71: updates=375, ll=-194743.293090
+    checkpoint K=7 seed=71: updates=400, ll=-194739.933810
+    checkpoint K=7 seed=71: updates=425, ll=-194736.977506
+    checkpoint K=7 seed=71: updates=450, ll=-194734.369529
+    checkpoint K=7 seed=71: updates=475, ll=-194732.034630
+    checkpoint K=7 seed=71: updates=500, ll=-194729.899092
+    checkpoint K=7 seed=71: updates=525, ll=-194727.911356
+    checkpoint K=7 seed=71: updates=550, ll=-194726.047626
+    checkpoint K=7 seed=71: updates=575, ll=-194724.303166
+    checkpoint K=7 seed=71: updates=600, ll=-194722.679495
+    checkpoint K=7 seed=71: updates=625, ll=-194721.176576
+    checkpoint K=7 seed=71: updates=650, ll=-194719.791343
+    checkpoint K=7 seed=71: updates=675, ll=-194718.519095
+    checkpoint K=7 seed=71: updates=700, ll=-194717.354746
+    checkpoint K=7 seed=71: updates=725, ll=-194716.293097
+    checkpoint K=7 seed=71: updates=750, ll=-194715.328565
+    checkpoint K=7 seed=71: updates=775, ll=-194714.454910
+    checkpoint K=7 seed=71: updates=800, ll=-194713.665163
+    checkpoint K=7 seed=71: updates=825, ll=-194712.951647
+    checkpoint K=7 seed=71: updates=850, ll=-194712.305904
+    checkpoint K=7 seed=71: updates=875, ll=-194711.718450
+    checkpoint K=7 seed=71: updates=900, ll=-194711.178395
+    checkpoint K=7 seed=71: updates=925, ll=-194710.673065
+    checkpoint K=7 seed=71: updates=950, ll=-194710.187996
+    checkpoint K=7 seed=71: updates=975, ll=-194709.708063
+    checkpoint K=7 seed=71: updates=1000, ll=-194709.220752
+    checkpoint K=7 seed=71: updates=1025, ll=-194708.721283
+    checkpoint K=7 seed=71: updates=1050, ll=-194708.216124
+    checkpoint K=7 seed=71: updates=1075, ll=-194707.720217
+    checkpoint K=7 seed=71: updates=1100, ll=-194707.248797
+    checkpoint K=7 seed=71: updates=1125, ll=-194706.810742
+    checkpoint K=7 seed=71: updates=1150, ll=-194706.407663
+    checkpoint K=7 seed=71: updates=1175, ll=-194706.036635
+    checkpoint K=7 seed=71: updates=1200, ll=-194705.693090
+    checkpoint K=7 seed=71: updates=1225, ll=-194705.372488
+    checkpoint K=7 seed=71: updates=1250, ll=-194705.070947
+    checkpoint K=7 seed=71: updates=1275, ll=-194704.785340
+    checkpoint K=7 seed=71: updates=1300, ll=-194704.513197
+    checkpoint K=7 seed=71: updates=1325, ll=-194704.252571
+  strict_converged, updates=1343, elapsed=2464.7s
+selection: K=8, seed=62
+    checkpoint K=8 seed=62: updates=25, ll=-199715.293620
+    checkpoint K=8 seed=62: updates=50, ll=-197515.147202
+    checkpoint K=8 seed=62: updates=75, ll=-195015.572643
+    checkpoint K=8 seed=62: updates=100, ll=-194701.435567
+    checkpoint K=8 seed=62: updates=125, ll=-194672.963869
+    checkpoint K=8 seed=62: updates=150, ll=-194659.326554
+    checkpoint K=8 seed=62: updates=175, ll=-194650.702042
+    checkpoint K=8 seed=62: updates=200, ll=-194644.206893
+    checkpoint K=8 seed=62: updates=225, ll=-194638.880832
+    checkpoint K=8 seed=62: updates=250, ll=-194634.425165
+    checkpoint K=8 seed=62: updates=275, ll=-194630.689789
+    checkpoint K=8 seed=62: updates=300, ll=-194627.604301
+    checkpoint K=8 seed=62: updates=325, ll=-194625.149880
+    checkpoint K=8 seed=62: updates=350, ll=-194623.278080
+    checkpoint K=8 seed=62: updates=375, ll=-194621.877694
+    checkpoint K=8 seed=62: updates=400, ll=-194620.813625
+    checkpoint K=8 seed=62: updates=425, ll=-194619.972289
+    checkpoint K=8 seed=62: updates=450, ll=-194619.276105
+    checkpoint K=8 seed=62: updates=475, ll=-194618.677125
+    checkpoint K=8 seed=62: updates=500, ll=-194618.146628
+    checkpoint K=8 seed=62: updates=525, ll=-194617.667331
+    checkpoint K=8 seed=62: updates=550, ll=-194617.228605
+    checkpoint K=8 seed=62: updates=575, ll=-194616.823680
+    checkpoint K=8 seed=62: updates=600, ll=-194616.448011
+    checkpoint K=8 seed=62: updates=625, ll=-194616.098325
+    checkpoint K=8 seed=62: updates=650, ll=-194615.772062
+    checkpoint K=8 seed=62: updates=675, ll=-194615.467072
+    checkpoint K=8 seed=62: updates=700, ll=-194615.181455
+    checkpoint K=8 seed=62: updates=725, ll=-194614.913487
+  strict_converged, updates=745, elapsed=1317.1s
+selection: K=8, seed=63
+    checkpoint K=8 seed=63: updates=25, ll=-199723.907150
+    checkpoint K=8 seed=63: updates=50, ll=-197654.175045
+    checkpoint K=8 seed=63: updates=75, ll=-194835.712250
+    checkpoint K=8 seed=63: updates=100, ll=-194694.091892
+    checkpoint K=8 seed=63: updates=125, ll=-194666.963414
+    checkpoint K=8 seed=63: updates=150, ll=-194654.463357
+    checkpoint K=8 seed=63: updates=175, ll=-194646.641300
+    checkpoint K=8 seed=63: updates=200, ll=-194641.118572
+    checkpoint K=8 seed=63: updates=225, ll=-194636.801932
+    checkpoint K=8 seed=63: updates=250, ll=-194633.140781
+    checkpoint K=8 seed=63: updates=275, ll=-194629.900717
+    checkpoint K=8 seed=63: updates=300, ll=-194627.062399
+    checkpoint K=8 seed=63: updates=325, ll=-194624.695635
+    checkpoint K=8 seed=63: updates=350, ll=-194622.834287
+    checkpoint K=8 seed=63: updates=375, ll=-194621.425330
+    checkpoint K=8 seed=63: updates=400, ll=-194620.360772
+    checkpoint K=8 seed=63: updates=425, ll=-194619.531517
+    checkpoint K=8 seed=63: updates=450, ll=-194618.855832
+    checkpoint K=8 seed=63: updates=475, ll=-194618.281321
+    checkpoint K=8 seed=63: updates=500, ll=-194617.776649
+    checkpoint K=8 seed=63: updates=525, ll=-194617.323301
+    checkpoint K=8 seed=63: updates=550, ll=-194616.910068
+    checkpoint K=8 seed=63: updates=575, ll=-194616.529815
+    checkpoint K=8 seed=63: updates=600, ll=-194616.177700
+    checkpoint K=8 seed=63: updates=625, ll=-194615.850194
+    checkpoint K=8 seed=63: updates=650, ll=-194615.544545
+    checkpoint K=8 seed=63: updates=675, ll=-194615.258492
+    checkpoint K=8 seed=63: updates=700, ll=-194614.990111
+  strict_converged, updates=720, elapsed=1281.3s
+selection: K=8, seed=64
+    checkpoint K=8 seed=64: updates=25, ll=-199723.871280
+    checkpoint K=8 seed=64: updates=50, ll=-197654.069094
+    checkpoint K=8 seed=64: updates=75, ll=-194835.898300
+    checkpoint K=8 seed=64: updates=100, ll=-194694.141207
+    checkpoint K=8 seed=64: updates=125, ll=-194667.006582
+    checkpoint K=8 seed=64: updates=150, ll=-194654.495209
+    checkpoint K=8 seed=64: updates=175, ll=-194646.665518
+    checkpoint K=8 seed=64: updates=200, ll=-194641.137943
+    checkpoint K=8 seed=64: updates=225, ll=-194636.818266
+    checkpoint K=8 seed=64: updates=250, ll=-194633.155090
+    checkpoint K=8 seed=64: updates=275, ll=-194629.913280
+    checkpoint K=8 seed=64: updates=300, ll=-194627.073043
+    checkpoint K=8 seed=64: updates=325, ll=-194624.704174
+    checkpoint K=8 seed=64: updates=350, ll=-194622.840835
+    checkpoint K=8 seed=64: updates=375, ll=-194621.430284
+    checkpoint K=8 seed=64: updates=400, ll=-194620.364602
+    checkpoint K=8 seed=64: updates=425, ll=-194619.534603
+    checkpoint K=8 seed=64: updates=450, ll=-194618.858429
+    checkpoint K=8 seed=64: updates=475, ll=-194618.283581
+    checkpoint K=8 seed=64: updates=500, ll=-194617.778659
+    checkpoint K=8 seed=64: updates=525, ll=-194617.325115
+    checkpoint K=8 seed=64: updates=550, ll=-194616.911718
+    checkpoint K=8 seed=64: updates=575, ll=-194616.531324
+    checkpoint K=8 seed=64: updates=600, ll=-194616.179084
+    checkpoint K=8 seed=64: updates=625, ll=-194615.851465
+    checkpoint K=8 seed=64: updates=650, ll=-194615.545714
+    checkpoint K=8 seed=64: updates=675, ll=-194615.259570
+    checkpoint K=8 seed=64: updates=700, ll=-194614.991105
+  strict_converged, updates=720, elapsed=1281.3s
+selection: K=8, seed=65
+    checkpoint K=8 seed=65: updates=25, ll=-199716.175429
+    checkpoint K=8 seed=65: updates=50, ll=-197547.123615
+    checkpoint K=8 seed=65: updates=75, ll=-194941.136395
+    checkpoint K=8 seed=65: updates=100, ll=-194696.882223
+    checkpoint K=8 seed=65: updates=125, ll=-194670.426024
+    checkpoint K=8 seed=65: updates=150, ll=-194657.322251
+    checkpoint K=8 seed=65: updates=175, ll=-194648.914992
+    checkpoint K=8 seed=65: updates=200, ll=-194642.655340
+    checkpoint K=8 seed=65: updates=225, ll=-194637.639804
+    checkpoint K=8 seed=65: updates=250, ll=-194633.482444
+    checkpoint K=8 seed=65: updates=275, ll=-194629.972671
+    checkpoint K=8 seed=65: updates=300, ll=-194627.043246
+    checkpoint K=8 seed=65: updates=325, ll=-194624.697491
+    checkpoint K=8 seed=65: updates=350, ll=-194622.902539
+    checkpoint K=8 seed=65: updates=375, ll=-194621.556858
+    checkpoint K=8 seed=65: updates=400, ll=-194620.532555
+    checkpoint K=8 seed=65: updates=425, ll=-194619.721211
+    checkpoint K=8 seed=65: updates=450, ll=-194619.048600
+    checkpoint K=8 seed=65: updates=475, ll=-194618.468940
+    checkpoint K=8 seed=65: updates=500, ll=-194617.954970
+    checkpoint K=8 seed=65: updates=525, ll=-194617.490375
+    checkpoint K=8 seed=65: updates=550, ll=-194617.065118
+    checkpoint K=8 seed=65: updates=575, ll=-194616.672746
+    checkpoint K=8 seed=65: updates=600, ll=-194616.308846
+    checkpoint K=8 seed=65: updates=625, ll=-194615.970167
+    checkpoint K=8 seed=65: updates=650, ll=-194615.654129
+    checkpoint K=8 seed=65: updates=675, ll=-194615.358558
+    checkpoint K=8 seed=65: updates=700, ll=-194615.081548
+    checkpoint K=8 seed=65: updates=725, ll=-194614.821393
+  strict_converged, updates=733, elapsed=1331.0s
+selection: K=8, seed=66
+    checkpoint K=8 seed=66: updates=25, ll=-199715.930351
+    checkpoint K=8 seed=66: updates=50, ll=-197545.426701
+    checkpoint K=8 seed=66: updates=75, ll=-194937.248004
+    checkpoint K=8 seed=66: updates=100, ll=-194696.216639
+    checkpoint K=8 seed=66: updates=125, ll=-194669.956688
+    checkpoint K=8 seed=66: updates=150, ll=-194656.972909
+    checkpoint K=8 seed=66: updates=175, ll=-194648.631339
+    checkpoint K=8 seed=66: updates=200, ll=-194642.411895
+    checkpoint K=8 seed=66: updates=225, ll=-194637.428799
+    checkpoint K=8 seed=66: updates=250, ll=-194633.299758
+    checkpoint K=8 seed=66: updates=275, ll=-194629.816483
+    checkpoint K=8 seed=66: updates=300, ll=-194626.914137
+    checkpoint K=8 seed=66: updates=325, ll=-194624.595097
+    checkpoint K=8 seed=66: updates=350, ll=-194622.823171
+    checkpoint K=8 seed=66: updates=375, ll=-194621.494709
+    checkpoint K=8 seed=66: updates=400, ll=-194620.482138
+    checkpoint K=8 seed=66: updates=425, ll=-194619.678575
+    checkpoint K=8 seed=66: updates=450, ll=-194619.011277
+    checkpoint K=8 seed=66: updates=475, ll=-194618.435473
+    checkpoint K=8 seed=66: updates=500, ll=-194617.924503
+    checkpoint K=8 seed=66: updates=525, ll=-194617.462391
+    checkpoint K=8 seed=66: updates=550, ll=-194617.039293
+    checkpoint K=8 seed=66: updates=575, ll=-194616.648860
+    checkpoint K=8 seed=66: updates=600, ll=-194616.286732
+    checkpoint K=8 seed=66: updates=625, ll=-194615.949685
+    checkpoint K=8 seed=66: updates=650, ll=-194615.635153
+    checkpoint K=8 seed=66: updates=675, ll=-194615.340967
+    checkpoint K=8 seed=66: updates=700, ll=-194615.065225
+    checkpoint K=8 seed=66: updates=725, ll=-194614.806228
+  strict_converged, updates=731, elapsed=1329.4s
+selection: K=8, seed=67
+    checkpoint K=8 seed=67: updates=25, ll=-199704.661849
+    checkpoint K=8 seed=67: updates=50, ll=-197453.658244
+    checkpoint K=8 seed=67: updates=75, ll=-195042.695040
+    checkpoint K=8 seed=67: updates=100, ll=-194703.030911
+    checkpoint K=8 seed=67: updates=125, ll=-194673.917578
+    checkpoint K=8 seed=67: updates=150, ll=-194660.239994
+    checkpoint K=8 seed=67: updates=175, ll=-194651.656195
+    checkpoint K=8 seed=67: updates=200, ll=-194645.153900
+    checkpoint K=8 seed=67: updates=225, ll=-194639.731368
+    checkpoint K=8 seed=67: updates=250, ll=-194635.132224
+    checkpoint K=8 seed=67: updates=275, ll=-194631.259409
+    checkpoint K=8 seed=67: updates=300, ll=-194628.060404
+    checkpoint K=8 seed=67: updates=325, ll=-194625.514639
+    checkpoint K=8 seed=67: updates=350, ll=-194623.571798
+    checkpoint K=8 seed=67: updates=375, ll=-194622.119349
+    checkpoint K=8 seed=67: updates=400, ll=-194621.018569
+    checkpoint K=8 seed=67: updates=425, ll=-194620.151229
+    checkpoint K=8 seed=67: updates=450, ll=-194619.435926
+    checkpoint K=8 seed=67: updates=475, ll=-194618.822147
+    checkpoint K=8 seed=67: updates=500, ll=-194618.279557
+    checkpoint K=8 seed=67: updates=525, ll=-194617.789870
+    checkpoint K=8 seed=67: updates=550, ll=-194617.341849
+    checkpoint K=8 seed=67: updates=575, ll=-194616.928379
+    checkpoint K=8 seed=67: updates=600, ll=-194616.544747
+    checkpoint K=8 seed=67: updates=625, ll=-194616.187612
+    checkpoint K=8 seed=67: updates=650, ll=-194615.854405
+    checkpoint K=8 seed=67: updates=675, ll=-194615.542985
+    checkpoint K=8 seed=67: updates=700, ll=-194615.251458
+    checkpoint K=8 seed=67: updates=725, ll=-194614.978096
+    checkpoint K=8 seed=67: updates=750, ll=-194614.721307
+  strict_converged, updates=752, elapsed=1352.8s
+selection: K=8, seed=68
+    checkpoint K=8 seed=68: updates=25, ll=-199712.924761
+    checkpoint K=8 seed=68: updates=50, ll=-197497.797938
+    checkpoint K=8 seed=68: updates=75, ll=-195030.913877
+    checkpoint K=8 seed=68: updates=100, ll=-194702.532771
+    checkpoint K=8 seed=68: updates=125, ll=-194673.612015
+    checkpoint K=8 seed=68: updates=150, ll=-194659.874839
+    checkpoint K=8 seed=68: updates=175, ll=-194651.224580
+    checkpoint K=8 seed=68: updates=200, ll=-194644.703306
+    checkpoint K=8 seed=68: updates=225, ll=-194639.321312
+    checkpoint K=8 seed=68: updates=250, ll=-194634.794236
+    checkpoint K=8 seed=68: updates=275, ll=-194630.992145
+    checkpoint K=8 seed=68: updates=300, ll=-194627.850044
+    checkpoint K=8 seed=68: updates=325, ll=-194625.348066
+    checkpoint K=8 seed=68: updates=350, ll=-194623.438131
+    checkpoint K=8 seed=68: updates=375, ll=-194622.009422
+    checkpoint K=8 seed=68: updates=400, ll=-194620.925358
+    checkpoint K=8 seed=68: updates=425, ll=-194620.069929
+    checkpoint K=8 seed=68: updates=450, ll=-194619.363444
+    checkpoint K=8 seed=68: updates=475, ll=-194618.756520
+    checkpoint K=8 seed=68: updates=500, ll=-194618.219540
+    checkpoint K=8 seed=68: updates=525, ll=-194617.734673
+    checkpoint K=8 seed=68: updates=550, ll=-194617.290965
+    checkpoint K=8 seed=68: updates=575, ll=-194616.881461
+    checkpoint K=8 seed=68: updates=600, ll=-194616.501528
+    checkpoint K=8 seed=68: updates=625, ll=-194616.147856
+    checkpoint K=8 seed=68: updates=650, ll=-194615.817878
+    checkpoint K=8 seed=68: updates=675, ll=-194615.509447
+    checkpoint K=8 seed=68: updates=700, ll=-194615.220664
+    checkpoint K=8 seed=68: updates=725, ll=-194614.949802
+  strict_converged, updates=749, elapsed=1336.8s
+selection: K=8, seed=69
+    checkpoint K=8 seed=69: updates=25, ll=-199723.892091
+    checkpoint K=8 seed=69: updates=50, ll=-197653.679378
+    checkpoint K=8 seed=69: updates=75, ll=-194835.410816
+    checkpoint K=8 seed=69: updates=100, ll=-194693.983266
+    checkpoint K=8 seed=69: updates=125, ll=-194666.879701
+    checkpoint K=8 seed=69: updates=150, ll=-194654.400010
+    checkpoint K=8 seed=69: updates=175, ll=-194646.590853
+    checkpoint K=8 seed=69: updates=200, ll=-194641.075583
+    checkpoint K=8 seed=69: updates=225, ll=-194636.763353
+    checkpoint K=8 seed=69: updates=250, ll=-194633.105256
+    checkpoint K=8 seed=69: updates=275, ll=-194629.868302
+    checkpoint K=8 seed=69: updates=300, ll=-194627.033992
+    checkpoint K=8 seed=69: updates=325, ll=-194624.672009
+    checkpoint K=8 seed=69: updates=350, ll=-194622.815382
+    checkpoint K=8 seed=69: updates=375, ll=-194621.410309
+    checkpoint K=8 seed=69: updates=400, ll=-194620.348553
+    checkpoint K=8 seed=69: updates=425, ll=-194619.521197
+    checkpoint K=8 seed=69: updates=450, ll=-194618.846804
+    checkpoint K=8 seed=69: updates=475, ll=-194618.273216
+    checkpoint K=8 seed=69: updates=500, ll=-194617.769250
+    checkpoint K=8 seed=69: updates=525, ll=-194617.316478
+    checkpoint K=8 seed=69: updates=550, ll=-194616.903738
+    checkpoint K=8 seed=69: updates=575, ll=-194616.523921
+    checkpoint K=8 seed=69: updates=600, ll=-194616.172200
+    checkpoint K=8 seed=69: updates=625, ll=-194615.845052
+    checkpoint K=8 seed=69: updates=650, ll=-194615.539730
+    checkpoint K=8 seed=69: updates=675, ll=-194615.253978
+    checkpoint K=8 seed=69: updates=700, ll=-194614.985871
+  strict_converged, updates=720, elapsed=1290.3s
+selection: K=8, seed=70
+    checkpoint K=8 seed=70: updates=25, ll=-199720.930363
+    checkpoint K=8 seed=70: updates=50, ll=-197640.064467
+    checkpoint K=8 seed=70: updates=75, ll=-194829.942138
+    checkpoint K=8 seed=70: updates=100, ll=-194692.788387
+    checkpoint K=8 seed=70: updates=125, ll=-194666.017232
+    checkpoint K=8 seed=70: updates=150, ll=-194653.763072
+    checkpoint K=8 seed=70: updates=175, ll=-194646.103876
+    checkpoint K=8 seed=70: updates=200, ll=-194640.686988
+    checkpoint K=8 seed=70: updates=225, ll=-194636.439896
+    checkpoint K=8 seed=70: updates=250, ll=-194632.827490
+    checkpoint K=8 seed=70: updates=275, ll=-194629.628865
+    checkpoint K=8 seed=70: updates=300, ll=-194626.832614
+    checkpoint K=8 seed=70: updates=325, ll=-194624.508560
+    checkpoint K=8 seed=70: updates=350, ll=-194622.685676
+    checkpoint K=8 seed=70: updates=375, ll=-194621.306873
+    checkpoint K=8 seed=70: updates=400, ll=-194620.263705
+    checkpoint K=8 seed=70: updates=425, ll=-194619.449046
+    checkpoint K=8 seed=70: updates=450, ll=-194618.783521
+    checkpoint K=8 seed=70: updates=475, ll=-194618.216494
+    checkpoint K=8 seed=70: updates=500, ll=-194617.717714
+    checkpoint K=8 seed=70: updates=525, ll=-194617.269291
+    checkpoint K=8 seed=70: updates=550, ll=-194616.860352
+    checkpoint K=8 seed=70: updates=575, ll=-194616.483948
+    checkpoint K=8 seed=70: updates=600, ll=-194616.135332
+    checkpoint K=8 seed=70: updates=625, ll=-194615.811026
+    checkpoint K=8 seed=70: updates=650, ll=-194615.508306
+    checkpoint K=8 seed=70: updates=675, ll=-194615.224930
+    checkpoint K=8 seed=70: updates=700, ll=-194614.958989
+  strict_converged, updates=717, elapsed=1278.0s
+selection: K=8, seed=71
+    checkpoint K=8 seed=71: updates=25, ll=-199715.309343
+    checkpoint K=8 seed=71: updates=50, ll=-197541.548367
+    checkpoint K=8 seed=71: updates=75, ll=-194938.294921
+    checkpoint K=8 seed=71: updates=100, ll=-194696.207260
+    checkpoint K=8 seed=71: updates=125, ll=-194669.948731
+    checkpoint K=8 seed=71: updates=150, ll=-194656.973458
+    checkpoint K=8 seed=71: updates=175, ll=-194648.636974
+    checkpoint K=8 seed=71: updates=200, ll=-194642.417347
+    checkpoint K=8 seed=71: updates=225, ll=-194637.431622
+    checkpoint K=8 seed=71: updates=250, ll=-194633.300304
+    checkpoint K=8 seed=71: updates=275, ll=-194629.815854
+    checkpoint K=8 seed=71: updates=300, ll=-194626.912950
+    checkpoint K=8 seed=71: updates=325, ll=-194624.593491
+    checkpoint K=8 seed=71: updates=350, ll=-194622.821169
+    checkpoint K=8 seed=71: updates=375, ll=-194621.492384
+    checkpoint K=8 seed=71: updates=400, ll=-194620.479601
+    checkpoint K=8 seed=71: updates=425, ll=-194619.675929
+    checkpoint K=8 seed=71: updates=450, ll=-194619.008596
+    checkpoint K=8 seed=71: updates=475, ll=-194618.432809
+    checkpoint K=8 seed=71: updates=500, ll=-194617.921887
+    checkpoint K=8 seed=71: updates=525, ll=-194617.459847
+    checkpoint K=8 seed=71: updates=550, ll=-194617.036837
+    checkpoint K=8 seed=71: updates=575, ll=-194616.646502
+    checkpoint K=8 seed=71: updates=600, ll=-194616.284479
+    checkpoint K=8 seed=71: updates=625, ll=-194615.947543
+    checkpoint K=8 seed=71: updates=650, ll=-194615.633123
+    checkpoint K=8 seed=71: updates=675, ll=-194615.339047
+    checkpoint K=8 seed=71: updates=700, ll=-194615.063412
+    checkpoint K=8 seed=71: updates=725, ll=-194614.804518
+  strict_converged, updates=731, elapsed=1302.0s
+Results: C:\Users\Admin\Downloads\ARSH_v0.6_K_STABILITY\outputs\full
+final: K=5, seed=142
+    checkpoint K=5 seed=142: updates=25, ll=-203922.190875
+    checkpoint K=5 seed=142: updates=50, ll=-201425.279488
+    checkpoint K=5 seed=142: updates=75, ll=-201299.803706
+    checkpoint K=5 seed=142: updates=100, ll=-201287.302793
+    checkpoint K=5 seed=142: updates=125, ll=-201264.062824
+    checkpoint K=5 seed=142: updates=150, ll=-201141.858144
+    checkpoint K=5 seed=142: updates=175, ll=-200236.931520
+    checkpoint K=5 seed=142: updates=200, ll=-199906.238100
+    checkpoint K=5 seed=142: updates=225, ll=-199888.455360
+    checkpoint K=5 seed=142: updates=250, ll=-199885.300900
+    checkpoint K=5 seed=142: updates=275, ll=-199884.344535
+    checkpoint K=5 seed=142: updates=300, ll=-199883.855218
+    checkpoint K=5 seed=142: updates=325, ll=-199883.518956
+  strict_converged, updates=348, elapsed=499.6s
+final: K=5, seed=143
+    checkpoint K=5 seed=143: updates=25, ll=-203943.009801
+    checkpoint K=5 seed=143: updates=50, ll=-201438.143859
+    checkpoint K=5 seed=143: updates=75, ll=-201300.037615
+    checkpoint K=5 seed=143: updates=100, ll=-201285.540941
+    checkpoint K=5 seed=143: updates=125, ll=-201252.789096
+    checkpoint K=5 seed=143: updates=150, ll=-201076.730472
+    checkpoint K=5 seed=143: updates=175, ll=-200054.488162
+    checkpoint K=5 seed=143: updates=200, ll=-199898.586477
+    checkpoint K=5 seed=143: updates=225, ll=-199887.296319
+    checkpoint K=5 seed=143: updates=250, ll=-199884.960262
+    checkpoint K=5 seed=143: updates=275, ll=-199884.165723
+    checkpoint K=5 seed=143: updates=300, ll=-199883.721410
+    checkpoint K=5 seed=143: updates=325, ll=-199883.400520
+  strict_converged, updates=349, elapsed=508.0s
+final: K=5, seed=144
+    checkpoint K=5 seed=144: updates=25, ll=-203928.899870
+    checkpoint K=5 seed=144: updates=50, ll=-201430.160279
+    checkpoint K=5 seed=144: updates=75, ll=-201299.071067
+    checkpoint K=5 seed=144: updates=100, ll=-201283.502969
+    checkpoint K=5 seed=144: updates=125, ll=-201241.789395
+    checkpoint K=5 seed=144: updates=150, ll=-201007.340952
+    checkpoint K=5 seed=144: updates=175, ll=-200024.282387
+    checkpoint K=5 seed=144: updates=200, ll=-199895.307410
+    checkpoint K=5 seed=144: updates=225, ll=-199886.682849
+    checkpoint K=5 seed=144: updates=250, ll=-199884.771095
+    checkpoint K=5 seed=144: updates=275, ll=-199884.058734
+    checkpoint K=5 seed=144: updates=300, ll=-199883.634521
+    checkpoint K=5 seed=144: updates=325, ll=-199883.316940
+    checkpoint K=5 seed=144: updates=350, ll=-199883.050198
+  strict_converged, updates=356, elapsed=531.1s
+final: K=5, seed=145
+    checkpoint K=5 seed=145: updates=25, ll=-203920.162151
+    checkpoint K=5 seed=145: updates=50, ll=-201424.291846
+    checkpoint K=5 seed=145: updates=75, ll=-201299.505414
+    checkpoint K=5 seed=145: updates=100, ll=-201286.497822
+    checkpoint K=5 seed=145: updates=125, ll=-201259.657496
+    checkpoint K=5 seed=145: updates=150, ll=-201116.433019
+    checkpoint K=5 seed=145: updates=175, ll=-200128.434111
+    checkpoint K=5 seed=145: updates=200, ll=-199902.140174
+    checkpoint K=5 seed=145: updates=225, ll=-199887.916810
+    checkpoint K=5 seed=145: updates=250, ll=-199885.154124
+    checkpoint K=5 seed=145: updates=275, ll=-199884.272258
+    checkpoint K=5 seed=145: updates=300, ll=-199883.802130
+    checkpoint K=5 seed=145: updates=325, ll=-199883.471764
+  strict_converged, updates=349, elapsed=511.1s
+final: K=5, seed=146
+    checkpoint K=5 seed=146: updates=25, ll=-203929.160869
+    checkpoint K=5 seed=146: updates=50, ll=-201430.061340
+    checkpoint K=5 seed=146: updates=75, ll=-201299.145487
+    checkpoint K=5 seed=146: updates=100, ll=-201283.848003
+    checkpoint K=5 seed=146: updates=125, ll=-201243.768884
+    checkpoint K=5 seed=146: updates=150, ll=-201019.957597
+    checkpoint K=5 seed=146: updates=175, ll=-200026.687107
+    checkpoint K=5 seed=146: updates=200, ll=-199895.768447
+    checkpoint K=5 seed=146: updates=225, ll=-199886.775348
+    checkpoint K=5 seed=146: updates=250, ll=-199884.802347
+    checkpoint K=5 seed=146: updates=275, ll=-199884.077471
+    checkpoint K=5 seed=146: updates=300, ll=-199883.649863
+    checkpoint K=5 seed=146: updates=325, ll=-199883.331521
+    checkpoint K=5 seed=146: updates=350, ll=-199883.065324
+  strict_converged, updates=354, elapsed=516.6s
+final: K=5, seed=147
+    checkpoint K=5 seed=147: updates=25, ll=-203920.861119
+    checkpoint K=5 seed=147: updates=50, ll=-201424.569410
+    checkpoint K=5 seed=147: updates=75, ll=-201299.649851
+    checkpoint K=5 seed=147: updates=100, ll=-201286.940872
+    checkpoint K=5 seed=147: updates=125, ll=-201262.117874
+    checkpoint K=5 seed=147: updates=150, ll=-201130.576136
+    checkpoint K=5 seed=147: updates=175, ll=-200180.809629
+    checkpoint K=5 seed=147: updates=200, ll=-199904.079124
+    checkpoint K=5 seed=147: updates=225, ll=-199888.195871
+    checkpoint K=5 seed=147: updates=250, ll=-199885.231535
+    checkpoint K=5 seed=147: updates=275, ll=-199884.311088
+    checkpoint K=5 seed=147: updates=300, ll=-199883.830949
+    checkpoint K=5 seed=147: updates=325, ll=-199883.497543
+  strict_converged, updates=349, elapsed=509.0s
+final: K=5, seed=148
+    checkpoint K=5 seed=148: updates=25, ll=-203921.880182
+    checkpoint K=5 seed=148: updates=50, ll=-201425.227060
+    checkpoint K=5 seed=148: updates=75, ll=-201299.527996
+    checkpoint K=5 seed=148: updates=100, ll=-201286.388148
+    checkpoint K=5 seed=148: updates=125, ll=-201258.939999
+    checkpoint K=5 seed=148: updates=150, ll=-201112.306274
+    checkpoint K=5 seed=148: updates=175, ll=-200116.462977
+    checkpoint K=5 seed=148: updates=200, ll=-199901.666956
+    checkpoint K=5 seed=148: updates=225, ll=-199887.841711
+    checkpoint K=5 seed=148: updates=250, ll=-199885.132055
+    checkpoint K=5 seed=148: updates=275, ll=-199884.260607
+    checkpoint K=5 seed=148: updates=300, ll=-199883.793314
+    checkpoint K=5 seed=148: updates=325, ll=-199883.463849
+  strict_converged, updates=349, elapsed=509.5s
+final: K=5, seed=149
+    checkpoint K=5 seed=149: updates=25, ll=-203935.233975
+    checkpoint K=5 seed=149: updates=50, ll=-201432.348304
+    checkpoint K=5 seed=149: updates=75, ll=-201300.188890
+    checkpoint K=5 seed=149: updates=100, ll=-201287.296989
+    checkpoint K=5 seed=149: updates=125, ll=-201263.293683
+    checkpoint K=5 seed=149: updates=150, ll=-201137.384757
+    checkpoint K=5 seed=149: updates=175, ll=-200213.231584
+    checkpoint K=5 seed=149: updates=200, ll=-199905.240509
+    checkpoint K=5 seed=149: updates=225, ll=-199888.332437
+    checkpoint K=5 seed=149: updates=250, ll=-199885.262073
+    checkpoint K=5 seed=149: updates=275, ll=-199884.323390
+    checkpoint K=5 seed=149: updates=300, ll=-199883.839709
+    checkpoint K=5 seed=149: updates=325, ll=-199883.505918
+  strict_converged, updates=348, elapsed=507.8s
+final: K=5, seed=150
+    checkpoint K=5 seed=150: updates=25, ll=-203939.527151
+    checkpoint K=5 seed=150: updates=50, ll=-201436.139473
+    checkpoint K=5 seed=150: updates=75, ll=-201299.810639
+    checkpoint K=5 seed=150: updates=100, ll=-201285.098205
+    checkpoint K=5 seed=150: updates=125, ll=-201250.492254
+    checkpoint K=5 seed=150: updates=150, ll=-201063.045603
+    checkpoint K=5 seed=150: updates=175, ll=-200043.191935
+    checkpoint K=5 seed=150: updates=200, ll=-199897.750328
+    checkpoint K=5 seed=150: updates=225, ll=-199887.145445
+    checkpoint K=5 seed=150: updates=250, ll=-199884.915403
+    checkpoint K=5 seed=150: updates=275, ll=-199884.141211
+    checkpoint K=5 seed=150: updates=300, ll=-199883.701885
+    checkpoint K=5 seed=150: updates=325, ll=-199883.381951
+    checkpoint K=5 seed=150: updates=350, ll=-199883.118978
+  strict_converged, updates=350, elapsed=516.1s
+final: K=5, seed=151
+    checkpoint K=5 seed=151: updates=25, ll=-203922.406047
+    checkpoint K=5 seed=151: updates=50, ll=-201425.531164
+    checkpoint K=5 seed=151: updates=75, ll=-201299.391409
+    checkpoint K=5 seed=151: updates=100, ll=-201285.842145
+    checkpoint K=5 seed=151: updates=125, ll=-201255.774618
+    checkpoint K=5 seed=151: updates=150, ll=-201093.596824
+    checkpoint K=5 seed=151: updates=175, ll=-200076.541568
+    checkpoint K=5 seed=151: updates=200, ll=-199899.894600
+    checkpoint K=5 seed=151: updates=225, ll=-199887.548849
+    checkpoint K=5 seed=151: updates=250, ll=-199885.047378
+    checkpoint K=5 seed=151: updates=275, ll=-199884.216196
+    checkpoint K=5 seed=151: updates=300, ll=-199883.759385
+    checkpoint K=5 seed=151: updates=325, ll=-199883.432853
+    checkpoint K=5 seed=151: updates=350, ll=-199883.168496
+  strict_converged, updates=350, elapsed=527.2s
+final: K=6, seed=142
+    checkpoint K=6 seed=142: updates=25, ll=-203853.700632
+    checkpoint K=6 seed=142: updates=50, ll=-201561.643782
+    checkpoint K=6 seed=142: updates=75, ll=-201156.153830
+    checkpoint K=6 seed=142: updates=100, ll=-201147.190001
+    checkpoint K=6 seed=142: updates=125, ll=-201144.027414
+    checkpoint K=6 seed=142: updates=150, ll=-201142.052160
+    checkpoint K=6 seed=142: updates=175, ll=-201140.888829
+    checkpoint K=6 seed=142: updates=200, ll=-201140.150687
+    checkpoint K=6 seed=142: updates=225, ll=-201139.581104
+    checkpoint K=6 seed=142: updates=250, ll=-201139.081105
+    checkpoint K=6 seed=142: updates=275, ll=-201138.615675
+    checkpoint K=6 seed=142: updates=300, ll=-201138.168254
+    checkpoint K=6 seed=142: updates=325, ll=-201137.727277
+    checkpoint K=6 seed=142: updates=350, ll=-201137.281956
+    checkpoint K=6 seed=142: updates=375, ll=-201136.820536
+    checkpoint K=6 seed=142: updates=400, ll=-201136.330845
+    checkpoint K=6 seed=142: updates=425, ll=-201135.804125
+    checkpoint K=6 seed=142: updates=450, ll=-201135.236702
+    checkpoint K=6 seed=142: updates=475, ll=-201134.624138
+    checkpoint K=6 seed=142: updates=500, ll=-201133.956849
+    checkpoint K=6 seed=142: updates=525, ll=-201133.220719
+    checkpoint K=6 seed=142: updates=550, ll=-201132.397293
+    checkpoint K=6 seed=142: updates=575, ll=-201131.462103
+    checkpoint K=6 seed=142: updates=600, ll=-201130.381448
+    checkpoint K=6 seed=142: updates=625, ll=-201129.106980
+    checkpoint K=6 seed=142: updates=650, ll=-201127.566130
+    checkpoint K=6 seed=142: updates=675, ll=-201125.643980
+    checkpoint K=6 seed=142: updates=700, ll=-201123.146019
+    checkpoint K=6 seed=142: updates=725, ll=-201119.713014
+    checkpoint K=6 seed=142: updates=750, ll=-201114.595441
+    checkpoint K=6 seed=142: updates=775, ll=-201105.904533
+    checkpoint K=6 seed=142: updates=800, ll=-201086.922730
+    checkpoint K=6 seed=142: updates=825, ll=-201012.326159
+    checkpoint K=6 seed=142: updates=850, ll=-200896.105496
+    checkpoint K=6 seed=142: updates=875, ll=-200876.465953
+    checkpoint K=6 seed=142: updates=900, ll=-200870.507182
+    checkpoint K=6 seed=142: updates=925, ll=-200868.096390
+    checkpoint K=6 seed=142: updates=950, ll=-200866.969817
+    checkpoint K=6 seed=142: updates=975, ll=-200866.385067
+    checkpoint K=6 seed=142: updates=1000, ll=-200866.046333
+  strict_converged, updates=1008, elapsed=1493.6s
+final: K=6, seed=143
+    checkpoint K=6 seed=143: updates=25, ll=-203922.066377
+    checkpoint K=6 seed=143: updates=50, ll=-201798.465425
+    checkpoint K=6 seed=143: updates=75, ll=-200985.693800
+    checkpoint K=6 seed=143: updates=100, ll=-199971.257574
+    checkpoint K=6 seed=143: updates=125, ll=-199805.072345
+    checkpoint K=6 seed=143: updates=150, ll=-199793.801522
+    checkpoint K=6 seed=143: updates=175, ll=-199790.955216
+    checkpoint K=6 seed=143: updates=200, ll=-199789.654951
+    checkpoint K=6 seed=143: updates=225, ll=-199788.780486
+    checkpoint K=6 seed=143: updates=250, ll=-199788.127110
+    checkpoint K=6 seed=143: updates=275, ll=-199787.628271
+    checkpoint K=6 seed=143: updates=300, ll=-199787.240053
+    checkpoint K=6 seed=143: updates=325, ll=-199786.928224
+  strict_converged, updates=348, elapsed=514.1s
+final: K=6, seed=144
+    checkpoint K=6 seed=144: updates=25, ll=-203947.726938
+    checkpoint K=6 seed=144: updates=50, ll=-201886.690475
+    checkpoint K=6 seed=144: updates=75, ll=-201004.305841
+    checkpoint K=6 seed=144: updates=100, ll=-200004.075188
+    checkpoint K=6 seed=144: updates=125, ll=-199806.623136
+    checkpoint K=6 seed=144: updates=150, ll=-199794.178654
+    checkpoint K=6 seed=144: updates=175, ll=-199791.101906
+    checkpoint K=6 seed=144: updates=200, ll=-199789.733355
+    checkpoint K=6 seed=144: updates=225, ll=-199788.826721
+    checkpoint K=6 seed=144: updates=250, ll=-199788.154458
+    checkpoint K=6 seed=144: updates=275, ll=-199787.643899
+    checkpoint K=6 seed=144: updates=300, ll=-199787.248292
+    checkpoint K=6 seed=144: updates=325, ll=-199786.931711
+    checkpoint K=6 seed=144: updates=350, ll=-199786.667890
+  strict_converged, updates=350, elapsed=510.5s
+final: K=6, seed=145
+    checkpoint K=6 seed=145: updates=25, ll=-203899.957141
+    checkpoint K=6 seed=145: updates=50, ll=-201721.458960
+    checkpoint K=6 seed=145: updates=75, ll=-201033.098232
+    checkpoint K=6 seed=145: updates=100, ll=-200139.687741
+    checkpoint K=6 seed=145: updates=125, ll=-199810.511698
+    checkpoint K=6 seed=145: updates=150, ll=-199795.176142
+    checkpoint K=6 seed=145: updates=175, ll=-199791.710576
+    checkpoint K=6 seed=145: updates=200, ll=-199790.280273
+    checkpoint K=6 seed=145: updates=225, ll=-199789.322322
+    checkpoint K=6 seed=145: updates=250, ll=-199788.583585
+    checkpoint K=6 seed=145: updates=275, ll=-199788.006820
+    checkpoint K=6 seed=145: updates=300, ll=-199787.556557
+    checkpoint K=6 seed=145: updates=325, ll=-199787.199635
+    checkpoint K=6 seed=145: updates=350, ll=-199786.907856
+  strict_converged, updates=365, elapsed=548.4s
+final: K=6, seed=146
+    checkpoint K=6 seed=146: updates=25, ll=-203947.929088
+    checkpoint K=6 seed=146: updates=50, ll=-201886.549493
+    checkpoint K=6 seed=146: updates=75, ll=-201003.175579
+    checkpoint K=6 seed=146: updates=100, ll=-200001.306578
+    checkpoint K=6 seed=146: updates=125, ll=-199806.505834
+    checkpoint K=6 seed=146: updates=150, ll=-199794.148491
+    checkpoint K=6 seed=146: updates=175, ll=-199791.088754
+    checkpoint K=6 seed=146: updates=200, ll=-199789.725399
+    checkpoint K=6 seed=146: updates=225, ll=-199788.821380
+    checkpoint K=6 seed=146: updates=250, ll=-199788.150750
+    checkpoint K=6 seed=146: updates=275, ll=-199787.641267
+    checkpoint K=6 seed=146: updates=300, ll=-199787.246384
+    checkpoint K=6 seed=146: updates=325, ll=-199786.930306
+    checkpoint K=6 seed=146: updates=350, ll=-199786.666848
+  strict_converged, updates=350, elapsed=548.7s
+final: K=6, seed=147
+    checkpoint K=6 seed=147: updates=25, ll=-203863.133261
+    checkpoint K=6 seed=147: updates=50, ll=-201585.137537
+    checkpoint K=6 seed=147: updates=75, ll=-201155.639115
+    checkpoint K=6 seed=147: updates=100, ll=-201145.895049
+    checkpoint K=6 seed=147: updates=125, ll=-201142.915574
+    checkpoint K=6 seed=147: updates=150, ll=-201141.540303
+    checkpoint K=6 seed=147: updates=175, ll=-201140.752551
+    checkpoint K=6 seed=147: updates=200, ll=-201140.174966
+    checkpoint K=6 seed=147: updates=225, ll=-201139.690013
+    checkpoint K=6 seed=147: updates=250, ll=-201139.255416
+    checkpoint K=6 seed=147: updates=275, ll=-201138.850751
+    checkpoint K=6 seed=147: updates=300, ll=-201138.463235
+    checkpoint K=6 seed=147: updates=325, ll=-201138.083133
+    checkpoint K=6 seed=147: updates=350, ll=-201137.701697
+    checkpoint K=6 seed=147: updates=375, ll=-201137.309809
+    checkpoint K=6 seed=147: updates=400, ll=-201136.897518
+    checkpoint K=6 seed=147: updates=425, ll=-201136.456144
+    checkpoint K=6 seed=147: updates=450, ll=-201135.981978
+    checkpoint K=6 seed=147: updates=475, ll=-201135.474195
+    checkpoint K=6 seed=147: updates=500, ll=-201134.928605
+    checkpoint K=6 seed=147: updates=525, ll=-201134.336765
+    checkpoint K=6 seed=147: updates=550, ll=-201133.687586
+    checkpoint K=6 seed=147: updates=575, ll=-201132.967284
+    checkpoint K=6 seed=147: updates=600, ll=-201132.158109
+    checkpoint K=6 seed=147: updates=625, ll=-201131.236299
+    checkpoint K=6 seed=147: updates=650, ll=-201130.168903
+    checkpoint K=6 seed=147: updates=675, ll=-201128.908493
+    checkpoint K=6 seed=147: updates=700, ll=-201127.383819
+    checkpoint K=6 seed=147: updates=725, ll=-201125.482151
+    checkpoint K=6 seed=147: updates=750, ll=-201123.013144
+    checkpoint K=6 seed=147: updates=775, ll=-201119.626708
+    checkpoint K=6 seed=147: updates=800, ll=-201114.597205
+    checkpoint K=6 seed=147: updates=825, ll=-201106.116368
+    checkpoint K=6 seed=147: updates=850, ll=-201087.891563
+    checkpoint K=6 seed=147: updates=875, ll=-201018.433917
+    checkpoint K=6 seed=147: updates=900, ll=-200897.879746
+    checkpoint K=6 seed=147: updates=925, ll=-200876.886714
+    checkpoint K=6 seed=147: updates=950, ll=-200870.634513
+    checkpoint K=6 seed=147: updates=975, ll=-200868.128312
+    checkpoint K=6 seed=147: updates=1000, ll=-200866.965277
+    checkpoint K=6 seed=147: updates=1025, ll=-200866.365843
+    checkpoint K=6 seed=147: updates=1050, ll=-200866.021329
+  strict_converged, updates=1058, elapsed=1600.8s
+final: K=6, seed=148
+    checkpoint K=6 seed=148: updates=25, ll=-203861.248544
+    checkpoint K=6 seed=148: updates=50, ll=-201581.068174
+    checkpoint K=6 seed=148: updates=75, ll=-201155.948578
+    checkpoint K=6 seed=148: updates=100, ll=-201146.331498
+    checkpoint K=6 seed=148: updates=125, ll=-201143.159989
+    checkpoint K=6 seed=148: updates=150, ll=-201141.607019
+    checkpoint K=6 seed=148: updates=175, ll=-201140.750382
+    checkpoint K=6 seed=148: updates=200, ll=-201140.146941
+    checkpoint K=6 seed=148: updates=225, ll=-201139.646473
+    checkpoint K=6 seed=148: updates=250, ll=-201139.198538
+    checkpoint K=6 seed=148: updates=275, ll=-201138.780844
+    checkpoint K=6 seed=148: updates=300, ll=-201138.379998
+    checkpoint K=6 seed=148: updates=325, ll=-201137.985817
+    checkpoint K=6 seed=148: updates=350, ll=-201137.588972
+    checkpoint K=6 seed=148: updates=375, ll=-201137.179636
+    checkpoint K=6 seed=148: updates=400, ll=-201136.747519
+    checkpoint K=6 seed=148: updates=425, ll=-201136.284657
+    checkpoint K=6 seed=148: updates=450, ll=-201135.788012
+    checkpoint K=6 seed=148: updates=475, ll=-201135.255564
+    checkpoint K=6 seed=148: updates=500, ll=-201134.681312
+    checkpoint K=6 seed=148: updates=525, ll=-201134.055467
+    checkpoint K=6 seed=148: updates=550, ll=-201133.365472
+    checkpoint K=6 seed=148: updates=575, ll=-201132.595414
+    checkpoint K=6 seed=148: updates=600, ll=-201131.724382
+    checkpoint K=6 seed=148: updates=625, ll=-201130.723876
+    checkpoint K=6 seed=148: updates=650, ll=-201129.553596
+    checkpoint K=6 seed=148: updates=675, ll=-201128.154208
+    checkpoint K=6 seed=148: updates=700, ll=-201126.434090
+    checkpoint K=6 seed=148: updates=725, ll=-201124.243187
+    checkpoint K=6 seed=148: updates=750, ll=-201121.316450
+    checkpoint K=6 seed=148: updates=775, ll=-201117.135214
+    checkpoint K=6 seed=148: updates=800, ll=-201110.519854
+    checkpoint K=6 seed=148: updates=825, ll=-201098.019909
+    checkpoint K=6 seed=148: updates=850, ll=-201062.900047
+    checkpoint K=6 seed=148: updates=875, ll=-200928.623795
+    checkpoint K=6 seed=148: updates=900, ll=-200882.653900
+    checkpoint K=6 seed=148: updates=925, ll=-200872.625740
+    checkpoint K=6 seed=148: updates=950, ll=-200868.984362
+    checkpoint K=6 seed=148: updates=975, ll=-200867.382824
+    checkpoint K=6 seed=148: updates=1000, ll=-200866.593074
+    checkpoint K=6 seed=148: updates=1025, ll=-200866.160322
+  strict_converged, updates=1044, elapsed=1607.6s
+final: K=6, seed=149
+    checkpoint K=6 seed=149: updates=25, ll=-203850.440924
+    checkpoint K=6 seed=149: updates=50, ll=-201546.722952
+    checkpoint K=6 seed=149: updates=75, ll=-201154.934610
+    checkpoint K=6 seed=149: updates=100, ll=-201145.666435
+    checkpoint K=6 seed=149: updates=125, ll=-201142.818560
+    checkpoint K=6 seed=149: updates=150, ll=-201141.484892
+    checkpoint K=6 seed=149: updates=175, ll=-201140.697820
+    checkpoint K=6 seed=149: updates=200, ll=-201140.110157
+    checkpoint K=6 seed=149: updates=225, ll=-201139.613203
+    checkpoint K=6 seed=149: updates=250, ll=-201139.166652
+    checkpoint K=6 seed=149: updates=275, ll=-201138.750372
+    checkpoint K=6 seed=149: updates=300, ll=-201138.351427
+    checkpoint K=6 seed=149: updates=325, ll=-201137.959767
+    checkpoint K=6 seed=149: updates=350, ll=-201137.566180
+    checkpoint K=6 seed=149: updates=375, ll=-201137.160805
+    checkpoint K=6 seed=149: updates=400, ll=-201136.732610
+    checkpoint K=6 seed=149: updates=425, ll=-201136.272158
+    checkpoint K=6 seed=149: updates=450, ll=-201135.776223
+    checkpoint K=6 seed=149: updates=475, ll=-201135.244469
+    checkpoint K=6 seed=149: updates=500, ll=-201134.671900
+    checkpoint K=6 seed=149: updates=525, ll=-201134.048714
+    checkpoint K=6 seed=149: updates=550, ll=-201133.362277
+    checkpoint K=6 seed=149: updates=575, ll=-201132.596803
+    checkpoint K=6 seed=149: updates=600, ll=-201131.731694
+    checkpoint K=6 seed=149: updates=625, ll=-201130.738956
+    checkpoint K=6 seed=149: updates=650, ll=-201129.579094
+    checkpoint K=6 seed=149: updates=675, ll=-201128.194104
+    checkpoint K=6 seed=149: updates=700, ll=-201126.494661
+    checkpoint K=6 seed=149: updates=725, ll=-201124.335002
+    checkpoint K=6 seed=149: updates=750, ll=-201121.458876
+    checkpoint K=6 seed=149: updates=775, ll=-201117.368148
+    checkpoint K=6 seed=149: updates=800, ll=-201110.941385
+    checkpoint K=6 seed=149: updates=825, ll=-201098.958144
+    checkpoint K=6 seed=149: updates=850, ll=-201066.389041
+    checkpoint K=6 seed=149: updates=875, ll=-200935.368391
+    checkpoint K=6 seed=149: updates=900, ll=-200883.646184
+    checkpoint K=6 seed=149: updates=925, ll=-200872.949455
+    checkpoint K=6 seed=149: updates=950, ll=-200869.122837
+    checkpoint K=6 seed=149: updates=975, ll=-200867.452821
+    checkpoint K=6 seed=149: updates=1000, ll=-200866.633821
+    checkpoint K=6 seed=149: updates=1025, ll=-200866.187476
+  strict_converged, updates=1046, elapsed=1651.7s
+final: K=6, seed=150
+    checkpoint K=6 seed=150: updates=25, ll=-203850.535377
+    checkpoint K=6 seed=150: updates=50, ll=-201547.554163
+    checkpoint K=6 seed=150: updates=75, ll=-201155.019938
+    checkpoint K=6 seed=150: updates=100, ll=-201145.740679
+    checkpoint K=6 seed=150: updates=125, ll=-201142.853355
+    checkpoint K=6 seed=150: updates=150, ll=-201141.495927
+    checkpoint K=6 seed=150: updates=175, ll=-201140.701693
+    checkpoint K=6 seed=150: updates=200, ll=-201140.112021
+    checkpoint K=6 seed=150: updates=225, ll=-201139.614139
+    checkpoint K=6 seed=150: updates=250, ll=-201139.166822
+    checkpoint K=6 seed=150: updates=275, ll=-201138.749745
+    checkpoint K=6 seed=150: updates=300, ll=-201138.349925
+    checkpoint K=6 seed=150: updates=325, ll=-201137.957286
+    checkpoint K=6 seed=150: updates=350, ll=-201137.562573
+    checkpoint K=6 seed=150: updates=375, ll=-201137.155880
+    checkpoint K=6 seed=150: updates=400, ll=-201136.726213
+    checkpoint K=6 seed=150: updates=425, ll=-201136.264335
+    checkpoint K=6 seed=150: updates=450, ll=-201135.767124
+    checkpoint K=6 seed=150: updates=475, ll=-201135.234006
+    checkpoint K=6 seed=150: updates=500, ll=-201134.659761
+    checkpoint K=6 seed=150: updates=525, ll=-201134.034514
+    checkpoint K=6 seed=150: updates=550, ll=-201133.345567
+    checkpoint K=6 seed=150: updates=575, ll=-201132.577008
+    checkpoint K=6 seed=150: updates=600, ll=-201131.708035
+    checkpoint K=6 seed=150: updates=625, ll=-201130.710344
+    checkpoint K=6 seed=150: updates=650, ll=-201129.543956
+    checkpoint K=6 seed=150: updates=675, ll=-201128.150065
+    checkpoint K=6 seed=150: updates=700, ll=-201126.437964
+    checkpoint K=6 seed=150: updates=725, ll=-201124.259305
+    checkpoint K=6 seed=150: updates=750, ll=-201121.352546
+    checkpoint K=6 seed=150: updates=775, ll=-201117.207220
+    checkpoint K=6 seed=150: updates=800, ll=-201110.667012
+    checkpoint K=6 seed=150: updates=825, ll=-201098.374209
+    checkpoint K=6 seed=150: updates=850, ll=-201064.289075
+    checkpoint K=6 seed=150: updates=875, ll=-200931.157216
+    checkpoint K=6 seed=150: updates=900, ll=-200883.037023
+    checkpoint K=6 seed=150: updates=925, ll=-200872.755403
+    checkpoint K=6 seed=150: updates=950, ll=-200869.043317
+    checkpoint K=6 seed=150: updates=975, ll=-200867.415558
+    checkpoint K=6 seed=150: updates=1000, ll=-200866.614485
+    checkpoint K=6 seed=150: updates=1025, ll=-200866.176290
+  strict_converged, updates=1045, elapsed=1650.4s
+final: K=6, seed=151
+    checkpoint K=6 seed=151: updates=25, ll=-203868.960837
+    checkpoint K=6 seed=151: updates=50, ll=-201597.944370
+    checkpoint K=6 seed=151: updates=75, ll=-201156.622034
+    checkpoint K=6 seed=151: updates=100, ll=-201145.921134
+    checkpoint K=6 seed=151: updates=125, ll=-201132.501765
+    checkpoint K=6 seed=151: updates=150, ll=-201056.460354
+    checkpoint K=6 seed=151: updates=175, ll=-200315.280765
+    checkpoint K=6 seed=151: updates=200, ll=-199818.736040
+    checkpoint K=6 seed=151: updates=225, ll=-199802.307046
+    checkpoint K=6 seed=151: updates=250, ll=-199799.646766
+    checkpoint K=6 seed=151: updates=275, ll=-199799.048375
+  strict_converged, updates=292, elapsed=555.6s
+final: K=7, seed=142
+    checkpoint K=7 seed=142: updates=25, ll=-203852.267286
+    checkpoint K=7 seed=142: updates=50, ll=-202722.906613
+    checkpoint K=7 seed=142: updates=75, ll=-201266.313666
+    checkpoint K=7 seed=142: updates=100, ll=-199735.731405
+    checkpoint K=7 seed=142: updates=125, ll=-199462.362936
+    checkpoint K=7 seed=142: updates=150, ll=-199406.319808
+    checkpoint K=7 seed=142: updates=175, ll=-199368.708642
+    checkpoint K=7 seed=142: updates=200, ll=-199340.440262
+    checkpoint K=7 seed=142: updates=225, ll=-199319.667131
+    checkpoint K=7 seed=142: updates=250, ll=-199304.420477
+    checkpoint K=7 seed=142: updates=275, ll=-199292.967559
+    checkpoint K=7 seed=142: updates=300, ll=-199283.995306
+    checkpoint K=7 seed=142: updates=325, ll=-199276.611238
+    checkpoint K=7 seed=142: updates=350, ll=-199270.290108
+    checkpoint K=7 seed=142: updates=375, ll=-199264.762238
+    checkpoint K=7 seed=142: updates=400, ll=-199259.884240
+    checkpoint K=7 seed=142: updates=425, ll=-199255.544859
+    checkpoint K=7 seed=142: updates=450, ll=-199251.626250
+    checkpoint K=7 seed=142: updates=475, ll=-199248.009123
+    checkpoint K=7 seed=142: updates=500, ll=-199244.601569
+    checkpoint K=7 seed=142: updates=525, ll=-199241.367793
+    checkpoint K=7 seed=142: updates=550, ll=-199238.329629
+    checkpoint K=7 seed=142: updates=575, ll=-199235.534716
+    checkpoint K=7 seed=142: updates=600, ll=-199233.019230
+    checkpoint K=7 seed=142: updates=625, ll=-199230.792156
+    checkpoint K=7 seed=142: updates=650, ll=-199228.839879
+    checkpoint K=7 seed=142: updates=675, ll=-199227.136794
+    checkpoint K=7 seed=142: updates=700, ll=-199225.653452
+    checkpoint K=7 seed=142: updates=725, ll=-199224.360934
+    checkpoint K=7 seed=142: updates=750, ll=-199223.232707
+    checkpoint K=7 seed=142: updates=775, ll=-199222.245215
+    checkpoint K=7 seed=142: updates=800, ll=-199221.377882
+    checkpoint K=7 seed=142: updates=825, ll=-199220.612904
+    checkpoint K=7 seed=142: updates=850, ll=-199219.934954
+    checkpoint K=7 seed=142: updates=875, ll=-199219.330873
+    checkpoint K=7 seed=142: updates=900, ll=-199218.789386
+    checkpoint K=7 seed=142: updates=925, ll=-199218.300843
+    checkpoint K=7 seed=142: updates=950, ll=-199217.856992
+    checkpoint K=7 seed=142: updates=975, ll=-199217.450785
+    checkpoint K=7 seed=142: updates=1000, ll=-199217.076214
+    checkpoint K=7 seed=142: updates=1025, ll=-199216.728158
+    checkpoint K=7 seed=142: updates=1050, ll=-199216.402268
+    checkpoint K=7 seed=142: updates=1075, ll=-199216.094855
+    checkpoint K=7 seed=142: updates=1100, ll=-199215.802803
+    checkpoint K=7 seed=142: updates=1125, ll=-199215.523490
+    checkpoint K=7 seed=142: updates=1150, ll=-199215.254733
+    checkpoint K=7 seed=142: updates=1175, ll=-199214.994730
+    checkpoint K=7 seed=142: updates=1200, ll=-199214.742015
+  strict_converged, updates=1202, elapsed=1813.8s
+final: K=7, seed=143
+    checkpoint K=7 seed=143: updates=25, ll=-203865.197512
+    checkpoint K=7 seed=143: updates=50, ll=-202832.816398
+    checkpoint K=7 seed=143: updates=75, ll=-201543.222077
+    checkpoint K=7 seed=143: updates=100, ll=-200277.565795
+    checkpoint K=7 seed=143: updates=125, ll=-199504.588255
+    checkpoint K=7 seed=143: updates=150, ll=-199421.961120
+    checkpoint K=7 seed=143: updates=175, ll=-199378.463409
+    checkpoint K=7 seed=143: updates=200, ll=-199347.172916
+    checkpoint K=7 seed=143: updates=225, ll=-199324.370039
+    checkpoint K=7 seed=143: updates=250, ll=-199307.828472
+    checkpoint K=7 seed=143: updates=275, ll=-199295.579576
+    checkpoint K=7 seed=143: updates=300, ll=-199286.124129
+    checkpoint K=7 seed=143: updates=325, ll=-199278.436895
+    checkpoint K=7 seed=143: updates=350, ll=-199271.906468
+    checkpoint K=7 seed=143: updates=375, ll=-199266.223162
+    checkpoint K=7 seed=143: updates=400, ll=-199261.238751
+    checkpoint K=7 seed=143: updates=425, ll=-199256.852777
+    checkpoint K=7 seed=143: updates=450, ll=-199252.955407
+    checkpoint K=7 seed=143: updates=475, ll=-199249.417729
+    checkpoint K=7 seed=143: updates=500, ll=-199246.110711
+    checkpoint K=7 seed=143: updates=525, ll=-199242.941281
+    checkpoint K=7 seed=143: updates=550, ll=-199239.886070
+    checkpoint K=7 seed=143: updates=575, ll=-199236.989778
+    checkpoint K=7 seed=143: updates=600, ll=-199234.321254
+    checkpoint K=7 seed=143: updates=625, ll=-199231.927385
+    checkpoint K=7 seed=143: updates=650, ll=-199229.818550
+    checkpoint K=7 seed=143: updates=675, ll=-199227.978644
+    checkpoint K=7 seed=143: updates=700, ll=-199226.379429
+    checkpoint K=7 seed=143: updates=725, ll=-199224.989920
+    checkpoint K=7 seed=143: updates=750, ll=-199223.780748
+    checkpoint K=7 seed=143: updates=775, ll=-199222.725676
+    checkpoint K=7 seed=143: updates=800, ll=-199221.801858
+    checkpoint K=7 seed=143: updates=825, ll=-199220.989625
+    checkpoint K=7 seed=143: updates=850, ll=-199220.272128
+    checkpoint K=7 seed=143: updates=875, ll=-199219.634965
+    checkpoint K=7 seed=143: updates=900, ll=-199219.065832
+    checkpoint K=7 seed=143: updates=925, ll=-199218.554223
+    checkpoint K=7 seed=143: updates=950, ll=-199218.091163
+    checkpoint K=7 seed=143: updates=975, ll=-199217.668992
+    checkpoint K=7 seed=143: updates=1000, ll=-199217.281176
+    checkpoint K=7 seed=143: updates=1025, ll=-199216.922146
+    checkpoint K=7 seed=143: updates=1050, ll=-199216.587163
+    checkpoint K=7 seed=143: updates=1075, ll=-199216.272206
+    checkpoint K=7 seed=143: updates=1100, ll=-199215.973869
+    checkpoint K=7 seed=143: updates=1125, ll=-199215.689285
+    checkpoint K=7 seed=143: updates=1150, ll=-199215.416060
+    checkpoint K=7 seed=143: updates=1175, ll=-199215.152219
+    checkpoint K=7 seed=143: updates=1200, ll=-199214.896170
+  strict_converged, updates=1214, elapsed=1844.2s
+final: K=7, seed=144
+    checkpoint K=7 seed=144: updates=25, ll=-203859.010813
+    checkpoint K=7 seed=144: updates=50, ll=-202749.099746
+    checkpoint K=7 seed=144: updates=75, ll=-201327.554495
+    checkpoint K=7 seed=144: updates=100, ll=-199745.497286
+    checkpoint K=7 seed=144: updates=125, ll=-199468.416191
+    checkpoint K=7 seed=144: updates=150, ll=-199409.888204
+    checkpoint K=7 seed=144: updates=175, ll=-199371.234380
+    checkpoint K=7 seed=144: updates=200, ll=-199342.202928
+    checkpoint K=7 seed=144: updates=225, ll=-199320.872432
+    checkpoint K=7 seed=144: updates=250, ll=-199305.262050
+    checkpoint K=7 seed=144: updates=275, ll=-199293.584857
+    checkpoint K=7 seed=144: updates=300, ll=-199284.479252
+    checkpoint K=7 seed=144: updates=325, ll=-199277.015281
+    checkpoint K=7 seed=144: updates=350, ll=-199270.642073
+    checkpoint K=7 seed=144: updates=375, ll=-199265.076475
+    checkpoint K=7 seed=144: updates=400, ll=-199260.170992
+    checkpoint K=7 seed=144: updates=425, ll=-199255.814744
+    checkpoint K=7 seed=144: updates=450, ll=-199251.890304
+    checkpoint K=7 seed=144: updates=475, ll=-199248.275869
+    checkpoint K=7 seed=144: updates=500, ll=-199244.873081
+    checkpoint K=7 seed=144: updates=525, ll=-199241.638150
+    checkpoint K=7 seed=144: updates=550, ll=-199238.588306
+    checkpoint K=7 seed=144: updates=575, ll=-199235.772448
+    checkpoint K=7 seed=144: updates=600, ll=-199233.231384
+    checkpoint K=7 seed=144: updates=625, ll=-199230.978387
+    checkpoint K=7 seed=144: updates=650, ll=-199229.002255
+    checkpoint K=7 seed=144: updates=675, ll=-199227.278243
+    checkpoint K=7 seed=144: updates=700, ll=-199225.776941
+    checkpoint K=7 seed=144: updates=725, ll=-199224.469150
+    checkpoint K=7 seed=144: updates=750, ll=-199223.327981
+    checkpoint K=7 seed=144: updates=775, ll=-199222.329534
+    checkpoint K=7 seed=144: updates=800, ll=-199221.452933
+    checkpoint K=7 seed=144: updates=825, ll=-199220.680119
+    checkpoint K=7 seed=144: updates=850, ll=-199219.995548
+    checkpoint K=7 seed=144: updates=875, ll=-199219.385879
+    checkpoint K=7 seed=144: updates=900, ll=-199218.839683
+    checkpoint K=7 seed=144: updates=925, ll=-199218.347179
+    checkpoint K=7 seed=144: updates=950, ll=-199217.900002
+    checkpoint K=7 seed=144: updates=975, ll=-199217.491009
+    checkpoint K=7 seed=144: updates=1000, ll=-199217.114106
+    checkpoint K=7 seed=144: updates=1025, ll=-199216.764100
+    checkpoint K=7 seed=144: updates=1050, ll=-199216.436579
+    checkpoint K=7 seed=144: updates=1075, ll=-199216.127797
+    checkpoint K=7 seed=144: updates=1100, ll=-199215.834592
+    checkpoint K=7 seed=144: updates=1125, ll=-199215.554301
+    checkpoint K=7 seed=144: updates=1150, ll=-199215.284703
+    checkpoint K=7 seed=144: updates=1175, ll=-199215.023970
+    checkpoint K=7 seed=144: updates=1200, ll=-199214.770616
+  strict_converged, updates=1204, elapsed=1909.4s
+final: K=7, seed=145
+    checkpoint K=7 seed=145: updates=25, ll=-203800.041235
+    checkpoint K=7 seed=145: updates=50, ll=-202574.387824
+    checkpoint K=7 seed=145: updates=75, ll=-200553.525112
+    checkpoint K=7 seed=145: updates=100, ll=-199374.369709
+    checkpoint K=7 seed=145: updates=125, ll=-199274.262080
+    checkpoint K=7 seed=145: updates=150, ll=-199242.423927
+    checkpoint K=7 seed=145: updates=175, ll=-199233.924961
+    checkpoint K=7 seed=145: updates=200, ll=-199228.738297
+    checkpoint K=7 seed=145: updates=225, ll=-199225.151553
+    checkpoint K=7 seed=145: updates=250, ll=-199222.524875
+    checkpoint K=7 seed=145: updates=275, ll=-199220.530129
+    checkpoint K=7 seed=145: updates=300, ll=-199218.963402
+    checkpoint K=7 seed=145: updates=325, ll=-199217.686653
+    checkpoint K=7 seed=145: updates=350, ll=-199216.605588
+    checkpoint K=7 seed=145: updates=375, ll=-199215.656711
+    checkpoint K=7 seed=145: updates=400, ll=-199214.797908
+    checkpoint K=7 seed=145: updates=425, ll=-199214.001881
+    checkpoint K=7 seed=145: updates=450, ll=-199213.251830
+    checkpoint K=7 seed=145: updates=475, ll=-199212.538602
+    checkpoint K=7 seed=145: updates=500, ll=-199211.858721
+    checkpoint K=7 seed=145: updates=525, ll=-199211.212845
+    checkpoint K=7 seed=145: updates=550, ll=-199210.604390
+    checkpoint K=7 seed=145: updates=575, ll=-199210.038197
+    checkpoint K=7 seed=145: updates=600, ll=-199209.519240
+    checkpoint K=7 seed=145: updates=625, ll=-199209.051517
+    checkpoint K=7 seed=145: updates=650, ll=-199208.637242
+    checkpoint K=7 seed=145: updates=675, ll=-199208.276476
+    checkpoint K=7 seed=145: updates=700, ll=-199207.967181
+  strict_converged, updates=723, elapsed=1044.8s
+final: K=7, seed=146
+    checkpoint K=7 seed=146: updates=25, ll=-203858.279678
+    checkpoint K=7 seed=146: updates=50, ll=-202754.983245
+    checkpoint K=7 seed=146: updates=75, ll=-201352.794935
+    checkpoint K=7 seed=146: updates=100, ll=-199747.321076
+    checkpoint K=7 seed=146: updates=125, ll=-199470.974934
+    checkpoint K=7 seed=146: updates=150, ll=-199411.432930
+    checkpoint K=7 seed=146: updates=175, ll=-199372.355681
+    checkpoint K=7 seed=146: updates=200, ll=-199343.047150
+    checkpoint K=7 seed=146: updates=225, ll=-199321.513232
+    checkpoint K=7 seed=146: updates=250, ll=-199305.765088
+    checkpoint K=7 seed=146: updates=275, ll=-199293.999985
+    checkpoint K=7 seed=146: updates=300, ll=-199284.840325
+    checkpoint K=7 seed=146: updates=325, ll=-199277.341456
+    checkpoint K=7 seed=146: updates=350, ll=-199270.941705
+    checkpoint K=7 seed=146: updates=375, ll=-199265.353151
+    checkpoint K=7 seed=146: updates=400, ll=-199260.428754
+    checkpoint K=7 seed=146: updates=425, ll=-199256.060325
+    checkpoint K=7 seed=146: updates=450, ll=-199252.132297
+    checkpoint K=7 seed=146: updates=475, ll=-199248.521643
+    checkpoint K=7 seed=146: updates=500, ll=-199245.124744
+    checkpoint K=7 seed=146: updates=525, ll=-199241.890412
+    checkpoint K=7 seed=146: updates=550, ll=-199238.831037
+    checkpoint K=7 seed=146: updates=575, ll=-199235.996227
+    checkpoint K=7 seed=146: updates=600, ll=-199233.431147
+    checkpoint K=7 seed=146: updates=625, ll=-199231.153392
+    checkpoint K=7 seed=146: updates=650, ll=-199229.154298
+    checkpoint K=7 seed=146: updates=675, ll=-199227.410077
+    checkpoint K=7 seed=146: updates=700, ll=-199225.891411
+    checkpoint K=7 seed=146: updates=725, ll=-199224.568847
+    checkpoint K=7 seed=146: updates=750, ll=-199223.415158
+    checkpoint K=7 seed=146: updates=775, ll=-199222.406110
+    checkpoint K=7 seed=146: updates=800, ll=-199221.520540
+    checkpoint K=7 seed=146: updates=825, ll=-199220.740138
+    checkpoint K=7 seed=146: updates=850, ll=-199220.049152
+    checkpoint K=7 seed=146: updates=875, ll=-199219.434066
+    checkpoint K=7 seed=146: updates=900, ll=-199218.883304
+    checkpoint K=7 seed=146: updates=925, ll=-199218.386957
+    checkpoint K=7 seed=146: updates=950, ll=-199217.936554
+    checkpoint K=7 seed=146: updates=975, ll=-199217.524858
+    checkpoint K=7 seed=146: updates=1000, ll=-199217.145696
+    checkpoint K=7 seed=146: updates=1025, ll=-199216.793806
+    checkpoint K=7 seed=146: updates=1050, ll=-199216.464717
+    checkpoint K=7 seed=146: updates=1075, ll=-199216.154632
+    checkpoint K=7 seed=146: updates=1100, ll=-199215.860342
+    checkpoint K=7 seed=146: updates=1125, ll=-199215.579148
+    checkpoint K=7 seed=146: updates=1150, ll=-199215.308796
+    checkpoint K=7 seed=146: updates=1175, ll=-199215.047428
+    checkpoint K=7 seed=146: updates=1200, ll=-199214.793539
+  strict_converged, updates=1206, elapsed=1753.9s
+final: K=7, seed=147
+    checkpoint K=7 seed=147: updates=25, ll=-203858.981903
+    checkpoint K=7 seed=147: updates=50, ll=-202748.929775
+    checkpoint K=7 seed=147: updates=75, ll=-201327.042189
+    checkpoint K=7 seed=147: updates=100, ll=-199745.297854
+    checkpoint K=7 seed=147: updates=125, ll=-199468.299487
+    checkpoint K=7 seed=147: updates=150, ll=-199409.825731
+    checkpoint K=7 seed=147: updates=175, ll=-199371.197427
+selection: K=5, seed=62
+  strict_converged, updates=353, elapsed=662.6s
+selection: K=5, seed=63
+  strict_converged, updates=377, elapsed=694.7s
+selection: K=5, seed=64
+  strict_converged, updates=388, elapsed=718.3s
+selection: K=5, seed=65
+  strict_converged, updates=366, elapsed=683.5s
+selection: K=5, seed=66
+  strict_converged, updates=396, elapsed=755.4s
+selection: K=5, seed=67
+  strict_converged, updates=368, elapsed=768.5s
+selection: K=5, seed=68
+  strict_converged, updates=354, elapsed=779.8s
+selection: K=5, seed=69
+  strict_converged, updates=370, elapsed=764.1s
+selection: K=5, seed=70
+  strict_converged, updates=381, elapsed=658.5s
+selection: K=5, seed=71
+  strict_converged, updates=399, elapsed=693.8s
+selection: K=6, seed=62
+  strict_converged, updates=424, elapsed=740.4s
+selection: K=6, seed=63
+  strict_converged, updates=1038, elapsed=1799.0s
+selection: K=6, seed=64
+  strict_converged, updates=1017, elapsed=1756.8s
+selection: K=6, seed=65
+  strict_converged, updates=995, elapsed=1711.2s
+selection: K=6, seed=66
+  strict_converged, updates=470, elapsed=807.1s
+selection: K=6, seed=67
+  strict_converged, updates=426, elapsed=730.4s
+selection: K=6, seed=68
+  strict_converged, updates=989, elapsed=1696.5s
+selection: K=6, seed=69
+  strict_converged, updates=408, elapsed=701.8s
+selection: K=6, seed=70
+  strict_converged, updates=413, elapsed=710.7s
+selection: K=6, seed=71
+  strict_converged, updates=408, elapsed=701.3s
+selection: K=7, seed=62
+  strict_converged, updates=1447, elapsed=2512.4s
+selection: K=7, seed=63
+  strict_converged, updates=1345, elapsed=2326.0s
+selection: K=7, seed=64
+  strict_converged, updates=1457, elapsed=2506.5s
+selection: K=7, seed=65
+  strict_converged, updates=663, elapsed=1139.5s
+selection: K=7, seed=66
+  strict_converged, updates=1422, elapsed=2444.5s
+selection: K=7, seed=67
+  strict_converged, updates=1413, elapsed=2438.4s
+selection: K=7, seed=68
+  strict_converged, updates=1407, elapsed=2781.9s
+selection: K=7, seed=69
+  strict_converged, updates=1355, elapsed=2724.5s
+selection: K=7, seed=70
+  strict_converged, updates=1450, elapsed=2923.4s
+selection: K=7, seed=71
+  strict_converged, updates=1343, elapsed=2464.7s
+selection: K=8, seed=62
+  strict_converged, updates=745, elapsed=1317.1s
+selection: K=8, seed=63
+  strict_converged, updates=720, elapsed=1281.3s
+selection: K=8, seed=64
+  strict_converged, updates=720, elapsed=1281.3s
+selection: K=8, seed=65
+  strict_converged, updates=733, elapsed=1331.0s
+selection: K=8, seed=66
+  strict_converged, updates=731, elapsed=1329.4s
+selection: K=8, seed=67
+  strict_converged, updates=752, elapsed=1352.8s
+selection: K=8, seed=68
+  strict_converged, updates=749, elapsed=1336.8s
+selection: K=8, seed=69
+  strict_converged, updates=720, elapsed=1290.3s
+selection: K=8, seed=70
+  strict_converged, updates=717, elapsed=1278.0s
+selection: K=8, seed=71
+  strict_converged, updates=731, elapsed=1302.0s
+Results: C:\Users\Admin\Downloads\ARSH_v0.6_K_STABILITY\outputs\full
+final: K=5, seed=142
+  strict_converged, updates=348, elapsed=499.6s
+final: K=5, seed=143
+  strict_converged, updates=349, elapsed=508.0s
+final: K=5, seed=144
+  strict_converged, updates=356, elapsed=531.1s
+final: K=5, seed=145
+  strict_converged, updates=349, elapsed=511.1s
+final: K=5, seed=146
+  strict_converged, updates=354, elapsed=516.6s
+final: K=5, seed=147
+  strict_converged, updates=349, elapsed=509.0s
+final: K=5, seed=148
+  strict_converged, updates=349, elapsed=509.5s
+final: K=5, seed=149
+  strict_converged, updates=348, elapsed=507.8s
+final: K=5, seed=150
+  strict_converged, updates=350, elapsed=516.1s
+final: K=5, seed=151
+  strict_converged, updates=350, elapsed=527.2s
+final: K=6, seed=142
+  strict_converged, updates=1008, elapsed=1493.6s
+final: K=6, seed=143
+  strict_converged, updates=348, elapsed=514.1s
+final: K=6, seed=144
+  strict_converged, updates=350, elapsed=510.5s
+final: K=6, seed=145
+  strict_converged, updates=365, elapsed=548.4s
+final: K=6, seed=146
+  strict_converged, updates=350, elapsed=548.7s
+final: K=6, seed=147
+  strict_converged, updates=1058, elapsed=1600.8s
+final: K=6, seed=148
+  strict_converged, updates=1044, elapsed=1607.6s
+final: K=6, seed=149
+  strict_converged, updates=1046, elapsed=1651.7s
+final: K=6, seed=150
+  strict_converged, updates=1045, elapsed=1650.4s
+final: K=6, seed=151
+  strict_converged, updates=292, elapsed=555.6s
+final: K=7, seed=142
+  strict_converged, updates=1202, elapsed=1813.8s
+final: K=7, seed=143
+  strict_converged, updates=1214, elapsed=1844.2s
+final: K=7, seed=144
+  strict_converged, updates=1204, elapsed=1909.4s
+final: K=7, seed=145
+  strict_converged, updates=723, elapsed=1044.8s
+final: K=7, seed=146
+  strict_converged, updates=1206, elapsed=1753.9s
+final: K=7, seed=147
+    checkpoint K=7 seed=147: updates=200, ll=-199342.184799
+    checkpoint K=7 seed=147: updates=225, ll=-199320.866863
+    checkpoint K=7 seed=147: updates=250, ll=-199305.263033
+    checkpoint K=7 seed=147: updates=275, ll=-199293.588732
+    checkpoint K=7 seed=147: updates=300, ll=-199284.484141
+    checkpoint K=7 seed=147: updates=325, ll=-199277.020311
+    checkpoint K=7 seed=147: updates=350, ll=-199270.646875
+    checkpoint K=7 seed=147: updates=375, ll=-199265.080905
+    checkpoint K=7 seed=147: updates=400, ll=-199260.174997
+    checkpoint K=7 seed=147: updates=425, ll=-199255.818314
+    checkpoint K=7 seed=147: updates=450, ll=-199251.893460
+    checkpoint K=7 seed=147: updates=475, ll=-199248.278649
+    checkpoint K=7 seed=147: updates=500, ll=-199244.875535
+    checkpoint K=7 seed=147: updates=525, ll=-199241.640320
+    checkpoint K=7 seed=147: updates=550, ll=-199238.590217
+    checkpoint K=7 seed=147: updates=575, ll=-199235.774113
+    checkpoint K=7 seed=147: updates=600, ll=-199233.232814
+    checkpoint K=7 seed=147: updates=625, ll=-199230.979595
+    checkpoint K=7 seed=147: updates=650, ll=-199229.003258
+    checkpoint K=7 seed=147: updates=675, ll=-199227.279063
+    checkpoint K=7 seed=147: updates=700, ll=-199225.777599
+    checkpoint K=7 seed=147: updates=725, ll=-199224.469666
+    checkpoint K=7 seed=147: updates=750, ll=-199223.328375
+    checkpoint K=7 seed=147: updates=775, ll=-199222.329822
+    checkpoint K=7 seed=147: updates=800, ll=-199221.453132
+    checkpoint K=7 seed=147: updates=825, ll=-199220.680241
+    checkpoint K=7 seed=147: updates=850, ll=-199219.995604
+    checkpoint K=7 seed=147: updates=875, ll=-199219.385880
+    checkpoint K=7 seed=147: updates=900, ll=-199218.839637
+    checkpoint K=7 seed=147: updates=925, ll=-199218.347093
+    checkpoint K=7 seed=147: updates=950, ll=-199217.899883
+    checkpoint K=7 seed=147: updates=975, ll=-199217.490862
+    checkpoint K=7 seed=147: updates=1000, ll=-199217.113934
+    checkpoint K=7 seed=147: updates=1025, ll=-199216.763909
+    checkpoint K=7 seed=147: updates=1050, ll=-199216.436372
+    checkpoint K=7 seed=147: updates=1075, ll=-199216.127578
+    checkpoint K=7 seed=147: updates=1100, ll=-199215.834363
+    checkpoint K=7 seed=147: updates=1125, ll=-199215.554066
+    checkpoint K=7 seed=147: updates=1150, ll=-199215.284464
+    checkpoint K=7 seed=147: updates=1175, ll=-199215.023730
+    checkpoint K=7 seed=147: updates=1200, ll=-199214.770377
+  strict_converged, updates=1204, elapsed=1780.8s
+final: K=7, seed=148
+    checkpoint K=7 seed=148: updates=25, ll=-203804.251027
+    checkpoint K=7 seed=148: updates=50, ll=-202598.833031
+    checkpoint K=7 seed=148: updates=75, ll=-200609.526357
+    checkpoint K=7 seed=148: updates=100, ll=-199507.961951
+    checkpoint K=7 seed=148: updates=125, ll=-199278.526748
+    checkpoint K=7 seed=148: updates=150, ll=-199243.106213
+    checkpoint K=7 seed=148: updates=175, ll=-199234.055624
+    checkpoint K=7 seed=148: updates=200, ll=-199228.771364
+    checkpoint K=7 seed=148: updates=225, ll=-199225.158519
+    checkpoint K=7 seed=148: updates=250, ll=-199222.510452
+    checkpoint K=7 seed=148: updates=275, ll=-199220.493412
+    checkpoint K=7 seed=148: updates=300, ll=-199218.906721
+    checkpoint K=7 seed=148: updates=325, ll=-199217.614110
+    checkpoint K=7 seed=148: updates=350, ll=-199216.521164
+    checkpoint K=7 seed=148: updates=375, ll=-199215.563638
+    checkpoint K=7 seed=148: updates=400, ll=-199214.698719
+    checkpoint K=7 seed=148: updates=425, ll=-199213.898643
+    checkpoint K=7 seed=148: updates=450, ll=-199213.146360
+    checkpoint K=7 seed=148: updates=475, ll=-199212.432630
+    checkpoint K=7 seed=148: updates=500, ll=-199211.753974
+    checkpoint K=7 seed=148: updates=525, ll=-199211.111064
+    checkpoint K=7 seed=148: updates=550, ll=-199210.507273
+    checkpoint K=7 seed=148: updates=575, ll=-199209.947293
+    checkpoint K=7 seed=148: updates=600, ll=-199209.435823
+    checkpoint K=7 seed=148: updates=625, ll=-199208.976474
+    checkpoint K=7 seed=148: updates=650, ll=-199208.571012
+    checkpoint K=7 seed=148: updates=675, ll=-199208.219051
+    checkpoint K=7 seed=148: updates=700, ll=-199207.918167
+  strict_converged, updates=719, elapsed=1021.8s
+final: K=7, seed=149
+    checkpoint K=7 seed=149: updates=25, ll=-203865.152658
+    checkpoint K=7 seed=149: updates=50, ll=-202832.588939
+    checkpoint K=7 seed=149: updates=75, ll=-201543.159145
+    checkpoint K=7 seed=149: updates=100, ll=-200276.702370
+    checkpoint K=7 seed=149: updates=125, ll=-199506.162517
+    checkpoint K=7 seed=149: updates=150, ll=-199423.261450
+    checkpoint K=7 seed=149: updates=175, ll=-199379.494474
+    checkpoint K=7 seed=149: updates=200, ll=-199347.972024
+    checkpoint K=7 seed=149: updates=225, ll=-199324.977333
+    checkpoint K=7 seed=149: updates=250, ll=-199308.297593
+    checkpoint K=7 seed=149: updates=275, ll=-199295.958246
+    checkpoint K=7 seed=149: updates=300, ll=-199286.447216
+    checkpoint K=7 seed=149: updates=325, ll=-199278.725147
+    checkpoint K=7 seed=149: updates=350, ll=-199272.168815
+    checkpoint K=7 seed=149: updates=375, ll=-199266.461862
+    checkpoint K=7 seed=149: updates=400, ll=-199261.454740
+    checkpoint K=7 seed=149: updates=425, ll=-199257.048786
+    checkpoint K=7 seed=149: updates=450, ll=-199253.136550
+    checkpoint K=7 seed=149: updates=475, ll=-199249.590443
+    checkpoint K=7 seed=149: updates=500, ll=-199246.280612
+    checkpoint K=7 seed=149: updates=525, ll=-199243.110492
+    checkpoint K=7 seed=149: updates=550, ll=-199240.051936
+    checkpoint K=7 seed=149: updates=575, ll=-199237.146744
+    checkpoint K=7 seed=149: updates=600, ll=-199234.464431
+    checkpoint K=7 seed=149: updates=625, ll=-199232.054532
+    checkpoint K=7 seed=149: updates=650, ll=-199229.929795
+    checkpoint K=7 seed=149: updates=675, ll=-199228.075377
+    checkpoint K=7 seed=149: updates=700, ll=-199226.463448
+    checkpoint K=7 seed=149: updates=725, ll=-199225.063004
+    checkpoint K=7 seed=149: updates=750, ll=-199223.844497
+    checkpoint K=7 seed=149: updates=775, ll=-199222.781482
+    checkpoint K=7 seed=149: updates=800, ll=-199221.850913
+    checkpoint K=7 seed=149: updates=825, ll=-199221.032945
+    checkpoint K=7 seed=149: updates=850, ll=-199220.310582
+    checkpoint K=7 seed=149: updates=875, ll=-199219.669293
+    checkpoint K=7 seed=149: updates=900, ll=-199219.096667
+    checkpoint K=7 seed=149: updates=925, ll=-199218.582106
+    checkpoint K=7 seed=149: updates=950, ll=-199218.116557
+    checkpoint K=7 seed=149: updates=975, ll=-199217.692294
+    checkpoint K=7 seed=149: updates=1000, ll=-199217.302724
+    checkpoint K=7 seed=149: updates=1025, ll=-199216.942228
+    checkpoint K=7 seed=149: updates=1050, ll=-199216.606025
+    checkpoint K=7 seed=149: updates=1075, ll=-199216.290055
+    checkpoint K=7 seed=149: updates=1100, ll=-199215.990882
+    checkpoint K=7 seed=149: updates=1125, ll=-199215.705609
+    checkpoint K=7 seed=149: updates=1150, ll=-199215.431817
+    checkpoint K=7 seed=149: updates=1175, ll=-199215.167509
+    checkpoint K=7 seed=149: updates=1200, ll=-199214.911073
+  strict_converged, updates=1216, elapsed=1723.8s
+final: K=7, seed=150
+    checkpoint K=7 seed=150: updates=25, ll=-203819.395677
+    checkpoint K=7 seed=150: updates=50, ll=-202602.656515
+    checkpoint K=7 seed=150: updates=75, ll=-200440.659641
+    checkpoint K=7 seed=150: updates=100, ll=-199320.693251
+    checkpoint K=7 seed=150: updates=125, ll=-199258.142906
+    checkpoint K=7 seed=150: updates=150, ll=-199242.755039
+    checkpoint K=7 seed=150: updates=175, ll=-199234.492368
+    checkpoint K=7 seed=150: updates=200, ll=-199229.148533
+    checkpoint K=7 seed=150: updates=225, ll=-199225.430757
+    checkpoint K=7 seed=150: updates=250, ll=-199222.729970
+    checkpoint K=7 seed=150: updates=275, ll=-199220.697025
+    checkpoint K=7 seed=150: updates=300, ll=-199219.110055
+    checkpoint K=7 seed=150: updates=325, ll=-199217.821383
+    checkpoint K=7 seed=150: updates=350, ll=-199216.732284
+    checkpoint K=7 seed=150: updates=375, ll=-199215.777236
+    checkpoint K=7 seed=150: updates=400, ll=-199214.913124
+    checkpoint K=7 seed=150: updates=425, ll=-199214.112109
+    checkpoint K=7 seed=150: updates=450, ll=-199213.357059
+    checkpoint K=7 seed=150: updates=475, ll=-199212.638593
+    checkpoint K=7 seed=150: updates=500, ll=-199211.953075
+    checkpoint K=7 seed=150: updates=525, ll=-199211.301066
+    checkpoint K=7 seed=150: updates=550, ll=-199210.685958
+    checkpoint K=7 seed=150: updates=575, ll=-199210.112652
+    checkpoint K=7 seed=150: updates=600, ll=-199209.586274
+    checkpoint K=7 seed=150: updates=625, ll=-199209.111031
+    checkpoint K=7 seed=150: updates=650, ll=-199208.689382
+    checkpoint K=7 seed=150: updates=675, ll=-199208.321621
+    checkpoint K=7 seed=150: updates=700, ll=-199208.005893
+    checkpoint K=7 seed=150: updates=725, ll=-199207.738571
+  strict_converged, updates=726, elapsed=1089.3s
+final: K=7, seed=151
+    checkpoint K=7 seed=151: updates=25, ll=-203852.211766
+    checkpoint K=7 seed=151: updates=50, ll=-202723.826337
+    checkpoint K=7 seed=151: updates=75, ll=-201270.169936
+    checkpoint K=7 seed=151: updates=100, ll=-199734.629152
+    checkpoint K=7 seed=151: updates=125, ll=-199462.104157
+    checkpoint K=7 seed=151: updates=150, ll=-199406.193385
+    checkpoint K=7 seed=151: updates=175, ll=-199368.655694
+    checkpoint K=7 seed=151: updates=200, ll=-199340.451138
+    checkpoint K=7 seed=151: updates=225, ll=-199319.717933
+    checkpoint K=7 seed=151: updates=250, ll=-199304.487949
+    checkpoint K=7 seed=151: updates=275, ll=-199293.038857
+    checkpoint K=7 seed=151: updates=300, ll=-199284.064811
+    checkpoint K=7 seed=151: updates=325, ll=-199276.676806
+    checkpoint K=7 seed=151: updates=350, ll=-199270.351020
+    checkpoint K=7 seed=151: updates=375, ll=-199264.818454
+    checkpoint K=7 seed=151: updates=400, ll=-199259.936281
+    checkpoint K=7 seed=151: updates=425, ll=-199255.593751
+    checkpoint K=7 seed=151: updates=450, ll=-199251.673272
+    checkpoint K=7 seed=151: updates=475, ll=-199248.055314
+    checkpoint K=7 seed=151: updates=500, ll=-199244.647144
+    checkpoint K=7 seed=151: updates=525, ll=-199241.411926
+    checkpoint K=7 seed=151: updates=550, ll=-199238.370925
+    checkpoint K=7 seed=151: updates=575, ll=-199235.572002
+    checkpoint K=7 seed=151: updates=600, ll=-199233.051984
+    checkpoint K=7 seed=151: updates=625, ll=-199230.820444
+    checkpoint K=7 seed=151: updates=650, ll=-199228.864088
+    checkpoint K=7 seed=151: updates=675, ll=-199227.157425
+    checkpoint K=7 seed=151: updates=700, ll=-199225.671004
+    checkpoint K=7 seed=151: updates=725, ll=-199224.375860
+    checkpoint K=7 seed=151: updates=750, ll=-199223.245405
+    checkpoint K=7 seed=151: updates=775, ll=-199222.256025
+    checkpoint K=7 seed=151: updates=800, ll=-199221.387096
+    checkpoint K=7 seed=151: updates=825, ll=-199220.620769
+    checkpoint K=7 seed=151: updates=850, ll=-199219.941680
+    checkpoint K=7 seed=151: updates=875, ll=-199219.336639
+    checkpoint K=7 seed=151: updates=900, ll=-199218.794343
+    checkpoint K=7 seed=151: updates=925, ll=-199218.305120
+    checkpoint K=7 seed=151: updates=950, ll=-199217.860698
+    checkpoint K=7 seed=151: updates=975, ll=-199217.454015
+    checkpoint K=7 seed=151: updates=1000, ll=-199217.079046
+    checkpoint K=7 seed=151: updates=1025, ll=-199216.730662
+    checkpoint K=7 seed=151: updates=1050, ll=-199216.404501
+    checkpoint K=7 seed=151: updates=1075, ll=-199216.096868
+    checkpoint K=7 seed=151: updates=1100, ll=-199215.804639
+    checkpoint K=7 seed=151: updates=1125, ll=-199215.525187
+    checkpoint K=7 seed=151: updates=1150, ll=-199215.256323
+    checkpoint K=7 seed=151: updates=1175, ll=-199214.996241
+    checkpoint K=7 seed=151: updates=1200, ll=-199214.743472
+  strict_converged, updates=1202, elapsed=1895.3s
+final: K=8, seed=142
+    checkpoint K=8 seed=142: updates=25, ll=-203859.552856
+    checkpoint K=8 seed=142: updates=50, ll=-202401.577953
+    checkpoint K=8 seed=142: updates=75, ll=-199915.383443
+    checkpoint K=8 seed=142: updates=100, ll=-199268.383062
+    checkpoint K=8 seed=142: updates=125, ll=-199186.555698
+    checkpoint K=8 seed=142: updates=150, ll=-199167.847239
+    checkpoint K=8 seed=142: updates=175, ll=-199159.279255
+    checkpoint K=8 seed=142: updates=200, ll=-199154.698913
+    checkpoint K=8 seed=142: updates=225, ll=-199151.905392
+    checkpoint K=8 seed=142: updates=250, ll=-199150.026941
+    checkpoint K=8 seed=142: updates=275, ll=-199148.675537
+    checkpoint K=8 seed=142: updates=300, ll=-199147.660396
+    checkpoint K=8 seed=142: updates=325, ll=-199146.877452
+    checkpoint K=8 seed=142: updates=350, ll=-199146.263459
+    checkpoint K=8 seed=142: updates=375, ll=-199145.776318
+    checkpoint K=8 seed=142: updates=400, ll=-199145.386227
+    checkpoint K=8 seed=142: updates=425, ll=-199145.071314
+  strict_converged, updates=444, elapsed=630.9s
+final: K=8, seed=143
+    checkpoint K=8 seed=143: updates=25, ll=-203883.156190
+    checkpoint K=8 seed=143: updates=50, ll=-202570.893559
+    checkpoint K=8 seed=143: updates=75, ll=-199912.934614
+    checkpoint K=8 seed=143: updates=100, ll=-199247.262892
+    checkpoint K=8 seed=143: updates=125, ll=-199184.521917
+    checkpoint K=8 seed=143: updates=150, ll=-199166.854149
+    checkpoint K=8 seed=143: updates=175, ll=-199158.518448
+    checkpoint K=8 seed=143: updates=200, ll=-199154.034997
+    checkpoint K=8 seed=143: updates=225, ll=-199151.312096
+    checkpoint K=8 seed=143: updates=250, ll=-199149.499980
+    checkpoint K=8 seed=143: updates=275, ll=-199148.214611
+    checkpoint K=8 seed=143: updates=300, ll=-199147.264213
+    checkpoint K=8 seed=143: updates=325, ll=-199146.542465
+    checkpoint K=8 seed=143: updates=350, ll=-199145.984108
+    checkpoint K=8 seed=143: updates=375, ll=-199145.545822
+    checkpoint K=8 seed=143: updates=400, ll=-199145.197416
+    checkpoint K=8 seed=143: updates=425, ll=-199144.917261
+  strict_converged, updates=430, elapsed=604.8s
+final: K=8, seed=144
+    checkpoint K=8 seed=144: updates=25, ll=-203861.039420
+    checkpoint K=8 seed=144: updates=50, ll=-202311.643619
+    checkpoint K=8 seed=144: updates=75, ll=-200046.428060
+    checkpoint K=8 seed=144: updates=100, ll=-199488.818059
+    checkpoint K=8 seed=144: updates=125, ll=-199204.842265
+    checkpoint K=8 seed=144: updates=150, ll=-199175.178356
+    checkpoint K=8 seed=144: updates=175, ll=-199162.600599
+    checkpoint K=8 seed=144: updates=200, ll=-199156.505898
+    checkpoint K=8 seed=144: updates=225, ll=-199153.158037
+    checkpoint K=8 seed=144: updates=250, ll=-199151.075382
+    checkpoint K=8 seed=144: updates=275, ll=-199149.636666
+    checkpoint K=8 seed=144: updates=300, ll=-199148.564344
+    checkpoint K=8 seed=144: updates=325, ll=-199147.724915
+    checkpoint K=8 seed=144: updates=350, ll=-199147.047844
+    checkpoint K=8 seed=144: updates=375, ll=-199146.491751
+    checkpoint K=8 seed=144: updates=400, ll=-199146.029855
+    checkpoint K=8 seed=144: updates=425, ll=-199145.643403
+    checkpoint K=8 seed=144: updates=450, ll=-199145.318490
+    checkpoint K=8 seed=144: updates=475, ll=-199145.044394
+  strict_converged, updates=480, elapsed=685.0s
+final: K=8, seed=145
+    checkpoint K=8 seed=145: updates=25, ll=-203864.632775
+    checkpoint K=8 seed=145: updates=50, ll=-202414.587651
+    checkpoint K=8 seed=145: updates=75, ll=-199938.876551
+    checkpoint K=8 seed=145: updates=100, ll=-199283.980176
+    checkpoint K=8 seed=145: updates=125, ll=-199186.997461
+    checkpoint K=8 seed=145: updates=150, ll=-199167.716723
+    checkpoint K=8 seed=145: updates=175, ll=-199159.143484
+    checkpoint K=8 seed=145: updates=200, ll=-199154.649205
+    checkpoint K=8 seed=145: updates=225, ll=-199151.946171
+    checkpoint K=8 seed=145: updates=250, ll=-199150.141097
+    checkpoint K=8 seed=145: updates=275, ll=-199148.840350
+    checkpoint K=8 seed=145: updates=300, ll=-199147.854050
+    checkpoint K=8 seed=145: updates=325, ll=-199147.081915
+    checkpoint K=8 seed=145: updates=350, ll=-199146.465368
+    checkpoint K=8 seed=145: updates=375, ll=-199145.966755
+    checkpoint K=8 seed=145: updates=400, ll=-199145.559966
+    checkpoint K=8 seed=145: updates=425, ll=-199145.225920
+    checkpoint K=8 seed=145: updates=450, ll=-199144.950176
+  strict_converged, updates=454, elapsed=647.6s
+final: K=8, seed=146
+    checkpoint K=8 seed=146: updates=25, ll=-203892.011174
+    checkpoint K=8 seed=146: updates=50, ll=-202595.898185
+    checkpoint K=8 seed=146: updates=75, ll=-199979.294877
+    checkpoint K=8 seed=146: updates=100, ll=-199276.313337
+    checkpoint K=8 seed=146: updates=125, ll=-199191.077310
+    checkpoint K=8 seed=146: updates=150, ll=-199169.995586
+    checkpoint K=8 seed=146: updates=175, ll=-199159.922656
+    checkpoint K=8 seed=146: updates=200, ll=-199154.716336
+    checkpoint K=8 seed=146: updates=225, ll=-199151.712027
+    checkpoint K=8 seed=146: updates=250, ll=-199149.787085
+    checkpoint K=8 seed=146: updates=275, ll=-199148.448936
+    checkpoint K=8 seed=146: updates=300, ll=-199147.465940
+    checkpoint K=8 seed=146: updates=325, ll=-199146.718521
+    checkpoint K=8 seed=146: updates=350, ll=-199146.137708
+    checkpoint K=8 seed=146: updates=375, ll=-199145.679447
+    checkpoint K=8 seed=146: updates=400, ll=-199145.313489
+    checkpoint K=8 seed=146: updates=425, ll=-199145.018151
+  strict_converged, updates=436, elapsed=620.5s
+final: K=8, seed=147
+    checkpoint K=8 seed=147: updates=25, ll=-203891.521172
+    checkpoint K=8 seed=147: updates=50, ll=-202599.755074
+    checkpoint K=8 seed=147: updates=75, ll=-199967.758342
+    checkpoint K=8 seed=147: updates=100, ll=-199267.200984
+    checkpoint K=8 seed=147: updates=125, ll=-199189.570462
+    checkpoint K=8 seed=147: updates=150, ll=-199169.281691
+    checkpoint K=8 seed=147: updates=175, ll=-199159.603065
+    checkpoint K=8 seed=147: updates=200, ll=-199154.560102
+    checkpoint K=8 seed=147: updates=225, ll=-199151.615701
+    checkpoint K=8 seed=147: updates=250, ll=-199149.711444
+    checkpoint K=8 seed=147: updates=275, ll=-199148.381328
+    checkpoint K=8 seed=147: updates=300, ll=-199147.403477
+    checkpoint K=8 seed=147: updates=325, ll=-199146.661230
+    checkpoint K=8 seed=147: updates=350, ll=-199146.086026
+    checkpoint K=8 seed=147: updates=375, ll=-199145.633501
+    checkpoint K=8 seed=147: updates=400, ll=-199145.273044
+    checkpoint K=8 seed=147: updates=425, ll=-199144.982732
+  strict_converged, updates=434, elapsed=618.8s
+final: K=8, seed=148
+    checkpoint K=8 seed=148: updates=25, ll=-203865.741027
+    checkpoint K=8 seed=148: updates=50, ll=-202392.896233
+    checkpoint K=8 seed=148: updates=75, ll=-199974.173911
+    checkpoint K=8 seed=148: updates=100, ll=-199325.190281
+    checkpoint K=8 seed=148: updates=125, ll=-199190.487734
+    checkpoint K=8 seed=148: updates=150, ll=-199169.028222
+    checkpoint K=8 seed=148: updates=175, ll=-199159.742650
+    checkpoint K=8 seed=148: updates=200, ll=-199155.014368
+    checkpoint K=8 seed=148: updates=225, ll=-199152.243139
+    checkpoint K=8 seed=148: updates=250, ll=-199150.425244
+    checkpoint K=8 seed=148: updates=275, ll=-199149.126028
+    checkpoint K=8 seed=148: updates=300, ll=-199148.140607
+    checkpoint K=8 seed=148: updates=325, ll=-199147.364028
+    checkpoint K=8 seed=148: updates=350, ll=-199146.737161
+    checkpoint K=8 seed=148: updates=375, ll=-199146.223324
+    checkpoint K=8 seed=148: updates=400, ll=-199145.797813
+    checkpoint K=8 seed=148: updates=425, ll=-199145.442929
+    checkpoint K=8 seed=148: updates=450, ll=-199145.145432
+  strict_converged, updates=466, elapsed=662.3s
+final: K=8, seed=149
+    checkpoint K=8 seed=149: updates=25, ll=-203879.265340
+    checkpoint K=8 seed=149: updates=50, ll=-202505.955595
+    checkpoint K=8 seed=149: updates=75, ll=-199969.160411
+    checkpoint K=8 seed=149: updates=100, ll=-199293.549389
+    checkpoint K=8 seed=149: updates=125, ll=-199191.592803
+    checkpoint K=8 seed=149: updates=150, ll=-199170.131883
+    checkpoint K=8 seed=149: updates=175, ll=-199160.108751
+    checkpoint K=8 seed=149: updates=200, ll=-199154.937283
+    checkpoint K=8 seed=149: updates=225, ll=-199151.936560
+    checkpoint K=8 seed=149: updates=250, ll=-199149.998864
+    checkpoint K=8 seed=149: updates=275, ll=-199148.640204
+    checkpoint K=8 seed=149: updates=300, ll=-199147.633318
+    checkpoint K=8 seed=149: updates=325, ll=-199146.861273
+    checkpoint K=8 seed=149: updates=350, ll=-199146.256869
+    checkpoint K=8 seed=149: updates=375, ll=-199145.777178
+    checkpoint K=8 seed=149: updates=400, ll=-199145.392530
+    checkpoint K=8 seed=149: updates=425, ll=-199145.081399
+  strict_converged, updates=443, elapsed=630.1s
+final: K=8, seed=150
+    checkpoint K=8 seed=150: updates=25, ll=-203945.352052
+    checkpoint K=8 seed=150: updates=50, ll=-203081.323210
+    checkpoint K=8 seed=150: updates=75, ll=-201252.673305
+    checkpoint K=8 seed=150: updates=100, ll=-199634.346616
+    checkpoint K=8 seed=150: updates=125, ll=-199254.070795
+    checkpoint K=8 seed=150: updates=150, ll=-199203.405412
+    checkpoint K=8 seed=150: updates=175, ll=-199189.085080
+    checkpoint K=8 seed=150: updates=200, ll=-199181.115204
+    checkpoint K=8 seed=150: updates=225, ll=-199175.467437
+    checkpoint K=8 seed=150: updates=250, ll=-199170.942338
+    checkpoint K=8 seed=150: updates=275, ll=-199167.189005
+    checkpoint K=8 seed=150: updates=300, ll=-199164.068334
+    checkpoint K=8 seed=150: updates=325, ll=-199161.476506
+    checkpoint K=8 seed=150: updates=350, ll=-199159.315082
+    checkpoint K=8 seed=150: updates=375, ll=-199157.495207
+    checkpoint K=8 seed=150: updates=400, ll=-199155.945294
+    checkpoint K=8 seed=150: updates=425, ll=-199154.615156
+    checkpoint K=8 seed=150: updates=450, ll=-199153.475046
+    checkpoint K=8 seed=150: updates=475, ll=-199152.509403
+    checkpoint K=8 seed=150: updates=500, ll=-199151.707144
+    checkpoint K=8 seed=150: updates=525, ll=-199151.053111
+    checkpoint K=8 seed=150: updates=550, ll=-199150.524867
+    checkpoint K=8 seed=150: updates=575, ll=-199150.094827
+    checkpoint K=8 seed=150: updates=600, ll=-199149.734869
+    checkpoint K=8 seed=150: updates=625, ll=-199149.423786
+    checkpoint K=8 seed=150: updates=650, ll=-199149.153333
+  strict_converged, updates=655, elapsed=930.6s
+final: K=8, seed=151
+    checkpoint K=8 seed=151: updates=25, ll=-203879.146227
+    checkpoint K=8 seed=151: updates=50, ll=-202504.599909
+    checkpoint K=8 seed=151: updates=75, ll=-199970.863891
+    checkpoint K=8 seed=151: updates=100, ll=-199295.433596
+    checkpoint K=8 seed=151: updates=125, ll=-199191.821028
+    checkpoint K=8 seed=151: updates=150, ll=-199170.234278
+    checkpoint K=8 seed=151: updates=175, ll=-199160.152474
+    checkpoint K=8 seed=151: updates=200, ll=-199154.959069
+    checkpoint K=8 seed=151: updates=225, ll=-199151.952441
+    checkpoint K=8 seed=151: updates=250, ll=-199150.014325
+    checkpoint K=8 seed=151: updates=275, ll=-199148.656380
+    checkpoint K=8 seed=151: updates=300, ll=-199147.649843
+    checkpoint K=8 seed=151: updates=325, ll=-199146.877465
+    checkpoint K=8 seed=151: updates=350, ll=-199146.272158
+    checkpoint K=8 seed=151: updates=375, ll=-199145.791211
+    checkpoint K=8 seed=151: updates=400, ll=-199145.405151
+    checkpoint K=8 seed=151: updates=425, ll=-199145.092593
+  strict_converged, updates=444, elapsed=629.3s
+Frozen K=7 descriptive label audit: C:\Users\Admin\Downloads\ARSH_v0.6_K_STABILITY\outputs\full\frozen_k7_reference
+Results: C:\Users\Admin\Downloads\ARSH_v0.6_K_STABILITY\outputs\full

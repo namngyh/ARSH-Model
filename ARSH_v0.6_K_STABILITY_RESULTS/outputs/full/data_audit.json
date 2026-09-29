@@ -1,0 +1,19 @@
+{
+  "source": "C:\\Users\\Admin\\Downloads\\ARSH_v0.6_K_STABILITY\\outputs\\full\\source\\training_complete_days.csv",
+  "source_sha256": "d411a82cb27d453e0a5e0571589f0d0c7a8e1b6229678f14dc0bbc5fb0dd4374",
+  "rows": 210579,
+  "first": "2023-02-01 09:00:00",
+  "last": "2026-07-31 14:45:00",
+  "days": 870,
+  "missing_cells": 0,
+  "data_sha256": "d411a82cb27d453e0a5e0571589f0d0c7a8e1b6229678f14dc0bbc5fb0dd4374",
+  "matches_original_training_export_bytes": true,
+  "completeness": "ATC checked; CSV mode assumes bars were finalized at export. DB mode additionally enforces is_final.",
+  "incomplete_days_skipped": [],
+  "first_day": "2023-02-01",
+  "last_day": "2026-07-31",
+  "train_observations": 178884,
+  "validation_observations": 29036,
+  "final_observations": 177695,
+  "rejected_windows": 880
+}

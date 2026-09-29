@@ -1,0 +1,21 @@
+{
+  "status": "RESEARCH_RUN_FINISHED",
+  "selection": {
+    "status": "RESEARCH_CANDIDATE",
+    "chosen_k": 7,
+    "best_validation_log_density": 6.169513833231181,
+    "tied_k": [
+      7,
+      8
+    ],
+    "rule": "Strict convergence, >=1% soft occupancy; within 0.002 log-density of best, prefer smaller K.",
+    "note": "No production model is replaced. This is selection on pre-August validation only."
+  },
+  "exported_final_k": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "production_model_replaced": false
+}
