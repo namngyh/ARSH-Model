@@ -1,0 +1,28 @@
+{
+  "package": "ARSH_v1_HANDOFF_2026-09-30",
+  "built_at": "2026-09-30T18:37:20+07:00",
+  "source_v06_commit": "6a37d21cccc938a2d1d3ca92082376e04a494607",
+  "files": {
+    "docs/MODUS_CONTRACT.md": "90ecb372475ff57ed7411823e9e221450f7e62b9fe1df6a7a832ab6f014c79e3",
+    "docs/NGU_CANH_BAN_GIAO.md": "613a31dc98af9829dba4608e36b83cf31af91429654a7c94f55cedad59cb8c08",
+    "models/original_k7.joblib": "9071bb38709abb3ba91012b1d4a7e18d3285e0e1de7bf2c37e8a186091cf46e1",
+    "models/original_k7_manifest.json": "939b7095ad40beaa00c57f94f2afbcf87f72d403624bb7079f54bc0902548f45",
+    "models/strict_k7.joblib": "4c67a274092bdcde4cd7c00af89b7308268ac8360285c3346450b30e3c86d69f",
+    "models/strict_k7_manifest.json": "092baa43550cd2b16837604336ed2f8a4efd55683454b490f2b1052761941060",
+    "README.md": "9081ae6fe53060dca1df7fc3ad4e290f5b3e4fc133fca1470e357e0229580f3d",
+    "reference/arsh_v05.py": "b5e19665d071b0e8097f35db56ee54008ed193b4c0e8dc80219be64d00c60efc",
+    "reference/runtime.py": "b616f0b47ba2af6b5ecc498ea3b5426b3027d854e788312f70d57211ef44f20b",
+    "reference/student_t_hmm.py": "af6b03639853dfb68b3fbe92693d38dcef3ec10327a6cd88c0b350fb94190b8c",
+    "requirements.txt": "f1adf3bd58102d07acbbe866b8fb049d5266a8eb78e5a493598b9258dcdabad0",
+    "RUN_INVENTORY.bat": "db9aa6ba946a8bdfd666b8a7a3f43eb886a600aadabcd767f3538ca1e231f5f6",
+    "RUN_V1.bat": "89179f048c5adccbf88f65f8bcb2a6893adf9c2854551c9cd3f916e0613c0a39",
+    "run_v1.py": "8e896e01882aff9572ed22903198239915e3f1178f53f8cbee46603e7e7277eb",
+    "SETUP_V1.bat": "1ac1fa77b37b8243145a4ea9eeeeba7caeba61f3aefff366c87fcefd536e4a6d",
+    "tests/fixtures/v06_2026_09_28_states.csv": "b85b5a474f3042f31bd114a51f008c1eaacfb668f3862d3deb96fddd17a73a4f",
+    "tests/test_v1.py": "c5a7b60749246b762a6b428f7c713139ee33bfad51d86c13be562a05cc21c92d",
+    "v1_core.py": "c25f55b74e731587027df80b7de78b4ec4cddafb164800820057f32e5b77012b",
+    "v1_shadow.py": "36eef7c80a6104d03c88a2bd9a4c201a1359bae4f60700a52665133e3206df3f",
+    "VERIFY_PACKAGE.bat": "6e01e1382112c2dae274d7bc4446db95a5352e1bb148b1b0cc23e0c2f3628392",
+    "verify_package.py": "e0317eda9a33159318071279a1d45e01761e60c7b4cf93a0a10ea2a136f9b024"
+  }
+}

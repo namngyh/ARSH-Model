@@ -1,4 +1,8 @@
-# ARSH v0.6+
+# ARSH-Model
+
+Phiên bản v1: xem [hướng dẫn kiểm định và replay](ARSH_v1/README.md). Gói v1 xuất xác suất 7 trạng thái theo từng phút để chuẩn bị cho Modus, chưa ghép trực tiếp vào Modus và chưa thay model báo cáo cuối ngày.
+
+## ARSH v0.6+
 
 Gói cập nhật **K Stability**, bàn giao ngày 26/09/2026, nằm trong [ARSH_v0.6_K_STABILITY](ARSH_v0.6_K_STABILITY/). Gói thử K=5,6,7,8 với nhiều seed, đối chứng model K=7 gốc và xác nhận nhãn `raw`, `confirm_2`, `confirm_3`.
 
