@@ -1,0 +1,267 @@
+{
+  "created_at": "2026-09-30T20:21:14+07:00",
+  "source_files": [
+    {
+      "path": "C:\\arsh_v1_run\\data\\vn30f1m_20230201_20260904.csv",
+      "sha256": "847426b7f2b718e756765444020f70e82fe1ea0771c9ce50463cb34f7184ebe8",
+      "rows": 216845,
+      "first": "2023-02-01 09:00:00",
+      "last": "2026-09-04 14:45:00",
+      "days": 896,
+      "columns": [
+        "SYMBOL",
+        "TRADING_DATE",
+        "OPEN_PX",
+        "HIGH_PX",
+        "LOW_PX",
+        "CLOSE_PX",
+        "VOL",
+        "TRADING_TIME",
+        "BUY_VOL",
+        "BUY_VAL",
+        "SELL_VOL",
+        "SELL_VAL"
+      ]
+    },
+    {
+      "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-07_v1.csv",
+      "sha256": "8fa7780b8e69c8b8dba263ba314667713fe1f53ea52a1e020945b35806fe5b39",
+      "rows": 241,
+      "first": "2026-09-07 09:00:00",
+      "last": "2026-09-07 14:45:00",
+      "days": 1,
+      "columns": [
+        "SYMBOL",
+        "TRADING_DATE",
+        "TRADING_TIME",
+        "OPEN_PX",
+        "HIGH_PX",
+        "LOW_PX",
+        "CLOSE_PX",
+        "VOL"
+      ]
+    },
+    {
+      "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-08_v1.csv",
+      "sha256": "e55bd81776ebfc41e75a384cfed9994d1f3776ad97de4c2d30aa9de2697a3c88",
+      "rows": 241,
+      "first": "2026-09-08 09:00:00",
+      "last": "2026-09-08 14:45:00",
+      "days": 1,
+      "columns": [
+        "SYMBOL",
+        "TRADING_DATE",
+        "TRADING_TIME",
+        "OPEN_PX",
+        "HIGH_PX",
+        "LOW_PX",
+        "CLOSE_PX",
+        "VOL"
+      ]
+    },
+    {
+      "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-09_v1.csv",
+      "sha256": "124f16542156bcb2b12dc558d1b364dc259457c8c65265ab4c293c655314f4de",
+      "rows": 241,
+      "first": "2026-09-09 09:00:00",
+      "last": "2026-09-09 14:45:00",
+      "days": 1,
+      "columns": [
+        "SYMBOL",
+        "TRADING_DATE",
+        "TRADING_TIME",
+        "OPEN_PX",
+        "HIGH_PX",
+        "LOW_PX",
+        "CLOSE_PX",
+        "VOL"
+      ]
+    },
+    {
+      "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-10_v1.csv",
+      "sha256": "b2451be7d727c3ff58ffb1535d59ff8f9d630e60815b4a75a011557091ed12c9",
+      "rows": 241,
+      "first": "2026-09-10 09:00:00",
+      "last": "2026-09-10 14:45:00",
+      "days": 1,
+      "columns": [
+        "SYMBOL",
+        "TRADING_DATE",
+        "TRADING_TIME",
+        "OPEN_PX",
+        "HIGH_PX",
+        "LOW_PX",
+        "CLOSE_PX",
+        "VOL"
+      ]
+    },
+    {
+      "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-11_v1.csv",
+      "sha256": "a0ed4209f2fc400821b490c082d4d57c4aeb84d3f55a876d1e16adf07b708360",
+      "rows": 241,
+      "first": "2026-09-11 09:00:00",
+      "last": "2026-09-11 14:45:00",
+      "days": 1,
+      "columns": [
+        "SYMBOL",
+        "TRADING_DATE",
+        "TRADING_TIME",
+        "OPEN_PX",
+        "HIGH_PX",
+        "LOW_PX",
+        "CLOSE_PX",
+        "VOL"
+      ]
+    },
+    {
+      "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-14_v1.csv",
+      "sha256": "b5f508a97dc1fac64882d0cc1f17da95066161412a038ab78c9e6385d338a7e0",
+      "rows": 241,
+      "first": "2026-09-14 09:00:00",
+      "last": "2026-09-14 14:45:00",
+      "days": 1,
+      "columns": [
+        "SYMBOL",
+        "TRADING_DATE",
+        "TRADING_TIME",
+        "OPEN_PX",
+        "HIGH_PX",
+        "LOW_PX",
+        "CLOSE_PX",
+        "VOL"
+      ]
+    },
+    {
+      "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-16_v1.csv",
+      "sha256": "247f412b6aa4310993ddbfa4f602e6ca64f2f4d2ebf524a20671753a9e6d96be",
+      "rows": 241,
+      "first": "2026-09-16 09:00:00",
+      "last": "2026-09-16 14:45:00",
+      "days": 1,
+      "columns": [
+        "SYMBOL",
+        "TRADING_DATE",
+        "TRADING_TIME",
+        "OPEN_PX",
+        "HIGH_PX",
+        "LOW_PX",
+        "CLOSE_PX",
+        "VOL"
+      ]
+    },
+    {
+      "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-17_v1.csv",
+      "sha256": "cc901ae1d92ab22b26491a35624b4eeea101e8f6765c4bc2c8a0a1c1d31d8146",
+      "rows": 241,
+      "first": "2026-09-17 09:00:00",
+      "last": "2026-09-17 14:45:00",
+      "days": 1,
+      "columns": [
+        "SYMBOL",
+        "TRADING_DATE",
+        "TRADING_TIME",
+        "OPEN_PX",
+        "HIGH_PX",
+        "LOW_PX",
+        "CLOSE_PX",
+        "VOL"
+      ]
+    },
+    {
+      "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-21_v1.csv",
+      "sha256": "8e8f6cba4188bd1073155fa837f2d6e189a0a14c9afed17c149b9bb9b1e8a534",
+      "rows": 241,
+      "first": "2026-09-21 09:00:00",
+      "last": "2026-09-21 14:45:00",
+      "days": 1,
+      "columns": [
+        "SYMBOL",
+        "TRADING_DATE",
+        "TRADING_TIME",
+        "OPEN_PX",
+        "HIGH_PX",
+        "LOW_PX",
+        "CLOSE_PX",
+        "VOL"
+      ]
+    },
+    {
+      "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-23_v1.csv",
+      "sha256": "fdae24b60eed9d90e978ffb90a98a634546213ad9baabb5c3d9aedc24c3e2b6b",
+      "rows": 241,
+      "first": "2026-09-23 09:00:00",
+      "last": "2026-09-23 14:45:00",
+      "days": 1,
+      "columns": [
+        "SYMBOL",
+        "TRADING_DATE",
+        "TRADING_TIME",
+        "OPEN_PX",
+        "HIGH_PX",
+        "LOW_PX",
+        "CLOSE_PX",
+        "VOL"
+      ]
+    },
+    {
+      "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-28_v1.csv",
+      "sha256": "5c0016954cf484546062ffc97584bd3a222f399078008ae14c7af26ccc7bdf40",
+      "rows": 241,
+      "first": "2026-09-28 09:00:00",
+      "last": "2026-09-28 14:45:00",
+      "days": 1,
+      "columns": [
+        "SYMBOL",
+        "TRADING_DATE",
+        "TRADING_TIME",
+        "OPEN_PX",
+        "HIGH_PX",
+        "LOW_PX",
+        "CLOSE_PX",
+        "VOL"
+      ]
+    },
+    {
+      "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-29_v1.csv",
+      "sha256": "9b18c688be2fa8f24a41d52a55598d420d7a2b51146cb7845c1cddc1c8194e7f",
+      "rows": 241,
+      "first": "2026-09-29 09:00:00",
+      "last": "2026-09-29 14:45:00",
+      "days": 1,
+      "columns": [
+        "SYMBOL",
+        "TRADING_DATE",
+        "TRADING_TIME",
+        "OPEN_PX",
+        "HIGH_PX",
+        "LOW_PX",
+        "CLOSE_PX",
+        "VOL"
+      ]
+    },
+    {
+      "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-30_v1.csv",
+      "sha256": "ba26a67b5794cfc3ace6ad62fdbcb596a68d25516a1c0d71ed2c0b53a18b28c5",
+      "rows": 241,
+      "first": "2026-09-30 09:00:00",
+      "last": "2026-09-30 14:45:00",
+      "days": 1,
+      "columns": [
+        "SYMBOL",
+        "TRADING_DATE",
+        "TRADING_TIME",
+        "OPEN_PX",
+        "HIGH_PX",
+        "LOW_PX",
+        "CLOSE_PX",
+        "VOL"
+      ]
+    }
+  ],
+  "bars": 219978,
+  "first": "2023-02-01 09:00:00",
+  "last": "2026-09-30 14:45:00",
+  "days": 909,
+  "python": "3.12.10",
+  "note": "Read-only inventory. No raw bars are copied into output."
+}

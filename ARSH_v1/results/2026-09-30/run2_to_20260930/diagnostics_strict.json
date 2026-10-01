@@ -1,0 +1,2217 @@
+{
+  "status": "historical_diagnostics_complete",
+  "model": {
+    "name": "strict",
+    "sha256": "4c67a274092bdcde4cd7c00af89b7308268ac8360285c3346450b30e3c86d69f",
+    "version": "ARSH-v06-k-stability-20260926-final-k7",
+    "candidate_only": true,
+    "expected_sha256": "4c67a274092bdcde4cd7c00af89b7308268ac8360285c3346450b30e3c86d69f"
+  },
+  "input": {
+    "created_at": "2026-09-30T20:21:14+07:00",
+    "source_files": [
+      {
+        "path": "C:\\arsh_v1_run\\data\\vn30f1m_20230201_20260904.csv",
+        "sha256": "847426b7f2b718e756765444020f70e82fe1ea0771c9ce50463cb34f7184ebe8",
+        "rows": 216845,
+        "first": "2023-02-01 09:00:00",
+        "last": "2026-09-04 14:45:00",
+        "days": 896,
+        "columns": [
+          "SYMBOL",
+          "TRADING_DATE",
+          "OPEN_PX",
+          "HIGH_PX",
+          "LOW_PX",
+          "CLOSE_PX",
+          "VOL",
+          "TRADING_TIME",
+          "BUY_VOL",
+          "BUY_VAL",
+          "SELL_VOL",
+          "SELL_VAL"
+        ]
+      },
+      {
+        "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-07_v1.csv",
+        "sha256": "8fa7780b8e69c8b8dba263ba314667713fe1f53ea52a1e020945b35806fe5b39",
+        "rows": 241,
+        "first": "2026-09-07 09:00:00",
+        "last": "2026-09-07 14:45:00",
+        "days": 1,
+        "columns": [
+          "SYMBOL",
+          "TRADING_DATE",
+          "TRADING_TIME",
+          "OPEN_PX",
+          "HIGH_PX",
+          "LOW_PX",
+          "CLOSE_PX",
+          "VOL"
+        ]
+      },
+      {
+        "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-08_v1.csv",
+        "sha256": "e55bd81776ebfc41e75a384cfed9994d1f3776ad97de4c2d30aa9de2697a3c88",
+        "rows": 241,
+        "first": "2026-09-08 09:00:00",
+        "last": "2026-09-08 14:45:00",
+        "days": 1,
+        "columns": [
+          "SYMBOL",
+          "TRADING_DATE",
+          "TRADING_TIME",
+          "OPEN_PX",
+          "HIGH_PX",
+          "LOW_PX",
+          "CLOSE_PX",
+          "VOL"
+        ]
+      },
+      {
+        "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-09_v1.csv",
+        "sha256": "124f16542156bcb2b12dc558d1b364dc259457c8c65265ab4c293c655314f4de",
+        "rows": 241,
+        "first": "2026-09-09 09:00:00",
+        "last": "2026-09-09 14:45:00",
+        "days": 1,
+        "columns": [
+          "SYMBOL",
+          "TRADING_DATE",
+          "TRADING_TIME",
+          "OPEN_PX",
+          "HIGH_PX",
+          "LOW_PX",
+          "CLOSE_PX",
+          "VOL"
+        ]
+      },
+      {
+        "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-10_v1.csv",
+        "sha256": "b2451be7d727c3ff58ffb1535d59ff8f9d630e60815b4a75a011557091ed12c9",
+        "rows": 241,
+        "first": "2026-09-10 09:00:00",
+        "last": "2026-09-10 14:45:00",
+        "days": 1,
+        "columns": [
+          "SYMBOL",
+          "TRADING_DATE",
+          "TRADING_TIME",
+          "OPEN_PX",
+          "HIGH_PX",
+          "LOW_PX",
+          "CLOSE_PX",
+          "VOL"
+        ]
+      },
+      {
+        "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-11_v1.csv",
+        "sha256": "a0ed4209f2fc400821b490c082d4d57c4aeb84d3f55a876d1e16adf07b708360",
+        "rows": 241,
+        "first": "2026-09-11 09:00:00",
+        "last": "2026-09-11 14:45:00",
+        "days": 1,
+        "columns": [
+          "SYMBOL",
+          "TRADING_DATE",
+          "TRADING_TIME",
+          "OPEN_PX",
+          "HIGH_PX",
+          "LOW_PX",
+          "CLOSE_PX",
+          "VOL"
+        ]
+      },
+      {
+        "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-14_v1.csv",
+        "sha256": "b5f508a97dc1fac64882d0cc1f17da95066161412a038ab78c9e6385d338a7e0",
+        "rows": 241,
+        "first": "2026-09-14 09:00:00",
+        "last": "2026-09-14 14:45:00",
+        "days": 1,
+        "columns": [
+          "SYMBOL",
+          "TRADING_DATE",
+          "TRADING_TIME",
+          "OPEN_PX",
+          "HIGH_PX",
+          "LOW_PX",
+          "CLOSE_PX",
+          "VOL"
+        ]
+      },
+      {
+        "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-16_v1.csv",
+        "sha256": "247f412b6aa4310993ddbfa4f602e6ca64f2f4d2ebf524a20671753a9e6d96be",
+        "rows": 241,
+        "first": "2026-09-16 09:00:00",
+        "last": "2026-09-16 14:45:00",
+        "days": 1,
+        "columns": [
+          "SYMBOL",
+          "TRADING_DATE",
+          "TRADING_TIME",
+          "OPEN_PX",
+          "HIGH_PX",
+          "LOW_PX",
+          "CLOSE_PX",
+          "VOL"
+        ]
+      },
+      {
+        "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-17_v1.csv",
+        "sha256": "cc901ae1d92ab22b26491a35624b4eeea101e8f6765c4bc2c8a0a1c1d31d8146",
+        "rows": 241,
+        "first": "2026-09-17 09:00:00",
+        "last": "2026-09-17 14:45:00",
+        "days": 1,
+        "columns": [
+          "SYMBOL",
+          "TRADING_DATE",
+          "TRADING_TIME",
+          "OPEN_PX",
+          "HIGH_PX",
+          "LOW_PX",
+          "CLOSE_PX",
+          "VOL"
+        ]
+      },
+      {
+        "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-21_v1.csv",
+        "sha256": "8e8f6cba4188bd1073155fa837f2d6e189a0a14c9afed17c149b9bb9b1e8a534",
+        "rows": 241,
+        "first": "2026-09-21 09:00:00",
+        "last": "2026-09-21 14:45:00",
+        "days": 1,
+        "columns": [
+          "SYMBOL",
+          "TRADING_DATE",
+          "TRADING_TIME",
+          "OPEN_PX",
+          "HIGH_PX",
+          "LOW_PX",
+          "CLOSE_PX",
+          "VOL"
+        ]
+      },
+      {
+        "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-23_v1.csv",
+        "sha256": "fdae24b60eed9d90e978ffb90a98a634546213ad9baabb5c3d9aedc24c3e2b6b",
+        "rows": 241,
+        "first": "2026-09-23 09:00:00",
+        "last": "2026-09-23 14:45:00",
+        "days": 1,
+        "columns": [
+          "SYMBOL",
+          "TRADING_DATE",
+          "TRADING_TIME",
+          "OPEN_PX",
+          "HIGH_PX",
+          "LOW_PX",
+          "CLOSE_PX",
+          "VOL"
+        ]
+      },
+      {
+        "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-28_v1.csv",
+        "sha256": "5c0016954cf484546062ffc97584bd3a222f399078008ae14c7af26ccc7bdf40",
+        "rows": 241,
+        "first": "2026-09-28 09:00:00",
+        "last": "2026-09-28 14:45:00",
+        "days": 1,
+        "columns": [
+          "SYMBOL",
+          "TRADING_DATE",
+          "TRADING_TIME",
+          "OPEN_PX",
+          "HIGH_PX",
+          "LOW_PX",
+          "CLOSE_PX",
+          "VOL"
+        ]
+      },
+      {
+        "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-29_v1.csv",
+        "sha256": "9b18c688be2fa8f24a41d52a55598d420d7a2b51146cb7845c1cddc1c8194e7f",
+        "rows": 241,
+        "first": "2026-09-29 09:00:00",
+        "last": "2026-09-29 14:45:00",
+        "days": 1,
+        "columns": [
+          "SYMBOL",
+          "TRADING_DATE",
+          "TRADING_TIME",
+          "OPEN_PX",
+          "HIGH_PX",
+          "LOW_PX",
+          "CLOSE_PX",
+          "VOL"
+        ]
+      },
+      {
+        "path": "C:\\arsh_v1_run\\data\\days_from_parquet\\VN30F1M_2026-09-30_v1.csv",
+        "sha256": "ba26a67b5794cfc3ace6ad62fdbcb596a68d25516a1c0d71ed2c0b53a18b28c5",
+        "rows": 241,
+        "first": "2026-09-30 09:00:00",
+        "last": "2026-09-30 14:45:00",
+        "days": 1,
+        "columns": [
+          "SYMBOL",
+          "TRADING_DATE",
+          "TRADING_TIME",
+          "OPEN_PX",
+          "HIGH_PX",
+          "LOW_PX",
+          "CLOSE_PX",
+          "VOL"
+        ]
+      }
+    ],
+    "bars": 219978,
+    "first": "2023-02-01 09:01:00",
+    "last": "2026-09-30 14:29:00",
+    "days": 909,
+    "python": "3.12.10",
+    "note": "Read-only inventory. No raw bars are copied into output.",
+    "accepted_returns": 217195,
+    "rejected_windows": 965,
+    "return_audit": [
+      {
+        "horizon_min": 1,
+        "accepted_returns": 217195,
+        "rejected_windows": 965,
+        "first": "2023-02-01 09:01:00",
+        "last": "2026-09-30 14:29:00",
+        "zero_rate": 0.08539331015907364,
+        "mean": -4.308513810786042e-08,
+        "std": 0.0005993132147716057,
+        "skew": 0.07300369628698485,
+        "excess_kurtosis": 22.782431922686797,
+        "q01": -0.0016962906674894626,
+        "q99": 0.0017022369372237678,
+        "outliers_abs_gt_5std": 772
+      }
+    ]
+  },
+  "posterior_entropy": {
+    "count": 217195,
+    "mean_nats": 0.8745360885529262,
+    "median_nats": 1.0099501242306042,
+    "mean_normalized": 0.44942264624987427,
+    "p90_normalized": 0.6792012163438441,
+    "fraction_normalized_above_0_8": 0.00302493151315638
+  },
+  "emission_overlap_jsd": {
+    "overlap_matrix": [
+      [
+        1.0,
+        0.7102638264548061,
+        0.6438286200088411,
+        0.4485186852201895,
+        0.5193260895457288,
+        0.5224197601006539,
+        0.29317482793925853
+      ],
+      [
+        0.7102638264548061,
+        1.0,
+        0.4559224636557987,
+        0.6362010523558643,
+        0.47703164453924435,
+        0.5600997705646974,
+        0.327156580035605
+      ],
+      [
+        0.6438286200088411,
+        0.4559224636557987,
+        1.0,
+        0.329356075344137,
+        0.6619391656918107,
+        0.5668845115070309,
+        0.33421937698509163
+      ],
+      [
+        0.4485186852201895,
+        0.6362010523558643,
+        0.329356075344137,
+        1.0,
+        0.43677687006143356,
+        0.6332883304770681,
+        0.45122505320406503
+      ],
+      [
+        0.5193260895457288,
+        0.47703164453924435,
+        0.6619391656918107,
+        0.43677687006143356,
+        1.0,
+        0.7896747786139868,
+        0.5564958254760699
+      ],
+      [
+        0.5224197601006539,
+        0.5600997705646974,
+        0.5668845115070309,
+        0.6332883304770681,
+        0.7896747786139868,
+        1.0,
+        0.6461246399852598
+      ],
+      [
+        0.29317482793925853,
+        0.327156580035605,
+        0.33421937698509163,
+        0.45122505320406503,
+        0.5564958254760699,
+        0.6461246399852598,
+        1.0
+      ]
+    ],
+    "jsd_nats_matrix": [
+      [
+        0.0,
+        0.0587378284617193,
+        0.08849914868610786,
+        0.2154709643071798,
+        0.17395471639235222,
+        0.17273621830696725,
+        0.3473589678879675
+      ],
+      [
+        0.0587378284617193,
+        0.0,
+        0.2006697356679651,
+        0.1005313933294941,
+        0.1994233159185728,
+        0.14885529136969483,
+        0.3181688604622517
+      ],
+      [
+        0.08849914868610786,
+        0.2006697356679651,
+        0.0,
+        0.30568384099398416,
+        0.09176672539225914,
+        0.1446413556991515,
+        0.3122556365281809
+      ],
+      [
+        0.2154709643071798,
+        0.1005313933294941,
+        0.30568384099398416,
+        0.0,
+        0.2170176883381572,
+        0.10256520630699172,
+        0.22151649411312613
+      ],
+      [
+        0.17395471639235222,
+        0.1994233159185728,
+        0.09176672539225914,
+        0.2170176883381572,
+        0.0,
+        0.03311787873494274,
+        0.15108384693072985
+      ],
+      [
+        0.17273621830696725,
+        0.14885529136969483,
+        0.1446413556991515,
+        0.10256520630699172,
+        0.03311787873494274,
+        0.0,
+        0.09991433991144583
+      ],
+      [
+        0.3473589678879675,
+        0.3181688604622517,
+        0.3122556365281809,
+        0.22151649411312613,
+        0.15108384693072985,
+        0.09991433991144583,
+        0.0
+      ]
+    ],
+    "pairs": [
+      {
+        "states": [
+          "S4",
+          "S5"
+        ],
+        "overlap": 0.7896747786139868,
+        "jsd_nats": 0.03311787873494274
+      },
+      {
+        "states": [
+          "S0",
+          "S1"
+        ],
+        "overlap": 0.7102638264548061,
+        "jsd_nats": 0.0587378284617193
+      },
+      {
+        "states": [
+          "S2",
+          "S4"
+        ],
+        "overlap": 0.6619391656918107,
+        "jsd_nats": 0.09176672539225914
+      },
+      {
+        "states": [
+          "S5",
+          "S6"
+        ],
+        "overlap": 0.6461246399852598,
+        "jsd_nats": 0.09991433991144583
+      },
+      {
+        "states": [
+          "S0",
+          "S2"
+        ],
+        "overlap": 0.6438286200088411,
+        "jsd_nats": 0.08849914868610786
+      },
+      {
+        "states": [
+          "S1",
+          "S3"
+        ],
+        "overlap": 0.6362010523558643,
+        "jsd_nats": 0.1005313933294941
+      },
+      {
+        "states": [
+          "S3",
+          "S5"
+        ],
+        "overlap": 0.6332883304770681,
+        "jsd_nats": 0.10256520630699172
+      },
+      {
+        "states": [
+          "S2",
+          "S5"
+        ],
+        "overlap": 0.5668845115070309,
+        "jsd_nats": 0.1446413556991515
+      },
+      {
+        "states": [
+          "S1",
+          "S5"
+        ],
+        "overlap": 0.5600997705646974,
+        "jsd_nats": 0.14885529136969483
+      },
+      {
+        "states": [
+          "S4",
+          "S6"
+        ],
+        "overlap": 0.5564958254760699,
+        "jsd_nats": 0.15108384693072985
+      },
+      {
+        "states": [
+          "S0",
+          "S5"
+        ],
+        "overlap": 0.5224197601006539,
+        "jsd_nats": 0.17273621830696725
+      },
+      {
+        "states": [
+          "S0",
+          "S4"
+        ],
+        "overlap": 0.5193260895457288,
+        "jsd_nats": 0.17395471639235222
+      },
+      {
+        "states": [
+          "S1",
+          "S4"
+        ],
+        "overlap": 0.47703164453924435,
+        "jsd_nats": 0.1994233159185728
+      },
+      {
+        "states": [
+          "S1",
+          "S2"
+        ],
+        "overlap": 0.4559224636557987,
+        "jsd_nats": 0.2006697356679651
+      },
+      {
+        "states": [
+          "S3",
+          "S6"
+        ],
+        "overlap": 0.45122505320406503,
+        "jsd_nats": 0.22151649411312613
+      },
+      {
+        "states": [
+          "S0",
+          "S3"
+        ],
+        "overlap": 0.4485186852201895,
+        "jsd_nats": 0.2154709643071798
+      },
+      {
+        "states": [
+          "S3",
+          "S4"
+        ],
+        "overlap": 0.43677687006143356,
+        "jsd_nats": 0.2170176883381572
+      },
+      {
+        "states": [
+          "S2",
+          "S6"
+        ],
+        "overlap": 0.33421937698509163,
+        "jsd_nats": 0.3122556365281809
+      },
+      {
+        "states": [
+          "S2",
+          "S3"
+        ],
+        "overlap": 0.329356075344137,
+        "jsd_nats": 0.30568384099398416
+      },
+      {
+        "states": [
+          "S1",
+          "S6"
+        ],
+        "overlap": 0.327156580035605,
+        "jsd_nats": 0.3181688604622517
+      },
+      {
+        "states": [
+          "S0",
+          "S6"
+        ],
+        "overlap": 0.29317482793925853,
+        "jsd_nats": 0.3473589678879675
+      }
+    ],
+    "method": "equal-prior Student-t emission density, standardized scale",
+    "tail_quantile_each_side": 1e-07,
+    "warning": "Emission separation alone does not prove useful market regimes."
+  },
+  "transition_and_duration": {
+    "states": [
+      "S0",
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6"
+    ],
+    "theoretical_transition": [
+      [
+        0.983982315281418,
+        0.00128697159439092,
+        0.011003330657188467,
+        0.0036985928045386307,
+        1.7416942065361258e-06,
+        3.709306236547713e-17,
+        2.704796825744401e-05
+      ],
+      [
+        0.020080425637294,
+        0.40692171474083344,
+        0.45508692480319624,
+        0.11766485393563626,
+        0.00022192152808483007,
+        2.4159354955081e-05,
+        1.1819589427734486e-16
+      ],
+      [
+        2.3489705234378184e-06,
+        0.5308498746691105,
+        0.3672818572749319,
+        0.0014665296849015086,
+        0.10038670752244526,
+        1.2681878087231356e-05,
+        1.1904805900608125e-16
+      ],
+      [
+        1.3253645601469804e-15,
+        1.7443239025599317e-09,
+        0.5641360061421479,
+        0.3212029225429022,
+        0.062451359102560916,
+        0.05220971046806358,
+        4.643945158862501e-16
+      ],
+      [
+        1.2414437714411314e-15,
+        0.19233291585515652,
+        6.950162434229908e-12,
+        0.23856797668479035,
+        0.5558816483890958,
+        0.013217459064005614,
+        2.9038862672050743e-16
+      ],
+      [
+        6.668749367394704e-17,
+        5.169366693460682e-16,
+        1.6526413504991448e-15,
+        0.00025064274113766266,
+        0.0059815186703451526,
+        0.9866582847306576,
+        0.007109553857857211
+      ],
+      [
+        0.00019924865452371554,
+        3.2397759454028636e-16,
+        2.765644955820299e-16,
+        3.8012823355990025e-16,
+        4.1698099249956913e-16,
+        0.021272433187184324,
+        0.9785283181582907
+      ]
+    ],
+    "theoretical_duration_observations": [
+      62.43099533854022,
+      1.686118046900022,
+      1.5804825758481926,
+      1.4731943215580556,
+      2.2516520570987537,
+      74.95288123093727,
+      46.57297026716708
+    ],
+    "observed_argmax_transition_counts": [
+      [
+        64077,
+        1582,
+        2205,
+        676,
+        394,
+        2,
+        2
+      ],
+      [
+        2452,
+        17056,
+        19401,
+        2621,
+        417,
+        897,
+        1
+      ],
+      [
+        1960,
+        21313,
+        14949,
+        598,
+        1577,
+        1202,
+        2
+      ],
+      [
+        124,
+        446,
+        3715,
+        1509,
+        81,
+        496,
+        9
+      ],
+      [
+        126,
+        1509,
+        215,
+        694,
+        1614,
+        288,
+        16
+      ],
+      [
+        1,
+        1077,
+        1226,
+        8,
+        3,
+        42203,
+        771
+      ],
+      [
+        0,
+        4,
+        5,
+        5,
+        2,
+        658,
+        6071
+      ]
+    ],
+    "observed_argmax_transition_rates": [
+      [
+        0.929487365458818,
+        0.022948156314369434,
+        0.03198526211958572,
+        0.009805912559111086,
+        0.0057152803968783545,
+        2.901157561867185e-05,
+        2.901157561867185e-05
+      ],
+      [
+        0.057229548372038745,
+        0.3980861244019139,
+        0.4528182985179134,
+        0.061173999299801614,
+        0.009732757614657486,
+        0.020935931847356752,
+        2.333994631812347e-05
+      ],
+      [
+        0.04711425206124853,
+        0.5123194153986683,
+        0.3593423235018389,
+        0.014374654455421744,
+        0.03790774260234129,
+        0.0288935362130718,
+        4.8075767409437276e-05
+      ],
+      [
+        0.019435736677115987,
+        0.06990595611285266,
+        0.5822884012539185,
+        0.23652037617554858,
+        0.012695924764890282,
+        0.07774294670846395,
+        0.0014106583072100312
+      ],
+      [
+        0.02823845809054236,
+        0.3381891528462573,
+        0.04818467055132228,
+        0.1555356342447333,
+        0.3617212012550426,
+        0.06454504706409682,
+        0.003585835948005379
+      ],
+      [
+        2.2080416878270662e-05,
+        0.023780608977897504,
+        0.027070591092759833,
+        0.0001766433350261653,
+        6.624125063481198e-05,
+        0.9318598335136568,
+        0.01702400141314668
+      ],
+      [
+        0.0,
+        0.0005930318754633062,
+        0.0007412898443291327,
+        0.0007412898443291327,
+        0.0002965159377316531,
+        0.09755374351371386,
+        0.900074128984433
+      ]
+    ],
+    "observed_argmax_runs": [
+      {
+        "state": "S0",
+        "run_count": 4924,
+        "mean_observations": 14.013200649878147,
+        "median_observations": 2.0,
+        "one_observation_fraction": 0.3783509341998375
+      },
+      {
+        "state": "S1",
+        "run_count": 25931,
+        "mean_observations": 1.6577455555127067,
+        "median_observations": 1.0,
+        "one_observation_fraction": 0.5908372218580078
+      },
+      {
+        "state": "S2",
+        "run_count": 26767,
+        "mean_observations": 1.5584861956887213,
+        "median_observations": 1.0,
+        "one_observation_fraction": 0.628161542197482
+      },
+      {
+        "state": "S3",
+        "run_count": 4876,
+        "mean_observations": 1.3094749794913865,
+        "median_observations": 1.0,
+        "one_observation_fraction": 0.7477440525020509
+      },
+      {
+        "state": "S4",
+        "run_count": 2856,
+        "mean_observations": 1.565126050420168,
+        "median_observations": 1.0,
+        "one_observation_fraction": 0.6288515406162465
+      },
+      {
+        "state": "S5",
+        "run_count": 3543,
+        "mean_observations": 12.91165678803274,
+        "median_observations": 4.0,
+        "one_observation_fraction": 0.2331357606548123
+      },
+      {
+        "state": "S6",
+        "run_count": 819,
+        "mean_observations": 8.412698412698413,
+        "median_observations": 3.0,
+        "one_observation_fraction": 0.28205128205128205
+      }
+    ],
+    "warning": "HMM expected duration and runs of argmax labels measure different things."
+  },
+  "filtered_soft_transition_counts": [
+    [
+      62613.1899674807,
+      80.55419662580398,
+      683.5046713762016,
+      228.60927126877874,
+      0.10706039295315775,
+      2.367993544666175e-12,
+      2.8833925495631165
+    ],
+    [
+      786.5363915934457,
+      15820.379113660918,
+      17833.04243785325,
+      4583.986819543141,
+      8.568931176784107,
+      0.9433899876607295,
+      4.907697786583392e-12
+    ],
+    [
+      0.0923235308746817,
+      21020.628973425333,
+      14337.705690373206,
+      57.92398416224549,
+      3944.8078170458252,
+      0.4992835789282315,
+      4.830613244109823e-12
+    ],
+    [
+      1.528315143573561e-11,
+      1.9856233888044336e-05,
+      6691.67500415539,
+      3715.466203810961,
+      719.9627070945493,
+      608.3012812768967,
+      5.721926453138015e-12
+    ],
+    [
+      1.4490140900797047e-11,
+      2325.6793493883947,
+      8.027161592216231e-08,
+      2893.4542704346486,
+      6566.227008996478,
+      156.17770445550866,
+      3.3733395595300932e-12
+    ],
+    [
+      2.765512502445969e-12,
+      2.1739027310045367e-11,
+      6.970191493659422e-11,
+      10.783758613275229,
+      255.03355481809385,
+      42069.59365004127,
+      297.8782460337211
+    ],
+    [
+      1.4905039358497274,
+      2.420452175034461e-12,
+      2.098539960135584e-12,
+      2.9547309828450565e-12,
+      3.266460007243775e-12,
+      166.3699544015907,
+      7777.943066979866
+    ]
+  ],
+  "economic_profiles": {
+    "profiles": [
+      {
+        "state": "S0",
+        "soft_weight": 63605.09447960665,
+        "soft_share": 0.2928478762384339,
+        "hard_count": 69001,
+        "contemporaneous_mean_return_pct": 1.5354943464677164e-05,
+        "contemporaneous_std_return_pct": 0.024094087008887283,
+        "contemporaneous_mean_abs_return_pct": 0.018179760053337476,
+        "next_observation_mean_return_pct": -2.8353729083725695e-05,
+        "next_observation_mean_abs_return_pct": 0.02198578536369248,
+        "am_soft_share_within_state": 0.7496410998527427,
+        "mean_volume": 493.65608359269226
+      },
+      {
+        "state": "S1",
+        "soft_weight": 39247.24165295671,
+        "soft_share": 0.18070048414078,
+        "hard_count": 42987,
+        "contemporaneous_mean_return_pct": -0.0176567501038821,
+        "contemporaneous_std_return_pct": 0.02866685225969323,
+        "contemporaneous_mean_abs_return_pct": 0.026479675595858527,
+        "next_observation_mean_return_pct": -0.0004997614078266119,
+        "next_observation_mean_abs_return_pct": 0.032792554801594466,
+        "am_soft_share_within_state": 0.6554499137789846,
+        "mean_volume": 725.0981277026838
+      },
+      {
+        "state": "S2",
+        "soft_weight": 39545.927952210004,
+        "soft_share": 0.18207568292184445,
+        "hard_count": 41716,
+        "contemporaneous_mean_return_pct": 0.022262160097142106,
+        "contemporaneous_std_return_pct": 0.0298623624942928,
+        "contemporaneous_mean_abs_return_pct": 0.029698321639160155,
+        "next_observation_mean_return_pct": 0.00041846533235022696,
+        "next_observation_mean_abs_return_pct": 0.03319190781464128,
+        "am_soft_share_within_state": 0.6450376664455818,
+        "mean_volume": 762.7493517003755
+      },
+      {
+        "state": "S3",
+        "soft_weight": 11703.44001308259,
+        "soft_share": 0.053884481747197635,
+        "hard_count": 6385,
+        "contemporaneous_mean_return_pct": -0.04569281326028162,
+        "contemporaneous_std_return_pct": 0.04741608663912598,
+        "contemporaneous_mean_abs_return_pct": 0.053738689315458665,
+        "next_observation_mean_return_pct": -0.0004571250035127032,
+        "next_observation_mean_abs_return_pct": 0.03835193663883162,
+        "am_soft_share_within_state": 0.62293285007079,
+        "mean_volume": 1169.1127816823182
+      },
+      {
+        "state": "S4",
+        "soft_weight": 11931.831273974945,
+        "soft_share": 0.05493603109636477,
+        "hard_count": 4470,
+        "contemporaneous_mean_return_pct": 0.031921632465223095,
+        "contemporaneous_std_return_pct": 0.06443559299665588,
+        "contemporaneous_mean_abs_return_pct": 0.05614914194527345,
+        "next_observation_mean_return_pct": 0.00074081241958834,
+        "next_observation_mean_abs_return_pct": 0.04082069155686041,
+        "am_soft_share_within_state": 0.6113774542402035,
+        "mean_volume": 1276.6413054675356
+      },
+      {
+        "state": "S5",
+        "soft_weight": 43049.785715897015,
+        "soft_share": 0.19820799611361686,
+        "hard_count": 45746,
+        "contemporaneous_mean_return_pct": -0.00021972271602077739,
+        "contemporaneous_std_return_pct": 0.07754022984211748,
+        "contemporaneous_mean_abs_return_pct": 0.05975949703491802,
+        "next_observation_mean_return_pct": 3.6201587221219554e-05,
+        "next_observation_mean_abs_return_pct": 0.057805835534254335,
+        "am_soft_share_within_state": 0.46408292176295346,
+        "mean_volume": 1342.8562767578935
+      },
+      {
+        "state": "S6",
+        "soft_weight": 8111.678912272088,
+        "soft_share": 0.03734744774176242,
+        "hard_count": 6890,
+        "contemporaneous_mean_return_pct": -0.003201914104297059,
+        "contemporaneous_std_return_pct": 0.18327329861210517,
+        "contemporaneous_mean_abs_return_pct": 0.13741054128906133,
+        "next_observation_mean_return_pct": -0.001681419876458086,
+        "next_observation_mean_abs_return_pct": 0.11401133326846986,
+        "am_soft_share_within_state": 0.28894296658130325,
+        "mean_volume": 2290.357408218861
+      }
+    ],
+    "warning": "Profiles are descriptive. Next-observation values use only contiguous observations; they do not establish tradable predictability."
+  },
+  "periods": {
+    "through_2026_07_model_development": {
+      "first": "2023-02-01 09:01:00",
+      "last": "2026-07-31 14:29:00",
+      "observations": 208871,
+      "days": 874,
+      "mean_predictive_log_density": 6.305104602412601,
+      "posterior_entropy": {
+        "count": 208871,
+        "mean_nats": 0.8673551959399144,
+        "median_nats": 1.0004356080027947,
+        "mean_normalized": 0.44573239743931237,
+        "p90_normalized": 0.6782708601531602,
+        "fraction_normalized_above_0_8": 0.003001852818246669
+      },
+      "transition_and_duration": {
+        "states": [
+          "S0",
+          "S1",
+          "S2",
+          "S3",
+          "S4",
+          "S5",
+          "S6"
+        ],
+        "theoretical_transition": [
+          [
+            0.983982315281418,
+            0.00128697159439092,
+            0.011003330657188467,
+            0.0036985928045386307,
+            1.7416942065361258e-06,
+            3.709306236547713e-17,
+            2.704796825744401e-05
+          ],
+          [
+            0.020080425637294,
+            0.40692171474083344,
+            0.45508692480319624,
+            0.11766485393563626,
+            0.00022192152808483007,
+            2.4159354955081e-05,
+            1.1819589427734486e-16
+          ],
+          [
+            2.3489705234378184e-06,
+            0.5308498746691105,
+            0.3672818572749319,
+            0.0014665296849015086,
+            0.10038670752244526,
+            1.2681878087231356e-05,
+            1.1904805900608125e-16
+          ],
+          [
+            1.3253645601469804e-15,
+            1.7443239025599317e-09,
+            0.5641360061421479,
+            0.3212029225429022,
+            0.062451359102560916,
+            0.05220971046806358,
+            4.643945158862501e-16
+          ],
+          [
+            1.2414437714411314e-15,
+            0.19233291585515652,
+            6.950162434229908e-12,
+            0.23856797668479035,
+            0.5558816483890958,
+            0.013217459064005614,
+            2.9038862672050743e-16
+          ],
+          [
+            6.668749367394704e-17,
+            5.169366693460682e-16,
+            1.6526413504991448e-15,
+            0.00025064274113766266,
+            0.0059815186703451526,
+            0.9866582847306576,
+            0.007109553857857211
+          ],
+          [
+            0.00019924865452371554,
+            3.2397759454028636e-16,
+            2.765644955820299e-16,
+            3.8012823355990025e-16,
+            4.1698099249956913e-16,
+            0.021272433187184324,
+            0.9785283181582907
+          ]
+        ],
+        "theoretical_duration_observations": [
+          62.43099533854022,
+          1.686118046900022,
+          1.5804825758481926,
+          1.4731943215580556,
+          2.2516520570987537,
+          74.95288123093727,
+          46.57297026716708
+        ],
+        "observed_argmax_transition_counts": [
+          [
+            63508,
+            1531,
+            2145,
+            656,
+            384,
+            2,
+            2
+          ],
+          [
+            2373,
+            16179,
+            18345,
+            2458,
+            394,
+            836,
+            1
+          ],
+          [
+            1907,
+            20180,
+            14132,
+            552,
+            1476,
+            1092,
+            2
+          ],
+          [
+            120,
+            419,
+            3502,
+            1418,
+            78,
+            462,
+            9
+          ],
+          [
+            125,
+            1434,
+            207,
+            653,
+            1517,
+            259,
+            16
+          ],
+          [
+            1,
+            977,
+            1114,
+            8,
+            3,
+            40023,
+            758
+          ],
+          [
+            0,
+            4,
+            5,
+            5,
+            2,
+            645,
+            6053
+          ]
+        ],
+        "observed_argmax_transition_rates": [
+          [
+            0.9308201911238787,
+            0.022439467667233395,
+            0.031438705516796624,
+            0.00961482089464736,
+            0.005628187840769186,
+            2.9313478337339507e-05,
+            2.9313478337339507e-05
+          ],
+          [
+            0.05846843739220421,
+            0.3986349972897058,
+            0.4520031537968758,
+            0.060562755630020206,
+            0.009707781008229438,
+            0.020598235844872616,
+            2.463903809195289e-05
+          ],
+          [
+            0.04847360260288249,
+            0.5129508655092652,
+            0.3592181185023258,
+            0.014031163417300018,
+            0.037518110876693524,
+            0.0277573015429196,
+            5.083754861340586e-05
+          ],
+          [
+            0.019973368841544607,
+            0.06974034620505992,
+            0.5828894806924101,
+            0.23601864181091878,
+            0.012982689747003996,
+            0.07689747003994674,
+            0.0014980026631158455
+          ],
+          [
+            0.029684160531940156,
+            0.34053668962241745,
+            0.0491569698408929,
+            0.15507005461885537,
+            0.36024697221562574,
+            0.061505580622180006,
+            0.00379957254808834
+          ],
+          [
+            2.3318720268631656e-05,
+            0.02278238970245313,
+            0.025977054379255668,
+            0.00018654976214905325,
+            6.995616080589497e-05,
+            0.9332851413114448,
+            0.017675589963622798
+          ],
+          [
+            0.0,
+            0.0005957700327673518,
+            0.0007447125409591898,
+            0.0007447125409591898,
+            0.0002978850163836759,
+            0.09606791778373548,
+            0.9015490020851951
+          ]
+        ],
+        "observed_argmax_runs": [
+          {
+            "state": "S0",
+            "run_count": 4781,
+            "mean_observations": 14.283413511817612,
+            "median_observations": 2.0,
+            "one_observation_fraction": 0.37544446768458484
+          },
+          {
+            "state": "S1",
+            "run_count": 24545,
+            "mean_observations": 1.6591566510490936,
+            "median_observations": 1.0,
+            "one_observation_fraction": 0.5900183336728458
+          },
+          {
+            "state": "S2",
+            "run_count": 25318,
+            "mean_observations": 1.5581799510229877,
+            "median_observations": 1.0,
+            "one_observation_fraction": 0.6293546093688285
+          },
+          {
+            "state": "S3",
+            "run_count": 4595,
+            "mean_observations": 1.3085963003264418,
+            "median_observations": 1.0,
+            "one_observation_fraction": 0.7482045701849837
+          },
+          {
+            "state": "S4",
+            "run_count": 2700,
+            "mean_observations": 1.5618518518518518,
+            "median_observations": 1.0,
+            "one_observation_fraction": 0.6292592592592593
+          },
+          {
+            "state": "S5",
+            "run_count": 3296,
+            "mean_observations": 13.142900485436893,
+            "median_observations": 4.0,
+            "one_observation_fraction": 0.23088592233009708
+          },
+          {
+            "state": "S6",
+            "run_count": 806,
+            "mean_observations": 8.509925558312656,
+            "median_observations": 3.0,
+            "one_observation_fraction": 0.2803970223325062
+          }
+        ],
+        "warning": "HMM expected duration and runs of argmax labels measure different things."
+      },
+      "economic_profiles": {
+        "profiles": [
+          {
+            "state": "S0",
+            "soft_weight": 62771.739032726015,
+            "soft_share": 0.3005287427777241,
+            "hard_count": 68289,
+            "contemporaneous_mean_return_pct": 1.5394160742277855e-05,
+            "contemporaneous_std_return_pct": 0.024055228029060273,
+            "contemporaneous_mean_abs_return_pct": 0.01814923551939663,
+            "next_observation_mean_return_pct": -2.5652807108813734e-05,
+            "next_observation_mean_abs_return_pct": 0.021879158232612467,
+            "am_soft_share_within_state": 0.7497119140173754,
+            "mean_volume": 493.33430988300836
+          },
+          {
+            "state": "S1",
+            "soft_weight": 37316.40396830511,
+            "soft_share": 0.17865765936058672,
+            "hard_count": 40724,
+            "contemporaneous_mean_return_pct": -0.01760237556998532,
+            "contemporaneous_std_return_pct": 0.028608530517387376,
+            "contemporaneous_mean_abs_return_pct": 0.026409514190148444,
+            "next_observation_mean_return_pct": -0.00048258168178324715,
+            "next_observation_mean_abs_return_pct": 0.03260974966490328,
+            "am_soft_share_within_state": 0.6545792215208501,
+            "mean_volume": 727.633649225622
+          },
+          {
+            "state": "S2",
+            "soft_weight": 37578.570170458726,
+            "soft_share": 0.17991281781797724,
+            "hard_count": 39450,
+            "contemporaneous_mean_return_pct": 0.022198581920643237,
+            "contemporaneous_std_return_pct": 0.0298256146780232,
+            "contemporaneous_mean_abs_return_pct": 0.029627188045952015,
+            "next_observation_mean_return_pct": 0.00041989055171141166,
+            "next_observation_mean_abs_return_pct": 0.03297113549081956,
+            "am_soft_share_within_state": 0.6438913596194797,
+            "mean_volume": 765.9474026433829
+          },
+          {
+            "state": "S3",
+            "soft_weight": 11075.558707441787,
+            "soft_share": 0.05302583272661972,
+            "hard_count": 6013,
+            "contemporaneous_mean_return_pct": -0.04552552161195186,
+            "contemporaneous_std_return_pct": 0.04736434435404806,
+            "contemporaneous_mean_abs_return_pct": 0.053575982205326195,
+            "next_observation_mean_return_pct": -0.0003885378939355221,
+            "next_observation_mean_abs_return_pct": 0.038168004699652786,
+            "am_soft_share_within_state": 0.6223839891520045,
+            "mean_volume": 1169.4186921819357
+          },
+          {
+            "state": "S4",
+            "soft_weight": 11287.663453140121,
+            "soft_share": 0.054041314749965874,
+            "hard_count": 4217,
+            "contemporaneous_mean_return_pct": 0.03178881712929859,
+            "contemporaneous_std_return_pct": 0.0641547722341124,
+            "contemporaneous_mean_abs_return_pct": 0.05591238326681868,
+            "next_observation_mean_return_pct": 0.0008046772883373492,
+            "next_observation_mean_abs_return_pct": 0.04060311236214452,
+            "am_soft_share_within_state": 0.60889845651793,
+            "mean_volume": 1278.3558859279585
+          },
+          {
+            "state": "S5",
+            "soft_weight": 40825.08122449076,
+            "soft_share": 0.19545595714336006,
+            "hard_count": 43319,
+            "contemporaneous_mean_return_pct": -0.00017406539317975015,
+            "contemporaneous_std_return_pct": 0.07791922330405053,
+            "contemporaneous_mean_abs_return_pct": 0.06007686138430574,
+            "next_observation_mean_return_pct": 3.714158777601948e-05,
+            "next_observation_mean_abs_return_pct": 0.058361141029839504,
+            "am_soft_share_within_state": 0.4618362830085255,
+            "mean_volume": 1353.8484985979317
+          },
+          {
+            "state": "S6",
+            "soft_weight": 8015.983443437475,
+            "soft_share": 0.038377675423766223,
+            "hard_count": 6859,
+            "contemporaneous_mean_return_pct": -0.0031291795407603113,
+            "contemporaneous_std_return_pct": 0.18383240324148967,
+            "contemporaneous_mean_abs_return_pct": 0.13786783168664213,
+            "next_observation_mean_return_pct": -0.001676418473335619,
+            "next_observation_mean_abs_return_pct": 0.11470802126408691,
+            "am_soft_share_within_state": 0.2879777721280815,
+            "mean_volume": 2292.6913269983784
+          }
+        ],
+        "warning": "Profiles are descriptive. Next-observation values use only contiguous observations; they do not establish tradable predictability."
+      }
+    },
+    "aug_sep_seen_before_strict_lock": {
+      "first": "2026-08-03 09:01:00",
+      "last": "2026-09-29 14:29:00",
+      "observations": 8086,
+      "days": 34,
+      "mean_predictive_log_density": 6.148582024193414,
+      "posterior_entropy": {
+        "count": 8086,
+        "mean_nats": 1.0525965413290101,
+        "median_nats": 1.137760483294331,
+        "mean_normalized": 0.540927617773111,
+        "p90_normalized": 0.7004329243173217,
+        "fraction_normalized_above_0_8": 0.0037101162503091764
+      },
+      "transition_and_duration": {
+        "states": [
+          "S0",
+          "S1",
+          "S2",
+          "S3",
+          "S4",
+          "S5",
+          "S6"
+        ],
+        "theoretical_transition": [
+          [
+            0.983982315281418,
+            0.00128697159439092,
+            0.011003330657188467,
+            0.0036985928045386307,
+            1.7416942065361258e-06,
+            3.709306236547713e-17,
+            2.704796825744401e-05
+          ],
+          [
+            0.020080425637294,
+            0.40692171474083344,
+            0.45508692480319624,
+            0.11766485393563626,
+            0.00022192152808483007,
+            2.4159354955081e-05,
+            1.1819589427734486e-16
+          ],
+          [
+            2.3489705234378184e-06,
+            0.5308498746691105,
+            0.3672818572749319,
+            0.0014665296849015086,
+            0.10038670752244526,
+            1.2681878087231356e-05,
+            1.1904805900608125e-16
+          ],
+          [
+            1.3253645601469804e-15,
+            1.7443239025599317e-09,
+            0.5641360061421479,
+            0.3212029225429022,
+            0.062451359102560916,
+            0.05220971046806358,
+            4.643945158862501e-16
+          ],
+          [
+            1.2414437714411314e-15,
+            0.19233291585515652,
+            6.950162434229908e-12,
+            0.23856797668479035,
+            0.5558816483890958,
+            0.013217459064005614,
+            2.9038862672050743e-16
+          ],
+          [
+            6.668749367394704e-17,
+            5.169366693460682e-16,
+            1.6526413504991448e-15,
+            0.00025064274113766266,
+            0.0059815186703451526,
+            0.9866582847306576,
+            0.007109553857857211
+          ],
+          [
+            0.00019924865452371554,
+            3.2397759454028636e-16,
+            2.765644955820299e-16,
+            3.8012823355990025e-16,
+            4.1698099249956913e-16,
+            0.021272433187184324,
+            0.9785283181582907
+          ]
+        ],
+        "theoretical_duration_observations": [
+          62.43099533854022,
+          1.686118046900022,
+          1.5804825758481926,
+          1.4731943215580556,
+          2.2516520570987537,
+          74.95288123093727,
+          46.57297026716708
+        ],
+        "observed_argmax_transition_counts": [
+          [
+            534,
+            45,
+            55,
+            20,
+            10,
+            0,
+            0
+          ],
+          [
+            74,
+            832,
+            1026,
+            154,
+            23,
+            61,
+            0
+          ],
+          [
+            48,
+            1098,
+            805,
+            44,
+            99,
+            108,
+            0
+          ],
+          [
+            4,
+            26,
+            204,
+            87,
+            3,
+            32,
+            0
+          ],
+          [
+            1,
+            74,
+            8,
+            40,
+            97,
+            29,
+            0
+          ],
+          [
+            0,
+            99,
+            110,
+            0,
+            0,
+            2157,
+            13
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            13,
+            18
+          ]
+        ],
+        "observed_argmax_transition_rates": [
+          [
+            0.8042168674698795,
+            0.0677710843373494,
+            0.08283132530120482,
+            0.030120481927710843,
+            0.015060240963855422,
+            0.0,
+            0.0
+          ],
+          [
+            0.034101382488479264,
+            0.38341013824884795,
+            0.4728110599078341,
+            0.07096774193548387,
+            0.010599078341013824,
+            0.028110599078341014,
+            0.0
+          ],
+          [
+            0.021798365122615803,
+            0.4986376021798365,
+            0.3655767484105359,
+            0.019981834695731154,
+            0.04495912806539509,
+            0.04904632152588556,
+            0.0
+          ],
+          [
+            0.011235955056179775,
+            0.07303370786516854,
+            0.5730337078651685,
+            0.2443820224719101,
+            0.008426966292134831,
+            0.0898876404494382,
+            0.0
+          ],
+          [
+            0.004016064257028112,
+            0.2971887550200803,
+            0.0321285140562249,
+            0.1606425702811245,
+            0.3895582329317269,
+            0.11646586345381527,
+            0.0
+          ],
+          [
+            0.0,
+            0.0416141235813367,
+            0.04623791509037411,
+            0.0,
+            0.0,
+            0.9066834804539723,
+            0.00546448087431694
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.41935483870967744,
+            0.5806451612903226
+          ]
+        ],
+        "observed_argmax_runs": [
+          {
+            "state": "S0",
+            "run_count": 132,
+            "mean_observations": 5.045454545454546,
+            "median_observations": 2.0,
+            "one_observation_fraction": 0.4772727272727273
+          },
+          {
+            "state": "S1",
+            "run_count": 1342,
+            "mean_observations": 1.6199701937406856,
+            "median_observations": 1.0,
+            "one_observation_fraction": 0.6087928464977646
+          },
+          {
+            "state": "S2",
+            "run_count": 1403,
+            "mean_observations": 1.5737704918032787,
+            "median_observations": 1.0,
+            "one_observation_fraction": 0.6029935851746258
+          },
+          {
+            "state": "S3",
+            "run_count": 269,
+            "mean_observations": 1.3234200743494424,
+            "median_observations": 1.0,
+            "one_observation_fraction": 0.7397769516728625
+          },
+          {
+            "state": "S4",
+            "run_count": 154,
+            "mean_observations": 1.62987012987013,
+            "median_observations": 1.0,
+            "one_observation_fraction": 0.6168831168831169
+          },
+          {
+            "state": "S5",
+            "run_count": 243,
+            "mean_observations": 9.876543209876543,
+            "median_observations": 4.0,
+            "one_observation_fraction": 0.25925925925925924
+          },
+          {
+            "state": "S6",
+            "run_count": 13,
+            "mean_observations": 2.3846153846153846,
+            "median_observations": 2.0,
+            "one_observation_fraction": 0.38461538461538464
+          }
+        ],
+        "warning": "HMM expected duration and runs of argmax labels measure different things."
+      },
+      "economic_profiles": {
+        "profiles": [
+          {
+            "state": "S0",
+            "soft_weight": 783.3337126853286,
+            "soft_share": 0.09687530456162856,
+            "hard_count": 666,
+            "contemporaneous_mean_return_pct": 7.685798172634452e-05,
+            "contemporaneous_std_return_pct": 0.026879486539005723,
+            "contemporaneous_mean_abs_return_pct": 0.020428164897324946,
+            "next_observation_mean_return_pct": -0.0001435542299940198,
+            "next_observation_mean_abs_return_pct": 0.030252011254909398,
+            "am_soft_share_within_state": 0.7419744479277438,
+            "mean_volume": 513.2893958110066
+          },
+          {
+            "state": "S1",
+            "soft_weight": 1862.7276745287643,
+            "soft_share": 0.2303645405056597,
+            "hard_count": 2174,
+            "contemporaneous_mean_return_pct": -0.01865155981436524,
+            "contemporaneous_std_return_pct": 0.029865482022186286,
+            "contemporaneous_mean_abs_return_pct": 0.027874006712575918,
+            "next_observation_mean_return_pct": -0.0006588334667167346,
+            "next_observation_mean_abs_return_pct": 0.03649036160811683,
+            "am_soft_share_within_state": 0.675345020308027,
+            "mean_volume": 673.5464809298855
+          },
+          {
+            "state": "S2",
+            "soft_weight": 1908.75409243198,
+            "soft_share": 0.2360566525392011,
+            "hard_count": 2208,
+            "contemporaneous_mean_return_pct": 0.02356939604858828,
+            "contemporaneous_std_return_pct": 0.03050344769528403,
+            "contemporaneous_mean_abs_return_pct": 0.03106726415825361,
+            "next_observation_mean_return_pct": 0.0004937028188789705,
+            "next_observation_mean_abs_return_pct": 0.03760477420926957,
+            "am_soft_share_within_state": 0.6690385082719961,
+            "mean_volume": 699.2639074715757
+          },
+          {
+            "state": "S3",
+            "soft_weight": 607.4688490935534,
+            "soft_share": 0.07512600161928684,
+            "hard_count": 356,
+            "contemporaneous_mean_return_pct": -0.04879841699033047,
+            "contemporaneous_std_return_pct": 0.048505961696159526,
+            "contemporaneous_mean_abs_return_pct": 0.05681921601506834,
+            "next_observation_mean_return_pct": -0.0016566159637892946,
+            "next_observation_mean_abs_return_pct": 0.041706172460951166,
+            "am_soft_share_within_state": 0.6388736463066171,
+            "mean_volume": 1155.6208701497571
+          },
+          {
+            "state": "S4",
+            "soft_weight": 629.8969317837042,
+            "soft_share": 0.07789969475435372,
+            "hard_count": 251,
+            "contemporaneous_mean_return_pct": 0.03452112263473515,
+            "contemporaneous_std_return_pct": 0.06934075112523369,
+            "contemporaneous_mean_abs_return_pct": 0.06051223577045806,
+            "next_observation_mean_return_pct": -0.0002807352342808771,
+            "next_observation_mean_abs_return_pct": 0.04478026970562407,
+            "am_soft_share_within_state": 0.6557190151418486,
+            "mean_volume": 1245.040916350569
+          },
+          {
+            "state": "S5",
+            "soft_weight": 2198.4769757441422,
+            "soft_share": 0.2718868384546305,
+            "hard_count": 2400,
+            "contemporaneous_mean_return_pct": -0.0010735421021648723,
+            "contemporaneous_std_return_pct": 0.07030498864795552,
+            "contemporaneous_mean_abs_return_pct": 0.05397148542636068,
+            "next_observation_mean_return_pct": 5.1612465986286504e-05,
+            "next_observation_mean_abs_return_pct": 0.04770968018435462,
+            "am_soft_share_within_state": 0.5037341087905984,
+            "mean_volume": 1139.1061664312967
+          },
+          {
+            "state": "S6",
+            "soft_weight": 95.3417637325272,
+            "soft_share": 0.011790967565239575,
+            "hard_count": 31,
+            "contemporaneous_mean_return_pct": -0.00940464811268334,
+            "contemporaneous_std_return_pct": 0.12802207569923957,
+            "contemporaneous_mean_abs_return_pct": 0.09921445022456683,
+            "next_observation_mean_return_pct": -0.0021029501711756263,
+            "next_observation_mean_abs_return_pct": 0.05648616006198425,
+            "am_soft_share_within_state": 0.3691297004200896,
+            "mean_volume": 2096.780843200482
+          }
+        ],
+        "warning": "Profiles are descriptive. Next-observation values use only contiguous observations; they do not establish tradable predictability."
+      }
+    },
+    "from_2026_09_30_post_lock_calendar": {
+      "first": "2026-09-30 09:01:00",
+      "last": "2026-09-30 14:29:00",
+      "observations": 238,
+      "days": 1,
+      "mean_predictive_log_density": 6.383887995798181,
+      "posterior_entropy": {
+        "count": 238,
+        "mean_nats": 1.1269873483217232,
+        "median_nats": 1.1714741951590737,
+        "mean_normalized": 0.5791569301742144,
+        "p90_normalized": 0.6903364934621,
+        "fraction_normalized_above_0_8": 0.0
+      },
+      "transition_and_duration": {
+        "states": [
+          "S0",
+          "S1",
+          "S2",
+          "S3",
+          "S4",
+          "S5",
+          "S6"
+        ],
+        "theoretical_transition": [
+          [
+            0.983982315281418,
+            0.00128697159439092,
+            0.011003330657188467,
+            0.0036985928045386307,
+            1.7416942065361258e-06,
+            3.709306236547713e-17,
+            2.704796825744401e-05
+          ],
+          [
+            0.020080425637294,
+            0.40692171474083344,
+            0.45508692480319624,
+            0.11766485393563626,
+            0.00022192152808483007,
+            2.4159354955081e-05,
+            1.1819589427734486e-16
+          ],
+          [
+            2.3489705234378184e-06,
+            0.5308498746691105,
+            0.3672818572749319,
+            0.0014665296849015086,
+            0.10038670752244526,
+            1.2681878087231356e-05,
+            1.1904805900608125e-16
+          ],
+          [
+            1.3253645601469804e-15,
+            1.7443239025599317e-09,
+            0.5641360061421479,
+            0.3212029225429022,
+            0.062451359102560916,
+            0.05220971046806358,
+            4.643945158862501e-16
+          ],
+          [
+            1.2414437714411314e-15,
+            0.19233291585515652,
+            6.950162434229908e-12,
+            0.23856797668479035,
+            0.5558816483890958,
+            0.013217459064005614,
+            2.9038862672050743e-16
+          ],
+          [
+            6.668749367394704e-17,
+            5.169366693460682e-16,
+            1.6526413504991448e-15,
+            0.00025064274113766266,
+            0.0059815186703451526,
+            0.9866582847306576,
+            0.007109553857857211
+          ],
+          [
+            0.00019924865452371554,
+            3.2397759454028636e-16,
+            2.765644955820299e-16,
+            3.8012823355990025e-16,
+            4.1698099249956913e-16,
+            0.021272433187184324,
+            0.9785283181582907
+          ]
+        ],
+        "theoretical_duration_observations": [
+          62.43099533854022,
+          1.686118046900022,
+          1.5804825758481926,
+          1.4731943215580556,
+          2.2516520570987537,
+          74.95288123093727,
+          46.57297026716708
+        ],
+        "observed_argmax_transition_counts": [
+          [
+            35,
+            6,
+            5,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            45,
+            30,
+            9,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            35,
+            12,
+            2,
+            2,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            9,
+            4,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            0,
+            0,
+            23,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "observed_argmax_transition_rates": [
+          [
+            0.7608695652173914,
+            0.13043478260869565,
+            0.10869565217391304,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.056179775280898875,
+            0.5056179775280899,
+            0.33707865168539325,
+            0.10112359550561797,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.08620689655172414,
+            0.603448275862069,
+            0.20689655172413793,
+            0.034482758620689655,
+            0.034482758620689655,
+            0.034482758620689655,
+            0.0
+          ],
+          [
+            0.0,
+            0.0625,
+            0.5625,
+            0.25,
+            0.0,
+            0.125,
+            0.0
+          ],
+          [
+            0.0,
+            0.5,
+            0.0,
+            0.5,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.038461538461538464,
+            0.07692307692307693,
+            0.0,
+            0.0,
+            0.8846153846153846,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "observed_argmax_runs": [
+          {
+            "state": "S0",
+            "run_count": 11,
+            "mean_observations": 4.181818181818182,
+            "median_observations": 2.0,
+            "one_observation_fraction": 0.45454545454545453
+          },
+          {
+            "state": "S1",
+            "run_count": 44,
+            "mean_observations": 2.022727272727273,
+            "median_observations": 1.5,
+            "one_observation_fraction": 0.5
+          },
+          {
+            "state": "S2",
+            "run_count": 46,
+            "mean_observations": 1.2608695652173914,
+            "median_observations": 1.0,
+            "one_observation_fraction": 0.7391304347826086
+          },
+          {
+            "state": "S3",
+            "run_count": 12,
+            "mean_observations": 1.3333333333333333,
+            "median_observations": 1.0,
+            "one_observation_fraction": 0.75
+          },
+          {
+            "state": "S4",
+            "run_count": 2,
+            "mean_observations": 1.0,
+            "median_observations": 1.0,
+            "one_observation_fraction": 1.0
+          },
+          {
+            "state": "S5",
+            "run_count": 4,
+            "mean_observations": 6.75,
+            "median_observations": 2.5,
+            "one_observation_fraction": 0.5
+          },
+          {
+            "state": "S6",
+            "run_count": 0,
+            "mean_observations": null,
+            "median_observations": null,
+            "one_observation_fraction": null
+          }
+        ],
+        "warning": "HMM expected duration and runs of argmax labels measure different things."
+      },
+      "economic_profiles": {
+        "profiles": [
+          {
+            "state": "S0",
+            "soft_weight": 50.02173419530371,
+            "soft_share": 0.2101753537617803,
+            "hard_count": 46,
+            "contemporaneous_mean_return_pct": -0.000996987807795219,
+            "contemporaneous_std_return_pct": 0.026532337842387507,
+            "contemporaneous_mean_abs_return_pct": 0.021274949915517875,
+            "next_observation_mean_return_pct": -0.0016356932559560685,
+            "next_observation_mean_abs_return_pct": 0.02727207532421205,
+            "am_soft_share_within_state": 0.7808359130524378,
+            "mean_volume": 589.9914077694943
+          },
+          {
+            "state": "S1",
+            "soft_weight": 68.11001012283953,
+            "soft_share": 0.2861765131211745,
+            "hard_count": 89,
+            "contemporaneous_mean_return_pct": -0.020240841540020267,
+            "contemporaneous_std_return_pct": 0.026416358125246626,
+            "contemporaneous_mean_abs_return_pct": 0.02678671122627572,
+            "next_observation_mean_return_pct": -0.00553035938833366,
+            "next_observation_mean_abs_return_pct": 0.031803481578782496,
+            "am_soft_share_within_state": 0.5883810427791987,
+            "mean_volume": 745.8018933955553
+          },
+          {
+            "state": "S2",
+            "soft_weight": 58.60368931929335,
+            "soft_share": 0.2462339887365267,
+            "hard_count": 58,
+            "contemporaneous_mean_return_pct": 0.020453144206576623,
+            "contemporaneous_std_return_pct": 0.031244998836420936,
+            "contemporaneous_mean_abs_return_pct": 0.03072426537962342,
+            "next_observation_mean_return_pct": -0.002937019580954062,
+            "next_observation_mean_abs_return_pct": 0.031128323105150908,
+            "am_soft_share_within_state": 0.5983659707179165,
+            "mean_volume": 779.8117537897251
+          },
+          {
+            "state": "S3",
+            "soft_weight": 20.412456547248304,
+            "soft_share": 0.08576662414810211,
+            "hard_count": 16,
+            "contemporaneous_mean_return_pct": -0.044041417152503246,
+            "contemporaneous_std_return_pct": 0.038640827754859566,
+            "contemporaneous_mean_abs_return_pct": 0.05034606196249512,
+            "next_observation_mean_return_pct": -0.0019459008091115852,
+            "next_observation_mean_abs_return_pct": 0.03824944835773375,
+            "am_soft_share_within_state": 0.44634480411759353,
+            "mean_volume": 1404.6447600061306
+          },
+          {
+            "state": "S4",
+            "soft_weight": 14.27088905112038,
+            "soft_share": 0.059961718702186466,
+            "hard_count": 2,
+            "contemporaneous_mean_return_pct": 0.02223505525543755,
+            "contemporaneous_std_return_pct": 0.05783212527696521,
+            "contemporaneous_mean_abs_return_pct": 0.050834327199756266,
+            "next_observation_mean_return_pct": -0.00487204731997965,
+            "next_observation_mean_abs_return_pct": 0.03887830666076946,
+            "am_soft_share_within_state": 0.6149847156724839,
+            "mean_volume": 1315.2780677176834
+          },
+          {
+            "state": "S5",
+            "soft_weight": 26.227515662106757,
+            "soft_share": 0.11019964563910402,
+            "hard_count": 27,
+            "contemporaneous_mean_return_pct": 0.0002812148707990428,
+            "contemporaneous_std_return_pct": 0.06247306508316196,
+            "contemporaneous_mean_abs_return_pct": 0.050928501078546934,
+            "next_observation_mean_return_pct": -0.0027729483702676823,
+            "next_observation_mean_abs_return_pct": 0.04217184851912791,
+            "am_soft_share_within_state": 0.6374500049815491,
+            "mean_volume": 1311.651525634475
+          },
+          {
+            "state": "S6",
+            "soft_weight": 0.3537051020879668,
+            "soft_share": 0.001486155891125911,
+            "hard_count": 0,
+            "contemporaneous_mean_return_pct": 0.02037858614243856,
+            "contemporaneous_std_return_pct": 0.08431851155784503,
+            "contemporaneous_mean_abs_return_pct": 0.06969999390884907,
+            "next_observation_mean_return_pct": 0.00017648927502948285,
+            "next_observation_mean_abs_return_pct": 0.04040351661102061,
+            "am_soft_share_within_state": 0.5485889938513967,
+            "mean_volume": 1575.8549390434641
+          }
+        ],
+        "warning": "Profiles are descriptive. Next-observation values use only contiguous observations; they do not establish tradable predictability."
+      }
+    }
+  },
+  "output_contract": {
+    "states_csv": "states_strict.csv",
+    "probability_columns": [
+      "p_S0",
+      "p_S1",
+      "p_S2",
+      "p_S3",
+      "p_S4",
+      "p_S5",
+      "p_S6"
+    ],
+    "probability_order": [
+      "S0",
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6"
+    ],
+    "timestamp_label": "start time of endpoint 1-minute bar, Asia/Ho_Chi_Minh",
+    "event_bar_end": "timestamp_label + one minute",
+    "available_at": "blank until provider first-availability is verified",
+    "asof_join_ready": false
+  },
+  "online_shadow": {
+    "status": "experimental_shadow_only",
+    "method": "prequential filtered posterior, exponentially weighted moment/transition update; df and scaler fixed",
+    "not_exact_online_em": true,
+    "shadow_start": "2026-08-01",
+    "updates": 8324,
+    "first_active_observation": "2026-08-03 09:01:00",
+    "last_active_observation": "2026-09-30 14:29:00",
+    "mean_log_density_frozen": 6.155309897961065,
+    "mean_log_density_shadow": 6.158015974643309,
+    "mean_shadow_minus_frozen": 0.002706076682243365,
+    "fraction_shadow_better_per_observation": 0.5006006727534839,
+    "max_standardized_mean_shift": 0.03101345668887423,
+    "max_scale_ratio": 1.1570188262861727,
+    "min_scale_ratio": 0.8108003934546459,
+    "decay": 0.9999,
+    "prior_strength_per_state": 1000.0,
+    "warning": "Research comparison only; no promotion rule, no production parameter update."
+  }
+}
